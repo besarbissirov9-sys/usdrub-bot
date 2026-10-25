@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """USD/RUB новостной бот для Telegram-канала. Запускается по расписанию (GitHub Actions)."""
 import calendar, hashlib, html, json, os, re, sys, time
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 import feedparser, requests
 
@@ -63,6 +64,73 @@ def get_cbr():
         return None
 
 
+def get_key_rate():
+    """Текущая ключевая ставка ЦБ (SOAP KeyRate, без ключа). При сбое — None."""
+    try:
+        today = datetime.now(MSK).date()
+        frm = today - timedelta(days=60)
+        body = f"""<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <KeyRate xmlns="http://web.cbr.ru/">
+      <fromDate>{frm.isoformat()}</fromDate>
+      <ToDate>{today.isoformat()}</ToDate>
+    </KeyRate>
+  </soap:Body>
+</soap:Envelope>"""
+        r = requests.post(
+            "https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx",
+            data=body.encode("utf-8"), timeout=20,
+            headers={**UA, "Content-Type": "text/xml; charset=utf-8",
+                     "SOAPAction": "http://web.cbr.ru/KeyRate"})
+        r.raise_for_status()
+        best = None
+        today_s = today.isoformat()
+        for kr in ET.fromstring(r.content).iter("KR"):
+            dt = rate = None
+            for child in kr:
+                name = child.tag.rsplit("}", 1)[-1]
+                if name == "DT" and child.text:
+                    dt = child.text[:10]
+                elif name == "Rate" and child.text:
+                    rate = float(child.text)
+            if dt and rate is not None and dt <= today_s and (best is None or dt > best[0]):
+                best = (dt, rate)
+        return round(best[1], 2) if best else None
+    except Exception:
+        return None
+
+
+def key_rate_note(rate):
+    if round(float(rate), 2) <= 12:
+        return "Кредиты дешевеют — рубль может слабеть"
+    return "Кредиты дорогие, вклады выгодные — рубль держится крепко 💪"
+
+
+def key_rate_change_text(rate, prev):
+    pct = fmt_pct(rate)
+    if rate < prev:
+        return (f"🔻 <b>ЦБ снизил ставку до {pct}</b>\n"
+                "Рубль может ослабнуть, а доллар подорожать. Техника из-за рубежа может стать дороже 📦⬆️")
+    return (f"🔺 <b>ЦБ повысил ставку до {pct}</b>\n"
+            "Рубль может укрепиться, а доллар подешеветь. Хорошее время для закупки 📦⬇️")
+
+
+def key_rate_update(st, rate):
+    """Первый раз только запоминает ставку. При изменении возвращает текст поста (state не трогает)."""
+    if rate is None:
+        return None
+    rate = round(float(rate), 2)
+    prev = st.get("key_rate")
+    if prev is None:
+        st["key_rate"] = rate
+        return None
+    prev = round(float(prev), 2)
+    if rate == prev:
+        return None
+    return key_rate_change_text(rate, prev)
+
+
 def get_moex(secid):
     """Биржевой курс Мосбиржи (бесплатно, с задержкой ~15 мин)."""
     try:
@@ -90,6 +158,14 @@ def fmt(x, d=2):
     return f"{x:,.{d}f}".replace(",", " ").replace(".", ",")
 
 
+def fmt_pct(x):
+    """Проценты по-русски: 14% или 16,5%."""
+    x = round(float(x), 2)
+    if x == int(x):
+        return f"{int(x)}%"
+    return f"{x:.2f}".rstrip("0").replace(".", ",") + "%"
+
+
 def arrow(diff):
     return "🔺" if diff > 0 else ("🔻" if diff < 0 else "▪️")
 
@@ -114,7 +190,7 @@ def check_alert(st, usd_now, source):
             st["last_rate"] = usd_now
 
 
-def morning_summary(cbr, usd_mkt, cny_mkt):
+def morning_summary(cbr, usd_mkt, cny_mkt, key_rate=None):
     du = cbr["usd"] - cbr["usd_prev"]
     de = cbr["eur"] - cbr["eur_prev"]
     d = datetime.fromisoformat(cbr["date"]).strftime("%d.%m.%Y")
@@ -132,6 +208,9 @@ def morning_summary(cbr, usd_mkt, cny_mkt):
         if prev:
             s += f" {arrow(brent - prev)} {signed((brent - prev) / prev * 100, 1)}%"
         lines.append(s)
+    if key_rate is not None:
+        lines.append(f"🏦 <b>Ставка ЦБ: {fmt_pct(key_rate)}</b>")
+        lines.append(key_rate_note(key_rate))
     lines.append("\n#курс #USDRUB")
     return "\n".join(lines)
 
@@ -197,6 +276,7 @@ def main():
     cbr = get_cbr()
     usd_mkt = get_moex("USD000UTSTOM")
     cny_mkt = get_moex("CNYRUB_TOM")
+    key_rate = get_key_rate()
 
     # 1) алерт о скачке (биржевой курс точнее, иначе ЦБ)
     if usd_mkt:
@@ -207,8 +287,13 @@ def main():
     # 2) утренняя сводка раз в день после 9:00 МСК
     today = now.strftime("%Y-%m-%d")
     if cbr and (FORCE_SUMMARY or (now.hour >= SUMMARY_HOUR and st.get("summary_date") != today)):
-        if tg_send(morning_summary(cbr, usd_mkt, cny_mkt)):
+        if tg_send(morning_summary(cbr, usd_mkt, cny_mkt, key_rate)):
             st["summary_date"] = today
+
+    # изменение ключевой ставки — отдельным сообщением, один раз
+    rate_msg = key_rate_update(st, key_rate)
+    if rate_msg and tg_send(rate_msg):
+        st["key_rate"] = round(float(key_rate), 2)
 
     # 3) новости
     news = collect_news(st, first_run)
