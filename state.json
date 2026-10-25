@@ -11,7 +11,9 @@
   "f4ee419b0106c60b",
   "a11c481610c3deca",
   "9e4514fecbd0334c",
-  "9cb1c7dde6065eac"
+  "9cb1c7dde6065eac",
+  "e52830740486c968",
+  "1f3e794cf08c35f4"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -84,7 +86,8 @@
    "tg:banksta:104150",
    "tg:banksta:104151",
    "tg:banksta:104152",
-   "tg:banksta:104153"
+   "tg:banksta:104153",
+   "tg:banksta:104154"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
