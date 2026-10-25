@@ -65,9 +65,13 @@ def get_cbr():
     try:
         d = requests.get("https://www.cbr-xml-daily.ru/daily_json.js", timeout=20, headers=UA).json()
         v = d["Valute"]
+        cny = v["CNY"]
+        nominal = cny.get("Nominal") or 1
+        cny_prev = cny.get("Previous")
         return {"date": d["Date"][:10], "usd": v["USD"]["Value"], "usd_prev": v["USD"]["Previous"],
                 "eur": v["EUR"]["Value"], "eur_prev": v["EUR"]["Previous"],
-                "cny": v["CNY"]["Value"] / v["CNY"]["Nominal"]}
+                "cny": cny["Value"] / nominal,
+                "cny_prev": None if cny_prev is None else cny_prev / nominal}
     except Exception as e:
         print("CBR error:", e, file=sys.stderr)
         return None
@@ -119,9 +123,9 @@ def key_rate_note(rate):
 def key_rate_change_text(rate, prev):
     pct = fmt_pct(rate)
     if rate < prev:
-        return (f"🔻 <b>ЦБ снизил ставку до {pct}</b>\n"
+        return (f"📉 <b>ЦБ снизил ставку до {pct}</b>\n"
                 "Рубль может ослабнуть, а доллар подорожать. Техника из-за рубежа может стать дороже 📦⬆️")
-    return (f"🔺 <b>ЦБ повысил ставку до {pct}</b>\n"
+    return (f"📈 <b>ЦБ повысил ставку до {pct}</b>\n"
             "Рубль может укрепиться, а доллар подешеветь. Хорошее время для закупки 📦⬇️")
 
 
@@ -183,6 +187,45 @@ def signed(x, d=2):
     return ("+" if x > 0 else "") + fmt(x, d)
 
 
+def _diff(now, prev):
+    if now is None or prev is None:
+        return None
+    try:
+        return float(now) - float(prev)
+    except (TypeError, ValueError):
+        return None
+
+
+def trend_icon(diff, places=2):
+    """📈 если выросло, 📉 если упало. Пусто, если изменения нет или оно не известно."""
+    if diff is None:
+        return ""
+    try:
+        value = float(diff)
+    except (TypeError, ValueError):
+        return ""
+    if round(value, places) == 0:
+        return ""
+    return "📈" if value > 0 else "📉"
+
+
+def _usd_bits(value, diff):
+    """80,54 📉0,59 — сумма изменения только у доллара, без знака."""
+    text = fmt(float(value), 2)
+    icon = trend_icon(diff, 2)
+    if icon:
+        text += f" {icon}{fmt(abs(float(diff)), 2)}"
+    return text
+
+
+def _level(symbol, value, diff, digits):
+    text = f"{symbol} {fmt(float(value), digits)}"
+    icon = trend_icon(diff, digits)
+    if icon:
+        text += f" {icon}"
+    return text
+
+
 def check_alert(st, usd_now, source):
     last = st.get("last_rate")
     if last is None:
@@ -199,28 +242,42 @@ def check_alert(st, usd_now, source):
             st["last_rate"] = usd_now
 
 
-def morning_summary(cbr, usd_mkt, cny_mkt, key_rate=None):
-    du = cbr["usd"] - cbr["usd_prev"]
-    de = cbr["eur"] - cbr["eur_prev"]
-    d = datetime.fromisoformat(cbr["date"]).strftime("%d.%m.%Y")
-    lines = [f"☀️ <b>Доброе утро! Курсы на {d}</b>\n",
-             f"💵 Доллар ЦБ: <b>{fmt(cbr['usd'])} ₽</b> {arrow(du)} {signed(du)} ₽",
-             f"💶 Евро ЦБ: <b>{fmt(cbr['eur'])} ₽</b> {arrow(de)} {signed(de)} ₽",
-             f"💴 Юань ЦБ: <b>{fmt(cbr['cny'], 3)} ₽</b>"]
-    if usd_mkt:
-        lines.append(f"📊 Доллар на Мосбирже: <b>{fmt(usd_mkt)} ₽</b>")
-    if cny_mkt:
-        lines.append(f"📊 Юань на Мосбирже: <b>{fmt(cny_mkt, 3)} ₽</b>")
-    brent, prev = get_brent()
-    if brent:
-        s = f"🛢 Нефть Brent: <b>${fmt(brent)}</b>"
-        if prev:
-            s += f" {arrow(brent - prev)} {signed((brent - prev) / prev * 100, 1)}%"
-        lines.append(s)
+def morning_summary(cbr, key_rate=None, brent=None, brent_prev=None):
+    """Одна строка котировок и короткая строка ставки с пояснением."""
+    cbr = cbr or {}
+    parts = []
+    try:
+        dt = datetime.fromisoformat(str(cbr.get("date", ""))[:10])
+        parts.append(f"📊 {dt.day:02d}.{dt.month:02d}")
+    except (TypeError, ValueError):
+        parts.append("📊")
+    if cbr.get("usd") is not None:
+        try:
+            parts.append("$ " + _usd_bits(cbr["usd"], _diff(cbr.get("usd"), cbr.get("usd_prev"))))
+        except (TypeError, ValueError):
+            pass
+    if cbr.get("eur") is not None:
+        try:
+            parts.append(_level("€", cbr["eur"], _diff(cbr.get("eur"), cbr.get("eur_prev")), 2))
+        except (TypeError, ValueError):
+            pass
+    if cbr.get("cny") is not None:
+        try:
+            parts.append(_level("¥", cbr["cny"], _diff(cbr.get("cny"), cbr.get("cny_prev")), 2))
+        except (TypeError, ValueError):
+            pass
+    if brent is not None:
+        try:
+            parts.append(_level("🛢", brent, _diff(brent, brent_prev), 1))
+        except (TypeError, ValueError):
+            pass
+    lines = [" · ".join(parts)]
     if key_rate is not None:
-        lines.append(f"🏦 <b>Ставка ЦБ: {fmt_pct(key_rate)}</b>")
-        lines.append(key_rate_note(key_rate))
-    lines.append("\n#курс #USDRUB")
+        try:
+            lines.append(
+                f"🏦 <b>Ставка ЦБ: {html.escape(fmt_pct(key_rate))}</b> — {html.escape(key_rate_note(key_rate))}")
+        except (TypeError, ValueError):
+            pass
     return "\n".join(lines)
 
 
@@ -424,17 +481,138 @@ def collect_news(st, first_run):
     return items
 
 
-def news_text(it):
-    if it.get("tg"):
-        shown = f"t.me/{it['tg']}/{it['msg_id']}"
-        return (f"📰 {html.escape(it['summary'])}\n\n"
-                f"Источник: @{it['tg']}\n"
-                f"🔗 <a href=\"{html.escape(it['link'])}\">{html.escape(shown)}</a>")
-    t = f"📰 <b>{html.escape(it['title'])}</b>\n\n"
-    if it["summary"] and it["summary"][:40] != it["title"][:40]:
-        t += f"{html.escape(it['summary'])}\n\n"
-    t += f"🔗 <a href=\"{html.escape(it['link'])}\">{it['src']}</a>"
-    return t
+_TAG_RULES = (
+    ("#ЦБ", re.compile(r"ставк|\bцб\b|банк\s+россии", re.I)),
+    ("#нефть", re.compile(r"нефт|brent|опек", re.I)),
+    ("#санкции", re.compile(r"санкц", re.I)),
+    ("#курс", re.compile(r"доллар|рубл|юан|(?<![а-яёa-z])курс", re.I)),
+)
+
+
+def news_tag(text):
+    """Первое совпадение: #ЦБ, #нефть, #санкции, #курс, иначе #рынки."""
+    for tag, rx in _TAG_RULES:
+        if rx.search(text or ""):
+            return tag
+    return "#рынки"
+
+
+def quote_context(st, cbr, usd_mkt, brent, brent_prev, key_rate):
+    """Свежие котировки этого запуска, иначе то, что уже есть в state. Без записи state."""
+    ctx = {}
+    st = st if isinstance(st, dict) else {}
+    cbr = cbr if isinstance(cbr, dict) else {}
+    usd = usd_diff = None
+    if usd_mkt is not None:
+        try:
+            usd = float(usd_mkt)
+            usd_diff = _diff(usd, st.get("last_rate"))
+        except (TypeError, ValueError):
+            usd = None
+    if usd is None and cbr.get("usd") is not None:
+        try:
+            usd = float(cbr["usd"])
+            usd_diff = _diff(cbr.get("usd"), cbr.get("usd_prev"))
+        except (TypeError, ValueError):
+            usd = None
+    if usd is None and st.get("last_rate") is not None:
+        try:
+            usd = float(st["last_rate"])
+            usd_diff = None
+        except (TypeError, ValueError):
+            usd = None
+    if usd is not None:
+        ctx["usd"] = usd
+        if usd_diff is not None:
+            ctx["usd_diff"] = usd_diff
+    try:
+        if brent is not None:
+            ctx["brent"] = float(brent)
+            diff = _diff(brent, brent_prev)
+            if diff is not None:
+                ctx["brent_diff"] = diff
+    except (TypeError, ValueError):
+        ctx.pop("brent", None)
+        ctx.pop("brent_diff", None)
+    try:
+        rate = key_rate if key_rate is not None else st.get("key_rate")
+        if rate is not None:
+            ctx["key_rate"] = float(rate)
+    except (TypeError, ValueError):
+        pass
+    return ctx
+
+
+def _brent_news(price, diff):
+    text = f"Brent ${fmt(round(float(price)), 0)}"
+    icon = trend_icon(diff, 0)
+    if icon:
+        text += f" {icon}"
+    return text
+
+
+def news_ticker(ctx):
+    """⚡️ USD/RUB … · Brent … · ставка … — пропуск того, чего нет."""
+    if not isinstance(ctx, dict):
+        return ""
+    parts = []
+    if ctx.get("usd") is not None:
+        try:
+            parts.append("USD/RUB " + _usd_bits(ctx["usd"], ctx.get("usd_diff")))
+        except (TypeError, ValueError):
+            pass
+    if ctx.get("brent") is not None:
+        try:
+            parts.append(_brent_news(ctx["brent"], ctx.get("brent_diff")))
+        except (TypeError, ValueError):
+            pass
+    if ctx.get("key_rate") is not None:
+        try:
+            parts.append(f"ставка {fmt_pct(ctx['key_rate'])}")
+        except (TypeError, ValueError):
+            pass
+    if not parts:
+        return ""
+    return "⚡️ " + " · ".join(parts)
+
+
+def news_line2(it):
+    title = (it.get("title") or "").strip()
+    summary = (it.get("summary") or "").strip()
+    text = (summary or title) if it.get("tg") else (title or summary)
+    if not text:
+        return ""
+    return f"<b>{html.escape(text)}</b>"
+
+
+def news_footer(it):
+    tag = news_tag(f"{it.get('title') or ''} {it.get('summary') or ''}")
+    src = html.escape(it.get("src") or "")
+    link = (it.get("link") or "").strip()
+    if link and src:
+        return f'{tag} · <a href="{html.escape(link, quote=True)}">{src}</a>'
+    if link:
+        return f'{tag} · <a href="{html.escape(link, quote=True)}">Источник</a>'
+    if src:
+        return f"{tag} · {src}"
+    return tag
+
+
+def news_text(it, ctx=None):
+    it = it or {}
+    try:
+        tick = news_ticker(ctx)
+    except Exception:
+        tick = ""
+    try:
+        body = news_line2(it)
+    except Exception:
+        body = ""
+    try:
+        foot = news_footer(it)
+    except Exception:
+        foot = "#рынки"
+    return "\n".join(part for part in (tick, body, foot) if part)
 
 
 def main():
@@ -446,8 +624,9 @@ def main():
 
     cbr = get_cbr()
     usd_mkt = get_moex("USD000UTSTOM")
-    cny_mkt = get_moex("CNYRUB_TOM")
+    get_moex("CNYRUB_TOM")  # источник оставляем; в сводке юань — курс ЦБ
     key_rate = get_key_rate()
+    brent, brent_prev = get_brent()
 
     # 1) алерт о скачке (биржевой курс точнее, иначе ЦБ)
     if usd_mkt:
@@ -458,7 +637,7 @@ def main():
     # 2) утренняя сводка раз в день после 9:00 МСК
     today = now.strftime("%Y-%m-%d")
     if cbr and (FORCE_SUMMARY or (now.hour >= SUMMARY_HOUR and st.get("summary_date") != today)):
-        if tg_send(morning_summary(cbr, usd_mkt, cny_mkt, key_rate)):
+        if tg_send(morning_summary(cbr, key_rate, brent, brent_prev)):
             st["summary_date"] = today
 
     # изменение ключевой ставки — отдельным сообщением, один раз
@@ -469,12 +648,13 @@ def main():
     # 3) новости
     news = collect_news(st, first_run)
     posted = st.setdefault("posted", [])
+    ctx = quote_context(st, cbr, usd_mkt, brent, brent_prev, key_rate)
     if first_run:  # не заваливать канал при первом запуске: остальные помечаем как увиденные
         for it in news[MAX_NEWS:]:
             posted.append(it["id"])
             remember_tg(st, it)
     for it in news[:MAX_NEWS]:
-        if tg_send(news_text(it)):
+        if tg_send(news_text(it, ctx)):
             posted.append(it["id"])
             remember_tg(st, it)
     print(f"news found: {len(news)}, posted up to {MAX_NEWS}")
