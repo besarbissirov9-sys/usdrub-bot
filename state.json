@@ -15,7 +15,8 @@
   "e52830740486c968",
   "1f3e794cf08c35f4",
   "a4e562c4ad892449",
-  "21b950e9b3342b98"
+  "21b950e9b3342b98",
+  "tg:banksta:104155"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -89,7 +90,8 @@
    "tg:banksta:104151",
    "tg:banksta:104152",
    "tg:banksta:104153",
-   "tg:banksta:104154"
+   "tg:banksta:104154",
+   "tg:banksta:104155"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -156,7 +158,8 @@
    "tg:interfaxonline:80677",
    "tg:interfaxonline:80678",
    "tg:interfaxonline:80679",
-   "tg:interfaxonline:80680"
+   "tg:interfaxonline:80680",
+   "tg:interfaxonline:80681"
   ]
  }
 }
