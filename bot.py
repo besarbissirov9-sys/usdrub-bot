@@ -3,6 +3,7 @@
 import calendar, hashlib, html, json, os, re, sys, time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+from html.parser import HTMLParser
 import feedparser, requests
 
 TOKEN = os.environ.get("TELEGRAM_TOKEN") or os.environ.get("USDRUB_BOT_TOKEN")
@@ -22,7 +23,15 @@ FEEDS = {
     "Банки.ру": "https://www.banki.ru/xml/news.rss",
     "ПРАЙМ": "https://1prime.ru/export/rss2/index.xml",
     "Ведомости": "https://www.vedomosti.ru/rss/news",
+    "Investing.com": "https://ru.investing.com/rss/news.rss",
+    "Investing.com FX": "https://ru.investing.com/rss/news_1.rss",
+    "Smart-Lab": "https://smart-lab.ru/news/rss/",
+    "Smart-Lab блог": "https://smart-lab.ru/rss/",
 }
+# Публичные каналы (превью t.me/s/…). @mmi нет — канал MMI это @russianmacro,
+# «Твердые цифры» — @xtxixty.
+TG_CHANNELS = ("markettwits", "russianmacro", "xtxixty", "banksta", "cbrstocks", "rbc_news", "interfaxonline")
+TG_SEEN_LIMIT = 100
 KEYWORDS = re.compile(r"доллар|рубл|курс\w* (валют|доллар|рубл|юан|евро)|\bЦБ\b|Центробанк|Банк России|ключев\w* ставк|цен\w* на нефть|нефть (подешев|подорож|дорож|дешев)|brent|санкц|валют|юан", re.I)
 
 
@@ -225,6 +234,159 @@ def clean(text, limit=260):
     return m.group(1) if m and len(m.group(1)) > 80 else cut.rsplit(" ", 1)[0] + "…"
 
 
+def strip_links(text):
+    text = re.sub(r"https?://\S+", " ", text or "")
+    text = re.sub(r"(?<!\w)t\.me/\S+", " ", text)
+    return text
+
+
+def clip_text(text, limit=250):
+    """Первые ~limit символов без обрыва слова."""
+    text = clean(strip_links(text), 10**6)
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    if " " in cut:
+        cut = cut.rsplit(" ", 1)[0]
+    return (cut or text[:limit]) + "…"
+
+
+class _TgParser(HTMLParser):
+    """Посты со страницы https://t.me/s/<channel>."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.posts = []
+        self._cur = None
+        self._in_text = False
+        self._depth = 0
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag == "div" and a.get("data-post"):
+            channel, _, msg_id = a["data-post"].partition("/")
+            cls = a.get("class", "")
+            # «X pinned …» — служебное сообщение, не новость. id всё равно запоминаем.
+            self._cur = {"channel": channel, "msg_id": msg_id, "parts": [], "dt": None,
+                         "service": "service_message" in cls}
+            self.posts.append(self._cur)
+            self._in_text = False
+            return
+        if self._cur is None or self._cur.get("service"):
+            if self._cur is not None and tag == "time" and a.get("datetime"):
+                self._cur["dt"] = a["datetime"]
+            return
+        cls = a.get("class", "")
+        if tag == "div" and "tgme_widget_message_text" in cls:
+            self._in_text = True
+            self._depth = 1
+            return
+        if self._in_text and tag == "div":
+            self._depth += 1
+        if self._in_text and tag == "br":
+            self._cur["parts"].append("\n")
+        if tag == "time" and a.get("datetime"):
+            self._cur["dt"] = a["datetime"]
+
+    def handle_endtag(self, tag):
+        if self._in_text and tag == "div":
+            self._depth -= 1
+            if self._depth <= 0:
+                self._in_text = False
+
+    def handle_data(self, data):
+        if self._in_text and self._cur is not None:
+            self._cur["parts"].append(data)
+
+
+def _tg_remember(bucket, ids):
+    have = set(bucket)
+    for i in ids:
+        if i not in have:
+            bucket.append(i)
+            have.add(i)
+    if len(bucket) > TG_SEEN_LIMIT:
+        del bucket[:-TG_SEEN_LIMIT]
+
+
+def fetch_tg_posts(channel):
+    r = requests.get(f"https://t.me/s/{channel}", timeout=20, headers=UA)
+    r.raise_for_status()
+    parser = _TgParser()
+    parser.feed(r.text)
+    posts = []
+    for p in parser.posts:
+        if not p["msg_id"].isdigit():
+            continue
+        ts = None
+        if p["dt"]:
+            try:
+                ts = datetime.fromisoformat(p["dt"]).timestamp()
+            except ValueError:
+                ts = None
+        text = re.sub(r"\s+", " ", "".join(p["parts"])).strip()
+        posts.append({"id": f"tg:{p['channel'] or channel}:{p['msg_id']}",
+                      "channel": p["channel"] or channel, "msg_id": p["msg_id"],
+                      "text": text, "ts": ts})
+    return posts
+
+
+def collect_tg(st, posted, now, max_age, seen_titles):
+    """Новые посты каналов. При первом знакомстве только запоминает id, ничего не отдаёт."""
+    items = []
+    if not isinstance(st.get("tg_seen"), dict):
+        st["tg_seen"] = {}
+    seen = st["tg_seen"]
+    for channel in TG_CHANNELS:
+        try:
+            posts = fetch_tg_posts(channel)
+        except Exception as e:
+            print(f"TG @{channel} error:", e, file=sys.stderr)
+            continue
+        if not posts:
+            continue
+        bucket = seen.get(channel)
+        if not isinstance(bucket, list):
+            seen[channel] = [p["id"] for p in posts][-TG_SEEN_LIMIT:]
+            continue
+        known = set(bucket)
+        skipped = []
+        for p in posts:
+            if p["id"] in known or p["id"] in posted:
+                continue
+            text = strip_links(p["text"])
+            too_old = p["ts"] is not None and now - p["ts"] > max_age
+            if not text or too_old or not KEYWORDS.search(text):
+                skipped.append(p["id"])
+                continue
+            title = clean(text, 300)
+            summary = clip_text(text, 250)
+            if not summary:
+                skipped.append(p["id"])
+                continue
+            norm = re.sub(r"\W+", "", title.lower())[:60]
+            if norm in seen_titles:
+                skipped.append(p["id"])
+                continue
+            seen_titles.add(norm)
+            items.append({"id": p["id"], "src": f"@{p['channel']}", "title": title,
+                          "summary": summary, "link": f"https://t.me/{p['channel']}/{p['msg_id']}",
+                          "ts": p["ts"] if p["ts"] is not None else now,
+                          "tg": p["channel"], "msg_id": p["msg_id"]})
+        if skipped:
+            _tg_remember(bucket, skipped)
+    return items
+
+
+def remember_tg(st, it):
+    if not it.get("tg"):
+        return
+    seen = st.setdefault("tg_seen", {})
+    bucket = seen.setdefault(it["tg"], [])
+    if isinstance(bucket, list):
+        _tg_remember(bucket, [it["id"]])
+
+
 def collect_news(st, first_run):
     posted = set(st.get("posted", []))
     now = time.time()
@@ -253,12 +415,21 @@ def collect_news(st, first_run):
             seen_titles.add(norm)
             items.append({"id": uid, "src": src, "title": title, "summary": summary,
                           "link": e.get("link", ""), "ts": ts})
+    try:
+        items.extend(collect_tg(st, posted, now, max_age, seen_titles))
+    except Exception as e:
+        print("TG error:", e, file=sys.stderr)
     # приоритет: прямо про доллар/рубль, затем свежесть
     items.sort(key=lambda i: (not re.search(r"доллар|рубл|курс", i["title"], re.I), -i["ts"]))
     return items
 
 
 def news_text(it):
+    if it.get("tg"):
+        shown = f"t.me/{it['tg']}/{it['msg_id']}"
+        return (f"📰 {html.escape(it['summary'])}\n\n"
+                f"Источник: @{it['tg']}\n"
+                f"🔗 <a href=\"{html.escape(it['link'])}\">{html.escape(shown)}</a>")
     t = f"📰 <b>{html.escape(it['title'])}</b>\n\n"
     if it["summary"] and it["summary"][:40] != it["title"][:40]:
         t += f"{html.escape(it['summary'])}\n\n"
@@ -301,9 +472,11 @@ def main():
     if first_run:  # не заваливать канал при первом запуске: остальные помечаем как увиденные
         for it in news[MAX_NEWS:]:
             posted.append(it["id"])
+            remember_tg(st, it)
     for it in news[:MAX_NEWS]:
         if tg_send(news_text(it)):
             posted.append(it["id"])
+            remember_tg(st, it)
     print(f"news found: {len(news)}, posted up to {MAX_NEWS}")
     save_state(st)
 
