@@ -563,15 +563,11 @@
    "tg:interfaxonline:80723",
    "tg:interfaxonline:80724",
    "tg:interfaxonline:80725",
-   "tg:interfaxonline:80719"
+   "tg:interfaxonline:80719",
+   "tg:interfaxonline:80726"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793035310.15217,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
   {
    "ts": 1793037671.2433603,
    "usd": 81.1275,
@@ -619,6 +615,11 @@
   },
   {
    "ts": 1793056191.8625643,
+   "usd": 81.1275,
+   "cny": 12.0855
+  },
+  {
+   "ts": 1793057732.306679,
    "usd": 81.1275,
    "cny": 12.0855
   }
