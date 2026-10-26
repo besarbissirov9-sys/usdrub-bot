@@ -99,15 +99,16 @@
   "934699a1fc43a71d",
   "tg:markettwits:390581",
   "5eaa8230841eb277",
-  "6eec95c1a546b43d"
+  "6eec95c1a546b43d",
+  "3d2750c4b6c72fac",
+  "4f6ea0c7f323b701",
+  "a3aec3cbb65e4d2a",
+  "63edbf94aed7e26e",
+  "a3c4da6666caccc4"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390463",
-   "tg:markettwits:390464",
-   "tg:markettwits:390465",
-   "tg:markettwits:390466",
    "tg:markettwits:390467",
    "tg:markettwits:390468",
    "tg:markettwits:390469",
@@ -203,7 +204,11 @@
    "tg:markettwits:390584",
    "tg:markettwits:390585",
    "tg:markettwits:390586",
-   "tg:markettwits:390581"
+   "tg:markettwits:390581",
+   "tg:markettwits:390587",
+   "tg:markettwits:390588",
+   "tg:markettwits:390589",
+   "tg:markettwits:390590"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -300,7 +305,9 @@
    "tg:banksta:104205",
    "tg:banksta:104206",
    "tg:banksta:104207",
-   "tg:banksta:104208"
+   "tg:banksta:104208",
+   "tg:banksta:104209",
+   "tg:banksta:104210"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -430,7 +437,8 @@
    "tg:rbc_news:159472",
    "tg:rbc_news:159473",
    "tg:rbc_news:159474",
-   "tg:rbc_news:159475"
+   "tg:rbc_news:159475",
+   "tg:rbc_news:159476"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -501,11 +509,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793019001.181101,
-   "usd": 80.97,
-   "cny": 12.072
-  },
-  {
    "ts": 1793026219.5650225,
    "usd": 80.9025,
    "cny": 12.075
@@ -532,6 +535,11 @@
   },
   {
    "ts": 1793040466.0755734,
+   "usd": 81.1275,
+   "cny": 12.0855
+  },
+  {
+   "ts": 1793042882.3632298,
    "usd": 81.1275,
    "cny": 12.0855
   }
@@ -571,45 +579,15 @@
   "934699a1fc43a71d",
   "tg:markettwits:390581",
   "5eaa8230841eb277",
-  "6eec95c1a546b43d"
+  "6eec95c1a546b43d",
+  "3d2750c4b6c72fac",
+  "4f6ea0c7f323b701",
+  "a3aec3cbb65e4d2a",
+  "63edbf94aed7e26e",
+  "a3c4da6666caccc4"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-26",
-   "headline": "⬆️🇺🇸#fx #сша Индекс доллара (DXY) возобновил укрепление…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793026237.2605064
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "«Европлан» зафиксировал объем размещения облигаций на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793026239.0986714
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "Meta* планирует SPO на 95 миллиардов долларов",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793026240.9953527
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "Акционеры «Акрона» утвердили дивиденды из нераспределенной…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793026242.8569567
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "\"Европлан\" разместит биржевые облигации на 13,5 млрд рублей",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793026244.7596493
-  },
   {
    "date": "2026-10-26",
    "headline": "Курс украинской гривны к доллару США обновил исторический…",
@@ -784,6 +762,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793040496.348583
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Индекс доллара США в ловушке между SMA(50) и облаком:…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793042901.4604225
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Продолжаем эксперимент с Садомазо портфелем.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793042903.348797
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "M&A сделки: как дорогие покупки бьют по акционерам и как…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793042905.2572956
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Нефть Brent: V-разворот от $117,45 - уровни онлайн",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793042907.191955
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Ставку снизили на 7 п.п., а доходность 10-летних ОФЗ…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793042909.0924778
   }
  ],
  "recent_news": [
