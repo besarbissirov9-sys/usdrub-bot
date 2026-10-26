@@ -50,6 +50,8 @@ def load_state():
 
 def save_state(st):
     st["posted"] = st.get("posted", [])[-500:]
+    if isinstance(st.get("ai_seen"), list):
+        st["ai_seen"] = st["ai_seen"][-500:]
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(st, f, ensure_ascii=False, indent=1)
 
@@ -918,13 +920,26 @@ def news_text(it, ctx=None, ai=None):
     return "\n\n".join(part for part in (tick, *blocks, foot) if part)
 
 
-def select_news_posts(news, ctx, analyze, get=None):
-    """До MAX_NEWS постов. Нерелевантное и почти одинаковые заголовки пропускаются."""
+def _model_used(analyze):
+    owner = getattr(analyze, "__self__", None)
+    used = getattr(owner, "used", None)
+    return used if isinstance(used, int) else None
+
+
+def select_news_posts(news, ctx, analyze, get=None, seen_ids=None, ai_seen=None):
+    """До MAX_NEWS постов. Модель вызывается только для id, которых ещё не было."""
     chosen, posts, skipped = [], [], []
+    seen = set(seen_ids or [])
+    ai_list = ai_seen if isinstance(ai_seen, list) else None
+    ai_set = set(ai_list or [])
     for it in news or []:
         if len(posts) >= MAX_NEWS:
             break
         if not isinstance(it, dict):
+            continue
+        uid = it.get("id")
+        if uid and uid in seen:
+            skipped.append(it)
             continue
         title = it.get("title") or ""
         try:
@@ -943,7 +958,18 @@ def select_news_posts(news, ctx, analyze, get=None):
         it["body"] = body
         ai = None
         try:
-            ai = analyze(title, body) if analyze else None
+            if uid and uid in ai_set:
+                ai = None
+            elif analyze:
+                before = _model_used(analyze)
+                ai = analyze(title, body)
+                after = _model_used(analyze)
+                if uid and before is not None and after is not None and after > before:
+                    ai_set.add(uid)
+                    if ai_list is not None and uid not in ai_list:
+                        ai_list.append(uid)
+            else:
+                ai = None
         except Exception as e:
             print("AI error:", e, file=sys.stderr)
             ai = None
@@ -1009,7 +1035,12 @@ def main():
     seen_ids = set(posted)
     ctx = quote_context(st, cbr, usd_mkt, brent, brent_prev, key_rate)
     client = ModelClient()
-    posts, skipped = select_news_posts(news, ctx, client.analyze)
+    ai_seen = st.get("ai_seen")
+    if not isinstance(ai_seen, list):
+        ai_seen = []
+        st["ai_seen"] = ai_seen
+    posts, skipped = select_news_posts(
+        news, ctx, client.analyze, seen_ids=seen_ids, ai_seen=ai_seen)
     for it in skipped:
         mark_seen(st, posted, seen_ids, it)
     attempted = set()

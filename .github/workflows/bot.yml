@@ -2,7 +2,7 @@ name: USD/RUB news bot
 
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -33,4 +33,9 @@ jobs:
           git config user.name "usdrub-bot"
           git config user.email "usdrub-bot@users.noreply.github.com"
           git add state.json
-          git diff --cached --quiet || (git commit -m "update state [skip ci]" && git push)
+          git diff --cached --quiet || (
+            git commit -m "update state [skip ci]"
+            git fetch --unshallow origin || true
+            git pull --rebase origin main
+            git push
+          )
