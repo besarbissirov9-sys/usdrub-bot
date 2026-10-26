@@ -129,7 +129,12 @@
   "c8bf9c547aaf7728",
   "761dab991fa9154d",
   "tg:cbrstocks:83626",
-  "e11027f3008b5037"
+  "e11027f3008b5037",
+  "e71e0455533dd15c",
+  "tg:cbrstocks:83625",
+  "6f972030d8909e3e",
+  "e6291663a72be184",
+  "b1a714b293ea161d"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -337,7 +342,8 @@
    "tg:banksta:104212",
    "tg:banksta:104213",
    "tg:banksta:104214",
-   "tg:banksta:104215"
+   "tg:banksta:104215",
+   "tg:banksta:104216"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -394,7 +400,8 @@
    "tg:cbrstocks:83634",
    "tg:cbrstocks:83629",
    "tg:cbrstocks:83627",
-   "tg:cbrstocks:83626"
+   "tg:cbrstocks:83626",
+   "tg:cbrstocks:83625"
   ],
   "rbc_news": [
    "tg:rbc_news:159375",
@@ -482,7 +489,8 @@
    "tg:rbc_news:159482",
    "tg:rbc_news:159463",
    "tg:rbc_news:159483",
-   "tg:rbc_news:159484"
+   "tg:rbc_news:159484",
+   "tg:rbc_news:159485"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -555,11 +563,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793032654.7572422,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
-  {
    "ts": 1793035310.15217,
    "usd": 81.1275,
    "cny": 12.0855
@@ -601,6 +604,11 @@
   },
   {
    "ts": 1793052594.6008492,
+   "usd": 81.1275,
+   "cny": 12.0855
+  },
+  {
+   "ts": 1793054405.206178,
    "usd": 81.1275,
    "cny": 12.0855
   }
@@ -670,7 +678,12 @@
   "c8bf9c547aaf7728",
   "761dab991fa9154d",
   "tg:cbrstocks:83626",
-  "e11027f3008b5037"
+  "e11027f3008b5037",
+  "e71e0455533dd15c",
+  "tg:cbrstocks:83625",
+  "6f972030d8909e3e",
+  "e6291663a72be184",
+  "b1a714b293ea161d"
  ],
  "layout_i": 0,
  "day_news": [
@@ -778,6 +791,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793052628.7773554
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Чистая прибыль банковского сектора в сентябре снизилась на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793054430.7652237
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "#Политика Победивший на парламентских выборах в Сербии…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793054432.8425925
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Глава МИД Венгрии во вторник встретится с Рубио, на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793054434.8212492
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "ЦБ рекомендовал банкам контролировать источники крупных…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793054436.8210895
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Прогноз дивидендов Сургутнефтегаза 2026-2030",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793054438.8879836
   }
  ],
  "recent_news": [
