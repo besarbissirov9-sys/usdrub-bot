@@ -52,6 +52,10 @@ def save_state(st):
     st["posted"] = st.get("posted", [])[-500:]
     if isinstance(st.get("ai_seen"), list):
         st["ai_seen"] = st["ai_seen"][-500:]
+    if isinstance(st.get("day_news"), list):
+        st["day_news"] = st["day_news"][-40:]
+    if isinstance(st.get("rate_samples"), list):
+        st["rate_samples"] = st["rate_samples"][-48:]
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(st, f, ensure_ascii=False, indent=1)
 
@@ -151,17 +155,37 @@ def key_rate_update(st, rate):
     return key_rate_change_text(rate, prev)
 
 
-def get_moex(secid):
-    """Биржевой курс Мосбиржи (бесплатно, с задержкой ~15 мин)."""
+def get_moex_quote(secid):
+    """LAST и изменение за день, %. (last, pct) или (None, None)."""
     try:
         url = (f"https://iss.moex.com/iss/engines/currency/markets/selt/securities/{secid}.json"
-               "?iss.meta=off&iss.only=marketdata&marketdata.columns=LAST")
-        rows = requests.get(url, timeout=20, headers=UA).json()["marketdata"]["data"]
-        vals = [r[0] for r in rows if r[0]]
-        return vals[0] if vals else None
+               "?iss.meta=off&iss.only=marketdata&marketdata.columns=LAST,CHANGE")
+        md = requests.get(url, timeout=20, headers=UA).json()["marketdata"]
+        cols = {name: i for i, name in enumerate(md.get("columns") or [])}
+        if "LAST" not in cols:
+            return None, None
+        for row in md.get("data") or []:
+            last = row[cols["LAST"]]
+            if last in (None, ""):
+                continue
+            last = float(last)
+            pct = None
+            if "CHANGE" in cols and row[cols["CHANGE"]] not in (None, ""):
+                change = float(row[cols["CHANGE"]])
+                base = last - change
+                if base:
+                    pct = change / base * 100
+            return last, pct
+        return None, None
     except Exception as e:
         print("MOEX error:", e, file=sys.stderr)
-        return None
+        return None, None
+
+
+def get_moex(secid):
+    """Биржевой курс Мосбиржи (бесплатно, с задержкой ~15 мин)."""
+    last, _pct = get_moex_quote(secid)
+    return last
 
 
 def get_brent():
@@ -233,20 +257,77 @@ def _level(symbol, value, diff, digits):
     return text
 
 
-def check_alert(st, usd_now, source):
-    last = st.get("last_rate")
-    if last is None:
-        st["last_rate"] = usd_now
-        return
-    diff = usd_now - last
-    pct = diff / last * 100
-    if abs(diff) >= ALERT_RUB or abs(pct) >= ALERT_PCT:
-        word = "вырос" if diff > 0 else "упал"
-        txt = (f"⚡️ <b>Резкое движение доллара!</b>\n\n{arrow(diff)} Доллар {word} до <b>{fmt(usd_now)} ₽</b> "
-               f"({signed(diff)} ₽, {signed(pct, 1)}%) с прошлого уведомления ({fmt(last)} ₽).\n"
-               f"Источник: {source}\n\n#алерт #USDRUB")
-        if tg_send(txt):
-            st["last_rate"] = usd_now
+SHARP_PCT = 1.0
+SHARP_COOLDOWN = 3 * 3600
+
+
+def sharp_move_text(name, pct, price):
+    icon = "📈" if pct > 0 else "📉"
+    return f"⚡️ Резкое движение: {name} {icon} {signed(pct, 1)}% за час ({fmt(price)} ₽)"
+
+
+def _sample_near(samples, now, target=3600):
+    """Замер примерно час назад: от 45 до 90 минут, ближайший к часу."""
+    best = None
+    best_err = None
+    for s in samples or []:
+        if not isinstance(s, dict):
+            continue
+        try:
+            age = now - float(s.get("ts"))
+        except (TypeError, ValueError):
+            continue
+        if not (45 * 60 <= age <= 90 * 60):
+            continue
+        err = abs(age - target)
+        if best is None or err < best_err:
+            best, best_err = s, err
+    return best
+
+
+def _sharp_pair(usd, cny, old):
+    """USD/RUB, а если доллара нет — CNY/RUB. None, если сравнить не с чем."""
+    if usd is not None and old.get("usd") not in (None, ""):
+        try:
+            prev = float(old["usd"])
+            if prev:
+                return "доллар", (float(usd) - prev) / prev * 100, float(usd)
+        except (TypeError, ValueError):
+            pass
+    if usd is None and cny is not None and old.get("cny") not in (None, ""):
+        try:
+            prev = float(old["cny"])
+            if prev:
+                return "юань", (float(cny) - prev) / prev * 100, float(cny)
+        except (TypeError, ValueError):
+            pass
+    return None
+
+
+def check_sharp_move(st, usd, cny, now=None):
+    """>=1% к замеру ~60 минут назад. Кулдаун 3 часа. None — поста нет."""
+    try:
+        now = time.time() if now is None else float(now)
+        samples = [s for s in (st.get("rate_samples") or []) if isinstance(s, dict)]
+        samples.append({"ts": now, "usd": usd, "cny": cny})
+        samples = [s for s in samples if now - float(s.get("ts") or now) <= 6 * 3600]
+        st["rate_samples"] = samples[-48:]
+        last_alert = st.get("sharp_ts")
+        if last_alert is not None and now - float(last_alert) < SHARP_COOLDOWN:
+            return None
+        old = _sample_near(samples, now)
+        if not old:
+            return None
+        pair = _sharp_pair(usd, cny, old)
+        if not pair:
+            return None
+        name, pct, price = pair
+        if abs(pct) < SHARP_PCT:
+            return None
+        return sharp_move_text(name, pct, price)
+    except Exception as e:
+        print("sharp error:", e, file=sys.stderr)
+        return None
 
 
 def morning_summary(cbr, key_rate=None, brent=None, brent_prev=None):
@@ -706,18 +787,28 @@ IMPACT_LABEL = {
     "down": "🟢 рубль крепнет",
     "neutral": "⚪️ нейтрально",
 }
+TOPICS = ("cbr", "oil", "yuan", "sanctions", "fx", "economy", "other")
+TOPIC_EMOJI = {
+    "cbr": "🏦", "oil": "🛢", "yuan": "🇨🇳", "sanctions": "⚖️",
+    "fx": "💵", "economy": "📊", "other": "📰",
+}
 AI_SYSTEM = (
-    "Ты редактор Telegram-канала о курсе доллара. Читатель — торговец электроникой, "
-    "который закупает технику за рубежом. Ответь одним JSON-объектом без markdown и без пояснений. "
-    "Ключи: relevant (bool) — true, только если новость про рубль, доллар, ЦБ, нефть, санкции, "
+    "Ты живой аналитик курса в Telegram, не шаблонный бот. Пиши по-русски, "
+    "простым языком для торговца электроникой, который закупает технику за рубежом. "
+    "Каждый раз меняй слова и строй фразы иначе, не повторяй одни и те же обороты. "
+    "Ответь одним JSON без markdown. Ключи: "
+    "relevant (bool) — true, только если новость про рубль, доллар, ЦБ, нефть, санкции, "
     "экономику России или импорт, иначе false; "
-    "summary — 2–3 предложения, суть новости простым русским языком; "
-    "impact — строго одно из up, down, neutral: влияние на курс USD/RUB "
-    "(up — доллар к рублю растёт, рубль слабеет; down — доллар к рублю падает, рубль крепнет; "
-    "neutral — явного влияния нет); "
-    "analysis — 1–2 предложения, почему курс так отреагирует, простым языком для закупки техники. "
-    "Если relevant=false, оставь summary и analysis пустыми строками, а impact поставь neutral. "
-    "Не выдумывай факты, которых нет в тексте. Без HTML, списков и ссылок."
+    "urgency — urgent или normal; urgent только для решения ЦБ, новых санкций или резкого "
+    "движения валюты, иначе normal; "
+    "topic — одно из cbr, oil, yuan, sanctions, fx, economy, other; "
+    "headline — короткий цепкий заголовок по-русски, не длиннее 60 символов, без кликбейта и без капса; "
+    "summary — 2–3 предложения сути, без повтора заголовка; "
+    "impact — up, down или neutral для курса USD/RUB "
+    "(up — доллар дорожает, рубль слабеет; down — доллар дешевеет, рубль крепнет; neutral — явного влияния нет); "
+    "analysis — 1–2 предложения, почему так для закупки техники. "
+    "Если relevant=false, остальные строки пустые, impact=neutral, urgency=normal, topic=other. "
+    "Не выдумывай факты. Без HTML, списков и ссылок."
 )
 
 
@@ -746,10 +837,14 @@ def _plain(text, limit):
     text = re.sub(r"\s+", " ", str(text or "")).strip()
     if len(text) <= limit:
         return text
-    cut = text[:limit]
+    room = max(limit - 1, 1)
+    cut = text[:room]
     if " " in cut:
         cut = cut.rsplit(" ", 1)[0]
-    return (cut or text[:limit]) + "…"
+    cut = (cut or text[:room]).rstrip()
+    if len(cut) > room:
+        cut = cut[:room].rstrip()
+    return cut + "…"
 
 
 def _as_bool(value):
@@ -796,15 +891,23 @@ def parse_ai_payload(content):
     if relevant is None:
         return None
     if not relevant:
-        return {"relevant": False, "summary": "", "impact": "neutral", "analysis": ""}
+        return {"relevant": False, "summary": "", "impact": "neutral", "analysis": "",
+                "urgency": "normal", "topic": "other", "headline": ""}
     summary = _plain(data.get("summary"), 800)
     if not summary:
         return None
     impact = str(data.get("impact") or "").strip().lower()
     if impact not in IMPACT_LABEL:
         impact = "neutral"
+    urgency = str(data.get("urgency") or "").strip().lower()
+    if urgency not in ("urgent", "normal"):
+        urgency = "normal"
+    topic = str(data.get("topic") or "").strip().lower()
+    if topic not in TOPICS:
+        topic = "other"
     return {"relevant": True, "summary": summary, "impact": impact,
-            "analysis": _plain(data.get("analysis"), 500)}
+            "analysis": _plain(data.get("analysis"), 500), "urgency": urgency,
+            "topic": topic, "headline": _plain(data.get("headline"), 60)}
 
 
 def _message_content(data):
@@ -853,7 +956,7 @@ class ModelClient:
             return None
 
     def _complete(self, token, messages, json_mode):
-        payload = {"model": AI_MODEL, "messages": messages, "temperature": 0.2, "max_tokens": 500}
+        payload = {"model": AI_MODEL, "messages": messages, "temperature": 0.7, "max_tokens": 700}
         if json_mode:
             payload["response_format"] = {"type": "json_object"}
         r = self._post(
@@ -887,12 +990,25 @@ class ModelClient:
         return _message_content(data)
 
 
-def news_text(it, ctx=None, ai=None):
+def impact_phrase(ai):
+    label = IMPACT_LABEL.get((ai or {}).get("impact"), IMPACT_LABEL["neutral"])
+    analysis = _plain((ai or {}).get("analysis"), 500)
+    if analysis:
+        return f"→ {label}: {html.escape(analysis)}"
+    return f"→ {label}"
+
+
+def ai_headline(ai, it):
+    for raw in ((ai or {}).get("headline"), (it or {}).get("title"), (ai or {}).get("summary")):
+        text = _plain(raw, 60)
+        if text:
+            return text
+    return ""
+
+
+def news_text(it, ctx=None, ai=None, variant=0):
+    """Обычная новость без строки котировок. Сбой модели — короткий отрывок."""
     it = it or {}
-    try:
-        tick = news_ticker(ctx)
-    except Exception:
-        tick = ""
     try:
         foot = news_footer(it)
     except Exception:
@@ -900,24 +1016,32 @@ def news_text(it, ctx=None, ai=None):
     blocks = []
     try:
         if isinstance(ai, dict) and ai.get("relevant") and (ai.get("summary") or "").strip():
-            blocks.append("📰 " + html.escape(_plain(ai["summary"], 800)))
-            label = IMPACT_LABEL.get(ai.get("impact"), IMPACT_LABEL["neutral"])
-            analysis = _plain(ai.get("analysis"), 500)
-            impact = f"📊 Влияние на курс: {label}"
-            if analysis:
-                impact += "\n" + html.escape(analysis)
-            blocks.append(impact)
+            summary = html.escape(_plain(ai["summary"], 800))
+            headline = html.escape(ai_headline(ai, it))
+            phrase = impact_phrase(ai)
+            if ai.get("urgency") == "urgent":
+                blocks = [f"🚨 <b>СРОЧНО: {headline}</b>", summary, phrase]
+            else:
+                emoji = TOPIC_EMOJI.get(ai.get("topic"), TOPIC_EMOJI["other"])
+                head = f"{emoji} <b>{headline}</b>"
+                mode = int(variant or 0) % 3
+                if mode == 1:
+                    blocks = [head, phrase, summary]
+                elif mode == 2:
+                    blocks = [head, f"{summary} {phrase}"]
+                else:
+                    blocks = [head, summary, phrase]
         else:
             raw = it.get("body") or it.get("summary") or ""
             text = excerpt(raw, 300)
             if text:
-                blocks.append("📰 " + html.escape(text))
+                blocks = [f"📰 {html.escape(text)}"]
     except Exception as e:
         print("format error:", e, file=sys.stderr)
         blocks = []
     if not blocks:
         return ""
-    return "\n\n".join(part for part in (tick, *blocks, foot) if part)
+    return "\n\n".join([*blocks, foot])
 
 
 def _model_used(analyze):
@@ -926,12 +1050,14 @@ def _model_used(analyze):
     return used if isinstance(used, int) else None
 
 
-def select_news_posts(news, ctx, analyze, get=None, seen_ids=None, ai_seen=None):
+def select_news_posts(news, ctx, analyze, get=None, seen_ids=None, ai_seen=None, layout_i=None):
     """До MAX_NEWS постов. Модель вызывается только для id, которых ещё не было."""
     chosen, posts, skipped = [], [], []
     seen = set(seen_ids or [])
     ai_list = ai_seen if isinstance(ai_seen, list) else None
     ai_set = set(ai_list or [])
+    if not isinstance(layout_i, list) or not layout_i:
+        layout_i = [0]
     for it in news or []:
         if len(posts) >= MAX_NEWS:
             break
@@ -977,16 +1103,94 @@ def select_news_posts(news, ctx, analyze, get=None, seen_ids=None, ai_seen=None)
             skipped.append(it)
             continue
         use_ai = isinstance(ai, dict) and ai.get("relevant") and (ai.get("summary") or "").strip()
+        normal = bool(use_ai and ai.get("urgency") != "urgent")
         try:
-            text = news_text(it, ctx, ai if use_ai else None)
+            variant = int(layout_i[0]) % 3 if normal else 0
+            text = news_text(it, ctx, ai if use_ai else None, variant)
         except Exception as e:
             print("format error:", e, file=sys.stderr)
             text = ""
         if not text:
             skipped.append(it)
             continue
-        posts.append((it, text))
+        if normal:
+            layout_i[0] = int(layout_i[0]) + 1
+        posts.append((it, text, ai if use_ai else None))
     return posts, skipped
+
+
+def remember_day_news(st, it, ai, now):
+    """Заголовки, которые уже ушли в канал, для вечернего итога."""
+    day = now.strftime("%Y-%m-%d")
+    items = [x for x in (st.get("day_news") or []) if isinstance(x, dict) and x.get("date") == day]
+    if isinstance(ai, dict) and ai.get("relevant"):
+        headline = _plain(ai.get("headline") or it.get("title") or "", 60)
+        impact = ai.get("impact") if ai.get("impact") in IMPACT_LABEL else "neutral"
+        urgent = ai.get("urgency") == "urgent"
+    else:
+        headline = _plain(it.get("title") or "", 60)
+        impact, urgent = "neutral", False
+    if not headline:
+        return
+    items.append({"date": day, "headline": headline, "impact": impact,
+                  "urgent": urgent, "ts": time.time()})
+    st["day_news"] = items[-30:]
+
+
+def top_day_headlines(items, now, n=3):
+    day = now.strftime("%Y-%m-%d")
+    rows = [x for x in (items or []) if isinstance(x, dict) and x.get("date") == day and x.get("headline")]
+    rows.sort(key=lambda x: (not x.get("urgent"), -float(x.get("ts") or 0)))
+    picked = rows[:n]
+    picked.sort(key=lambda x: float(x.get("ts") or 0))
+    return picked
+
+
+def digest_due(st, now):
+    """Первый запуск в 20:00 МСК и позже (17:00 UTC), один раз за день."""
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=MSK)
+    now = now.astimezone(MSK)
+    now_utc = now.astimezone(timezone.utc)
+    if now_utc.hour < 17 or now.hour < 20:
+        return False
+    return st.get("digest_date") != now.strftime("%Y-%m-%d")
+
+
+def evening_digest(quotes, headlines):
+    lines = ["🌙 <b>Итоги дня</b>"]
+    qlines = []
+    for name, emoji, last, pct in quotes or []:
+        if last is None:
+            continue
+        try:
+            bit = f"{emoji} {name} {fmt(float(last))} ₽"
+        except (TypeError, ValueError):
+            continue
+        if pct is not None:
+            try:
+                icon = trend_icon(float(pct), 1)
+                pct_s = signed(float(pct), 1) + "%"
+                bit += f" {icon} {pct_s}" if icon else f" {pct_s}"
+            except (TypeError, ValueError):
+                pass
+        qlines.append(bit)
+    if qlines:
+        lines.append("")
+        lines.extend(qlines)
+    hlines = []
+    for h in headlines or []:
+        title = _plain(h.get("headline"), 60)
+        if not title:
+            continue
+        em = {"up": "🔴", "down": "🟢", "neutral": "⚪️"}.get(h.get("impact"), "⚪️")
+        hlines.append(f"{em} {html.escape(title)}")
+    if hlines:
+        lines.append("")
+        lines.extend(hlines)
+    if not qlines and not hlines:
+        return ""
+    return "\n".join(lines)
 
 
 def mark_seen(st, posted, seen_ids, it):
@@ -1007,16 +1211,16 @@ def main():
     now = datetime.now(MSK)
 
     cbr = get_cbr()
-    usd_mkt = get_moex("USD000UTSTOM")
-    get_moex("CNYRUB_TOM")  # источник оставляем; в сводке юань — курс ЦБ
+    usd_mkt, usd_day = get_moex_quote("USD000UTSTOM")
+    eur_mkt, eur_day = get_moex_quote("EUR_RUB__TOM")
+    cny_mkt, cny_day = get_moex_quote("CNYRUB_TOM")
     key_rate = get_key_rate()
     brent, brent_prev = get_brent()
 
-    # 1) алерт о скачке (биржевой курс точнее, иначе ЦБ)
-    if usd_mkt:
-        check_alert(st, usd_mkt, "Мосбиржа")
-    elif cbr:
-        check_alert(st, cbr["usd"], "ЦБ РФ")
+    # 1) резкое движение: ≥1% к замеру около часа назад, не чаще раза в 3 часа
+    sharp = check_sharp_move(st, usd_mkt, cny_mkt)
+    if sharp and tg_send(sharp):
+        st["sharp_ts"] = time.time()
 
     # 2) утренняя сводка раз в день после 9:00 МСК
     today = now.strftime("%Y-%m-%d")
@@ -1039,21 +1243,36 @@ def main():
     if not isinstance(ai_seen, list):
         ai_seen = []
         st["ai_seen"] = ai_seen
+    layout = st.get("layout_i")
+    layout_i = [layout if isinstance(layout, int) else 0]
     posts, skipped = select_news_posts(
-        news, ctx, client.analyze, seen_ids=seen_ids, ai_seen=ai_seen)
+        news, ctx, client.analyze, seen_ids=seen_ids, ai_seen=ai_seen, layout_i=layout_i)
+    st["layout_i"] = int(layout_i[0])
     for it in skipped:
         mark_seen(st, posted, seen_ids, it)
     attempted = set()
     sent = 0
-    for it, text in posts:
+    for it, text, ai in posts:
         attempted.add(it.get("id"))
         if tg_send(text):
             mark_seen(st, posted, seen_ids, it)
+            remember_day_news(st, it, ai, now)
             sent += 1
     if first_run:  # не заваливать канал при первом запуске: остальное помечаем как увиденное
         for it in news:
             if it.get("id") not in seen_ids and it.get("id") not in attempted:
                 mark_seen(st, posted, seen_ids, it)
+    try:
+        if digest_due(st, now):
+            digest = evening_digest(
+                (("доллар", "💵", usd_mkt, usd_day),
+                 ("евро", "💶", eur_mkt, eur_day),
+                 ("юань", "🇨🇳", cny_mkt, cny_day)),
+                top_day_headlines(st.get("day_news"), now))
+            if digest and tg_send(digest):
+                st["digest_date"] = now.strftime("%Y-%m-%d")
+    except Exception as e:
+        print("digest error:", e, file=sys.stderr)
     print(f"news found: {len(news)}, posted {sent}, ai calls {client.used}")
     save_state(st)
 
