@@ -84,12 +84,16 @@
   "88d88661f5b6851c",
   "d4c8e0397ea15625",
   "02405370646cbe0b",
-  "tg:interfaxonline:80713"
+  "tg:interfaxonline:80713",
+  "965ba400ead041b0",
+  "tg:banksta:104203",
+  "d5944ce3cc637522",
+  "05fd4135a0c18e55",
+  "tg:rbc_news:159458"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390454",
    "tg:markettwits:390449",
    "tg:markettwits:390455",
    "tg:markettwits:390456",
@@ -188,7 +192,8 @@
    "tg:markettwits:390561",
    "tg:markettwits:390572",
    "tg:markettwits:390573",
-   "tg:markettwits:390575"
+   "tg:markettwits:390575",
+   "tg:markettwits:390577"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -278,7 +283,9 @@
    "tg:banksta:104197",
    "tg:banksta:104198",
    "tg:banksta:104199",
-   "tg:banksta:104200"
+   "tg:banksta:104200",
+   "tg:banksta:104202",
+   "tg:banksta:104203"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -329,7 +336,8 @@
    "tg:cbrstocks:83630",
    "tg:cbrstocks:83631",
    "tg:cbrstocks:83632",
-   "tg:cbrstocks:83633"
+   "tg:cbrstocks:83633",
+   "tg:cbrstocks:83635"
   ],
   "rbc_news": [
    "tg:rbc_news:159375",
@@ -396,7 +404,11 @@
    "tg:rbc_news:159461",
    "tg:rbc_news:159462",
    "tg:rbc_news:159464",
-   "tg:rbc_news:159465"
+   "tg:rbc_news:159465",
+   "tg:rbc_news:159467",
+   "tg:rbc_news:159468",
+   "tg:rbc_news:159469",
+   "tg:rbc_news:159458"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -458,7 +470,8 @@
    "tg:interfaxonline:80717",
    "tg:interfaxonline:80718",
    "tg:interfaxonline:80720",
-   "tg:interfaxonline:80713"
+   "tg:interfaxonline:80713",
+   "tg:interfaxonline:80721"
   ]
  },
  "rate_samples": [
@@ -479,6 +492,11 @@
   },
   {
    "ts": 1793032654.7572422,
+   "usd": 81.1275,
+   "cny": 12.0855
+  },
+  {
+   "ts": 1793035310.15217,
    "usd": 81.1275,
    "cny": 12.0855
   }
@@ -503,7 +521,12 @@
   "88d88661f5b6851c",
   "d4c8e0397ea15625",
   "02405370646cbe0b",
-  "tg:interfaxonline:80713"
+  "tg:interfaxonline:80713",
+  "965ba400ead041b0",
+  "tg:banksta:104203",
+  "d5944ce3cc637522",
+  "05fd4135a0c18e55",
+  "tg:rbc_news:159458"
  ],
  "layout_i": 0,
  "day_news": [
@@ -646,6 +669,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793032701.2885542
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Задолженность по ипотеке в России впервые превысила 25,1…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793035353.5745437
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Клиенты Сбера заработали 2,11 трлн рублей на вкладах и…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793035355.5175002
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "\"Рост рубля остановился\": аналитики оценили курс юаня к…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793035357.4712667
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "2 трлн рублей чистой зеленой энергии (зачеркнуто) прибыли",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793035359.3352597
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "💚 СберИнвестиции дарят акции Сбера! Если вы ждали знак,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793035361.2123163
   }
  ],
  "recent_news": [
@@ -693,5 +751,6 @@
  "cbr_next": "2026-10-27",
  "week_cal": "2026-10-26",
  "week_poll": "2026-10-26",
- "week_chart": "2026-10-25"
+ "week_chart": "2026-10-25",
+ "digest_date": "2026-10-26"
 }
