@@ -3,6 +3,7 @@
 import calendar, hashlib, html, json, os, re, sys, time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+from difflib import SequenceMatcher
 from html.parser import HTMLParser
 import feedparser, requests
 
@@ -13,6 +14,10 @@ FORCE_SUMMARY = os.environ.get("FORCE_SUMMARY") == "1"
 MSK = timezone(timedelta(hours=3))
 UA = {"User-Agent": "Mozilla/5.0 (usdrub-news-bot)"}
 MAX_NEWS = 5
+MAX_AI = 8
+BODY_SHORT = 300
+AI_URL = "https://models.github.ai/inference/chat/completions"
+AI_MODEL = "openai/gpt-4o-mini"
 SUMMARY_HOUR = 9
 ALERT_RUB, ALERT_PCT = 1.0, 1.0
 
@@ -308,6 +313,106 @@ def clip_text(text, limit=250):
     return (cut or text[:limit]) + "…"
 
 
+def excerpt(text, limit=300):
+    """Первые ~limit символов тела новости, без обрыва слова."""
+    return clip_text(text, limit)
+
+
+_P_SKIP = {"script", "style", "noscript", "svg", "head", "nav", "footer", "aside", "form"}
+_P_JUNK = re.compile(r"cookie|подпишит|реклам|все права|©|mailto:", re.I)
+
+
+class _PText(HTMLParser):
+    """Основной текст страницы: абзацы <p>, без меню и скриптов."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+        self._skip = 0
+        self._p = 0
+        self._buf = []
+
+    def _flush(self):
+        text = re.sub(r"\s+", " ", "".join(self._buf)).strip()
+        self._buf = []
+        if len(text) >= 40 and not _P_JUNK.search(text):
+            self.parts.append(text)
+
+    def handle_starttag(self, tag, attrs):
+        if tag in _P_SKIP:
+            self._skip += 1
+        elif tag == "br" and self._p and not self._skip:
+            self._buf.append(" ")
+        elif tag == "p" and not self._skip:
+            if self._p:
+                self._flush()
+            self._p += 1
+            self._buf = []
+
+    def handle_endtag(self, tag):
+        if tag in _P_SKIP and self._skip:
+            self._skip -= 1
+        elif tag == "p" and self._p and not self._skip:
+            self._p -= 1
+            self._flush()
+
+    def handle_data(self, data):
+        if self._p and not self._skip:
+            self._buf.append(data)
+
+
+def extract_paragraphs(html_text, limit=5000):
+    parser = _PText()
+    try:
+        parser.feed(html_text or "")
+        parser.close()
+    except Exception:
+        return ""
+    if parser._buf:
+        parser._flush()
+    text = re.sub(r"\s+", " ", " ".join(parser.parts)).strip()
+    return text[:limit]
+
+
+def fetch_article_text(url, get=None):
+    """Скачать страницу и вытащить абзацы. При любой ошибке — пустая строка."""
+    get = get or requests.get
+    try:
+        r = get(url, timeout=15, headers={**UA, "Accept": "text/html,application/xhtml+xml"})
+        status = getattr(r, "status_code", 200)
+        if status >= 400:
+            return ""
+        headers = getattr(r, "headers", {}) or {}
+        ctype = (headers.get("Content-Type") or headers.get("content-type") or "").lower()
+        if ctype and "html" not in ctype and "xml" not in ctype and "text/" not in ctype:
+            return ""
+        html_text = getattr(r, "text", "") or ""
+        if not html_text and getattr(r, "content", None):
+            html_text = r.content[:400000].decode("utf-8", errors="replace")
+        return extract_paragraphs(html_text[:400000])
+    except Exception as e:
+        print("article error:", e, file=sys.stderr)
+        return ""
+
+
+def load_body(it, get=None):
+    """RSS: описание, а если оно короче 300 символов — текст страницы. Telegram: весь пост."""
+    it = it or {}
+    try:
+        if it.get("tg"):
+            return (it.get("body") or it.get("summary") or it.get("title") or "").strip()
+        text = (it.get("body") or it.get("summary") or "").strip()
+        link = (it.get("link") or "").strip()
+        if len(text) < BODY_SHORT and link.startswith(("http://", "https://")):
+            extra = fetch_article_text(link, get=get)
+            if extra and len(extra) > len(text):
+                return extra
+        return text or (it.get("title") or "").strip()
+    except Exception as e:
+        print("body error:", e, file=sys.stderr)
+        return (it.get("body") or it.get("summary") or it.get("title") or "").strip()
+
+
 class _TgParser(HTMLParser):
     """Посты со страницы https://t.me/s/<channel>."""
 
@@ -416,9 +521,10 @@ def collect_tg(st, posted, now, max_age, seen_titles):
             if not text or too_old or not KEYWORDS.search(text):
                 skipped.append(p["id"])
                 continue
-            title = clean(text, 300)
-            summary = clip_text(text, 250)
-            if not summary:
+            full = clean(text, 8000)
+            title = clean(full, 300)
+            summary = clip_text(full, 250)
+            if not summary and not full:
                 skipped.append(p["id"])
                 continue
             norm = re.sub(r"\W+", "", title.lower())[:60]
@@ -427,7 +533,8 @@ def collect_tg(st, posted, now, max_age, seen_titles):
                 continue
             seen_titles.add(norm)
             items.append({"id": p["id"], "src": f"@{p['channel']}", "title": title,
-                          "summary": summary, "link": f"https://t.me/{p['channel']}/{p['msg_id']}",
+                          "summary": summary or title, "body": full or summary or title,
+                          "link": f"https://t.me/{p['channel']}/{p['msg_id']}",
                           "ts": p["ts"] if p["ts"] is not None else now,
                           "tg": p["channel"], "msg_id": p["msg_id"]})
         if skipped:
@@ -458,8 +565,8 @@ def collect_news(st, first_run):
             continue
         for e in feed.entries:
             title = clean(e.get("title"), 300)
-            summary = clean(e.get("summary") or e.get("description") or "")
-            if not title or not KEYWORDS.search(title + " " + summary):
+            body = clean(e.get("summary") or e.get("description") or "", 8000)
+            if not title or not KEYWORDS.search(title + " " + body):
                 continue
             uid = hashlib.md5((e.get("link") or title).encode()).hexdigest()[:16]
             norm = re.sub(r"\W+", "", title.lower())[:60]
@@ -470,7 +577,8 @@ def collect_news(st, first_run):
             if now - ts > max_age:
                 continue
             seen_titles.add(norm)
-            items.append({"id": uid, "src": src, "title": title, "summary": summary,
+            items.append({"id": uid, "src": src, "title": title,
+                          "summary": clip_text(body, 260) if body else "", "body": body,
                           "link": e.get("link", ""), "ts": ts})
     try:
         items.extend(collect_tg(st, posted, now, max_age, seen_titles))
@@ -576,17 +684,9 @@ def news_ticker(ctx):
     return "⚡️ " + " · ".join(parts)
 
 
-def news_line2(it):
-    title = (it.get("title") or "").strip()
-    summary = (it.get("summary") or "").strip()
-    text = (summary or title) if it.get("tg") else (title or summary)
-    if not text:
-        return ""
-    return f"<b>{html.escape(text)}</b>"
-
-
 def news_footer(it):
-    tag = news_tag(f"{it.get('title') or ''} {it.get('summary') or ''}")
+    blob = " ".join(str(it.get(k) or "") for k in ("title", "summary", "body"))
+    tag = news_tag(blob)
     src = html.escape(it.get("src") or "")
     link = (it.get("link") or "").strip()
     if link and src:
@@ -598,21 +698,279 @@ def news_footer(it):
     return tag
 
 
-def news_text(it, ctx=None):
+# impact — направление USD/RUB: up доллар дорожает, down рубль крепнет.
+IMPACT_LABEL = {
+    "up": "🔴 рубль слабеет",
+    "down": "🟢 рубль крепнет",
+    "neutral": "⚪️ нейтрально",
+}
+AI_SYSTEM = (
+    "Ты редактор Telegram-канала о курсе доллара. Читатель — торговец электроникой, "
+    "который закупает технику за рубежом. Ответь одним JSON-объектом без markdown и без пояснений. "
+    "Ключи: relevant (bool) — true, только если новость про рубль, доллар, ЦБ, нефть, санкции, "
+    "экономику России или импорт, иначе false; "
+    "summary — 2–3 предложения, суть новости простым русским языком; "
+    "impact — строго одно из up, down, neutral: влияние на курс USD/RUB "
+    "(up — доллар к рублю растёт, рубль слабеет; down — доллар к рублю падает, рубль крепнет; "
+    "neutral — явного влияния нет); "
+    "analysis — 1–2 предложения, почему курс так отреагирует, простым языком для закупки техники. "
+    "Если relevant=false, оставь summary и analysis пустыми строками, а impact поставь neutral. "
+    "Не выдумывай факты, которых нет в тексте. Без HTML, списков и ссылок."
+)
+
+
+def _norm_title(title):
+    text = (title or "").lower().replace("ё", "е")
+    text = re.sub(r"[^0-9a-zа-я]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def titles_similar(a, b):
+    """Почти одинаковые заголовки разных источников в одном запуске."""
+    na, nb = _norm_title(a), _norm_title(b)
+    if not na or not nb:
+        return False
+    if na == nb:
+        return True
+    short, long = (na, nb) if len(na) <= len(nb) else (nb, na)
+    if len(short) >= 40 and short in long:
+        return True
+    if min(len(na), len(nb)) < 20:
+        return False
+    return SequenceMatcher(None, na, nb).ratio() >= 0.84
+
+
+def _plain(text, limit):
+    text = re.sub(r"\s+", " ", str(text or "")).strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    if " " in cut:
+        cut = cut.rsplit(" ", 1)[0]
+    return (cut or text[:limit]) + "…"
+
+
+def _as_bool(value):
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return bool(value)
+    if isinstance(value, str):
+        v = value.strip().lower()
+        if v in ("true", "1", "yes", "да"):
+            return True
+        if v in ("false", "0", "no", "нет"):
+            return False
+    return None
+
+
+def parse_ai_payload(content):
+    """JSON модели. None — ответ битый, пост уйдёт запасным отрывком."""
+    if isinstance(content, list):
+        bits = []
+        for part in content:
+            if isinstance(part, str):
+                bits.append(part)
+            elif isinstance(part, dict):
+                bits.append(str(part.get("text") or part.get("content") or ""))
+        content = "".join(bits)
+    text = str(content or "").strip()
+    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.I)
+    if not text:
+        return None
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        m = re.search(r"\{.*\}", text, re.S)
+        if not m:
+            return None
+        try:
+            data = json.loads(m.group(0))
+        except json.JSONDecodeError:
+            return None
+    if not isinstance(data, dict):
+        return None
+    relevant = _as_bool(data.get("relevant"))
+    if relevant is None:
+        return None
+    if not relevant:
+        return {"relevant": False, "summary": "", "impact": "neutral", "analysis": ""}
+    summary = _plain(data.get("summary"), 800)
+    if not summary:
+        return None
+    impact = str(data.get("impact") or "").strip().lower()
+    if impact not in IMPACT_LABEL:
+        impact = "neutral"
+    return {"relevant": True, "summary": summary, "impact": impact,
+            "analysis": _plain(data.get("analysis"), 500)}
+
+
+def _message_content(data):
+    try:
+        msg = data["choices"][0]["message"]["content"]
+    except (KeyError, IndexError, TypeError):
+        return None
+    if isinstance(msg, str):
+        return msg
+    if isinstance(msg, list):
+        return msg
+    return None
+
+
+class ModelClient:
+    """GitHub Models. Сбой и лимит не роняют бота: analyze возвращает None."""
+
+    def __init__(self, limit=None, post=None):
+        self.limit = MAX_AI if limit is None else limit
+        self.used = 0
+        self.stop = False
+        self._post = post or requests.post
+
+    def analyze(self, title, body):
+        if self.stop or self.used >= self.limit:
+            return None
+        token = os.environ.get("GITHUB_TOKEN")
+        if not token:
+            self.stop = True
+            print("AI skipped: no GITHUB_TOKEN", file=sys.stderr)
+            return None
+        self.used += 1
+        messages = [
+            {"role": "system", "content": AI_SYSTEM},
+            {"role": "user", "content": f"Заголовок: {title}\n\nТекст новости:\n{(body or '')[:4000]}"},
+        ]
+        try:
+            content = self._complete(token, messages, json_mode=True)
+            if content is None and not self.stop:
+                content = self._complete(token, messages, json_mode=False)
+            if not content:
+                return None
+            return parse_ai_payload(content)
+        except Exception as e:
+            print("AI error:", e, file=sys.stderr)
+            return None
+
+    def _complete(self, token, messages, json_mode):
+        payload = {"model": AI_MODEL, "messages": messages, "temperature": 0.2, "max_tokens": 500}
+        if json_mode:
+            payload["response_format"] = {"type": "json_object"}
+        r = self._post(
+            AI_URL, headers={
+                "Authorization": f"Bearer {token}",
+                "Content-Type": "application/json",
+                "Accept": "application/vnd.github+json",
+            }, json=payload, timeout=30)
+        status = getattr(r, "status_code", 0)
+        if status == 429:
+            self.stop = True
+            print("AI rate limit", file=sys.stderr)
+            return None
+        if status == 400 and json_mode:
+            return None
+        if status == 400:
+            self.stop = True
+            print("AI HTTP", status, file=sys.stderr)
+            return None
+        if status in (401, 403, 404):
+            self.stop = True
+            print("AI HTTP", status, file=sys.stderr)
+            return None
+        if not getattr(r, "ok", 200 <= status < 300):
+            print("AI HTTP", status, file=sys.stderr)
+            return None
+        try:
+            data = r.json()
+        except ValueError:
+            return None
+        return _message_content(data)
+
+
+def news_text(it, ctx=None, ai=None):
     it = it or {}
     try:
         tick = news_ticker(ctx)
     except Exception:
         tick = ""
     try:
-        body = news_line2(it)
-    except Exception:
-        body = ""
-    try:
         foot = news_footer(it)
     except Exception:
         foot = "#рынки"
-    return "\n".join(part for part in (tick, body, foot) if part)
+    blocks = []
+    try:
+        if isinstance(ai, dict) and ai.get("relevant") and (ai.get("summary") or "").strip():
+            blocks.append("📰 " + html.escape(_plain(ai["summary"], 800)))
+            label = IMPACT_LABEL.get(ai.get("impact"), IMPACT_LABEL["neutral"])
+            analysis = _plain(ai.get("analysis"), 500)
+            impact = f"📊 Влияние на курс: {label}"
+            if analysis:
+                impact += "\n" + html.escape(analysis)
+            blocks.append(impact)
+        else:
+            raw = it.get("body") or it.get("summary") or ""
+            text = excerpt(raw, 300)
+            if text:
+                blocks.append("📰 " + html.escape(text))
+    except Exception as e:
+        print("format error:", e, file=sys.stderr)
+        blocks = []
+    if not blocks:
+        return ""
+    return "\n\n".join(part for part in (tick, *blocks, foot) if part)
+
+
+def select_news_posts(news, ctx, analyze, get=None):
+    """До MAX_NEWS постов. Нерелевантное и почти одинаковые заголовки пропускаются."""
+    chosen, posts, skipped = [], [], []
+    for it in news or []:
+        if len(posts) >= MAX_NEWS:
+            break
+        if not isinstance(it, dict):
+            continue
+        title = it.get("title") or ""
+        try:
+            dup = any(titles_similar(title, prev) for prev in chosen)
+        except Exception:
+            dup = False
+        if dup:
+            skipped.append(it)
+            continue
+        chosen.append(title)
+        try:
+            body = load_body(it, get=get)
+        except Exception as e:
+            print("body error:", e, file=sys.stderr)
+            body = (it.get("summary") or title or "").strip()
+        it["body"] = body
+        ai = None
+        try:
+            ai = analyze(title, body) if analyze else None
+        except Exception as e:
+            print("AI error:", e, file=sys.stderr)
+            ai = None
+        if isinstance(ai, dict) and ai.get("relevant") is False:
+            skipped.append(it)
+            continue
+        use_ai = isinstance(ai, dict) and ai.get("relevant") and (ai.get("summary") or "").strip()
+        try:
+            text = news_text(it, ctx, ai if use_ai else None)
+        except Exception as e:
+            print("format error:", e, file=sys.stderr)
+            text = ""
+        if not text:
+            skipped.append(it)
+            continue
+        posts.append((it, text))
+    return posts, skipped
+
+
+def mark_seen(st, posted, seen_ids, it):
+    uid = it.get("id")
+    if not uid:
+        return
+    if uid not in seen_ids:
+        posted.append(uid)
+        seen_ids.add(uid)
+    remember_tg(st, it)
 
 
 def main():
@@ -645,19 +1003,27 @@ def main():
     if rate_msg and tg_send(rate_msg):
         st["key_rate"] = round(float(key_rate), 2)
 
-    # 3) новости
+    # 3) новости: текст + разбор модели, не больше 5 постов и 8 вызовов
     news = collect_news(st, first_run)
     posted = st.setdefault("posted", [])
+    seen_ids = set(posted)
     ctx = quote_context(st, cbr, usd_mkt, brent, brent_prev, key_rate)
-    if first_run:  # не заваливать канал при первом запуске: остальные помечаем как увиденные
-        for it in news[MAX_NEWS:]:
-            posted.append(it["id"])
-            remember_tg(st, it)
-    for it in news[:MAX_NEWS]:
-        if tg_send(news_text(it, ctx)):
-            posted.append(it["id"])
-            remember_tg(st, it)
-    print(f"news found: {len(news)}, posted up to {MAX_NEWS}")
+    client = ModelClient()
+    posts, skipped = select_news_posts(news, ctx, client.analyze)
+    for it in skipped:
+        mark_seen(st, posted, seen_ids, it)
+    attempted = set()
+    sent = 0
+    for it, text in posts:
+        attempted.add(it.get("id"))
+        if tg_send(text):
+            mark_seen(st, posted, seen_ids, it)
+            sent += 1
+    if first_run:  # не заваливать канал при первом запуске: остальное помечаем как увиденное
+        for it in news:
+            if it.get("id") not in seen_ids and it.get("id") not in attempted:
+                mark_seen(st, posted, seen_ids, it)
+    print(f"news found: {len(news)}, posted {sent}, ai calls {client.used}")
     save_state(st)
 
 
