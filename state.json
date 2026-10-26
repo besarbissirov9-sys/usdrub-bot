@@ -134,7 +134,10 @@
   "tg:cbrstocks:83625",
   "6f972030d8909e3e",
   "e6291663a72be184",
-  "b1a714b293ea161d"
+  "b1a714b293ea161d",
+  "d289073b76c08fdb",
+  "f4b999f768ea83f9",
+  "e1f96faa2fd2a18c"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -343,7 +346,8 @@
    "tg:banksta:104213",
    "tg:banksta:104214",
    "tg:banksta:104215",
-   "tg:banksta:104216"
+   "tg:banksta:104216",
+   "tg:banksta:104217"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -490,7 +494,8 @@
    "tg:rbc_news:159463",
    "tg:rbc_news:159483",
    "tg:rbc_news:159484",
-   "tg:rbc_news:159485"
+   "tg:rbc_news:159485",
+   "tg:rbc_news:159486"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -611,6 +616,11 @@
    "ts": 1793054405.206178,
    "usd": 81.1275,
    "cny": 12.0855
+  },
+  {
+   "ts": 1793056191.8625643,
+   "usd": 81.1275,
+   "cny": 12.0855
   }
  ],
  "ai_seen": [
@@ -683,7 +693,10 @@
   "tg:cbrstocks:83625",
   "6f972030d8909e3e",
   "e6291663a72be184",
-  "b1a714b293ea161d"
+  "b1a714b293ea161d",
+  "d289073b76c08fdb",
+  "f4b999f768ea83f9",
+  "e1f96faa2fd2a18c"
  ],
  "layout_i": 0,
  "day_news": [
@@ -826,6 +839,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793054438.8879836
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Социалисты разрушают рынок)",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793056207.8828707
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "«Сбер» ожидает ключевую ставку ЦБ к концу 2027 года на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793056209.741786
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Медведев: Россия продолжает развиваться вопреки санкциям",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793056211.6245723
   }
  ],
  "recent_news": [
