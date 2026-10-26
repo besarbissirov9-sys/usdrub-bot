@@ -109,12 +109,16 @@
   "dfbff7772bf93435",
   "ecedf8dd758d9058",
   "7164f084a185b480",
-  "d361566d257aa706"
+  "d361566d257aa706",
+  "d0f4774e76a3823f",
+  "tg:rbc_news:159466",
+  "8bf1d3fc13c40956",
+  "da3d1e75b9173909",
+  "tg:interfaxonline:80719"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390474",
    "tg:markettwits:390475",
    "tg:markettwits:390476",
    "tg:markettwits:390477",
@@ -213,7 +217,8 @@
    "tg:markettwits:390594",
    "tg:markettwits:390595",
    "tg:markettwits:390596",
-   "tg:markettwits:390597"
+   "tg:markettwits:390597",
+   "tg:markettwits:390598"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -313,7 +318,9 @@
    "tg:banksta:104208",
    "tg:banksta:104209",
    "tg:banksta:104210",
-   "tg:banksta:104211"
+   "tg:banksta:104211",
+   "tg:banksta:104212",
+   "tg:banksta:104213"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -446,7 +453,10 @@
    "tg:rbc_news:159475",
    "tg:rbc_news:159476",
    "tg:rbc_news:159477",
-   "tg:rbc_news:159478"
+   "tg:rbc_news:159478",
+   "tg:rbc_news:159479",
+   "tg:rbc_news:159480",
+   "tg:rbc_news:159466"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -512,7 +522,9 @@
    "tg:interfaxonline:80721",
    "tg:interfaxonline:80722",
    "tg:interfaxonline:80723",
-   "tg:interfaxonline:80724"
+   "tg:interfaxonline:80724",
+   "tg:interfaxonline:80725",
+   "tg:interfaxonline:80719"
   ]
  },
  "rate_samples": [
@@ -553,6 +565,11 @@
   },
   {
    "ts": 1793044963.9452534,
+   "usd": 81.1275,
+   "cny": 12.0855
+  },
+  {
+   "ts": 1793046954.6202495,
    "usd": 81.1275,
    "cny": 12.0855
   }
@@ -602,45 +619,15 @@
   "dfbff7772bf93435",
   "ecedf8dd758d9058",
   "7164f084a185b480",
-  "d361566d257aa706"
+  "d361566d257aa706",
+  "d0f4774e76a3823f",
+  "tg:rbc_news:159466",
+  "8bf1d3fc13c40956",
+  "da3d1e75b9173909",
+  "tg:interfaxonline:80719"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-26",
-   "headline": "Движение на МКАД в районе Рублево-Успенского шоссе…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793032693.6412656
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "Рубль в понедельник немного подешевел в паре с юанем на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793032695.5795708
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "Курс юаня на Московской бирже вырос до 12,09 рубля",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793032697.4656816
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "ЦБ понизил официальный курс доллара на 27 октября до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793032699.3736455
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "💵💶Официальные курсы ЦБ РФ с 27 октября - 80,4909 руб./$1 и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793032701.2885542
-  },
   {
    "date": "2026-10-26",
    "headline": "Задолженность по ипотеке в России впервые превысила 25,1…",
@@ -815,6 +802,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793045002.3199708
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Победители выборов в Сербии исключили ввод санкций против…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793046977.448416
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "❗️Победивший на парламентских выборах в Сербии…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793046979.4457812
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Смартфон для инвестора! Выбираю себе новый гаджет в 2026",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793046981.5463214
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "ЦБ: перевод криптовалюты самому себе не требует тестирования",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793046983.5711002
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Рынок акций РФ начал неделю с роста в район 2500п по…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793046985.5838103
   }
  ],
  "recent_news": [
