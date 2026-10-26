@@ -119,7 +119,12 @@
   "tg:rbc_news:159463",
   "934ce18820cb8420",
   "d78605dc1b63cbbe",
-  "f2f7f18a5371dd21"
+  "f2f7f18a5371dd21",
+  "e3ee36cc54cd3e9f",
+  "tg:cbrstocks:83629",
+  "tg:cbrstocks:83627",
+  "bbe6477b93656d97",
+  "268a144256c47d0f"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -326,7 +331,8 @@
    "tg:banksta:104211",
    "tg:banksta:104212",
    "tg:banksta:104213",
-   "tg:banksta:104214"
+   "tg:banksta:104214",
+   "tg:banksta:104215"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -380,7 +386,9 @@
    "tg:cbrstocks:83633",
    "tg:cbrstocks:83635",
    "tg:cbrstocks:83636",
-   "tg:cbrstocks:83634"
+   "tg:cbrstocks:83634",
+   "tg:cbrstocks:83629",
+   "tg:cbrstocks:83627"
   ],
   "rbc_news": [
    "tg:rbc_news:159375",
@@ -466,7 +474,8 @@
    "tg:rbc_news:159466",
    "tg:rbc_news:159481",
    "tg:rbc_news:159482",
-   "tg:rbc_news:159463"
+   "tg:rbc_news:159463",
+   "tg:rbc_news:159483"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -582,6 +591,11 @@
    "ts": 1793048911.8819249,
    "usd": 81.1275,
    "cny": 12.0855
+  },
+  {
+   "ts": 1793050732.8891904,
+   "usd": 81.1275,
+   "cny": 12.0855
   }
  ],
  "ai_seen": [
@@ -639,7 +653,12 @@
   "tg:rbc_news:159463",
   "934ce18820cb8420",
   "d78605dc1b63cbbe",
-  "f2f7f18a5371dd21"
+  "f2f7f18a5371dd21",
+  "e3ee36cc54cd3e9f",
+  "tg:cbrstocks:83629",
+  "tg:cbrstocks:83627",
+  "bbe6477b93656d97",
+  "268a144256c47d0f"
  ],
  "layout_i": 0,
  "day_news": [
@@ -677,6 +696,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793048939.722529
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Средства клиентов российских банков немного снизились в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793050757.7975938
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "#Банки #Бонды Банки нарастили вложения в новые выпуски ОФЗ…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793050759.753928
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "#Банки Рост потребкредитования замедлился — ЦБ РФ Портфель…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793050761.708798
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Центробанк: средства физлиц за сентябрь снизились на 0,1%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793050763.6570103
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Чистая прибыль банков в сентябре снизилась на 5,9%,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793050765.630652
   }
  ],
  "recent_news": [
