@@ -16,7 +16,8 @@
   "1f3e794cf08c35f4",
   "a4e562c4ad892449",
   "21b950e9b3342b98",
-  "tg:banksta:104155"
+  "tg:banksta:104155",
+  "cd31fa9d512b0d9f"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -161,7 +162,11 @@
    "tg:interfaxonline:80680",
    "tg:interfaxonline:80681",
    "tg:interfaxonline:80682",
-   "tg:interfaxonline:80683"
+   "tg:interfaxonline:80683",
+   "tg:interfaxonline:80684",
+   "tg:interfaxonline:80685",
+   "tg:interfaxonline:80686",
+   "tg:interfaxonline:80687"
   ]
  }
 }
