@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """USD/RUB новостной бот для Telegram-канала. Запускается по расписанию (GitHub Actions)."""
-import calendar, hashlib, html, json, os, re, sys, time
+import calendar, hashlib, html, io, json, os, re, sys, time
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from difflib import SequenceMatcher
 from html.parser import HTMLParser
 import feedparser, requests
@@ -20,6 +20,32 @@ AI_URL = "https://models.github.ai/inference/chat/completions"
 AI_MODEL = "openai/gpt-4o-mini"
 SUMMARY_HOUR = 9
 ALERT_RUB, ALERT_PCT = 1.0, 1.0
+# Заседания по ставке в 2026: cbr.ru/dkp/cal_mp/. Опорные — с прогнозом.
+# Ближайшее после 23.10.2026 — 18.12.2026 (подтверждено релизом ЦБ).
+CBR_MEETINGS_2026 = (
+    ("2026-02-13", True),
+    ("2026-03-20", False),
+    ("2026-04-24", True),
+    ("2026-06-19", False),
+    ("2026-07-24", True),
+    ("2026-09-11", False),
+    ("2026-10-23", True),
+    ("2026-12-18", False),
+)
+# Решение 23.10.2026: сохранить 14%. Запас, если SOAP ЦБ молчит.
+KEY_RATE_KNOWN = 14.0
+# Второй день заседания FOMC, federalreserve.gov, календарь 2026.
+FOMC_2026 = (
+    "2026-01-28", "2026-03-18", "2026-04-29", "2026-06-17",
+    "2026-07-29", "2026-09-16", "2026-10-28", "2026-12-09",
+)
+POLL_QUESTION = "Куда пойдёт доллар на неделе?"
+POLL_OPTIONS = ("⬆️ Выше", "⬇️ Ниже", "↔️ Боковик")
+MEETING_HINT = (
+    "Сегодня день решения Банка России по ключевой ставке, пресс-релиз около 13:30 МСК. "
+    "Если в тексте есть само решение, новая ставка или реакция курса — urgency=urgent, topic=cbr. "
+    "Цифру ставки пиши только если она есть в тексте."
+)
 
 FEEDS = {
     "РБК": "https://rssexport.rbc.ru/rbcnews/news/30/full.rss",
@@ -56,6 +82,8 @@ def save_state(st):
         st["day_news"] = st["day_news"][-40:]
     if isinstance(st.get("rate_samples"), list):
         st["rate_samples"] = st["rate_samples"][-48:]
+    if isinstance(st.get("recent_news"), list):
+        st["recent_news"] = st["recent_news"][-40:]
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(st, f, ensure_ascii=False, indent=1)
 
@@ -70,6 +98,49 @@ def tg_send(text):
         print("posted message_id", r.json()["result"]["message_id"])
     time.sleep(1.5)
     return bool(ok)
+
+
+def tg_photo(png, caption):
+    """PNG графика. Сбой не роняет бота."""
+    try:
+        r = requests.post(
+            f"https://api.telegram.org/bot{TOKEN}/sendPhoto", timeout=40,
+            data={"chat_id": CHANNEL, "caption": (caption or "")[:1024], "parse_mode": "HTML"},
+            files={"photo": ("cbr-week.png", png, "image/png")})
+        ok = r.ok and r.json().get("ok")
+        if not ok:
+            print("Telegram photo error:", r.status_code, r.text[:300], file=sys.stderr)
+        else:
+            print("posted photo", r.json()["result"]["message_id"])
+        time.sleep(1.5)
+        return bool(ok)
+    except Exception as e:
+        print("Telegram photo error:", e, file=sys.stderr)
+        return False
+
+
+def tg_poll(question, options):
+    """Анонимный опрос. В канале Telegram опросы и так анонимные."""
+    try:
+        r = requests.post(
+            f"https://api.telegram.org/bot{TOKEN}/sendPoll", timeout=20,
+            data={
+                "chat_id": CHANNEL,
+                "question": question,
+                "options": json.dumps(list(options), ensure_ascii=False),
+                "is_anonymous": "true",
+                "allows_multiple_answers": "false",
+            })
+        ok = r.ok and r.json().get("ok")
+        if not ok:
+            print("Telegram poll error:", r.status_code, r.text[:300], file=sys.stderr)
+        else:
+            print("posted poll", r.json()["result"]["message_id"])
+        time.sleep(1.5)
+        return bool(ok)
+    except Exception as e:
+        print("Telegram poll error:", e, file=sys.stderr)
+        return False
 
 
 def get_cbr():
@@ -257,6 +328,36 @@ def _level(symbol, value, diff, digits):
     return text
 
 
+def _brent_bits(price, prev):
+    """Цена Brent и изменение за день. Пустая строка, если цены нет."""
+    if price is None:
+        return ""
+    try:
+        text = fmt(float(price), 1)
+    except (TypeError, ValueError):
+        return ""
+    diff = _diff(price, prev)
+    icon = trend_icon(diff, 1)
+    if icon and diff is not None:
+        text += f" {icon}{fmt(abs(float(diff)), 1)}"
+    return "🛢 " + text
+
+
+def brent_digest_line(price, prev):
+    """Строка Brent для итогов дня. Пусто, если котировки нет."""
+    if price is None:
+        return ""
+    try:
+        text = f"🛢 Brent {fmt(float(price), 1)} $"
+    except (TypeError, ValueError):
+        return ""
+    diff = _diff(price, prev)
+    icon = trend_icon(diff, 1)
+    if icon and diff is not None:
+        text += f" {icon}{fmt(abs(float(diff)), 1)}"
+    return text
+
+
 SHARP_PCT = 1.0
 SHARP_COOLDOWN = 3 * 3600
 
@@ -354,11 +455,9 @@ def morning_summary(cbr, key_rate=None, brent=None, brent_prev=None):
             parts.append(_level("¥", cbr["cny"], _diff(cbr.get("cny"), cbr.get("cny_prev")), 2))
         except (TypeError, ValueError):
             pass
-    if brent is not None:
-        try:
-            parts.append(_level("🛢", brent, _diff(brent, brent_prev), 1))
-        except (TypeError, ValueError):
-            pass
+    brent_bit = _brent_bits(brent, brent_prev)
+    if brent_bit:
+        parts.append(brent_bit)
     lines = [" · ".join(parts)]
     if key_rate is not None:
         try:
@@ -931,7 +1030,7 @@ class ModelClient:
         self.stop = False
         self._post = post or requests.post
 
-    def analyze(self, title, body):
+    def analyze(self, title, body, hint=""):
         if self.stop or self.used >= self.limit:
             return None
         token = os.environ.get("GITHUB_TOKEN")
@@ -940,9 +1039,15 @@ class ModelClient:
             print("AI skipped: no GITHUB_TOKEN", file=sys.stderr)
             return None
         self.used += 1
+        extra = (hint or "").strip()
+        if not extra and getattr(self, "meeting_hint", "") and _RATE_NEWS.search(title or ""):
+            extra = self.meeting_hint
+        user = f"Заголовок: {title}\n\nТекст новости:\n{(body or '')[:4000]}"
+        if extra:
+            user = extra + "\n\n" + user
         messages = [
             {"role": "system", "content": AI_SYSTEM},
-            {"role": "user", "content": f"Заголовок: {title}\n\nТекст новости:\n{(body or '')[:4000]}"},
+            {"role": "user", "content": user},
         ]
         try:
             content = self._complete(token, messages, json_mode=True)
@@ -955,8 +1060,31 @@ class ModelClient:
             print("AI error:", e, file=sys.stderr)
             return None
 
-    def _complete(self, token, messages, json_mode):
-        payload = {"model": AI_MODEL, "messages": messages, "temperature": 0.7, "max_tokens": 700}
+    def ask(self, system, user, temperature=0.3):
+        """Короткий JSON для календаря и прогнозов. None — модель недоступна."""
+        if self.stop or self.used >= self.limit:
+            return None
+        token = os.environ.get("GITHUB_TOKEN")
+        if not token:
+            self.stop = True
+            print("AI skipped: no GITHUB_TOKEN", file=sys.stderr)
+            return None
+        self.used += 1
+        messages = [
+            {"role": "system", "content": system},
+            {"role": "user", "content": (user or "")[:6000]},
+        ]
+        try:
+            content = self._complete(token, messages, json_mode=True, temperature=temperature)
+            if content is None and not self.stop:
+                content = self._complete(token, messages, json_mode=False, temperature=temperature)
+            return content
+        except Exception as e:
+            print("AI error:", e, file=sys.stderr)
+            return None
+
+    def _complete(self, token, messages, json_mode, temperature=0.7):
+        payload = {"model": AI_MODEL, "messages": messages, "temperature": temperature, "max_tokens": 700}
         if json_mode:
             payload["response_format"] = {"type": "json_object"}
         r = self._post(
@@ -1157,7 +1285,7 @@ def digest_due(st, now):
     return st.get("digest_date") != now.strftime("%Y-%m-%d")
 
 
-def evening_digest(quotes, headlines):
+def evening_digest(quotes, headlines, extras=None):
     lines = ["🌙 <b>Итоги дня</b>"]
     qlines = []
     for name, emoji, last, pct in quotes or []:
@@ -1175,6 +1303,9 @@ def evening_digest(quotes, headlines):
             except (TypeError, ValueError):
                 pass
         qlines.append(bit)
+    for extra in extras or []:
+        if extra:
+            qlines.append(extra)
     if qlines:
         lines.append("")
         lines.extend(qlines)
@@ -1201,6 +1332,545 @@ def mark_seen(st, posted, seen_ids, it):
         posted.append(uid)
         seen_ids.add(uid)
     remember_tg(st, it)
+
+
+_RATE_NEWS = re.compile(r"ставк|ключев|\bцб\b|банк\s+россии", re.I)
+_FORECAST_WORD = re.compile(r"прогноз", re.I)
+
+
+def as_msk(now):
+    if now.tzinfo is None:
+        return now.replace(tzinfo=MSK)
+    return now.astimezone(MSK)
+
+
+def last_weekly_slot(now, weekday, hour, minute=0):
+    """Последний уже наступивший слот: weekday пн=0 … вс=6, час МСК."""
+    now = as_msk(now)
+    delta = (now.weekday() - weekday) % 7
+    day = now.date() - timedelta(days=delta)
+    slot = datetime(day.year, day.month, day.day, hour, minute, tzinfo=MSK)
+    if now < slot:
+        slot -= timedelta(days=7)
+    return slot
+
+
+def slot_open(st, key, slot, now):
+    """Слот ещё не выходил и сейчас не позже конца следующего дня."""
+    now = as_msk(now)
+    slot = as_msk(slot)
+    if now < slot:
+        return False
+    end = datetime(slot.year, slot.month, slot.day, 23, 59, 59, tzinfo=MSK) + timedelta(days=1)
+    if now > end:
+        return False
+    return st.get(key) != slot.strftime("%Y-%m-%d")
+
+
+def _json_obj(content):
+    if isinstance(content, list):
+        bits = []
+        for part in content:
+            if isinstance(part, str):
+                bits.append(part)
+            elif isinstance(part, dict):
+                bits.append(str(part.get("text") or part.get("content") or ""))
+        content = "".join(bits)
+    text = str(content or "").strip()
+    text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text, flags=re.I)
+    if not text:
+        return None
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        m = re.search(r"\{.*\}", text, re.S)
+        if not m:
+            return None
+        try:
+            data = json.loads(m.group(0))
+        except json.JSONDecodeError:
+            return None
+    return data if isinstance(data, dict) else None
+
+
+def _nums(text):
+    return set(re.findall(r"\d+(?:[.,]\d+)?", text or ""))
+
+
+def _grounded(line, source):
+    """Все числа строки встречаются в источнике. Иначе модель их выдумала."""
+    src = set()
+    for n in _nums(source):
+        src.add(n)
+        src.add(n.replace(",", "."))
+        src.add(n.replace(".", ","))
+    for n in _nums(line):
+        if n not in src and n.replace(",", ".") not in src and n.replace(".", ",") not in src:
+            return False
+    return True
+
+
+def _parse_xml_daily(content):
+    if not content:
+        return None
+    root = ET.fromstring(content)
+    raw = root.attrib.get("Date") or ""
+    parts = raw.split(".")
+    if len(parts) != 3:
+        return None
+    dd, mm, yy = parts
+    iso = f"{yy}-{mm}-{dd}"
+    out = {}
+    for val in root.iter("Valute"):
+        code = nom = value = None
+        for child in val:
+            name = child.tag.rsplit("}", 1)[-1]
+            if name == "CharCode":
+                code = (child.text or "").strip()
+            elif name == "Nominal" and child.text:
+                try:
+                    nom = float(child.text.replace(",", ".")) or 1
+                except ValueError:
+                    nom = 1
+            elif name == "Value" and child.text:
+                try:
+                    value = float(child.text.replace(",", "."))
+                except ValueError:
+                    value = None
+        if code in ("USD", "CNY") and value is not None:
+            out[code] = value / (nom or 1)
+    return iso, out
+
+
+def official_tomorrow(cbr, today, get=None):
+    """Курс ЦБ с датой позже сегодня. None, если на завтра ещё не вышел."""
+    try:
+        today_s = today.isoformat()
+    except AttributeError:
+        today_s = str(today)[:10]
+    if isinstance(cbr, dict) and str(cbr.get("date") or "")[:10] > today_s:
+        return {"date": str(cbr["date"])[:10], "usd": cbr.get("usd"), "usd_prev": cbr.get("usd_prev"),
+                "cny": cbr.get("cny"), "cny_prev": cbr.get("cny_prev")}
+    get = get or requests.get
+    try:
+        r = get("https://www.cbr.ru/scripts/XML_daily.asp", timeout=20, headers=UA)
+        parsed = _parse_xml_daily(getattr(r, "content", b"") or b"")
+        if not parsed or parsed[0] <= today_s:
+            return None
+        iso, cur = parsed
+        prev = {}
+        try:
+            day = today if isinstance(today, date) else date.fromisoformat(today_s)
+            url = "https://www.cbr.ru/scripts/XML_daily.asp?date_req=" + day.strftime("%d/%m/%Y")
+            r2 = get(url, timeout=20, headers=UA)
+            parsed2 = _parse_xml_daily(getattr(r2, "content", b"") or b"")
+            if parsed2 and parsed2[0] <= today_s:
+                prev = parsed2[1]
+        except Exception:
+            prev = {}
+        return {"date": iso, "usd": cur.get("USD"), "usd_prev": prev.get("USD"),
+                "cny": cur.get("CNY"), "cny_prev": prev.get("CNY")}
+    except Exception as e:
+        print("CBR tomorrow error:", e, file=sys.stderr)
+        return None
+
+
+def tomorrow_due(st, now, rates):
+    now = as_msk(now)
+    if (now.hour, now.minute) < (15, 30):
+        return False
+    if not isinstance(rates, dict) or not rates.get("date"):
+        return False
+    if str(rates["date"])[:10] <= now.date().isoformat():
+        return False
+    return st.get("cbr_next") != str(rates["date"])[:10]
+
+
+def _chip(symbol, value, prev):
+    if value is None:
+        return ""
+    try:
+        text = f"{symbol} {fmt(float(value))}"
+    except (TypeError, ValueError):
+        return ""
+    diff = _diff(value, prev)
+    icon = trend_icon(diff, 2)
+    if icon and diff is not None:
+        text += f" {icon}{fmt(abs(float(diff)), 2)}"
+    return text
+
+
+def cbr_tomorrow_text(rates):
+    if not isinstance(rates, dict) or not rates.get("date"):
+        return ""
+    try:
+        dt = datetime.fromisoformat(str(rates["date"])[:10])
+        head = f"📊 <b>Курс ЦБ на завтра</b> · {dt.day:02d}.{dt.month:02d}"
+    except ValueError:
+        head = "📊 <b>Курс ЦБ на завтра</b>"
+    bits = [b for b in (_chip("$", rates.get("usd"), rates.get("usd_prev")),
+                        _chip("¥", rates.get("cny"), rates.get("cny_prev"))) if b]
+    if not bits:
+        return ""
+    return head + "\n" + " · ".join(bits)
+
+
+def _meeting_on(day):
+    iso = day.isoformat()
+    for when, anchor in CBR_MEETINGS_2026:
+        if when == iso:
+            return when, anchor
+    return None, False
+
+
+def reminder_due(st, now):
+    """День накануне заседания, с 09:00 МСК, один раз."""
+    now = as_msk(now)
+    if (now.hour, now.minute) < (9, 0):
+        return None, False
+    when, anchor = _meeting_on(now.date() + timedelta(days=1))
+    if when and st.get("rate_remind") != when:
+        return when, anchor
+    return None, False
+
+
+def meeting_live(now):
+    """День заседания после 13:30 МСК — новости про ставку идут в модель первыми."""
+    now = as_msk(now)
+    if (now.hour, now.minute) < (13, 30):
+        return None, False
+    return _meeting_on(now.date())
+
+
+def known_key_rate(live, st):
+    for raw in (live, (st or {}).get("key_rate"), KEY_RATE_KNOWN):
+        if raw is None:
+            continue
+        try:
+            return round(float(raw), 2)
+        except (TypeError, ValueError):
+            continue
+    return KEY_RATE_KNOWN
+
+
+def meeting_reminder_text(when, rate, anchor):
+    dt = date.fromisoformat(when)
+    lines = [
+        "🏦 <b>Завтра ставка ЦБ</b>",
+        f"{dt.day:02d}.{dt.month:02d} · сейчас {html.escape(fmt_pct(rate))}",
+        "Пресс-релиз в 13:30 МСК",
+    ]
+    if anchor:
+        lines.append("Опорное заседание — выйдет прогноз")
+    return "\n".join(lines)
+
+
+def _tax_day(year, month):
+    """Крупные налоги около 28-го. С выходного срок сдвигается на будний."""
+    d = date(year, month, 28)
+    while d.weekday() >= 5:
+        d += timedelta(days=1)
+    return d
+
+
+def week_events(monday):
+    """Известные события недели. Список жёсткий, модель ничего не дописывает."""
+    if isinstance(monday, datetime):
+        monday = monday.date()
+    days = [monday + timedelta(days=i) for i in range(7)]
+    have = set(days)
+    events = []
+    for d in days:
+        if d.weekday() == 2:
+            events.append(f"{d.day:02d}.{d.month:02d} ср — недельная инфляция Росстата")
+    seen_tax = set()
+    for d in days:
+        tax = _tax_day(d.year, d.month)
+        if tax in have and tax not in seen_tax:
+            seen_tax.add(tax)
+            events.append(f"{tax.day:02d}.{tax.month:02d} — налоги около 28-го, спрос на рубли")
+    for when, anchor in CBR_MEETINGS_2026:
+        d = date.fromisoformat(when)
+        if d in have:
+            tail = ", опорное: выйдет прогноз" if anchor else ""
+            events.append(f"{d.day:02d}.{d.month:02d} — заседание ЦБ по ставке{tail}, релиз в 13:30")
+    for when in FOMC_2026:
+        d = date.fromisoformat(when)
+        if d in have:
+            events.append(f"{d.day:02d}.{d.month:02d} — решение FOMC")
+    return events
+
+
+CALENDAR_SYSTEM = (
+    "Ты ведёшь короткий телеграм-канал про рубль. По списку событий напиши 3–6 строк по-русски, "
+    "стилем трейдера, без кликбейта. Ничего не добавляй: ни дат, ни цифр, ни событий вне списка. "
+    "Ответ — один JSON {\"lines\": [\"...\"]}. Без HTML."
+)
+
+
+def _ai_lines(raw, source, limit):
+    data = _json_obj(raw) or {}
+    lines = []
+    for line in data.get("lines") or []:
+        text = _plain(line, 180)
+        if text and _grounded(text, source) and text not in lines:
+            lines.append(text)
+        if len(lines) >= limit:
+            break
+    return lines
+
+
+def calendar_post(events, headlines, ask=None):
+    events = [e for e in (events or []) if e]
+    if not events:
+        events = ["На этой неделе нет заседаний ЦБ и FOMC"]
+    facts = "\n".join(f"- {e}" for e in events)
+    lines = []
+    if ask:
+        try:
+            news = "\n".join(f"- {h}" for h in (headlines or []) if h)[:800]
+            user = "События:\n" + facts
+            if news:
+                user += "\n\nФон ленты, не источник новых дат:\n" + news
+            lines = _ai_lines(ask(CALENDAR_SYSTEM, user), facts, 6)
+        except Exception as e:
+            print("calendar AI error:", e, file=sys.stderr)
+            lines = []
+    if not lines:
+        lines = events[:6]
+    body = "\n".join(f"• {html.escape(x)}" for x in lines)
+    return "📅 <b>Неделя рубля</b>\n\n" + body
+
+
+FORECAST_SYSTEM = (
+    "Собери прогнозы курса доллара и юаня только из переданных источников. "
+    "Коротко, по-русски, до 5 строк. Каждая строка — чей прогноз и какая цифра, если цифра есть в тексте. "
+    "Запрещено придумывать числа, диапазоны и имена. Нет прогноза — {\"lines\": []}. "
+    "Ответ — один JSON {\"lines\": [\"...\"]}. Без HTML."
+)
+
+
+def remember_sources(st, news):
+    """Копим куски с словом «прогноз», чтобы пятничный пост опирался на неделю."""
+    items = [x for x in (st.get("recent_news") or []) if isinstance(x, dict)]
+    seen = {x.get("title") or "" for x in items}
+    for it in news or []:
+        if not isinstance(it, dict):
+            continue
+        blob = " ".join(str(it.get(k) or "") for k in ("title", "summary", "body"))
+        if not _FORECAST_WORD.search(blob):
+            continue
+        title = _plain(it.get("title"), 160)
+        if not title or title in seen:
+            continue
+        items.append({"title": title, "text": _plain(blob, 600), "ts": time.time()})
+        seen.add(title)
+    st["recent_news"] = items[-40:]
+
+
+def forecast_sources(st, now, days=8):
+    now_ts = time.time() if now is None else None
+    try:
+        if isinstance(now, datetime):
+            now_ts = now.timestamp()
+    except (OSError, ValueError):
+        now_ts = time.time()
+    if now_ts is None:
+        now_ts = time.time()
+    cutoff = now_ts - days * 86400
+    rows = []
+    for x in st.get("recent_news") or []:
+        if not isinstance(x, dict):
+            continue
+        try:
+            ts = float(x.get("ts") or 0)
+        except (TypeError, ValueError):
+            ts = 0
+        blob = f"{x.get('title') or ''} {x.get('text') or ''}"
+        if ts >= cutoff and _FORECAST_WORD.search(blob):
+            rows.append(x)
+    return rows[-12:]
+
+
+def forecast_post(sources, ask=None):
+    sources = list(sources or [])
+    if not sources:
+        return ""
+    blob = "\n".join(f"- {s.get('title') or ''}. {s.get('text') or ''}" for s in sources)[:4000]
+    lines = []
+    if ask:
+        try:
+            lines = _ai_lines(ask(FORECAST_SYSTEM, blob), blob, 5)
+        except Exception as e:
+            print("forecast AI error:", e, file=sys.stderr)
+            lines = []
+    if not lines:
+        for s in sources:
+            line = _plain(s.get("title") or "", 180)
+            if line and line not in lines:
+                lines.append(line)
+            if len(lines) >= 5:
+                break
+    if not lines:
+        return ""
+    body = "\n".join(f"• {html.escape(x)}" for x in lines)
+    return "🔮 <b>Прогнозы</b>\n\n" + body
+
+
+def parse_cbr_dynamic(content):
+    """XML_dynamic.asp → список (YYYY-MM-DD, курс за 1 единицу)."""
+    if not content:
+        return []
+    try:
+        root = ET.fromstring(content)
+    except ET.ParseError:
+        return []
+    out = []
+    for rec in root.iter("Record"):
+        raw = rec.attrib.get("Date") or ""
+        parts = raw.split(".")
+        if len(parts) != 3:
+            continue
+        dd, mm, yy = parts
+        nominal, value = 1.0, None
+        for child in rec:
+            name = child.tag.rsplit("}", 1)[-1]
+            if name == "Nominal" and child.text:
+                try:
+                    nominal = float(child.text.replace(",", ".")) or 1
+                except ValueError:
+                    nominal = 1
+            elif name == "Value" and child.text:
+                try:
+                    value = float(child.text.replace(",", "."))
+                except ValueError:
+                    value = None
+        if value is None:
+            continue
+        out.append((f"{yy}-{mm}-{dd}", value / nominal))
+    return out
+
+
+def fetch_cbr_history(end, get=None, days=30):
+    """Официальные USD и CNY за последние days дней. Пусто при любой ошибке."""
+    get = get or requests.get
+    try:
+        end_d = end if isinstance(end, date) else end.date()
+    except AttributeError:
+        return []
+    start = end_d - timedelta(days=days)
+
+    def load(code):
+        url = ("https://www.cbr.ru/scripts/XML_dynamic.asp"
+               f"?date_req1={start.strftime('%d/%m/%Y')}"
+               f"&date_req2={end_d.strftime('%d/%m/%Y')}&VAL_NM_RQ={code}")
+        r = get(url, timeout=20, headers=UA)
+        if getattr(r, "status_code", 200) >= 400:
+            return []
+        return parse_cbr_dynamic(getattr(r, "content", b"") or b"")
+
+    try:
+        usd, cny = load("R01235"), load("R01375")
+    except Exception as e:
+        print("history error:", e, file=sys.stderr)
+        return []
+    by = {}
+    for d, v in usd:
+        by.setdefault(d, {})["usd"] = v
+    for d, v in cny:
+        by.setdefault(d, {})["cny"] = v
+    rows = [{"date": d, **by[d]} for d in sorted(by) if by[d].get("usd") is not None]
+    return rows[-30:]
+
+
+def chart_caption(rows):
+    if not rows:
+        return ""
+    first, last = rows[0], rows[-1]
+
+    def bit(symbol, key):
+        series = [r for r in rows if r.get(key) is not None]
+        if not series:
+            return ""
+        try:
+            text = f"{symbol} {fmt(float(series[-1][key]))}"
+            if len(series) < 2:
+                return text
+            diff = float(series[-1][key]) - float(series[0][key])
+        except (TypeError, ValueError):
+            return ""
+        icon = trend_icon(diff, 2)
+        if icon:
+            text += f" {icon}{fmt(abs(diff))}"
+        return text
+
+    try:
+        d0 = datetime.fromisoformat(first["date"]).strftime("%d.%m")
+        d1 = datetime.fromisoformat(last["date"]).strftime("%d.%m")
+        head = f"📈 <b>Курс ЦБ</b> · {d0}–{d1}"
+    except (TypeError, ValueError):
+        head = "📈 <b>Курс ЦБ</b>"
+    parts = [p for p in (bit("$", "usd"), bit("¥", "cny")) if p]
+    if not parts:
+        return ""
+    return head + "\n" + " · ".join(parts)
+
+
+def render_rate_chart(rows):
+    """PNG USD/RUB и CNY/RUB. None, если точек мало или matplotlib недоступен."""
+    rows = [r for r in (rows or []) if r.get("usd") is not None]
+    if len(rows) < 7:
+        return None
+    try:
+        os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
+        os.makedirs(os.environ["MPLCONFIGDIR"], exist_ok=True)
+        import matplotlib
+        matplotlib.use("Agg", force=True)
+        import matplotlib.pyplot as plt
+        from matplotlib.dates import DateFormatter
+    except Exception as e:
+        print("chart import error:", e, file=sys.stderr)
+        return None
+    try:
+        dates = [datetime.fromisoformat(r["date"]) for r in rows]
+        usd = [float(r["usd"]) for r in rows]
+        cny = [float(r["cny"]) if r.get("cny") is not None else None for r in rows]
+        fig, ax = plt.subplots(figsize=(8.2, 4.4), dpi=140)
+        fig.patch.set_facecolor("#0f1419")
+        ax.set_facecolor("#0f1419")
+        ax.plot(dates, usd, color="#f5c542", lw=2.0, label="USD/RUB")
+        ax.tick_params(colors="#d7dde3")
+        ax.yaxis.label.set_color("#f5c542")
+        ax.set_ylabel("USD/RUB", color="#f5c542")
+        for spine in ax.spines.values():
+            spine.set_color("#2c3640")
+        ax.grid(True, color="#2c3640", lw=0.6)
+        ax.xaxis.set_major_formatter(DateFormatter("%d.%m"))
+        if any(v is not None for v in cny):
+            ax2 = ax.twinx()
+            xs = [d for d, v in zip(dates, cny) if v is not None]
+            ys = [v for v in cny if v is not None]
+            ax2.plot(xs, ys, color="#5ac8fa", lw=2.0, label="CNY/RUB")
+            ax2.tick_params(colors="#5ac8fa")
+            ax2.set_ylabel("CNY/RUB", color="#5ac8fa")
+            for spine in ax2.spines.values():
+                spine.set_color("#2c3640")
+            h1, l1 = ax.get_legend_handles_labels()
+            h2, l2 = ax2.get_legend_handles_labels()
+            leg = ax.legend(h1 + h2, l1 + l2, facecolor="#0f1419", edgecolor="#2c3640", labelcolor="#d7dde3")
+            leg.get_frame().set_alpha(0.9)
+        else:
+            leg = ax.legend(facecolor="#0f1419", edgecolor="#2c3640", labelcolor="#d7dde3")
+            leg.get_frame().set_alpha(0.9)
+        fig.autofmt_xdate(rotation=0, ha="center")
+        fig.tight_layout()
+        buf = io.BytesIO()
+        fig.savefig(buf, format="png")
+        plt.close(fig)
+        return buf.getvalue()
+    except Exception as e:
+        print("chart error:", e, file=sys.stderr)
+        return None
 
 
 def main():
@@ -1233,12 +1903,34 @@ def main():
     if rate_msg and tg_send(rate_msg):
         st["key_rate"] = round(float(key_rate), 2)
 
+    # напоминание за день до заседания ЦБ
+    try:
+        when, anchor = reminder_due(st, now)
+        if when:
+            text = meeting_reminder_text(when, known_key_rate(key_rate, st), anchor)
+            if text and tg_send(text):
+                st["rate_remind"] = when
+    except Exception as e:
+        print("reminder error:", e, file=sys.stderr)
+
     # 3) новости: текст + разбор модели, не больше 5 постов и 8 вызовов
     news = collect_news(st, first_run)
+    try:
+        live, _anchor = meeting_live(now)
+        if live:
+            news.sort(key=lambda it: 0 if isinstance(it, dict) and _RATE_NEWS.search(
+                f"{it.get('title') or ''} {it.get('summary') or ''}") else 1)
+    except Exception as e:
+        print("meeting sort error:", e, file=sys.stderr)
     posted = st.setdefault("posted", [])
     seen_ids = set(posted)
     ctx = quote_context(st, cbr, usd_mkt, brent, brent_prev, key_rate)
     client = ModelClient()
+    try:
+        if meeting_live(now)[0]:
+            client.meeting_hint = MEETING_HINT
+    except Exception:
+        pass
     ai_seen = st.get("ai_seen")
     if not isinstance(ai_seen, list):
         ai_seen = []
@@ -1263,16 +1955,61 @@ def main():
             if it.get("id") not in seen_ids and it.get("id") not in attempted:
                 mark_seen(st, posted, seen_ids, it)
     try:
+        remember_sources(st, news)
+    except Exception as e:
+        print("sources error:", e, file=sys.stderr)
+
+    # курс ЦБ на завтра — после 15:30 МСК, один раз на дату курса
+    try:
+        rates = official_tomorrow(cbr, now.date())
+        if tomorrow_due(st, now, rates):
+            text = cbr_tomorrow_text(rates)
+            if text and tg_send(text):
+                st["cbr_next"] = str(rates["date"])[:10]
+    except Exception as e:
+        print("tomorrow error:", e, file=sys.stderr)
+
+    try:
         if digest_due(st, now):
             digest = evening_digest(
                 (("доллар", "💵", usd_mkt, usd_day),
                  ("евро", "💶", eur_mkt, eur_day),
                  ("юань", "🇨🇳", cny_mkt, cny_day)),
-                top_day_headlines(st.get("day_news"), now))
+                top_day_headlines(st.get("day_news"), now),
+                extras=[brent_digest_line(brent, brent_prev)])
             if digest and tg_send(digest):
                 st["digest_date"] = now.strftime("%Y-%m-%d")
     except Exception as e:
         print("digest error:", e, file=sys.stderr)
+
+    # недельные слоты: открыты до конца следующего дня, если этот запуск пропустил минуту
+    try:
+        cal_slot = last_weekly_slot(now, 0, 9)
+        poll_slot = last_weekly_slot(now, 0, 10)
+        fc_slot = last_weekly_slot(now, 4, 18)
+        chart_slot = last_weekly_slot(now, 6, 19)
+        need_ai = slot_open(st, "week_cal", cal_slot, now) or slot_open(st, "week_fc", fc_slot, now)
+        sched = ModelClient(limit=2) if need_ai else None
+        if slot_open(st, "week_cal", cal_slot, now):
+            titles = [x.get("title") for x in (st.get("recent_news") or [])[-5:] if isinstance(x, dict)]
+            text = calendar_post(week_events(cal_slot.date()), titles, sched.ask if sched else None)
+            if text and tg_send(text):
+                st["week_cal"] = cal_slot.strftime("%Y-%m-%d")
+        if slot_open(st, "week_poll", poll_slot, now):
+            if tg_poll(POLL_QUESTION, POLL_OPTIONS):
+                st["week_poll"] = poll_slot.strftime("%Y-%m-%d")
+        if slot_open(st, "week_fc", fc_slot, now):
+            text = forecast_post(forecast_sources(st, now), sched.ask if sched else None)
+            if text and tg_send(text):
+                st["week_fc"] = fc_slot.strftime("%Y-%m-%d")
+        if slot_open(st, "week_chart", chart_slot, now):
+            rows = fetch_cbr_history(now.date())
+            png = render_rate_chart(rows)
+            caption = chart_caption(rows)
+            if png and caption and tg_photo(png, caption):
+                st["week_chart"] = chart_slot.strftime("%Y-%m-%d")
+    except Exception as e:
+        print("weekly error:", e, file=sys.stderr)
     print(f"news found: {len(news)}, posted {sent}, ai calls {client.used}")
     save_state(st)
 
