@@ -68,28 +68,16 @@
   "tg:banksta:104181",
   "171a71d96c44a017",
   "tg:markettwits:390508",
-  "5fe4044d7b930037"
+  "5fe4044d7b930037",
+  "tg:markettwits:390538",
+  "5a6977c8e5c37ceb",
+  "82766a47de7eb48d",
+  "e08fc71fcc80f688",
+  "9b435eff415fb32c"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390418",
-   "tg:markettwits:390417",
-   "tg:markettwits:390419",
-   "tg:markettwits:390420",
-   "tg:markettwits:390421",
-   "tg:markettwits:390422",
-   "tg:markettwits:390423",
-   "tg:markettwits:390425",
-   "tg:markettwits:390426",
-   "tg:markettwits:390429",
-   "tg:markettwits:390428",
-   "tg:markettwits:390427",
-   "tg:markettwits:390430",
-   "tg:markettwits:390432",
-   "tg:markettwits:390433",
-   "tg:markettwits:390434",
-   "tg:markettwits:390435",
    "tg:markettwits:390436",
    "tg:markettwits:390437",
    "tg:markettwits:390438",
@@ -172,7 +160,24 @@
    "tg:markettwits:390519",
    "tg:markettwits:390520",
    "tg:markettwits:390521",
-   "tg:markettwits:390508"
+   "tg:markettwits:390508",
+   "tg:markettwits:390539",
+   "tg:markettwits:390540",
+   "tg:markettwits:390541",
+   "tg:markettwits:390542",
+   "tg:markettwits:390543",
+   "tg:markettwits:390544",
+   "tg:markettwits:390545",
+   "tg:markettwits:390546",
+   "tg:markettwits:390547",
+   "tg:markettwits:390549",
+   "tg:markettwits:390550",
+   "tg:markettwits:390551",
+   "tg:markettwits:390552",
+   "tg:markettwits:390555",
+   "tg:markettwits:390556",
+   "tg:markettwits:390557",
+   "tg:markettwits:390538"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -192,7 +197,9 @@
    "tg:russianmacro:23641",
    "tg:russianmacro:23642",
    "tg:russianmacro:23643",
-   "tg:russianmacro:23644"
+   "tg:russianmacro:23644",
+   "tg:russianmacro:23645",
+   "tg:russianmacro:23646"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -251,7 +258,11 @@
    "tg:banksta:104179",
    "tg:banksta:104180",
    "tg:banksta:104188",
-   "tg:banksta:104181"
+   "tg:banksta:104181",
+   "tg:banksta:104189",
+   "tg:banksta:104193",
+   "tg:banksta:104194",
+   "tg:banksta:104195"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -293,7 +304,11 @@
    "tg:cbrstocks:83613",
    "tg:cbrstocks:83614",
    "tg:cbrstocks:83615",
-   "tg:cbrstocks:83616"
+   "tg:cbrstocks:83616",
+   "tg:cbrstocks:83617",
+   "tg:cbrstocks:83618",
+   "tg:cbrstocks:83623",
+   "tg:cbrstocks:83624"
   ],
   "rbc_news": [
    "tg:rbc_news:159375",
@@ -346,7 +361,15 @@
    "tg:rbc_news:159441",
    "tg:rbc_news:159442",
    "tg:rbc_news:159448",
-   "tg:rbc_news:159449"
+   "tg:rbc_news:159449",
+   "tg:rbc_news:159450",
+   "tg:rbc_news:159451",
+   "tg:rbc_news:159452",
+   "tg:rbc_news:159453",
+   "tg:rbc_news:159454",
+   "tg:rbc_news:159455",
+   "tg:rbc_news:159456",
+   "tg:rbc_news:159457"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -398,7 +421,10 @@
    "tg:interfaxonline:80706",
    "tg:interfaxonline:80707",
    "tg:interfaxonline:80708",
-   "tg:interfaxonline:80709"
+   "tg:interfaxonline:80709",
+   "tg:interfaxonline:80710",
+   "tg:interfaxonline:80711",
+   "tg:interfaxonline:80712"
   ]
  },
  "rate_samples": [
@@ -406,6 +432,11 @@
    "ts": 1793019001.181101,
    "usd": 80.97,
    "cny": 12.072
+  },
+  {
+   "ts": 1793026219.5650225,
+   "usd": 80.9025,
+   "cny": 12.075
   }
  ],
  "ai_seen": [
@@ -413,7 +444,12 @@
   "tg:banksta:104181",
   "171a71d96c44a017",
   "tg:markettwits:390508",
-  "5fe4044d7b930037"
+  "5fe4044d7b930037",
+  "tg:markettwits:390538",
+  "5a6977c8e5c37ceb",
+  "82766a47de7eb48d",
+  "e08fc71fcc80f688",
+  "9b435eff415fb32c"
  ],
  "layout_i": 0,
  "day_news": [
@@ -451,6 +487,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793019047.32336
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "⬆️🇺🇸#fx #сша Индекс доллара (DXY) возобновил укрепление…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793026237.2605064
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "«Европлан» зафиксировал объем размещения облигаций на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793026239.0986714
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Meta* планирует SPO на 95 миллиардов долларов",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793026240.9953527
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Акционеры «Акрона» утвердили дивиденды из нераспределенной…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793026242.8569567
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "\"Европлан\" разместит биржевые облигации на 13,5 млрд рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793026244.7596493
   }
  ]
 }
