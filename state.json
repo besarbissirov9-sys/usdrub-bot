@@ -63,28 +63,16 @@
   "tg:interfaxonline:80706",
   "6e1a5702860b190c",
   "322727b144270e46",
-  "b86ac83fbc51059a"
+  "b86ac83fbc51059a",
+  "b351d6953710b8ec",
+  "tg:banksta:104181",
+  "171a71d96c44a017",
+  "tg:markettwits:390508",
+  "5fe4044d7b930037"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390399",
-   "tg:markettwits:390400",
-   "tg:markettwits:390401",
-   "tg:markettwits:390402",
-   "tg:markettwits:390403",
-   "tg:markettwits:390405",
-   "tg:markettwits:390406",
-   "tg:markettwits:390407",
-   "tg:markettwits:390408",
-   "tg:markettwits:390409",
-   "tg:markettwits:390410",
-   "tg:markettwits:390411",
-   "tg:markettwits:390412",
-   "tg:markettwits:390413",
-   "tg:markettwits:390414",
-   "tg:markettwits:390415",
-   "tg:markettwits:390416",
    "tg:markettwits:390418",
    "tg:markettwits:390417",
    "tg:markettwits:390419",
@@ -167,7 +155,24 @@
    "tg:markettwits:390500",
    "tg:markettwits:390501",
    "tg:markettwits:390502",
-   "tg:markettwits:390503"
+   "tg:markettwits:390503",
+   "tg:markettwits:390504",
+   "tg:markettwits:390505",
+   "tg:markettwits:390506",
+   "tg:markettwits:390507",
+   "tg:markettwits:390509",
+   "tg:markettwits:390510",
+   "tg:markettwits:390511",
+   "tg:markettwits:390512",
+   "tg:markettwits:390513",
+   "tg:markettwits:390514",
+   "tg:markettwits:390515",
+   "tg:markettwits:390516",
+   "tg:markettwits:390518",
+   "tg:markettwits:390519",
+   "tg:markettwits:390520",
+   "tg:markettwits:390521",
+   "tg:markettwits:390508"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -242,7 +247,11 @@
    "tg:banksta:104169",
    "tg:banksta:104172",
    "tg:banksta:104173",
-   "tg:banksta:104178"
+   "tg:banksta:104178",
+   "tg:banksta:104179",
+   "tg:banksta:104180",
+   "tg:banksta:104188",
+   "tg:banksta:104181"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -279,7 +288,12 @@
    "tg:cbrstocks:83608",
    "tg:cbrstocks:83609",
    "tg:cbrstocks:83605",
-   "tg:cbrstocks:83610"
+   "tg:cbrstocks:83610",
+   "tg:cbrstocks:83612",
+   "tg:cbrstocks:83613",
+   "tg:cbrstocks:83614",
+   "tg:cbrstocks:83615",
+   "tg:cbrstocks:83616"
   ],
   "rbc_news": [
    "tg:rbc_news:159375",
@@ -327,7 +341,12 @@
    "tg:rbc_news:159436",
    "tg:rbc_news:159437",
    "tg:rbc_news:159438",
-   "tg:rbc_news:159439"
+   "tg:rbc_news:159439",
+   "tg:rbc_news:159440",
+   "tg:rbc_news:159441",
+   "tg:rbc_news:159442",
+   "tg:rbc_news:159448",
+   "tg:rbc_news:159449"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -376,7 +395,62 @@
    "tg:interfaxonline:80703",
    "tg:interfaxonline:80704",
    "tg:interfaxonline:80705",
-   "tg:interfaxonline:80706"
+   "tg:interfaxonline:80706",
+   "tg:interfaxonline:80707",
+   "tg:interfaxonline:80708",
+   "tg:interfaxonline:80709"
   ]
- }
+ },
+ "rate_samples": [
+  {
+   "ts": 1793019001.181101,
+   "usd": 80.97,
+   "cny": 12.072
+  }
+ ],
+ "ai_seen": [
+  "b351d6953710b8ec",
+  "tg:banksta:104181",
+  "171a71d96c44a017",
+  "tg:markettwits:390508",
+  "5fe4044d7b930037"
+ ],
+ "layout_i": 0,
+ "day_news": [
+  {
+   "date": "2026-10-26",
+   "headline": "\"Факторы поддержки рубля уже учтены в котировках\":…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793019039.9926114
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "44,4 млрд рублей хранятся на банковских счетах 450…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793019041.8364809
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Вклады принесли клиентам «Сбера» 1,79 трлн рублей за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793019043.6657028
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "🇷🇺 #инвестиции #банки #россия Альфа-Инвестиции начисляют…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793019045.4967458
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Банк России рекомендовал банкам контролировать источники…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793019047.32336
+  }
+ ]
 }
