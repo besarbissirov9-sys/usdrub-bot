@@ -33,7 +33,12 @@
   "ef77a92fe3f2d81e",
   "2759daf9c6e02e03",
   "4f39aa7828d3387d",
-  "b7b4d4fc402da740"
+  "b7b4d4fc402da740",
+  "9d27c0c73495ce28",
+  "tg:markettwits:390449",
+  "tg:cbrstocks:83598",
+  "bf8862796b3aa49a",
+  "26390c5767bc27dc"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -84,7 +89,24 @@
    "tg:markettwits:390432",
    "tg:markettwits:390433",
    "tg:markettwits:390434",
-   "tg:markettwits:390435"
+   "tg:markettwits:390435",
+   "tg:markettwits:390436",
+   "tg:markettwits:390437",
+   "tg:markettwits:390438",
+   "tg:markettwits:390439",
+   "tg:markettwits:390440",
+   "tg:markettwits:390441",
+   "tg:markettwits:390442",
+   "tg:markettwits:390443",
+   "tg:markettwits:390445",
+   "tg:markettwits:390446",
+   "tg:markettwits:390447",
+   "tg:markettwits:390448",
+   "tg:markettwits:390450",
+   "tg:markettwits:390451",
+   "tg:markettwits:390452",
+   "tg:markettwits:390454",
+   "tg:markettwits:390449"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -102,7 +124,8 @@
    "tg:russianmacro:23639",
    "tg:russianmacro:23640",
    "tg:russianmacro:23641",
-   "tg:russianmacro:23642"
+   "tg:russianmacro:23642",
+   "tg:russianmacro:23643"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -116,7 +139,9 @@
    "tg:xtxixty:6972",
    "tg:xtxixty:6973",
    "tg:xtxixty:6974",
-   "tg:xtxixty:6975"
+   "tg:xtxixty:6975",
+   "tg:xtxixty:6976",
+   "tg:xtxixty:6977"
   ],
   "banksta": [
    "tg:banksta:104133",
@@ -141,7 +166,10 @@
    "tg:banksta:104155",
    "tg:banksta:104156",
    "tg:banksta:104157",
-   "tg:banksta:104158"
+   "tg:banksta:104158",
+   "tg:banksta:104159",
+   "tg:banksta:104160",
+   "tg:banksta:104161"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -163,7 +191,11 @@
    "tg:cbrstocks:83590",
    "tg:cbrstocks:83591",
    "tg:cbrstocks:83592",
-   "tg:cbrstocks:83593"
+   "tg:cbrstocks:83593",
+   "tg:cbrstocks:83594",
+   "tg:cbrstocks:83595",
+   "tg:cbrstocks:83597",
+   "tg:cbrstocks:83598"
   ],
   "rbc_news": [
    "tg:rbc_news:159375",
@@ -188,7 +220,12 @@
    "tg:rbc_news:159394",
    "tg:rbc_news:159395",
    "tg:rbc_news:159396",
-   "tg:rbc_news:159398"
+   "tg:rbc_news:159398",
+   "tg:rbc_news:159399",
+   "tg:rbc_news:159400",
+   "tg:rbc_news:159401",
+   "tg:rbc_news:159411",
+   "tg:rbc_news:159412"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -225,7 +262,12 @@
    "tg:interfaxonline:80691",
    "tg:interfaxonline:80692",
    "tg:interfaxonline:80693",
-   "tg:interfaxonline:80694"
+   "tg:interfaxonline:80694",
+   "tg:interfaxonline:80695",
+   "tg:interfaxonline:80696",
+   "tg:interfaxonline:80697",
+   "tg:interfaxonline:80698",
+   "tg:interfaxonline:80699"
   ]
  }
 }
