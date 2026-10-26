@@ -17,7 +17,9 @@
   "a4e562c4ad892449",
   "21b950e9b3342b98",
   "tg:banksta:104155",
-  "cd31fa9d512b0d9f"
+  "cd31fa9d512b0d9f",
+  "3ac891326bf1207b",
+  "e0537ab15157b671"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -40,7 +42,13 @@
    "tg:markettwits:390401",
    "tg:markettwits:390402",
    "tg:markettwits:390403",
-   "tg:markettwits:390405"
+   "tg:markettwits:390405",
+   "tg:markettwits:390406",
+   "tg:markettwits:390407",
+   "tg:markettwits:390408",
+   "tg:markettwits:390409",
+   "tg:markettwits:390410",
+   "tg:markettwits:390411"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -168,7 +176,8 @@
    "tg:interfaxonline:80686",
    "tg:interfaxonline:80687",
    "tg:interfaxonline:80688",
-   "tg:interfaxonline:80689"
+   "tg:interfaxonline:80689",
+   "tg:interfaxonline:80690"
   ]
  }
 }
