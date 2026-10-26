@@ -1,6 +1,6 @@
 {
  "last_rate": 80.81,
- "summary_date": "2026-10-25",
+ "summary_date": "2026-10-26",
  "posted": [
   "75971799cba5dbb6",
   "ce756c918cd0610b",
@@ -28,7 +28,12 @@
   "tg:markettwits:390428",
   "tg:markettwits:390427",
   "38a5492cbaa5ca46",
-  "7c32995e596262cf"
+  "7c32995e596262cf",
+  "f59b26eda2a55d13",
+  "ef77a92fe3f2d81e",
+  "2759daf9c6e02e03",
+  "4f39aa7828d3387d",
+  "b7b4d4fc402da740"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -74,7 +79,12 @@
    "tg:markettwits:390426",
    "tg:markettwits:390429",
    "tg:markettwits:390428",
-   "tg:markettwits:390427"
+   "tg:markettwits:390427",
+   "tg:markettwits:390430",
+   "tg:markettwits:390432",
+   "tg:markettwits:390433",
+   "tg:markettwits:390434",
+   "tg:markettwits:390435"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -130,7 +140,8 @@
    "tg:banksta:104154",
    "tg:banksta:104155",
    "tg:banksta:104156",
-   "tg:banksta:104157"
+   "tg:banksta:104157",
+   "tg:banksta:104158"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -176,7 +187,8 @@
    "tg:rbc_news:159393",
    "tg:rbc_news:159394",
    "tg:rbc_news:159395",
-   "tg:rbc_news:159396"
+   "tg:rbc_news:159396",
+   "tg:rbc_news:159398"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
