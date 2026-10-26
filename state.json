@@ -48,7 +48,12 @@
   "b8233b485c0d7703",
   "f3645babe1314d0c",
   "9812aa1c718784fa",
-  "9cf9558b5a13ceb8"
+  "9cf9558b5a13ceb8",
+  "45925b7dee42668a",
+  "98bff4f1d8d56c7c",
+  "615bba731a8ebd0c",
+  "tg:banksta:104168",
+  "b00127edd11c10dc"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -139,7 +144,20 @@
    "tg:markettwits:390474",
    "tg:markettwits:390475",
    "tg:markettwits:390476",
-   "tg:markettwits:390477"
+   "tg:markettwits:390477",
+   "tg:markettwits:390478",
+   "tg:markettwits:390479",
+   "tg:markettwits:390481",
+   "tg:markettwits:390482",
+   "tg:markettwits:390483",
+   "tg:markettwits:390484",
+   "tg:markettwits:390485",
+   "tg:markettwits:390486",
+   "tg:markettwits:390487",
+   "tg:markettwits:390488",
+   "tg:markettwits:390489",
+   "tg:markettwits:390490",
+   "tg:markettwits:390491"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -158,7 +176,8 @@
    "tg:russianmacro:23640",
    "tg:russianmacro:23641",
    "tg:russianmacro:23642",
-   "tg:russianmacro:23643"
+   "tg:russianmacro:23643",
+   "tg:russianmacro:23644"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -207,7 +226,9 @@
    "tg:banksta:104163",
    "tg:banksta:104164",
    "tg:banksta:104165",
-   "tg:banksta:104166"
+   "tg:banksta:104166",
+   "tg:banksta:104167",
+   "tg:banksta:104168"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -237,7 +258,10 @@
    "tg:cbrstocks:83599",
    "tg:cbrstocks:83600",
    "tg:cbrstocks:83601",
-   "tg:cbrstocks:83602"
+   "tg:cbrstocks:83602",
+   "tg:cbrstocks:83603",
+   "tg:cbrstocks:83604",
+   "tg:cbrstocks:83606"
   ],
   "rbc_news": [
    "tg:rbc_news:159375",
@@ -274,7 +298,12 @@
    "tg:rbc_news:159416",
    "tg:rbc_news:159417",
    "tg:rbc_news:159418",
-   "tg:rbc_news:159419"
+   "tg:rbc_news:159419",
+   "tg:rbc_news:159425",
+   "tg:rbc_news:159426",
+   "tg:rbc_news:159427",
+   "tg:rbc_news:159432",
+   "tg:rbc_news:159433"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -317,7 +346,12 @@
    "tg:interfaxonline:80697",
    "tg:interfaxonline:80698",
    "tg:interfaxonline:80699",
-   "tg:interfaxonline:80700"
+   "tg:interfaxonline:80700",
+   "tg:interfaxonline:80701",
+   "tg:interfaxonline:80702",
+   "tg:interfaxonline:80703",
+   "tg:interfaxonline:80704",
+   "tg:interfaxonline:80705"
   ]
  }
 }
