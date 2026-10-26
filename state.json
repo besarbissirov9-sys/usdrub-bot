@@ -89,15 +89,16 @@
   "tg:banksta:104203",
   "d5944ce3cc637522",
   "05fd4135a0c18e55",
-  "tg:rbc_news:159458"
+  "tg:rbc_news:159458",
+  "8485066e48787176",
+  "a1028de7264c3223",
+  "96280a397c9c4e73",
+  "b850834be4ab63e9",
+  "32117014de00dd25"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390449",
-   "tg:markettwits:390455",
-   "tg:markettwits:390456",
-   "tg:markettwits:390457",
    "tg:markettwits:390458",
    "tg:markettwits:390459",
    "tg:markettwits:390460",
@@ -193,7 +194,11 @@
    "tg:markettwits:390572",
    "tg:markettwits:390573",
    "tg:markettwits:390575",
-   "tg:markettwits:390577"
+   "tg:markettwits:390577",
+   "tg:markettwits:390578",
+   "tg:markettwits:390579",
+   "tg:markettwits:390580",
+   "tg:markettwits:390582"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -285,7 +290,9 @@
    "tg:banksta:104199",
    "tg:banksta:104200",
    "tg:banksta:104202",
-   "tg:banksta:104203"
+   "tg:banksta:104203",
+   "tg:banksta:104204",
+   "tg:banksta:104205"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -337,7 +344,8 @@
    "tg:cbrstocks:83631",
    "tg:cbrstocks:83632",
    "tg:cbrstocks:83633",
-   "tg:cbrstocks:83635"
+   "tg:cbrstocks:83635",
+   "tg:cbrstocks:83636"
   ],
   "rbc_news": [
    "tg:rbc_news:159375",
@@ -408,7 +416,11 @@
    "tg:rbc_news:159467",
    "tg:rbc_news:159468",
    "tg:rbc_news:159469",
-   "tg:rbc_news:159458"
+   "tg:rbc_news:159458",
+   "tg:rbc_news:159470",
+   "tg:rbc_news:159471",
+   "tg:rbc_news:159472",
+   "tg:rbc_news:159473"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -471,7 +483,8 @@
    "tg:interfaxonline:80718",
    "tg:interfaxonline:80720",
    "tg:interfaxonline:80713",
-   "tg:interfaxonline:80721"
+   "tg:interfaxonline:80721",
+   "tg:interfaxonline:80722"
   ]
  },
  "rate_samples": [
@@ -497,6 +510,11 @@
   },
   {
    "ts": 1793035310.15217,
+   "usd": 81.1275,
+   "cny": 12.0855
+  },
+  {
+   "ts": 1793037671.2433603,
    "usd": 81.1275,
    "cny": 12.0855
   }
@@ -526,7 +544,12 @@
   "tg:banksta:104203",
   "d5944ce3cc637522",
   "05fd4135a0c18e55",
-  "tg:rbc_news:159458"
+  "tg:rbc_news:159458",
+  "8485066e48787176",
+  "a1028de7264c3223",
+  "96280a397c9c4e73",
+  "b850834be4ab63e9",
+  "32117014de00dd25"
  ],
  "layout_i": 0,
  "day_news": [
@@ -704,6 +727,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793035361.2123163
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Реал дешевеет к доллару после выборов президента Бразилии",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793037694.1431253
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Официальные курсы валют на 27 октября: ¥ — ₽12,0680, $ —…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793037696.1648784
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Портфель потребительских кредитов вырос до 13 трлн рублей,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793037698.0718594
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "Объем выдач ипотеки в сентябре достиг рекордных 617 млрд…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793037700.0282261
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "ЦБ требует от криптообменников скорости расчетов,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793037701.998676
   }
  ],
  "recent_news": [
