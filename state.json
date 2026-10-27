@@ -250,17 +250,16 @@
   "519d5bb8c969e155",
   "tg:markettwits:390775",
   "f1f32d0bd758a105",
-  "tg:cbrstocks:83676"
+  "tg:cbrstocks:83676",
+  "1b89bc596aa1f44d",
+  "36532393f28f55a3",
+  "7f08be99a17c4e4e",
+  "tg:banksta:104278",
+  "8f034222289e8bbd"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390676",
-   "tg:markettwits:390677",
-   "tg:markettwits:390678",
-   "tg:markettwits:390679",
-   "tg:markettwits:390680",
-   "tg:markettwits:390681",
    "tg:markettwits:390682",
    "tg:markettwits:390683",
    "tg:markettwits:390684",
@@ -354,7 +353,13 @@
    "tg:markettwits:390772",
    "tg:markettwits:390773",
    "tg:markettwits:390766",
-   "tg:markettwits:390775"
+   "tg:markettwits:390775",
+   "tg:markettwits:390776",
+   "tg:markettwits:390777",
+   "tg:markettwits:390778",
+   "tg:markettwits:390779",
+   "tg:markettwits:390781",
+   "tg:markettwits:390782"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -401,10 +406,6 @@
    "tg:xtxixty:6977"
   ],
   "banksta": [
-   "tg:banksta:104143",
-   "tg:banksta:104144",
-   "tg:banksta:104147",
-   "tg:banksta:104148",
    "tg:banksta:104149",
    "tg:banksta:104150",
    "tg:banksta:104151",
@@ -500,10 +501,13 @@
    "tg:banksta:104270",
    "tg:banksta:104272",
    "tg:banksta:104271",
-   "tg:banksta:104273"
+   "tg:banksta:104273",
+   "tg:banksta:104275",
+   "tg:banksta:104276",
+   "tg:banksta:104277",
+   "tg:banksta:104278"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83573",
    "tg:cbrstocks:83574",
    "tg:cbrstocks:83575",
    "tg:cbrstocks:83576",
@@ -597,10 +601,15 @@
    "tg:cbrstocks:83673",
    "tg:cbrstocks:83674",
    "tg:cbrstocks:83675",
-   "tg:cbrstocks:83676"
+   "tg:cbrstocks:83676",
+   "tg:cbrstocks:83677",
+   "tg:cbrstocks:83678",
+   "tg:cbrstocks:83680",
+   "tg:cbrstocks:83681",
+   "tg:cbrstocks:83682",
+   "tg:cbrstocks:83683"
   ],
   "rbc_news": [
-   "tg:rbc_news:159439",
    "tg:rbc_news:159440",
    "tg:rbc_news:159441",
    "tg:rbc_news:159442",
@@ -699,7 +708,8 @@
    "tg:rbc_news:159542",
    "tg:rbc_news:159543",
    "tg:rbc_news:159541",
-   "tg:rbc_news:159544"
+   "tg:rbc_news:159544",
+   "tg:rbc_news:159546"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80680",
@@ -806,11 +816,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793104572.1603868,
-   "usd": 81.0025,
-   "cny": 12.073
-  },
-  {
    "ts": 1793107760.1780927,
    "usd": 81.0,
    "cny": 12.075
@@ -847,6 +852,11 @@
   },
   {
    "ts": 1793125891.9269655,
+   "usd": 81.03,
+   "cny": 12.081
+  },
+  {
+   "ts": 1793129002.641836,
    "usd": 81.03,
    "cny": 12.081
   }
@@ -1035,45 +1045,15 @@
   "519d5bb8c969e155",
   "tg:markettwits:390775",
   "f1f32d0bd758a105",
-  "tg:cbrstocks:83676"
+  "tg:cbrstocks:83676",
+  "1b89bc596aa1f44d",
+  "36532393f28f55a3",
+  "7f08be99a17c4e4e",
+  "tg:banksta:104278",
+  "8f034222289e8bbd"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "Банк России оставил курс доллара на уровне 80 рублей",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793113583.449639
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "ЦБ оставил официальный курс доллара ниже ₽81",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793113585.3639693
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "ЦБ повысил официальный курс доллара на 28 октября до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793113587.2437942
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "🇷🇺#fx #россия ЦБ установил официальные курсы валют на 28…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793113589.181262
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "💵💶Официальные курсы ЦБ РФ с 28 октября - 80,5307 руб./$1 и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793113591.0489357
-  },
   {
    "date": "2026-10-27",
    "headline": "\"Оставили связанным в лесу\": айтишник из Иваново лишился…",
@@ -1248,6 +1228,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793125940.28665
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "\"Рубль остановил укрепление\": юань стабилизировался выше…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793129027.5614495
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Портфель лучших акций под пассивный доход на 27 октября.…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793129029.6926663
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "По данным NYT, администрация Трампа рассматривает…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793129031.7003665
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "США могут отменить санкции в отношении Российского фонда…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793129033.7099097
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "NYT: администрация Трампа рассматривает отмену санкций…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793129035.7347405
   }
  ],
  "recent_news": [
