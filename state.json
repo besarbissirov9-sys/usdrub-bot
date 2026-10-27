@@ -240,19 +240,16 @@
   "tg:rbc_news:159527",
   "af8a165d6d39bae4",
   "tg:banksta:104269",
-  "f6844f314e909b72"
+  "f6844f314e909b72",
+  "tg:banksta:104271",
+  "tg:rbc_news:159541",
+  "tg:markettwits:390766",
+  "f5103f2690a6d224",
+  "ae607806b645ebc5"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390666",
-   "tg:markettwits:390667",
-   "tg:markettwits:390668",
-   "tg:markettwits:390669",
-   "tg:markettwits:390670",
-   "tg:markettwits:390671",
-   "tg:markettwits:390672",
-   "tg:markettwits:390673",
    "tg:markettwits:390675",
    "tg:markettwits:390676",
    "tg:markettwits:390677",
@@ -344,7 +341,15 @@
    "tg:markettwits:390762",
    "tg:markettwits:390763",
    "tg:markettwits:390764",
-   "tg:markettwits:390765"
+   "tg:markettwits:390765",
+   "tg:markettwits:390767",
+   "tg:markettwits:390768",
+   "tg:markettwits:390769",
+   "tg:markettwits:390770",
+   "tg:markettwits:390771",
+   "tg:markettwits:390772",
+   "tg:markettwits:390773",
+   "tg:markettwits:390766"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -391,9 +396,6 @@
    "tg:xtxixty:6977"
   ],
   "banksta": [
-   "tg:banksta:104139",
-   "tg:banksta:104140",
-   "tg:banksta:104141",
    "tg:banksta:104142",
    "tg:banksta:104143",
    "tg:banksta:104144",
@@ -490,7 +492,10 @@
    "tg:banksta:104265",
    "tg:banksta:104267",
    "tg:banksta:104268",
-   "tg:banksta:104269"
+   "tg:banksta:104269",
+   "tg:banksta:104270",
+   "tg:banksta:104272",
+   "tg:banksta:104271"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -589,10 +594,6 @@
    "tg:cbrstocks:83675"
   ],
   "rbc_news": [
-   "tg:rbc_news:159434",
-   "tg:rbc_news:159435",
-   "tg:rbc_news:159436",
-   "tg:rbc_news:159437",
    "tg:rbc_news:159438",
    "tg:rbc_news:159439",
    "tg:rbc_news:159440",
@@ -688,10 +689,13 @@
    "tg:rbc_news:159537",
    "tg:rbc_news:159538",
    "tg:rbc_news:159539",
-   "tg:rbc_news:159527"
+   "tg:rbc_news:159527",
+   "tg:rbc_news:159540",
+   "tg:rbc_news:159542",
+   "tg:rbc_news:159543",
+   "tg:rbc_news:159541"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80679",
    "tg:interfaxonline:80680",
    "tg:interfaxonline:80681",
    "tg:interfaxonline:80682",
@@ -790,15 +794,11 @@
    "tg:interfaxonline:80778",
    "tg:interfaxonline:80774",
    "tg:interfaxonline:80782",
-   "tg:interfaxonline:80783"
+   "tg:interfaxonline:80783",
+   "tg:interfaxonline:80784"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793100035.753647,
-   "usd": 80.8125,
-   "cny": 12.0535
-  },
   {
    "ts": 1793102370.9746826,
    "usd": 80.945,
@@ -836,6 +836,11 @@
   },
   {
    "ts": 1793121495.780033,
+   "usd": 81.03,
+   "cny": 12.081
+  },
+  {
+   "ts": 1793123780.4397063,
    "usd": 81.03,
    "cny": 12.081
   }
@@ -1014,45 +1019,15 @@
   "tg:rbc_news:159527",
   "af8a165d6d39bae4",
   "tg:banksta:104269",
-  "f6844f314e909b72"
+  "f6844f314e909b72",
+  "tg:banksta:104271",
+  "tg:rbc_news:159541",
+  "tg:markettwits:390766",
+  "f5103f2690a6d224",
+  "ae607806b645ebc5"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "В Москве продают квартиру без отделки на Золотой миле за 7…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793107785.8316665
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Канадский доллар слабеет в ожидании решений ФРС и Банка…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793107787.745035
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "🇷🇺#OZON #отчетность КОНСЕНСУС ИФ: Ozon во III кв. нарастил…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793107789.6328871
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Госдума поручила Счетной палате проверить работу ЦБ по…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793107791.5804558
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Москва консультируется с Каракасом и компаниями третьих…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793107793.4735122
-  },
   {
    "date": "2026-10-27",
    "headline": "Суд отменил решение о взыскании 634 миллионов рублей с…",
@@ -1227,6 +1202,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793121529.5289927
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Первый биржевой фонд на облигации секьюритизации для…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793123806.6467435
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "🎙🎙🎙 В случае отмены санкций и появления политических…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793123808.6026003
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "⚠️🇷🇺🇬🇧#санкции #британия #россия Россия ввела санкции…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793123810.5273778
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Глобальное производство стали в сентябре 2026 г. — теперь…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793123812.4639788
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Россия ввела санкции против глав британских предприятий за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793123814.433945
   }
  ],
  "recent_news": [
