@@ -198,19 +198,17 @@
   "c96baaea0613f481",
   "81aeb74f320b3cca",
   "tg:banksta:104240",
-  "53cc76a2efc24cf7"
+  "53cc76a2efc24cf7",
+  "tg:cbrstocks:83664",
+  "tg:banksta:104241",
+  "f11d6e68278ba42f",
+  "tg:markettwits:390711",
+  "d91ce67b0d67e374",
+  "tg:markettwits:390710"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390603",
-   "tg:markettwits:390604",
-   "tg:markettwits:390605",
-   "tg:markettwits:390606",
-   "tg:markettwits:390607",
-   "tg:markettwits:390608",
-   "tg:markettwits:390609",
-   "tg:markettwits:390610",
    "tg:markettwits:390611",
    "tg:markettwits:390612",
    "tg:markettwits:390613",
@@ -302,7 +300,15 @@
    "tg:markettwits:390700",
    "tg:markettwits:390701",
    "tg:markettwits:390702",
-   "tg:markettwits:390703"
+   "tg:markettwits:390703",
+   "tg:markettwits:390704",
+   "tg:markettwits:390705",
+   "tg:markettwits:390706",
+   "tg:markettwits:390707",
+   "tg:markettwits:390708",
+   "tg:markettwits:390709",
+   "tg:markettwits:390711",
+   "tg:markettwits:390710"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -432,7 +438,10 @@
    "tg:banksta:104237",
    "tg:banksta:104238",
    "tg:banksta:104239",
-   "tg:banksta:104240"
+   "tg:banksta:104240",
+   "tg:banksta:104243",
+   "tg:banksta:104244",
+   "tg:banksta:104241"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -514,12 +523,12 @@
    "tg:cbrstocks:83658",
    "tg:cbrstocks:83659",
    "tg:cbrstocks:83660",
-   "tg:cbrstocks:83661"
+   "tg:cbrstocks:83661",
+   "tg:cbrstocks:83662",
+   "tg:cbrstocks:83663",
+   "tg:cbrstocks:83664"
   ],
   "rbc_news": [
-   "tg:rbc_news:159391",
-   "tg:rbc_news:159392",
-   "tg:rbc_news:159393",
    "tg:rbc_news:159394",
    "tg:rbc_news:159395",
    "tg:rbc_news:159396",
@@ -616,7 +625,10 @@
    "tg:rbc_news:159512",
    "tg:rbc_news:159513",
    "tg:rbc_news:159514",
-   "tg:rbc_news:159515"
+   "tg:rbc_news:159515",
+   "tg:rbc_news:159516",
+   "tg:rbc_news:159517",
+   "tg:rbc_news:159518"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -712,20 +724,11 @@
    "tg:interfaxonline:80750",
    "tg:interfaxonline:80751",
    "tg:interfaxonline:80752",
-   "tg:interfaxonline:80753"
+   "tg:interfaxonline:80753",
+   "tg:interfaxonline:80754"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793078533.6187284,
-   "usd": null,
-   "cny": null
-  },
-  {
-   "ts": 1793080735.191752,
-   "usd": null,
-   "cny": null
-  },
   {
    "ts": 1793082767.2266562,
    "usd": 81.365,
@@ -765,6 +768,11 @@
    "ts": 1793100035.753647,
    "usd": 80.8125,
    "cny": 12.0535
+  },
+  {
+   "ts": 1793102370.9746826,
+   "usd": 80.945,
+   "cny": 12.0585
   }
  ],
  "ai_seen": [
@@ -901,45 +909,15 @@
   "c96baaea0613f481",
   "81aeb74f320b3cca",
   "tg:banksta:104240",
-  "53cc76a2efc24cf7"
+  "53cc76a2efc24cf7",
+  "tg:banksta:104241",
+  "f11d6e68278ba42f",
+  "tg:markettwits:390711",
+  "d91ce67b0d67e374",
+  "tg:markettwits:390710"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "В Думе предложили сделать временной норму об операциях с…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793088557.399042
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Биржевые цены на газ в Европе опустились ниже 1100…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793088559.4836361
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Суд взыскал 140 миллионов рублей за незаконное…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793088561.5190048
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Украина должна выплатить финансовым организациям 139,95…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793088563.5672698
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Судебные приставы намерены взыскать с Анатолия Чубайса…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793088565.572098
-  },
   {
    "date": "2026-10-27",
    "headline": "Квартиру с золотым унитазом продают в Москве за 75 млн…",
@@ -1114,6 +1092,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793100059.9675453
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Деловой центр в форме яйца в Хамовниках выходит в продажу…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793102388.5976403
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "В Китае выросло число долларовых миллиардеров",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793102390.423403
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "🛢#фсэг #event #газ #спг #санкции #геополитика ДЛЯ…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793102392.2382894
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Глава \"Србиягаза\" не ожидает санкций против России",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793102394.0668623
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "❗️🛢#фсэг #event #газ #спг НА ДОЛЮ СТРАН-УЧАСТНИЦ ФСЭГ…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793102395.9172928
   }
  ],
  "recent_news": [
