@@ -150,16 +150,14 @@
   "107243649afc874b",
   "tg:markettwits:390618",
   "tg:markettwits:390615",
-  "cf5f74bcc4ee3d72"
+  "cf5f74bcc4ee3d72",
+  "tg:russianmacro:23648",
+  "tg:rbc_news:159488",
+  "f442517738951d7c"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390495",
-   "tg:markettwits:390496",
-   "tg:markettwits:390497",
-   "tg:markettwits:390480",
-   "tg:markettwits:390498",
    "tg:markettwits:390499",
    "tg:markettwits:390500",
    "tg:markettwits:390501",
@@ -254,7 +252,12 @@
    "tg:markettwits:390616",
    "tg:markettwits:390617",
    "tg:markettwits:390618",
-   "tg:markettwits:390615"
+   "tg:markettwits:390615",
+   "tg:markettwits:390619",
+   "tg:markettwits:390620",
+   "tg:markettwits:390621",
+   "tg:markettwits:390622",
+   "tg:markettwits:390623"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -277,7 +280,8 @@
    "tg:russianmacro:23644",
    "tg:russianmacro:23645",
    "tg:russianmacro:23646",
-   "tg:russianmacro:23647"
+   "tg:russianmacro:23647",
+   "tg:russianmacro:23648"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -367,7 +371,8 @@
    "tg:banksta:104220",
    "tg:banksta:104221",
    "tg:banksta:104222",
-   "tg:banksta:104223"
+   "tg:banksta:104223",
+   "tg:banksta:104224"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -515,7 +520,9 @@
    "tg:rbc_news:159483",
    "tg:rbc_news:159484",
    "tg:rbc_news:159485",
-   "tg:rbc_news:159486"
+   "tg:rbc_news:159486",
+   "tg:rbc_news:159487",
+   "tg:rbc_news:159488"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -594,15 +601,11 @@
    "tg:interfaxonline:80733",
    "tg:interfaxonline:80734",
    "tg:interfaxonline:80735",
-   "tg:interfaxonline:80736"
+   "tg:interfaxonline:80736",
+   "tg:interfaxonline:80737"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793056191.8625643,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
   {
    "ts": 1793057732.306679,
    "usd": 81.1275,
@@ -650,6 +653,11 @@
   },
   {
    "ts": 1793076917.66663,
+   "usd": null,
+   "cny": null
+  },
+  {
+   "ts": 1793078533.6187284,
    "usd": null,
    "cny": null
   }
@@ -740,31 +748,13 @@
   "107243649afc874b",
   "tg:markettwits:390618",
   "tg:markettwits:390615",
-  "cf5f74bcc4ee3d72"
+  "cf5f74bcc4ee3d72",
+  "tg:russianmacro:23648",
+  "tg:rbc_news:159488",
+  "f442517738951d7c"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "#Банки #Бонды Банки нарастили вложения в новые выпуски ОФЗ…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793050759.753928
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "#Банки Рост потребкредитования замедлился — ЦБ РФ Портфель…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793050761.708798
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Центробанк: средства физлиц за сентябрь снизились на 0,1%",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793050763.6570103
-  },
   {
    "date": "2026-10-27",
    "headline": "Чистая прибыль банков в сентябре снизилась на 5,9%,…",
@@ -953,6 +943,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793076942.3024435
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "ПРИБЫЛИ ПРОМЫШЛЕННЫХ ПРЕДПРИЯТИЙ КИТАЯ В СЕНТЯБРЕ:…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793078553.6752708
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "❗️Член палаты представителей США, демократ Джейми Раскин…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793078555.698471
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Перестал общаться с друзьями после начала сво",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793078557.707282
   }
  ],
  "recent_news": [
