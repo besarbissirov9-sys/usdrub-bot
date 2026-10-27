@@ -275,7 +275,12 @@
   "b5bde804384336b0",
   "8450dcd82068fa82",
   "tg:interfaxonline:80775",
-  "0909c5bfd5920a5c"
+  "0909c5bfd5920a5c",
+  "99136891c0004c75",
+  "tg:interfaxonline:80769",
+  "538cf8a5cd58dd96",
+  "c585d6ae40ec445d",
+  "9e56754b94b103f9"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -426,7 +431,6 @@
    "tg:xtxixty:6977"
   ],
   "banksta": [
-   "tg:banksta:104156",
    "tg:banksta:104157",
    "tg:banksta:104158",
    "tg:banksta:104159",
@@ -525,7 +529,8 @@
    "tg:banksta:104282",
    "tg:banksta:104283",
    "tg:banksta:104284",
-   "tg:banksta:104285"
+   "tg:banksta:104285",
+   "tg:banksta:104286"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83575",
@@ -732,7 +737,6 @@
    "tg:rbc_news:159551"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80684",
    "tg:interfaxonline:80685",
    "tg:interfaxonline:80686",
    "tg:interfaxonline:80687",
@@ -831,7 +835,8 @@
    "tg:interfaxonline:80786",
    "tg:interfaxonline:80785",
    "tg:interfaxonline:80787",
-   "tg:interfaxonline:80775"
+   "tg:interfaxonline:80775",
+   "tg:interfaxonline:80769"
   ]
  },
  "rate_samples": [
@@ -877,6 +882,11 @@
   },
   {
    "ts": 1793137730.71098,
+   "usd": 81.03,
+   "cny": 12.081
+  },
+  {
+   "ts": 1793139661.9745657,
    "usd": 81.03,
    "cny": 12.081
   }
@@ -1090,7 +1100,12 @@
   "b5bde804384336b0",
   "8450dcd82068fa82",
   "tg:interfaxonline:80775",
-  "0909c5bfd5920a5c"
+  "0909c5bfd5920a5c",
+  "99136891c0004c75",
+  "tg:interfaxonline:80769",
+  "538cf8a5cd58dd96",
+  "c585d6ae40ec445d",
+  "9e56754b94b103f9"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1163,6 +1178,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793137762.4880116
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "ЦБ предложил обеспечивать обязательства по офертам на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793139683.0689375
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "🛢Brent подешевела до $113,75 за баррель Цены на нефть…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793139684.99805
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Разрыв в 70 раз: какие регионы России богатеют, а какие…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793139686.917133
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Качество работает, а что с «иксами когда-нибудь» и…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793139688.8562658
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Сталь дорожает впервые за пять: стоит ли покупать акции…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793139690.8412282
   }
  ],
  "recent_news": [
