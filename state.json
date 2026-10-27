@@ -168,21 +168,16 @@
   "tg:banksta:104229",
   "156a8007dccc2ae6",
   "2b4463d74009bf4e",
-  "28eefd8e55966d30"
+  "28eefd8e55966d30",
+  "7e4e405bad4c3b97",
+  "4bf2df812eaba7bc",
+  "dc89077b4406e6bf",
+  "5028f10d6f5aa21a",
+  "tg:banksta:104225"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390544",
-   "tg:markettwits:390545",
-   "tg:markettwits:390546",
-   "tg:markettwits:390547",
-   "tg:markettwits:390549",
-   "tg:markettwits:390550",
-   "tg:markettwits:390551",
-   "tg:markettwits:390552",
-   "tg:markettwits:390555",
-   "tg:markettwits:390556",
    "tg:markettwits:390557",
    "tg:markettwits:390538",
    "tg:markettwits:390558",
@@ -272,7 +267,17 @@
    "tg:markettwits:390648",
    "tg:markettwits:390649",
    "tg:markettwits:390650",
-   "tg:markettwits:390651"
+   "tg:markettwits:390651",
+   "tg:markettwits:390652",
+   "tg:markettwits:390653",
+   "tg:markettwits:390654",
+   "tg:markettwits:390655",
+   "tg:markettwits:390656",
+   "tg:markettwits:390657",
+   "tg:markettwits:390658",
+   "tg:markettwits:390659",
+   "tg:markettwits:390660",
+   "tg:markettwits:390661"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -297,7 +302,8 @@
    "tg:russianmacro:23646",
    "tg:russianmacro:23647",
    "tg:russianmacro:23648",
-   "tg:russianmacro:23649"
+   "tg:russianmacro:23649",
+   "tg:russianmacro:23650"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -391,7 +397,9 @@
    "tg:banksta:104224",
    "tg:banksta:104226",
    "tg:banksta:104227",
-   "tg:banksta:104229"
+   "tg:banksta:104229",
+   "tg:banksta:104230",
+   "tg:banksta:104225"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -456,7 +464,8 @@
    "tg:cbrstocks:83641",
    "tg:cbrstocks:83642",
    "tg:cbrstocks:83643",
-   "tg:cbrstocks:83644"
+   "tg:cbrstocks:83644",
+   "tg:cbrstocks:83645"
   ],
   "rbc_news": [
    "tg:rbc_news:159375",
@@ -556,7 +565,8 @@
    "tg:rbc_news:159493",
    "tg:rbc_news:159494",
    "tg:rbc_news:159496",
-   "tg:rbc_news:159497"
+   "tg:rbc_news:159497",
+   "tg:rbc_news:159498"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -648,16 +658,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793064385.84614,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
-  {
-   "ts": 1793066627.6917474,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
-  {
    "ts": 1793068471.4944348,
    "usd": 81.1275,
    "cny": 12.0855
@@ -701,6 +701,11 @@
    "ts": 1793085958.6822655,
    "usd": 81.18,
    "cny": 12.093
+  },
+  {
+   "ts": 1793088532.8283598,
+   "usd": 80.85,
+   "cny": 12.0555
   }
  ],
  "ai_seen": [
@@ -807,45 +812,15 @@
   "tg:banksta:104229",
   "156a8007dccc2ae6",
   "2b4463d74009bf4e",
-  "28eefd8e55966d30"
+  "28eefd8e55966d30",
+  "7e4e405bad4c3b97",
+  "4bf2df812eaba7bc",
+  "dc89077b4406e6bf",
+  "5028f10d6f5aa21a",
+  "tg:banksta:104225"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "Цена на нефть марки Brent опустилась ниже 110 долларов",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793064402.50585
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Маткапитал на второго ребенка превысит миллион рублей в…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793064404.3363297
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Азия. Вторник.",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793070644.9910758
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "МГКЛ — конвейер пустышек на полтора миллиарда и 705…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793070646.8999608
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "10 флоатеров для неквалов с доходностью выше 18%",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793070648.906495
-  },
   {
    "date": "2026-10-27",
    "headline": "🇺🇸Нефтяные компании будут привлечены к ответственности,…",
@@ -1020,6 +995,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793085988.866982
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "В Думе предложили сделать временной норму об операциях с…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793088557.399042
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Биржевые цены на газ в Европе опустились ниже 1100…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793088559.4836361
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Суд взыскал 140 миллионов рублей за незаконное…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793088561.5190048
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Украина должна выплатить финансовым организациям 139,95…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793088563.5672698
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Судебные приставы намерены взыскать с Анатолия Чубайса…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793088565.572098
   }
  ],
  "recent_news": [
