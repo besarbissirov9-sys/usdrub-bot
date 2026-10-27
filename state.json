@@ -140,7 +140,10 @@
   "e1f96faa2fd2a18c",
   "50c2b0c9348045de",
   "95a0c3bbb8579615",
-  "77eb44e84b6442e9"
+  "77eb44e84b6442e9",
+  "158de697f2b7c673",
+  "b877d7c0ad98ee9e",
+  "9ae1279dd291f2ec"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -577,20 +580,11 @@
    "tg:interfaxonline:80728",
    "tg:interfaxonline:80729",
    "tg:interfaxonline:80730",
-   "tg:interfaxonline:80731"
+   "tg:interfaxonline:80731",
+   "tg:interfaxonline:80732"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793046954.6202495,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
-  {
-   "ts": 1793048911.8819249,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
   {
    "ts": 1793050732.8891904,
    "usd": 81.1275,
@@ -638,6 +632,11 @@
   },
   {
    "ts": 1793068471.4944348,
+   "usd": 81.1275,
+   "cny": 12.0855
+  },
+  {
+   "ts": 1793070627.3671098,
    "usd": 81.1275,
    "cny": 12.0855
   }
@@ -718,7 +717,10 @@
   "e1f96faa2fd2a18c",
   "50c2b0c9348045de",
   "95a0c3bbb8579615",
-  "77eb44e84b6442e9"
+  "77eb44e84b6442e9",
+  "158de697f2b7c673",
+  "b877d7c0ad98ee9e",
+  "9ae1279dd291f2ec"
  ],
  "layout_i": 0,
  "day_news": [
@@ -903,6 +905,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793064404.3363297
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Азия. Вторник.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793070644.9910758
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "МГКЛ — конвейер пустышек на полтора миллиарда и 705…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793070646.8999608
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "10 флоатеров для неквалов с доходностью выше 18%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793070648.906495
   }
  ],
  "recent_news": [
