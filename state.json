@@ -138,7 +138,9 @@
   "d289073b76c08fdb",
   "f4b999f768ea83f9",
   "e1f96faa2fd2a18c",
-  "50c2b0c9348045de"
+  "50c2b0c9348045de",
+  "95a0c3bbb8579615",
+  "77eb44e84b6442e9"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -351,7 +353,8 @@
    "tg:banksta:104217",
    "tg:banksta:104218",
    "tg:banksta:104219",
-   "tg:banksta:104220"
+   "tg:banksta:104220",
+   "tg:banksta:104221"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -571,15 +574,12 @@
    "tg:interfaxonline:80726",
    "tg:interfaxonline:80727",
    "tg:interfaxonline:80728",
-   "tg:interfaxonline:80729"
+   "tg:interfaxonline:80729",
+   "tg:interfaxonline:80730",
+   "tg:interfaxonline:80731"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793040466.0755734,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
   {
    "ts": 1793042882.3632298,
    "usd": 81.1275,
@@ -632,6 +632,11 @@
   },
   {
    "ts": 1793061862.6742198,
+   "usd": 81.1275,
+   "cny": 12.0855
+  },
+  {
+   "ts": 1793064385.84614,
    "usd": 81.1275,
    "cny": 12.0855
   }
@@ -710,7 +715,9 @@
   "d289073b76c08fdb",
   "f4b999f768ea83f9",
   "e1f96faa2fd2a18c",
-  "50c2b0c9348045de"
+  "50c2b0c9348045de",
+  "95a0c3bbb8579615",
+  "77eb44e84b6442e9"
  ],
  "layout_i": 0,
  "day_news": [
@@ -881,6 +888,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793061880.8223112
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Цена на нефть марки Brent опустилась ниже 110 долларов",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793064402.50585
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Маткапитал на второго ребенка превысит миллион рублей в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793064404.3363297
   }
  ],
  "recent_news": [
