@@ -283,7 +283,10 @@
   "9e56754b94b103f9",
   "7642acb87236c8d2",
   "6eeac2e8f7fc6e3d",
-  "3c74e9a54a39e26f"
+  "3c74e9a54a39e26f",
+  "b0ccbe2b5950ea4c",
+  "tg:banksta:104289",
+  "be121802f73fb45f"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -434,7 +437,6 @@
    "tg:xtxixty:6977"
   ],
   "banksta": [
-   "tg:banksta:104159",
    "tg:banksta:104160",
    "tg:banksta:104161",
    "tg:banksta:104162",
@@ -533,7 +535,8 @@
    "tg:banksta:104285",
    "tg:banksta:104286",
    "tg:banksta:104287",
-   "tg:banksta:104288"
+   "tg:banksta:104288",
+   "tg:banksta:104289"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83575",
@@ -740,7 +743,6 @@
    "tg:rbc_news:159551"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80689",
    "tg:interfaxonline:80690",
    "tg:interfaxonline:80691",
    "tg:interfaxonline:80692",
@@ -839,7 +841,8 @@
    "tg:interfaxonline:80788",
    "tg:interfaxonline:80789",
    "tg:interfaxonline:80790",
-   "tg:interfaxonline:80791"
+   "tg:interfaxonline:80791",
+   "tg:interfaxonline:80792"
   ]
  },
  "rate_samples": [
@@ -890,6 +893,11 @@
   },
   {
    "ts": 1793143407.2176595,
+   "usd": 81.03,
+   "cny": 12.081
+  },
+  {
+   "ts": 1793145267.7017577,
    "usd": 81.03,
    "cny": 12.081
   }
@@ -1111,7 +1119,10 @@
   "9e56754b94b103f9",
   "7642acb87236c8d2",
   "6eeac2e8f7fc6e3d",
-  "3c74e9a54a39e26f"
+  "3c74e9a54a39e26f",
+  "b0ccbe2b5950ea4c",
+  "tg:banksta:104289",
+  "be121802f73fb45f"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1240,6 +1251,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793141888.452678
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Источник рассказал о работе турсектора Турции в условиях…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793145284.7710361
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Исследователи ИИ перестали откладывать на пенсию, ожидая…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793145286.6339042
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "#РазборМСФО $PHOR — Выручка держится, а прибыль рухнула…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793145288.4995463
   }
  ],
  "recent_news": [
