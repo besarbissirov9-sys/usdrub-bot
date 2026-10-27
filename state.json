@@ -144,19 +144,14 @@
   "158de697f2b7c673",
   "b877d7c0ad98ee9e",
   "9ae1279dd291f2ec",
-  "tg:interfaxonline:80733"
+  "tg:interfaxonline:80733",
+  "6934f8f7573a9eb3",
+  "2a3242693fdf5ea1",
+  "107243649afc874b"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390477",
-   "tg:markettwits:390478",
-   "tg:markettwits:390479",
-   "tg:markettwits:390481",
-   "tg:markettwits:390482",
-   "tg:markettwits:390483",
-   "tg:markettwits:390484",
-   "tg:markettwits:390485",
    "tg:markettwits:390486",
    "tg:markettwits:390487",
    "tg:markettwits:390488",
@@ -248,7 +243,15 @@
    "tg:markettwits:390597",
    "tg:markettwits:390598",
    "tg:markettwits:390599",
-   "tg:markettwits:390600"
+   "tg:markettwits:390600",
+   "tg:markettwits:390601",
+   "tg:markettwits:390603",
+   "tg:markettwits:390604",
+   "tg:markettwits:390605",
+   "tg:markettwits:390606",
+   "tg:markettwits:390607",
+   "tg:markettwits:390608",
+   "tg:markettwits:390609"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -583,15 +586,11 @@
    "tg:interfaxonline:80730",
    "tg:interfaxonline:80731",
    "tg:interfaxonline:80732",
-   "tg:interfaxonline:80733"
+   "tg:interfaxonline:80733",
+   "tg:interfaxonline:80734"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793052594.6008492,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
   {
    "ts": 1793054405.206178,
    "usd": 81.1275,
@@ -639,6 +638,11 @@
   },
   {
    "ts": 1793072961.2258317,
+   "usd": null,
+   "cny": null
+  },
+  {
+   "ts": 1793074820.4555132,
    "usd": null,
    "cny": null
   }
@@ -723,31 +727,13 @@
   "158de697f2b7c673",
   "b877d7c0ad98ee9e",
   "9ae1279dd291f2ec",
-  "tg:interfaxonline:80733"
+  "tg:interfaxonline:80733",
+  "6934f8f7573a9eb3",
+  "2a3242693fdf5ea1",
+  "107243649afc874b"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "#IPO Главное из проспекта IPO Anthropic Весь документ…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793048932.093652
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "🧱🧱🧱🧱 В топе по доходам за 2025 год в Госдуме — бывший…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793048933.9931207
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Странные дела на Мосбирже. Акции и инвестиции",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793048935.9009616
-  },
   {
    "date": "2026-10-27",
    "headline": "Победившая в Сербии партия исключила санкции против России",
@@ -936,6 +922,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793072976.0227587
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "С экс-главы «Роснано» взыскивают почти 20 млрд рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793074842.5708847
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Валюты Азии разнонаправлены, иена слабеет перед решением ФРС",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793074844.5332017
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Назад в СССР, приметы нового цикла",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793074846.510849
   }
  ],
  "recent_news": [
