@@ -245,12 +245,16 @@
   "tg:rbc_news:159541",
   "tg:markettwits:390766",
   "f5103f2690a6d224",
-  "ae607806b645ebc5"
+  "ae607806b645ebc5",
+  "c12512484e16d19e",
+  "519d5bb8c969e155",
+  "tg:markettwits:390775",
+  "f1f32d0bd758a105",
+  "tg:cbrstocks:83676"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390675",
    "tg:markettwits:390676",
    "tg:markettwits:390677",
    "tg:markettwits:390678",
@@ -349,7 +353,8 @@
    "tg:markettwits:390771",
    "tg:markettwits:390772",
    "tg:markettwits:390773",
-   "tg:markettwits:390766"
+   "tg:markettwits:390766",
+   "tg:markettwits:390775"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -396,7 +401,6 @@
    "tg:xtxixty:6977"
   ],
   "banksta": [
-   "tg:banksta:104142",
    "tg:banksta:104143",
    "tg:banksta:104144",
    "tg:banksta:104147",
@@ -495,7 +499,8 @@
    "tg:banksta:104269",
    "tg:banksta:104270",
    "tg:banksta:104272",
-   "tg:banksta:104271"
+   "tg:banksta:104271",
+   "tg:banksta:104273"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -591,10 +596,10 @@
    "tg:cbrstocks:83672",
    "tg:cbrstocks:83673",
    "tg:cbrstocks:83674",
-   "tg:cbrstocks:83675"
+   "tg:cbrstocks:83675",
+   "tg:cbrstocks:83676"
   ],
   "rbc_news": [
-   "tg:rbc_news:159438",
    "tg:rbc_news:159439",
    "tg:rbc_news:159440",
    "tg:rbc_news:159441",
@@ -693,7 +698,8 @@
    "tg:rbc_news:159540",
    "tg:rbc_news:159542",
    "tg:rbc_news:159543",
-   "tg:rbc_news:159541"
+   "tg:rbc_news:159541",
+   "tg:rbc_news:159544"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80680",
@@ -800,11 +806,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793102370.9746826,
-   "usd": 80.945,
-   "cny": 12.0585
-  },
-  {
    "ts": 1793104572.1603868,
    "usd": 81.0025,
    "cny": 12.073
@@ -841,6 +842,11 @@
   },
   {
    "ts": 1793123780.4397063,
+   "usd": 81.03,
+   "cny": 12.081
+  },
+  {
+   "ts": 1793125891.9269655,
    "usd": 81.03,
    "cny": 12.081
   }
@@ -1024,45 +1030,15 @@
   "tg:rbc_news:159541",
   "tg:markettwits:390766",
   "f5103f2690a6d224",
-  "ae607806b645ebc5"
+  "ae607806b645ebc5",
+  "c12512484e16d19e",
+  "519d5bb8c969e155",
+  "tg:markettwits:390775",
+  "f1f32d0bd758a105",
+  "tg:cbrstocks:83676"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "Суд отменил решение о взыскании 634 миллионов рублей с…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793110692.0994492
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "«Уралкалий» разместит на бирже трехлетние юаневые облигации",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793110694.0079515
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "#Нефтянка Подсанкционный танкер Leruo доставляет…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793110695.9309251
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "ЦЕНЫ НА ЖИЛЬЕ В США: ГОДОВАЯ ДИНАМИКА УВЕРЕННО ДВИЖЕТСЯ К…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793110697.8545403
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Путин назвал условия для стабилизации мирового газового…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793110699.790709
-  },
   {
    "date": "2026-10-27",
    "headline": "Банк России оставил курс доллара на уровне 80 рублей",
@@ -1237,6 +1213,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793123814.433945
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "NYT узнала о планах США снять санкции с РФПИ",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793125932.2874396
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Министр энергетики США Райт: приостановка санкций против…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793125934.260195
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "🛢🇺🇸🇷🇺#санкции #россия #топливо Министр энергетики США…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793125936.2656953
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "США могут снять санкции с \"фонда Путина\" ради сделки по…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793125938.2791314
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "#ДмитриевМолодец Администрация президента США Дональда…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793125940.28665
   }
  ],
  "recent_news": [
