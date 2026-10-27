@@ -255,15 +255,16 @@
   "36532393f28f55a3",
   "7f08be99a17c4e4e",
   "tg:banksta:104278",
-  "8f034222289e8bbd"
+  "8f034222289e8bbd",
+  "tg:markettwits:390785",
+  "1484fa3617cee3c9",
+  "tg:rbc_news:159545",
+  "76e3898653ddd0fe",
+  "tg:cbrstocks:83679"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390682",
-   "tg:markettwits:390683",
-   "tg:markettwits:390684",
-   "tg:markettwits:390685",
    "tg:markettwits:390674",
    "tg:markettwits:390686",
    "tg:markettwits:390687",
@@ -359,7 +360,11 @@
    "tg:markettwits:390778",
    "tg:markettwits:390779",
    "tg:markettwits:390781",
-   "tg:markettwits:390782"
+   "tg:markettwits:390782",
+   "tg:markettwits:390783",
+   "tg:markettwits:390784",
+   "tg:markettwits:390786",
+   "tg:markettwits:390785"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -406,8 +411,6 @@
    "tg:xtxixty:6977"
   ],
   "banksta": [
-   "tg:banksta:104149",
-   "tg:banksta:104150",
    "tg:banksta:104151",
    "tg:banksta:104152",
    "tg:banksta:104153",
@@ -505,10 +508,11 @@
    "tg:banksta:104275",
    "tg:banksta:104276",
    "tg:banksta:104277",
-   "tg:banksta:104278"
+   "tg:banksta:104278",
+   "tg:banksta:104279",
+   "tg:banksta:104280"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83574",
    "tg:cbrstocks:83575",
    "tg:cbrstocks:83576",
    "tg:cbrstocks:83577",
@@ -607,11 +611,10 @@
    "tg:cbrstocks:83680",
    "tg:cbrstocks:83681",
    "tg:cbrstocks:83682",
-   "tg:cbrstocks:83683"
+   "tg:cbrstocks:83683",
+   "tg:cbrstocks:83679"
   ],
   "rbc_news": [
-   "tg:rbc_news:159440",
-   "tg:rbc_news:159441",
    "tg:rbc_news:159442",
    "tg:rbc_news:159448",
    "tg:rbc_news:159449",
@@ -709,7 +712,9 @@
    "tg:rbc_news:159543",
    "tg:rbc_news:159541",
    "tg:rbc_news:159544",
-   "tg:rbc_news:159546"
+   "tg:rbc_news:159546",
+   "tg:rbc_news:159547",
+   "tg:rbc_news:159545"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80680",
@@ -816,11 +821,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793107760.1780927,
-   "usd": 81.0,
-   "cny": 12.075
-  },
-  {
    "ts": 1793110670.7348652,
    "usd": 80.99,
    "cny": 12.0725
@@ -857,6 +857,11 @@
   },
   {
    "ts": 1793129002.641836,
+   "usd": 81.03,
+   "cny": 12.081
+  },
+  {
+   "ts": 1793131160.8174102,
    "usd": 81.03,
    "cny": 12.081
   }
@@ -1050,45 +1055,15 @@
   "36532393f28f55a3",
   "7f08be99a17c4e4e",
   "tg:banksta:104278",
-  "8f034222289e8bbd"
+  "8f034222289e8bbd",
+  "tg:markettwits:390785",
+  "1484fa3617cee3c9",
+  "tg:rbc_news:159545",
+  "76e3898653ddd0fe",
+  "tg:cbrstocks:83679"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "\"Оставили связанным в лесу\": айтишник из Иваново лишился…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793116076.8713968
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Центробанк опубликовал официальный курс валют на среду",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793116078.8570173
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Объем высокотехнологичных и наукоемких отраслей в России…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793116080.8252928
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Нацбанк Украины снизил официальный курс гривны до 45,5…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793116082.8102076
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Официальные курсы валют на 28 октября: ¥ — ₽12,0677, $ —…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793116084.7800272
-  },
   {
    "date": "2026-10-27",
    "headline": "Рубль во вторник незначительно укрепился в паре с юанем на…",
@@ -1263,6 +1238,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793129035.7347405
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "❗️🇺🇸🇷🇺#бизнес #сша #россия США и Россия решили больше не…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793131181.350779
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Как банки пережили сентябрь",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793131183.3387663
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Власти США рассматривают возможность снятия санкций с…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793131185.2968266
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Россия стала лидером в мире по числу санкций с пятикратным…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793131187.2723053
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "#Санкции 🏆 Россия стала лидером с пятикратным отрывом по…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793131189.2258823
   }
  ],
  "recent_news": [
