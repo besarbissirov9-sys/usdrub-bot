@@ -280,7 +280,10 @@
   "tg:interfaxonline:80769",
   "538cf8a5cd58dd96",
   "c585d6ae40ec445d",
-  "9e56754b94b103f9"
+  "9e56754b94b103f9",
+  "7642acb87236c8d2",
+  "6eeac2e8f7fc6e3d",
+  "3c74e9a54a39e26f"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -431,7 +434,6 @@
    "tg:xtxixty:6977"
   ],
   "banksta": [
-   "tg:banksta:104157",
    "tg:banksta:104158",
    "tg:banksta:104159",
    "tg:banksta:104160",
@@ -530,7 +532,8 @@
    "tg:banksta:104283",
    "tg:banksta:104284",
    "tg:banksta:104285",
-   "tg:banksta:104286"
+   "tg:banksta:104286",
+   "tg:banksta:104287"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83575",
@@ -737,7 +740,6 @@
    "tg:rbc_news:159551"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80685",
    "tg:interfaxonline:80686",
    "tg:interfaxonline:80687",
    "tg:interfaxonline:80688",
@@ -836,15 +838,11 @@
    "tg:interfaxonline:80785",
    "tg:interfaxonline:80787",
    "tg:interfaxonline:80775",
-   "tg:interfaxonline:80769"
+   "tg:interfaxonline:80769",
+   "tg:interfaxonline:80788"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793118598.868524,
-   "usd": 81.03,
-   "cny": 12.081
-  },
   {
    "ts": 1793121495.780033,
    "usd": 81.03,
@@ -887,6 +885,11 @@
   },
   {
    "ts": 1793139661.9745657,
+   "usd": 81.03,
+   "cny": 12.081
+  },
+  {
+   "ts": 1793141862.1919417,
    "usd": 81.03,
    "cny": 12.081
   }
@@ -1105,7 +1108,10 @@
   "tg:interfaxonline:80769",
   "538cf8a5cd58dd96",
   "c585d6ae40ec445d",
-  "9e56754b94b103f9"
+  "9e56754b94b103f9",
+  "7642acb87236c8d2",
+  "6eeac2e8f7fc6e3d",
+  "3c74e9a54a39e26f"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1213,6 +1219,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793139690.8412282
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Выручка НМТП по МСФО снизилась за 9 месяцев на 8,3%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793141884.619567
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Путин призвал думать о прекращении конфликтов и санкций…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793141886.543454
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Акции «Газпрома» и «НОВАТЭКа» ускорили рост на заявлениях…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793141888.452678
   }
  ],
  "recent_news": [
