@@ -183,23 +183,16 @@
   "7577dbeb438a7501",
   "daed03c47265838d",
   "3f55feb2186bcaeb",
-  "tg:rbc_news:159499"
+  "tg:rbc_news:159499",
+  "cc101a4b9ed05efe",
+  "9dd12d948f206390",
+  "tg:markettwits:390674",
+  "tg:banksta:104238",
+  "9f54e70c218a3816"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390571",
-   "tg:markettwits:390561",
-   "tg:markettwits:390572",
-   "tg:markettwits:390573",
-   "tg:markettwits:390575",
-   "tg:markettwits:390577",
-   "tg:markettwits:390578",
-   "tg:markettwits:390579",
-   "tg:markettwits:390580",
-   "tg:markettwits:390582",
-   "tg:markettwits:390583",
-   "tg:markettwits:390584",
    "tg:markettwits:390585",
    "tg:markettwits:390586",
    "tg:markettwits:390581",
@@ -287,7 +280,19 @@
    "tg:markettwits:390670",
    "tg:markettwits:390671",
    "tg:markettwits:390672",
-   "tg:markettwits:390673"
+   "tg:markettwits:390673",
+   "tg:markettwits:390675",
+   "tg:markettwits:390676",
+   "tg:markettwits:390677",
+   "tg:markettwits:390678",
+   "tg:markettwits:390679",
+   "tg:markettwits:390680",
+   "tg:markettwits:390681",
+   "tg:markettwits:390682",
+   "tg:markettwits:390683",
+   "tg:markettwits:390684",
+   "tg:markettwits:390685",
+   "tg:markettwits:390674"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -411,7 +416,11 @@
    "tg:banksta:104230",
    "tg:banksta:104225",
    "tg:banksta:104233",
-   "tg:banksta:104234"
+   "tg:banksta:104234",
+   "tg:banksta:104235",
+   "tg:banksta:104236",
+   "tg:banksta:104237",
+   "tg:banksta:104238"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -479,12 +488,15 @@
    "tg:cbrstocks:83644",
    "tg:cbrstocks:83645",
    "tg:cbrstocks:83646",
-   "tg:cbrstocks:83647"
+   "tg:cbrstocks:83647",
+   "tg:cbrstocks:83648",
+   "tg:cbrstocks:83649",
+   "tg:cbrstocks:83650",
+   "tg:cbrstocks:83651",
+   "tg:cbrstocks:83652",
+   "tg:cbrstocks:83653"
   ],
   "rbc_news": [
-   "tg:rbc_news:159382",
-   "tg:rbc_news:159383",
-   "tg:rbc_news:159384",
    "tg:rbc_news:159385",
    "tg:rbc_news:159386",
    "tg:rbc_news:159387",
@@ -581,7 +593,10 @@
    "tg:rbc_news:159504",
    "tg:rbc_news:159505",
    "tg:rbc_news:159506",
-   "tg:rbc_news:159499"
+   "tg:rbc_news:159499",
+   "tg:rbc_news:159507",
+   "tg:rbc_news:159508",
+   "tg:rbc_news:159509"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -670,15 +685,14 @@
    "tg:interfaxonline:80743",
    "tg:interfaxonline:80744",
    "tg:interfaxonline:80745",
-   "tg:interfaxonline:80746"
+   "tg:interfaxonline:80746",
+   "tg:interfaxonline:80747",
+   "tg:interfaxonline:80748",
+   "tg:interfaxonline:80749",
+   "tg:interfaxonline:80750"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793072961.2258317,
-   "usd": null,
-   "cny": null
-  },
   {
    "ts": 1793074820.4555132,
    "usd": null,
@@ -723,6 +737,11 @@
    "ts": 1793092943.9967086,
    "usd": 80.995,
    "cny": 12.066
+  },
+  {
+   "ts": 1793095557.8330894,
+   "usd": 80.84,
+   "cny": 12.0595
   }
  ],
  "ai_seen": [
@@ -844,45 +863,15 @@
   "7577dbeb438a7501",
   "daed03c47265838d",
   "3f55feb2186bcaeb",
-  "tg:rbc_news:159499"
+  "tg:rbc_news:159499",
+  "cc101a4b9ed05efe",
+  "9dd12d948f206390",
+  "tg:markettwits:390674",
+  "tg:banksta:104238",
+  "9f54e70c218a3816"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "К началу ноября доллар может опуститься ниже 80 рублей",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793080752.679373
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "В долларах российский рынок стоит на 61% ниже, чем в мае…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793080754.586042
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Следователь по делу Лерчек не признал вину в пропаже…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793080756.4267073
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Нефть дешевеет на надеждах на ослабление напряженности на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793080758.259544
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Индекс МосБиржи превысил 2500 пунктов впервые с 17 июня",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793080760.1901207
-  },
   {
    "date": "2026-10-27",
    "headline": "Пенсионерка из Пензы отдала мошенникам более девяти…",
@@ -1057,6 +1046,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793092971.6135294
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "BI: в США ритейлера обвиняют в мошенничестве на миллионы…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793095577.9405065
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "На развитие спортивных объектов Москвы выделят 432,5…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793095579.8474305
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "🇷🇺#SFIN ПСБ подвел итоги аукциона по продаже активов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793095581.8371854
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Спорт и туризм станут драйверами дальнейшего развития…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793095583.7345285
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "ЦБ показал, кто купил 1,4 трлн ОФЗ в сентябре: банки на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793095585.6653724
   }
  ],
  "recent_news": [
