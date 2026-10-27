@@ -209,20 +209,16 @@
   "ab934a056b7bb277",
   "1fbac6e94b9b02ba",
   "86934e1f95ddd2d4",
-  "0509f82d5b49ffe5"
+  "0509f82d5b49ffe5",
+  "tg:banksta:104248",
+  "6223db8f58e618bd",
+  "tg:markettwits:390719",
+  "44770c21c00181a1",
+  "05bc374a7210cd8d"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390615",
-   "tg:markettwits:390619",
-   "tg:markettwits:390620",
-   "tg:markettwits:390621",
-   "tg:markettwits:390622",
-   "tg:markettwits:390623",
-   "tg:markettwits:390624",
-   "tg:markettwits:390625",
-   "tg:markettwits:390626",
    "tg:markettwits:390628",
    "tg:markettwits:390629",
    "tg:markettwits:390630",
@@ -313,7 +309,16 @@
    "tg:markettwits:390715",
    "tg:markettwits:390716",
    "tg:markettwits:390717",
-   "tg:markettwits:390718"
+   "tg:markettwits:390718",
+   "tg:markettwits:390720",
+   "tg:markettwits:390721",
+   "tg:markettwits:390722",
+   "tg:markettwits:390723",
+   "tg:markettwits:390724",
+   "tg:markettwits:390725",
+   "tg:markettwits:390726",
+   "tg:markettwits:390727",
+   "tg:markettwits:390719"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -448,7 +453,9 @@
    "tg:banksta:104244",
    "tg:banksta:104241",
    "tg:banksta:104245",
-   "tg:banksta:104246"
+   "tg:banksta:104246",
+   "tg:banksta:104247",
+   "tg:banksta:104248"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -535,12 +542,10 @@
    "tg:cbrstocks:83663",
    "tg:cbrstocks:83664",
    "tg:cbrstocks:83665",
-   "tg:cbrstocks:83666"
+   "tg:cbrstocks:83666",
+   "tg:cbrstocks:83667"
   ],
   "rbc_news": [
-   "tg:rbc_news:159396",
-   "tg:rbc_news:159398",
-   "tg:rbc_news:159399",
    "tg:rbc_news:159400",
    "tg:rbc_news:159401",
    "tg:rbc_news:159411",
@@ -637,10 +642,12 @@
    "tg:rbc_news:159517",
    "tg:rbc_news:159518",
    "tg:rbc_news:159519",
-   "tg:rbc_news:159520"
+   "tg:rbc_news:159520",
+   "tg:rbc_news:159521",
+   "tg:rbc_news:159522",
+   "tg:rbc_news:159523"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80660",
    "tg:interfaxonline:80661",
    "tg:interfaxonline:80662",
    "tg:interfaxonline:80663",
@@ -737,15 +744,13 @@
    "tg:interfaxonline:80754",
    "tg:interfaxonline:80755",
    "tg:interfaxonline:80756",
-   "tg:interfaxonline:80757"
+   "tg:interfaxonline:80757",
+   "tg:interfaxonline:80758",
+   "tg:interfaxonline:80759",
+   "tg:interfaxonline:80760"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793085958.6822655,
-   "usd": 81.18,
-   "cny": 12.093
-  },
   {
    "ts": 1793088532.8283598,
    "usd": 80.85,
@@ -785,6 +790,11 @@
    "ts": 1793104572.1603868,
    "usd": 81.0025,
    "cny": 12.073
+  },
+  {
+   "ts": 1793107760.1780927,
+   "usd": 81.0,
+   "cny": 12.075
   }
  ],
  "ai_seen": [
@@ -931,45 +941,15 @@
   "ab934a056b7bb277",
   "1fbac6e94b9b02ba",
   "86934e1f95ddd2d4",
-  "0509f82d5b49ffe5"
+  "0509f82d5b49ffe5",
+  "tg:banksta:104248",
+  "6223db8f58e618bd",
+  "tg:markettwits:390719",
+  "44770c21c00181a1",
+  "05bc374a7210cd8d"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "Рубль отыграл снижение: аналитики оценили колебание курса…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793092963.859822
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Зимовка Whoosh обойдётся сотрудникам в месячную зарплату",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793092965.7614803
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Налоги нужны вовсе не для того, чтобы наполнить бюджет…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793092967.6817467
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Чек октября: тысяча из 2021 года стоит 1 718 руб.",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793092969.667218
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Пословицу «Без труда не выловишь и рыбку из пруда»…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793092971.6135294
-  },
   {
    "date": "2026-10-27",
    "headline": "BI: в США ритейлера обвиняют в мошенничестве на миллионы…",
@@ -1144,6 +1124,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793104599.8685207
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "В Москве продают квартиру без отделки на Золотой миле за 7…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793107785.8316665
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Канадский доллар слабеет в ожидании решений ФРС и Банка…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793107787.745035
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "🇷🇺#OZON #отчетность КОНСЕНСУС ИФ: Ozon во III кв. нарастил…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793107789.6328871
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Госдума поручила Счетной палате проверить работу ЦБ по…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793107791.5804558
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Москва консультируется с Каракасом и компаниями третьих…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793107793.4735122
   }
  ],
  "recent_news": [
