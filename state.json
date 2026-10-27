@@ -347,7 +347,9 @@
    "tg:banksta:104214",
    "tg:banksta:104215",
    "tg:banksta:104216",
-   "tg:banksta:104217"
+   "tg:banksta:104217",
+   "tg:banksta:104218",
+   "tg:banksta:104219"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -564,15 +566,11 @@
    "tg:interfaxonline:80724",
    "tg:interfaxonline:80725",
    "tg:interfaxonline:80719",
-   "tg:interfaxonline:80726"
+   "tg:interfaxonline:80726",
+   "tg:interfaxonline:80727"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793037671.2433603,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
   {
    "ts": 1793040466.0755734,
    "usd": 81.1275,
@@ -620,6 +618,11 @@
   },
   {
    "ts": 1793057732.306679,
+   "usd": 81.1275,
+   "cny": 12.0855
+  },
+  {
+   "ts": 1793059332.5429094,
    "usd": 81.1275,
    "cny": 12.0855
   }
