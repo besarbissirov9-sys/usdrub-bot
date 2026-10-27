@@ -434,7 +434,6 @@
    "tg:xtxixty:6977"
   ],
   "banksta": [
-   "tg:banksta:104158",
    "tg:banksta:104159",
    "tg:banksta:104160",
    "tg:banksta:104161",
@@ -533,7 +532,8 @@
    "tg:banksta:104284",
    "tg:banksta:104285",
    "tg:banksta:104286",
-   "tg:banksta:104287"
+   "tg:banksta:104287",
+   "tg:banksta:104288"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83575",
@@ -740,9 +740,6 @@
    "tg:rbc_news:159551"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80686",
-   "tg:interfaxonline:80687",
-   "tg:interfaxonline:80688",
    "tg:interfaxonline:80689",
    "tg:interfaxonline:80690",
    "tg:interfaxonline:80691",
@@ -839,15 +836,13 @@
    "tg:interfaxonline:80787",
    "tg:interfaxonline:80775",
    "tg:interfaxonline:80769",
-   "tg:interfaxonline:80788"
+   "tg:interfaxonline:80788",
+   "tg:interfaxonline:80789",
+   "tg:interfaxonline:80790",
+   "tg:interfaxonline:80791"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793121495.780033,
-   "usd": 81.03,
-   "cny": 12.081
-  },
   {
    "ts": 1793123780.4397063,
    "usd": 81.03,
@@ -890,6 +885,11 @@
   },
   {
    "ts": 1793141862.1919417,
+   "usd": 81.03,
+   "cny": 12.081
+  },
+  {
+   "ts": 1793143407.2176595,
    "usd": 81.03,
    "cny": 12.081
   }
