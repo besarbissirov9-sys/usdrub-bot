@@ -1,6 +1,6 @@
 {
  "last_rate": 80.81,
- "summary_date": "2026-10-26",
+ "summary_date": "2026-10-27",
  "posted": [
   "75971799cba5dbb6",
   "ce756c918cd0610b",
@@ -158,19 +158,16 @@
   "c108c0e5a53e4802",
   "a16c192b11bbb539",
   "tg:interfaxonline:80738",
-  "9b23f8931e9bb169"
+  "9b23f8931e9bb169",
+  "f8428ba5fe50a946",
+  "7c74db553ccd46d3",
+  "tg:interfaxonline:80740",
+  "f3ddf524b8524973",
+  "b4a780ecba2355f3"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390510",
-   "tg:markettwits:390511",
-   "tg:markettwits:390512",
-   "tg:markettwits:390513",
-   "tg:markettwits:390514",
-   "tg:markettwits:390515",
-   "tg:markettwits:390516",
-   "tg:markettwits:390518",
    "tg:markettwits:390519",
    "tg:markettwits:390520",
    "tg:markettwits:390521",
@@ -262,7 +259,15 @@
    "tg:markettwits:390631",
    "tg:markettwits:390632",
    "tg:markettwits:390633",
-   "tg:markettwits:390634"
+   "tg:markettwits:390634",
+   "tg:markettwits:390635",
+   "tg:markettwits:390636",
+   "tg:markettwits:390637",
+   "tg:markettwits:390638",
+   "tg:markettwits:390639",
+   "tg:markettwits:390640",
+   "tg:markettwits:390641",
+   "tg:markettwits:390642"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -377,7 +382,8 @@
    "tg:banksta:104221",
    "tg:banksta:104222",
    "tg:banksta:104223",
-   "tg:banksta:104224"
+   "tg:banksta:104224",
+   "tg:banksta:104226"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83573",
@@ -436,7 +442,11 @@
    "tg:cbrstocks:83627",
    "tg:cbrstocks:83626",
    "tg:cbrstocks:83625",
-   "tg:cbrstocks:83637"
+   "tg:cbrstocks:83637",
+   "tg:cbrstocks:83639",
+   "tg:cbrstocks:83640",
+   "tg:cbrstocks:83641",
+   "tg:cbrstocks:83642"
   ],
   "rbc_news": [
    "tg:rbc_news:159375",
@@ -531,7 +541,9 @@
    "tg:rbc_news:159488",
    "tg:rbc_news:159489",
    "tg:rbc_news:159490",
-   "tg:rbc_news:159491"
+   "tg:rbc_news:159491",
+   "tg:rbc_news:159492",
+   "tg:rbc_news:159493"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80660",
@@ -612,15 +624,13 @@
    "tg:interfaxonline:80735",
    "tg:interfaxonline:80736",
    "tg:interfaxonline:80737",
-   "tg:interfaxonline:80738"
+   "tg:interfaxonline:80738",
+   "tg:interfaxonline:80739",
+   "tg:interfaxonline:80741",
+   "tg:interfaxonline:80740"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793059332.5429094,
-   "usd": 81.1275,
-   "cny": 12.0855
-  },
   {
    "ts": 1793061862.6742198,
    "usd": 81.1275,
@@ -670,6 +680,11 @@
    "ts": 1793080735.191752,
    "usd": null,
    "cny": null
+  },
+  {
+   "ts": 1793082767.2266562,
+   "usd": 81.365,
+   "cny": 12.126
   }
  ],
  "ai_seen": [
@@ -766,45 +781,15 @@
   "c108c0e5a53e4802",
   "a16c192b11bbb539",
   "tg:interfaxonline:80738",
-  "9b23f8931e9bb169"
+  "9b23f8931e9bb169",
+  "f8428ba5fe50a946",
+  "7c74db553ccd46d3",
+  "tg:interfaxonline:80740",
+  "f3ddf524b8524973",
+  "b4a780ecba2355f3"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-27",
-   "headline": "Чистая прибыль банковского сектора в сентябре снизилась…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793052628.7773554
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Чистая прибыль банковского сектора в сентябре снизилась на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793054430.7652237
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "#Политика Победивший на парламентских выборах в Сербии…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793054432.8425925
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "Глава МИД Венгрии во вторник встретится с Рубио, на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793054434.8212492
-  },
-  {
-   "date": "2026-10-27",
-   "headline": "ЦБ рекомендовал банкам контролировать источники крупных…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793054436.8210895
-  },
   {
    "date": "2026-10-27",
    "headline": "Прогноз дивидендов Сургутнефтегаза 2026-2030",
@@ -979,6 +964,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793080760.1901207
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Пенсионерка из Пензы отдала мошенникам более девяти…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793082789.2724288
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Курс юаня на Мосбирже в начале торгов вырос до 12,13 рубля",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793082791.2519894
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Рубль утром опускается в паре с юанем на фоне дешевеющей…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793082793.2064853
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Рубль утром опускается к юаню на фоне дешевеющей нефти",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793082795.1683054
+  },
+  {
+   "date": "2026-10-27",
+   "headline": "Около 20 миллиардов рублей взыскивают с экс-главы…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793082797.0924964
   }
  ],
  "recent_news": [
