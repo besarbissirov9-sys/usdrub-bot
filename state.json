@@ -377,15 +377,16 @@
   "bfc51d298d985269",
   "9d6a347262fb49d5",
   "18f4bd421d0b927b",
-  "c9aaa20a079bc6a8"
+  "c9aaa20a079bc6a8",
+  "78d1b0b539969021",
+  "c1ffb1a89db421d2",
+  "cf51329d6489afd6",
+  "caf6332ecbc8fb49",
+  "175c1f2c02fd1828"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390864",
-   "tg:markettwits:390867",
-   "tg:markettwits:390868",
-   "tg:markettwits:390869",
    "tg:markettwits:390870",
    "tg:markettwits:390871",
    "tg:markettwits:390872",
@@ -481,7 +482,11 @@
    "tg:markettwits:390977",
    "tg:markettwits:390978",
    "tg:markettwits:390965",
-   "tg:markettwits:390979"
+   "tg:markettwits:390979",
+   "tg:markettwits:390980",
+   "tg:markettwits:390981",
+   "tg:markettwits:390982",
+   "tg:markettwits:390983"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -535,8 +540,6 @@
    "tg:xtxixty:6979"
   ],
   "banksta": [
-   "tg:banksta:104221",
-   "tg:banksta:104222",
    "tg:banksta:104223",
    "tg:banksta:104224",
    "tg:banksta:104226",
@@ -634,10 +637,11 @@
    "tg:banksta:104335",
    "tg:banksta:104336",
    "tg:banksta:104337",
-   "tg:banksta:104338"
+   "tg:banksta:104338",
+   "tg:banksta:104339",
+   "tg:banksta:104340"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83633",
    "tg:cbrstocks:83635",
    "tg:cbrstocks:83636",
    "tg:cbrstocks:83634",
@@ -736,12 +740,10 @@
    "tg:cbrstocks:83736",
    "tg:cbrstocks:83737",
    "tg:cbrstocks:83738",
-   "tg:cbrstocks:83739"
+   "tg:cbrstocks:83739",
+   "tg:cbrstocks:83740"
   ],
   "rbc_news": [
-   "tg:rbc_news:159500",
-   "tg:rbc_news:159501",
-   "tg:rbc_news:159503",
    "tg:rbc_news:159502",
    "tg:rbc_news:159504",
    "tg:rbc_news:159505",
@@ -838,10 +840,12 @@
    "tg:rbc_news:159602",
    "tg:rbc_news:159607",
    "tg:rbc_news:159608",
-   "tg:rbc_news:159609"
+   "tg:rbc_news:159609",
+   "tg:rbc_news:159610",
+   "tg:rbc_news:159611",
+   "tg:rbc_news:159612"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80731",
    "tg:interfaxonline:80732",
    "tg:interfaxonline:80733",
    "tg:interfaxonline:80734",
@@ -940,15 +944,11 @@
    "tg:interfaxonline:80832",
    "tg:interfaxonline:80833",
    "tg:interfaxonline:80835",
-   "tg:interfaxonline:80836"
+   "tg:interfaxonline:80836",
+   "tg:interfaxonline:80837"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793185974.0557423,
-   "usd": 81.005,
-   "cny": 12.0825
-  },
   {
    "ts": 1793188544.472116,
    "usd": 81.1825,
@@ -981,6 +981,11 @@
   },
   {
    "ts": 1793206527.876149,
+   "usd": 80.665,
+   "cny": 12.029
+  },
+  {
+   "ts": 1793208829.1693947,
    "usd": 80.665,
    "cny": 12.029
   }
@@ -1296,45 +1301,15 @@
   "bfc51d298d985269",
   "9d6a347262fb49d5",
   "18f4bd421d0b927b",
-  "c9aaa20a079bc6a8"
+  "c9aaa20a079bc6a8",
+  "78d1b0b539969021",
+  "c1ffb1a89db421d2",
+  "cf51329d6489afd6",
+  "caf6332ecbc8fb49",
+  "175c1f2c02fd1828"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-28",
-   "headline": "На поддержку разработчиков вакцин для животных направят до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793190619.163014
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Товарооборот России и Африки превысит 50 миллиардов…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793190621.2146175
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "✴️#ENA #крипто Ethena запускает Earn+, предоставляя…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793190623.3318408
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "\"Озон\" оценил ущерб от атак БПЛА в 30,1 млрд рублей",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793190625.3811831
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Санкции стали вызовом для России, заявил Орешкин",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793190627.4058564
-  },
   {
    "date": "2026-10-28",
    "headline": "Биржевые цены на газ в Европе превысили 1150 долларов за…",
@@ -1509,6 +1484,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793206560.7007706
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Минфин разместил ОФЗ с постоянным купонным доходом на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793208852.2391422
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Чистая прибыль РЖД по РСБУ составила 75 миллиардов рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793208854.1836169
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Люди уходят в наличные и переводные рублевые депозиты",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793208857.2369766
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Центробанк опубликовал официальный курс валют на четверг",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793208859.156233
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "ЦБ повысил официальный курс доллара на 29 октября до…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793208861.1297326
   }
  ],
  "recent_news": [
@@ -1717,5 +1727,5 @@
  "week_cal": "2026-10-26",
  "week_poll": "2026-10-26",
  "week_chart": "2026-10-25",
- "digest_date": "2026-10-27"
+ "digest_date": "2026-10-28"
 }
