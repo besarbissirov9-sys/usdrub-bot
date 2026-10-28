@@ -412,7 +412,12 @@
   "tg:banksta:104359",
   "tg:markettwits:391018",
   "b6e10495420dcd60",
-  "tg:interfaxonline:80838"
+  "tg:interfaxonline:80838",
+  "tg:rbc_news:159613",
+  "2cf488c61b4f261b",
+  "dcc8b98b2e2a67d0",
+  "2e4e4a86fa3ac497",
+  "79674c5974076539"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -575,7 +580,6 @@
    "tg:xtxixty:6997"
   ],
   "banksta": [
-   "tg:banksta:104243",
    "tg:banksta:104244",
    "tg:banksta:104241",
    "tg:banksta:104245",
@@ -674,7 +678,8 @@
    "tg:banksta:104354",
    "tg:banksta:104356",
    "tg:banksta:104357",
-   "tg:banksta:104359"
+   "tg:banksta:104359",
+   "tg:banksta:104360"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83635",
@@ -779,7 +784,6 @@
    "tg:cbrstocks:83740"
   ],
   "rbc_news": [
-   "tg:rbc_news:159512",
    "tg:rbc_news:159513",
    "tg:rbc_news:159514",
    "tg:rbc_news:159515",
@@ -878,7 +882,8 @@
    "tg:rbc_news:159620",
    "tg:rbc_news:159622",
    "tg:rbc_news:159623",
-   "tg:rbc_news:159621"
+   "tg:rbc_news:159621",
+   "tg:rbc_news:159613"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80737",
@@ -985,11 +990,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793203783.4258342,
-   "usd": 80.665,
-   "cny": 12.0305
-  },
-  {
    "ts": 1793206527.876149,
    "usd": 80.665,
    "cny": 12.029
@@ -1026,6 +1026,11 @@
   },
   {
    "ts": 1793224409.930838,
+   "usd": 80.665,
+   "cny": 12.029
+  },
+  {
+   "ts": 1793226392.5838165,
    "usd": 80.665,
    "cny": 12.029
   }
@@ -1376,7 +1381,12 @@
   "tg:banksta:104359",
   "tg:markettwits:391018",
   "b6e10495420dcd60",
-  "tg:interfaxonline:80838"
+  "tg:interfaxonline:80838",
+  "tg:rbc_news:159613",
+  "2cf488c61b4f261b",
+  "dcc8b98b2e2a67d0",
+  "2e4e4a86fa3ac497",
+  "79674c5974076539"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1449,6 +1459,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793224435.0439575
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Президент России Владимир Путин заявил, что система…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793226408.7545068
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Каждый год в эту неделю инфляция немного подскакивает -…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793226410.5946681
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Банк России вновь сохранил антициклическую надбавку на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793226412.4288638
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "❗ Новые блокировки счетов и налоговые претензии (октябрь…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793226414.264447
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "ЦБ не стал ужесточать регулирование выдачи необеспеченных…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793226416.0920355
   }
  ],
  "recent_news": [
