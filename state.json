@@ -382,13 +382,16 @@
   "c1ffb1a89db421d2",
   "cf51329d6489afd6",
   "caf6332ecbc8fb49",
-  "175c1f2c02fd1828"
+  "175c1f2c02fd1828",
+  "46c43585b4617e4b",
+  "15a0fba8d7daa57c",
+  "9830e3cad412cee6",
+  "1795349e80dcbcdb",
+  "tg:banksta:104343"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390870",
-   "tg:markettwits:390871",
    "tg:markettwits:390872",
    "tg:markettwits:390873",
    "tg:markettwits:390874",
@@ -486,7 +489,9 @@
    "tg:markettwits:390980",
    "tg:markettwits:390981",
    "tg:markettwits:390982",
-   "tg:markettwits:390983"
+   "tg:markettwits:390983",
+   "tg:markettwits:390985",
+   "tg:markettwits:390987"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -540,10 +545,6 @@
    "tg:xtxixty:6979"
   ],
   "banksta": [
-   "tg:banksta:104223",
-   "tg:banksta:104224",
-   "tg:banksta:104226",
-   "tg:banksta:104227",
    "tg:banksta:104229",
    "tg:banksta:104230",
    "tg:banksta:104225",
@@ -639,7 +640,11 @@
    "tg:banksta:104337",
    "tg:banksta:104338",
    "tg:banksta:104339",
-   "tg:banksta:104340"
+   "tg:banksta:104340",
+   "tg:banksta:104341",
+   "tg:banksta:104342",
+   "tg:banksta:104344",
+   "tg:banksta:104343"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83635",
@@ -744,7 +749,6 @@
    "tg:cbrstocks:83740"
   ],
   "rbc_news": [
-   "tg:rbc_news:159502",
    "tg:rbc_news:159504",
    "tg:rbc_news:159505",
    "tg:rbc_news:159506",
@@ -843,12 +847,10 @@
    "tg:rbc_news:159609",
    "tg:rbc_news:159610",
    "tg:rbc_news:159611",
-   "tg:rbc_news:159612"
+   "tg:rbc_news:159612",
+   "tg:rbc_news:159614"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80732",
-   "tg:interfaxonline:80733",
-   "tg:interfaxonline:80734",
    "tg:interfaxonline:80735",
    "tg:interfaxonline:80736",
    "tg:interfaxonline:80737",
@@ -945,15 +947,13 @@
    "tg:interfaxonline:80833",
    "tg:interfaxonline:80835",
    "tg:interfaxonline:80836",
-   "tg:interfaxonline:80837"
+   "tg:interfaxonline:80837",
+   "tg:interfaxonline:80839",
+   "tg:interfaxonline:80843",
+   "tg:interfaxonline:80844"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793188544.472116,
-   "usd": 81.1825,
-   "cny": 12.0985
-  },
   {
    "ts": 1793190594.7572782,
    "usd": 81.105,
@@ -986,6 +986,11 @@
   },
   {
    "ts": 1793208829.1693947,
+   "usd": 80.665,
+   "cny": 12.029
+  },
+  {
+   "ts": 1793211509.140667,
    "usd": 80.665,
    "cny": 12.029
   }
@@ -1306,45 +1311,15 @@
   "c1ffb1a89db421d2",
   "cf51329d6489afd6",
   "caf6332ecbc8fb49",
-  "175c1f2c02fd1828"
+  "175c1f2c02fd1828",
+  "46c43585b4617e4b",
+  "15a0fba8d7daa57c",
+  "9830e3cad412cee6",
+  "1795349e80dcbcdb",
+  "tg:banksta:104343"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-28",
-   "headline": "Биржевые цены на газ в Европе превысили 1150 долларов за…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793194340.5885804
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Выручка от монетизации на платформе \"Макс\" превысила 700…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793194342.5257895
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "\"Рубль получает поддержку от нефти\": юань держится выше 12…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793194344.4968998
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Экономист Никита Кричевский прокомментировал обсуждаемые…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793194346.3870914
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "ВТБ подвел итоги девяти месяцев 2026 года по…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793194348.430345
-  },
   {
    "date": "2026-10-28",
    "headline": "Минфин разместил на безлимитном аукционе ОФЗ на 73,696…",
@@ -1519,6 +1494,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793208861.1297326
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Официальные курсы валют на 29 октября: ¥ — ₽12,0816, $ —…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793211536.8988996
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Минфин разместил два выпуска ОФЗ почти на 157 млрд рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793211538.8954167
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Толпа сдаёт доллар💵",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793211540.8553374
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "ФРС оставила ключевую ставку в диапазоне 3,75-4%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793211542.8336089
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "ФРС США снова не понизила ключевую ставку, как этого…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793211544.8038101
   }
  ],
  "recent_news": [
