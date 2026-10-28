@@ -290,12 +290,14 @@
   "8399556c17d8f57f",
   "9091a33dd7b8409d",
   "tg:interfaxonline:80798",
-  "75d7f8c0b15d9e74"
+  "75d7f8c0b15d9e74",
+  "27a4eace12619f7f",
+  "953d241e24fb30a7",
+  "5ba2d0cc2b11c27a"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390696",
    "tg:markettwits:390697",
    "tg:markettwits:390698",
    "tg:markettwits:390699",
@@ -394,7 +396,8 @@
    "tg:markettwits:390794",
    "tg:markettwits:390795",
    "tg:markettwits:390796",
-   "tg:markettwits:390797"
+   "tg:markettwits:390797",
+   "tg:markettwits:390798"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -851,11 +854,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793135471.8114865,
-   "usd": 81.03,
-   "cny": 12.081
-  },
-  {
    "ts": 1793137730.71098,
    "usd": 81.03,
    "cny": 12.081
@@ -899,6 +897,11 @@
    "ts": 1793156295.6313846,
    "usd": 81.03,
    "cny": 12.081
+  },
+  {
+   "ts": 1793158506.3297927,
+   "usd": null,
+   "cny": null
   }
  ],
  "ai_seen": [
@@ -1125,7 +1128,10 @@
   "8399556c17d8f57f",
   "9091a33dd7b8409d",
   "tg:interfaxonline:80798",
-  "75d7f8c0b15d9e74"
+  "75d7f8c0b15d9e74",
+  "27a4eace12619f7f",
+  "953d241e24fb30a7",
+  "5ba2d0cc2b11c27a"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1303,6 +1309,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793153767.3594131
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Доходы Магаданской области выросли до 125,7 миллиарда рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793158528.9718254
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Порошенко задекларировал почти 20 миллионов долларов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793158530.919954
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Азия. Среда.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793158532.8762274
   }
  ],
  "recent_news": [
