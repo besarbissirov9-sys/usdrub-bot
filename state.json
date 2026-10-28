@@ -407,13 +407,16 @@
   "tg:rbc_news:159621",
   "983d19ba51d891bf",
   "ba33f55760836935",
-  "2799a1719a8250a0"
+  "2799a1719a8250a0",
+  "3e2820a360e8deae",
+  "tg:banksta:104359",
+  "tg:markettwits:391018",
+  "b6e10495420dcd60",
+  "tg:interfaxonline:80838"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390908",
-   "tg:markettwits:390909",
    "tg:markettwits:390911",
    "tg:markettwits:390912",
    "tg:markettwits:390913",
@@ -511,7 +514,9 @@
    "tg:markettwits:391016",
    "tg:markettwits:391017",
    "tg:markettwits:391019",
-   "tg:markettwits:391020"
+   "tg:markettwits:391020",
+   "tg:markettwits:391021",
+   "tg:markettwits:391018"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -570,8 +575,6 @@
    "tg:xtxixty:6997"
   ],
   "banksta": [
-   "tg:banksta:104239",
-   "tg:banksta:104240",
    "tg:banksta:104243",
    "tg:banksta:104244",
    "tg:banksta:104241",
@@ -669,7 +672,9 @@
    "tg:banksta:104346",
    "tg:banksta:104355",
    "tg:banksta:104354",
-   "tg:banksta:104356"
+   "tg:banksta:104356",
+   "tg:banksta:104357",
+   "tg:banksta:104359"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83635",
@@ -876,7 +881,6 @@
    "tg:rbc_news:159621"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80736",
    "tg:interfaxonline:80737",
    "tg:interfaxonline:80738",
    "tg:interfaxonline:80739",
@@ -975,15 +979,11 @@
    "tg:interfaxonline:80839",
    "tg:interfaxonline:80843",
    "tg:interfaxonline:80844",
-   "tg:interfaxonline:80848"
+   "tg:interfaxonline:80848",
+   "tg:interfaxonline:80838"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793200727.9389212,
-   "usd": 80.6225,
-   "cny": 12.021
-  },
   {
    "ts": 1793203783.4258342,
    "usd": 80.665,
@@ -1021,6 +1021,11 @@
   },
   {
    "ts": 1793221959.0698512,
+   "usd": 80.665,
+   "cny": 12.029
+  },
+  {
+   "ts": 1793224409.930838,
    "usd": 80.665,
    "cny": 12.029
   }
@@ -1366,7 +1371,12 @@
   "tg:rbc_news:159621",
   "983d19ba51d891bf",
   "ba33f55760836935",
-  "2799a1719a8250a0"
+  "2799a1719a8250a0",
+  "3e2820a360e8deae",
+  "tg:banksta:104359",
+  "tg:markettwits:391018",
+  "b6e10495420dcd60",
+  "tg:interfaxonline:80838"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1404,6 +1414,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793221986.964283
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Канадский доллар удерживает рост после повышения ставки…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793224427.4847393
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Крупнейший в мире добытчик алмазов De Beers Group,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793224429.3874335
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "❗️🇺🇸🇷🇺#санкции #россия #сша #бизнес ВОПРОС О ВОЗМОЖНОСТИ…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793224431.2771258
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Сальдированная прибыль российских компаний по итогам…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793224433.168357
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Что произошло за день: среда, 28 октября ➖Авиасбор для…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793224435.0439575
   }
  ],
  "recent_news": [
