@@ -422,7 +422,12 @@
   "e32f04899ba9933c",
   "34a2b41774154cf0",
   "tg:interfaxonline:80834",
-  "5f638195fb8e8cf9"
+  "5f638195fb8e8cf9",
+  "bba5f9bd3d556f38",
+  "tg:cbrstocks:83734",
+  "tg:cbrstocks:83733",
+  "05f4c4cd86ffca49",
+  "80c6dcf6fa6d2f48"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -585,8 +590,6 @@
    "tg:xtxixty:6997"
   ],
   "banksta": [
-   "tg:banksta:104241",
-   "tg:banksta:104245",
    "tg:banksta:104246",
    "tg:banksta:104247",
    "tg:banksta:104248",
@@ -684,11 +687,11 @@
    "tg:banksta:104357",
    "tg:banksta:104359",
    "tg:banksta:104360",
-   "tg:banksta:104361"
+   "tg:banksta:104361",
+   "tg:banksta:104362",
+   "tg:banksta:104363"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83635",
-   "tg:cbrstocks:83636",
    "tg:cbrstocks:83634",
    "tg:cbrstocks:83629",
    "tg:cbrstocks:83627",
@@ -786,7 +789,9 @@
    "tg:cbrstocks:83737",
    "tg:cbrstocks:83738",
    "tg:cbrstocks:83739",
-   "tg:cbrstocks:83740"
+   "tg:cbrstocks:83740",
+   "tg:cbrstocks:83734",
+   "tg:cbrstocks:83733"
   ],
   "rbc_news": [
    "tg:rbc_news:159513",
@@ -891,10 +896,6 @@
    "tg:rbc_news:159613"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80738",
-   "tg:interfaxonline:80739",
-   "tg:interfaxonline:80741",
-   "tg:interfaxonline:80740",
    "tg:interfaxonline:80742",
    "tg:interfaxonline:80743",
    "tg:interfaxonline:80744",
@@ -990,15 +991,14 @@
    "tg:interfaxonline:80844",
    "tg:interfaxonline:80848",
    "tg:interfaxonline:80838",
-   "tg:interfaxonline:80834"
+   "tg:interfaxonline:80834",
+   "tg:interfaxonline:80849",
+   "tg:interfaxonline:80850",
+   "tg:interfaxonline:80851",
+   "tg:interfaxonline:80852"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793208829.1693947,
-   "usd": 80.665,
-   "cny": 12.029
-  },
   {
    "ts": 1793211509.140667,
    "usd": 80.665,
@@ -1036,6 +1036,11 @@
   },
   {
    "ts": 1793228526.7426288,
+   "usd": 80.665,
+   "cny": 12.029
+  },
+  {
+   "ts": 1793230717.8841403,
    "usd": 80.665,
    "cny": 12.029
   }
@@ -1396,7 +1401,12 @@
   "e32f04899ba9933c",
   "34a2b41774154cf0",
   "tg:interfaxonline:80834",
-  "5f638195fb8e8cf9"
+  "5f638195fb8e8cf9",
+  "bba5f9bd3d556f38",
+  "tg:cbrstocks:83734",
+  "tg:cbrstocks:83733",
+  "05f4c4cd86ffca49",
+  "80c6dcf6fa6d2f48"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1539,6 +1549,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793228551.5756867
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "ЦБ сохранил на I квартал 2027 года значения…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793230743.6249795
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "может ухудшиться финансовое положение заемщика.Скрытый…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793230745.629924
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "#Банки Банк России устанавливает ограничения на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793230747.612506
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "ЦБ РФ сохранил антициклическую надбавку к нормативам…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793230749.603904
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Путин предложил подключить страны Африки к системе…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793230751.616165
   }
  ],
  "recent_news": [
