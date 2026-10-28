@@ -293,17 +293,16 @@
   "75d7f8c0b15d9e74",
   "27a4eace12619f7f",
   "953d241e24fb30a7",
-  "5ba2d0cc2b11c27a"
+  "5ba2d0cc2b11c27a",
+  "2ae6d54b967d7846",
+  "30c77e9fae66898b",
+  "bc331870aecccd7c",
+  "be375f648017fd91",
+  "tg:markettwits:390803"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390697",
-   "tg:markettwits:390698",
-   "tg:markettwits:390699",
-   "tg:markettwits:390700",
-   "tg:markettwits:390701",
-   "tg:markettwits:390702",
    "tg:markettwits:390703",
    "tg:markettwits:390704",
    "tg:markettwits:390705",
@@ -397,7 +396,13 @@
    "tg:markettwits:390795",
    "tg:markettwits:390796",
    "tg:markettwits:390797",
-   "tg:markettwits:390798"
+   "tg:markettwits:390798",
+   "tg:markettwits:390801",
+   "tg:markettwits:390802",
+   "tg:markettwits:390804",
+   "tg:markettwits:390805",
+   "tg:markettwits:390806",
+   "tg:markettwits:390803"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -444,7 +449,6 @@
    "tg:xtxixty:6977"
   ],
   "banksta": [
-   "tg:banksta:104164",
    "tg:banksta:104165",
    "tg:banksta:104166",
    "tg:banksta:104167",
@@ -543,7 +547,8 @@
    "tg:banksta:104290",
    "tg:banksta:104291",
    "tg:banksta:104292",
-   "tg:banksta:104293"
+   "tg:banksta:104293",
+   "tg:banksta:104294"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83575",
@@ -854,11 +859,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793137730.71098,
-   "usd": 81.03,
-   "cny": 12.081
-  },
-  {
    "ts": 1793139661.9745657,
    "usd": 81.03,
    "cny": 12.081
@@ -900,6 +900,11 @@
   },
   {
    "ts": 1793158506.3297927,
+   "usd": null,
+   "cny": null
+  },
+  {
+   "ts": 1793161156.8161337,
    "usd": null,
    "cny": null
   }
@@ -1131,31 +1136,15 @@
   "75d7f8c0b15d9e74",
   "27a4eace12619f7f",
   "953d241e24fb30a7",
-  "5ba2d0cc2b11c27a"
+  "5ba2d0cc2b11c27a",
+  "2ae6d54b967d7846",
+  "30c77e9fae66898b",
+  "bc331870aecccd7c",
+  "be375f648017fd91",
+  "tg:markettwits:390803"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-28",
-   "headline": "В Госдуме указали на разный подход к повышению налоговых…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793135487.9370475
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Книжная сеть «Читай-город» — «Буквоед» потратила около 100…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793135489.7983935
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Цифровые валюты могут стать новым расчетным инструментом…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793135491.6496358
-  },
   {
    "date": "2026-10-28",
    "headline": "NYT узнала, что власти США задумались о снятии санкций с…",
@@ -1330,6 +1319,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793158532.8762274
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Почему новозеландский доллар падает сегодня",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793161174.6003265
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Азиатские валюты разнонаправлены, доллар у максимума, киви…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793161176.4799583
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Объем цифровых рублей на счетах банков после запуска…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793161178.3590548
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Рынок акций РФ открылся в утреннюю сессию ростом индексов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793161180.233134
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "❗️🇳🇿#дкп #нзеландия #цб Н.ЗЕЛАНДИЯ - СТАВКА ЦБ = 2.75%…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793161182.1206117
   }
  ],
  "recent_news": [
