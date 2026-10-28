@@ -417,7 +417,12 @@
   "2cf488c61b4f261b",
   "dcc8b98b2e2a67d0",
   "2e4e4a86fa3ac497",
-  "79674c5974076539"
+  "79674c5974076539",
+  "bcbb5fe45d2569e6",
+  "e32f04899ba9933c",
+  "34a2b41774154cf0",
+  "tg:interfaxonline:80834",
+  "5f638195fb8e8cf9"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -580,7 +585,6 @@
    "tg:xtxixty:6997"
   ],
   "banksta": [
-   "tg:banksta:104244",
    "tg:banksta:104241",
    "tg:banksta:104245",
    "tg:banksta:104246",
@@ -679,7 +683,8 @@
    "tg:banksta:104356",
    "tg:banksta:104357",
    "tg:banksta:104359",
-   "tg:banksta:104360"
+   "tg:banksta:104360",
+   "tg:banksta:104361"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83635",
@@ -886,7 +891,6 @@
    "tg:rbc_news:159613"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80737",
    "tg:interfaxonline:80738",
    "tg:interfaxonline:80739",
    "tg:interfaxonline:80741",
@@ -985,15 +989,11 @@
    "tg:interfaxonline:80843",
    "tg:interfaxonline:80844",
    "tg:interfaxonline:80848",
-   "tg:interfaxonline:80838"
+   "tg:interfaxonline:80838",
+   "tg:interfaxonline:80834"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793206527.876149,
-   "usd": 80.665,
-   "cny": 12.029
-  },
   {
    "ts": 1793208829.1693947,
    "usd": 80.665,
@@ -1031,6 +1031,11 @@
   },
   {
    "ts": 1793226392.5838165,
+   "usd": 80.665,
+   "cny": 12.029
+  },
+  {
+   "ts": 1793228526.7426288,
    "usd": 80.665,
    "cny": 12.029
   }
@@ -1386,7 +1391,12 @@
   "2cf488c61b4f261b",
   "dcc8b98b2e2a67d0",
   "2e4e4a86fa3ac497",
-  "79674c5974076539"
+  "79674c5974076539",
+  "bcbb5fe45d2569e6",
+  "e32f04899ba9933c",
+  "34a2b41774154cf0",
+  "tg:interfaxonline:80834",
+  "5f638195fb8e8cf9"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1494,6 +1504,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793226416.0920355
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Reuters сообщил о шансах баскетболиста и химика прийти к…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793228544.050828
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "ЦБ ограничил выдачу автокредитов со сроком возврата более…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793228545.8891819
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "ЦБ вводит макропруденциальные лимиты для целевых…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793228547.7632978
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Brent подорожала до $115,84 за баррель Цены на нефть…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793228549.6375394
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "ЦБ ограничил выдачи длинных автокредитов и потребкредитов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793228551.5756867
   }
  ],
  "recent_news": [
