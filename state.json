@@ -392,16 +392,16 @@
   "45e31bf014cde472",
   "tg:banksta:104345",
   "tg:markettwits:390997",
-  "50fcb036ef27b7e6"
+  "50fcb036ef27b7e6",
+  "tg:rbc_news:159619",
+  "96711eb7ce186dee",
+  "tg:banksta:104346",
+  "d2b43b534c77f4b8",
+  "d496ffd805e1a7f6"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390891",
-   "tg:markettwits:390892",
-   "tg:markettwits:390894",
-   "tg:markettwits:390895",
-   "tg:markettwits:390896",
    "tg:markettwits:390888",
    "tg:markettwits:390897",
    "tg:markettwits:390898",
@@ -496,7 +496,12 @@
    "tg:markettwits:391001",
    "tg:markettwits:391002",
    "tg:markettwits:391003",
-   "tg:markettwits:390997"
+   "tg:markettwits:390997",
+   "tg:markettwits:391004",
+   "tg:markettwits:391005",
+   "tg:markettwits:391006",
+   "tg:markettwits:391007",
+   "tg:markettwits:391008"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -553,9 +558,6 @@
    "tg:xtxixty:6988"
   ],
   "banksta": [
-   "tg:banksta:104233",
-   "tg:banksta:104234",
-   "tg:banksta:104235",
    "tg:banksta:104236",
    "tg:banksta:104237",
    "tg:banksta:104238",
@@ -652,7 +654,10 @@
    "tg:banksta:104343",
    "tg:banksta:104347",
    "tg:banksta:104348",
-   "tg:banksta:104345"
+   "tg:banksta:104345",
+   "tg:banksta:104349",
+   "tg:banksta:104353",
+   "tg:banksta:104346"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83635",
@@ -757,8 +762,6 @@
    "tg:cbrstocks:83740"
   ],
   "rbc_news": [
-   "tg:rbc_news:159499",
-   "tg:rbc_news:159507",
    "tg:rbc_news:159508",
    "tg:rbc_news:159509",
    "tg:rbc_news:159510",
@@ -856,10 +859,11 @@
    "tg:rbc_news:159614",
    "tg:rbc_news:159615",
    "tg:rbc_news:159616",
-   "tg:rbc_news:159617"
+   "tg:rbc_news:159617",
+   "tg:rbc_news:159618",
+   "tg:rbc_news:159619"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80735",
    "tg:interfaxonline:80736",
    "tg:interfaxonline:80737",
    "tg:interfaxonline:80738",
@@ -958,15 +962,11 @@
    "tg:interfaxonline:80837",
    "tg:interfaxonline:80839",
    "tg:interfaxonline:80843",
-   "tg:interfaxonline:80844"
+   "tg:interfaxonline:80844",
+   "tg:interfaxonline:80848"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793194318.965655,
-   "usd": 80.95,
-   "cny": 12.0625
-  },
   {
    "ts": 1793197603.9581091,
    "usd": 80.65,
@@ -999,6 +999,11 @@
   },
   {
    "ts": 1793214697.4917166,
+   "usd": 80.665,
+   "cny": 12.029
+  },
+  {
+   "ts": 1793217439.2768786,
    "usd": 80.665,
    "cny": 12.029
   }
@@ -1329,45 +1334,15 @@
   "45e31bf014cde472",
   "tg:banksta:104345",
   "tg:markettwits:390997",
-  "50fcb036ef27b7e6"
+  "50fcb036ef27b7e6",
+  "tg:rbc_news:159619",
+  "96711eb7ce186dee",
+  "tg:banksta:104346",
+  "d2b43b534c77f4b8",
+  "d496ffd805e1a7f6"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-28",
-   "headline": "Цена на пшеницу в Чикаго опустилась ниже шести долларов",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793200767.6062238
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "◻️◻️◻️ Президент России Владимир Путин провел экскурсию по…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793200769.669295
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "#VTBR ВТБ выдал более 20 млрд рублей на рефинансирование…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793200771.6881552
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Потенциал — МИЛЛИАРДЫ РУБЛЕЙ. Эксперт назвал топ-3…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793200773.7374756
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Официальный курс доллара почти достиг уровня 81 рубля",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793200775.7862475
-  },
   {
    "date": "2026-10-28",
    "headline": "Группа ЛСР выкупит свои акции по 675 рублей",
@@ -1542,6 +1517,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793214728.1746986
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "На Украине продали квартиру российского дизайнера Артемия…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793217453.788355
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Адвокаты Левиафана: 3 трюка, с помощью которых «элитные»…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793217455.623772
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Т-Банк в рамках саммита «Россия — Африка» представил…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793217457.5204637
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Панки автобизнеса: как устроен рынок детейлинга и…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793217459.3609455
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Инфляция ‐ 0,08%. Бензин дешевеет, продукты дорожают",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793217461.1926134
   }
  ],
  "recent_news": [
