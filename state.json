@@ -298,20 +298,15 @@
   "30c77e9fae66898b",
   "bc331870aecccd7c",
   "be375f648017fd91",
-  "tg:markettwits:390803"
+  "tg:markettwits:390803",
+  "tg:banksta:104295",
+  "tg:markettwits:390799",
+  "9d9798e8775e511c",
+  "42e2e9845749e42a"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390703",
-   "tg:markettwits:390704",
-   "tg:markettwits:390705",
-   "tg:markettwits:390706",
-   "tg:markettwits:390707",
-   "tg:markettwits:390708",
-   "tg:markettwits:390709",
-   "tg:markettwits:390711",
-   "tg:markettwits:390710",
    "tg:markettwits:390712",
    "tg:markettwits:390713",
    "tg:markettwits:390714",
@@ -402,7 +397,16 @@
    "tg:markettwits:390804",
    "tg:markettwits:390805",
    "tg:markettwits:390806",
-   "tg:markettwits:390803"
+   "tg:markettwits:390803",
+   "tg:markettwits:390807",
+   "tg:markettwits:390808",
+   "tg:markettwits:390809",
+   "tg:markettwits:390810",
+   "tg:markettwits:390811",
+   "tg:markettwits:390812",
+   "tg:markettwits:390813",
+   "tg:markettwits:390814",
+   "tg:markettwits:390799"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -430,7 +434,8 @@
    "tg:russianmacro:23649",
    "tg:russianmacro:23650",
    "tg:russianmacro:23651",
-   "tg:russianmacro:23652"
+   "tg:russianmacro:23652",
+   "tg:russianmacro:23653"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -449,7 +454,6 @@
    "tg:xtxixty:6977"
   ],
   "banksta": [
-   "tg:banksta:104165",
    "tg:banksta:104166",
    "tg:banksta:104167",
    "tg:banksta:104168",
@@ -548,7 +552,8 @@
    "tg:banksta:104291",
    "tg:banksta:104292",
    "tg:banksta:104293",
-   "tg:banksta:104294"
+   "tg:banksta:104294",
+   "tg:banksta:104295"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83575",
@@ -653,7 +658,6 @@
    "tg:cbrstocks:83679"
   ],
   "rbc_news": [
-   "tg:rbc_news:159451",
    "tg:rbc_news:159452",
    "tg:rbc_news:159453",
    "tg:rbc_news:159454",
@@ -752,13 +756,10 @@
    "tg:rbc_news:159549",
    "tg:rbc_news:159548",
    "tg:rbc_news:159550",
-   "tg:rbc_news:159551"
+   "tg:rbc_news:159551",
+   "tg:rbc_news:159552"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80697",
-   "tg:interfaxonline:80698",
-   "tg:interfaxonline:80699",
-   "tg:interfaxonline:80700",
    "tg:interfaxonline:80701",
    "tg:interfaxonline:80702",
    "tg:interfaxonline:80703",
@@ -854,20 +855,14 @@
    "tg:interfaxonline:80796",
    "tg:interfaxonline:80797",
    "tg:interfaxonline:80798",
-   "tg:interfaxonline:80799"
+   "tg:interfaxonline:80799",
+   "tg:interfaxonline:80800",
+   "tg:interfaxonline:80801",
+   "tg:interfaxonline:80802",
+   "tg:interfaxonline:80803"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793139661.9745657,
-   "usd": 81.03,
-   "cny": 12.081
-  },
-  {
-   "ts": 1793141862.1919417,
-   "usd": 81.03,
-   "cny": 12.081
-  },
   {
    "ts": 1793143407.2176595,
    "usd": 81.03,
@@ -905,6 +900,11 @@
   },
   {
    "ts": 1793161156.8161337,
+   "usd": null,
+   "cny": null
+  },
+  {
+   "ts": 1793163795.3743787,
    "usd": null,
    "cny": null
   }
@@ -1141,38 +1141,14 @@
   "30c77e9fae66898b",
   "bc331870aecccd7c",
   "be375f648017fd91",
-  "tg:markettwits:390803"
+  "tg:markettwits:390803",
+  "tg:banksta:104295",
+  "tg:markettwits:390799",
+  "9d9798e8775e511c",
+  "42e2e9845749e42a"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-28",
-   "headline": "NYT узнала, что власти США задумались о снятии санкций с…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793135493.5068376
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "NYT узнала о планах США снять санкции с РФПИ",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793135495.3478699
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Рынок ESG-кредитования в России может достичь 10,7-11,2…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793137754.443972
-  },
-  {
-   "date": "2026-10-28",
-   "headline": "Dated Brent снова вернулись в диапазон $125-130",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793137756.4303837
-  },
   {
    "date": "2026-10-28",
    "headline": "Трамп рассматривает снятие санкций с РФПИ — NYT",
@@ -1354,6 +1330,34 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793161182.1206117
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Таможенники аэропорта Шереметьево обнаружили у 28-летней…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793163817.649351
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "📬 mt в max 🗓КАЛЕНДАРЬ НА СЕГОДНЯ — 2026.10.28 🇰🇿Токаев…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793163819.6405904
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Уолл-стрит закрылась в плюсе во вторник, акции Boeing…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793163821.6211913
+  },
+  {
+   "date": "2026-10-28",
+   "headline": "Я облажался. Конфа состоится инфоцыгане празднуют 3000…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793163823.578563
   }
  ],
  "recent_news": [
@@ -1501,6 +1505,11 @@
    "title": "\"Ожидаю умеренное ослабление рубля\": эксперт дал прогноз по рынку",
    "text": "\"Ожидаю умеренное ослабление рубля\": эксперт дал прогноз по рынку В разделе \"Мнения\" сайта Агентства экономической информации \"ПРАЙМ\" публикуются материалы, предоставленные аналитиками, трейдерами и экспертами российских и зарубежных компаний, банков, а также публикуются мнения собственных экспертов Агентства \"ПРАЙМ\". Мнения авторов по тому или иному вопросу, отраженные в публикуемых Агентством материалах, могут не совпадать с мнением редакции АЭИ \"ПРАЙМ\". Авторы и АЭИ \"ПРАЙМ\" не берут на себя ответственность за действия, предпринятые на основе данной информации. С появлением новых данных по…",
    "ts": 1793150964.163689
+  },
+  {
+   "title": "Уолл-стрит закрылась в плюсе во вторник, акции Boeing рухнули",
+   "text": "Уолл-стрит закрылась в плюсе во вторник, акции Boeing рухнули Американские фондовые индексы выросли по итогам торгов во вторник на фоне снижения цен на нефть, инвесторы оценивали статданные и новости компаний. Москва. 28 октября. INTERFAX.RU - Американские фондовые индексы выросли по итогам торгов во вторник на фоне снижения цен на нефть, инвесторы оценивали статданные и новости компаний. Кроме того, во вторник началось двухдневное заседание Федеральной резервной системы (ФРС). Участники рынков склоняются к тому, что американский ЦБ не будет менять процентную ставку в этот раз. Индекс…",
+   "ts": 1793163823.5788126
   }
  ],
  "cbr_next": "2026-10-28",
