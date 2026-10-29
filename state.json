@@ -445,20 +445,14 @@
   "55d7ab44ac3a157b",
   "c7828eaaec956339",
   "tg:markettwits:391027",
-  "bc69ed4cc732118c"
+  "bc69ed4cc732118c",
+  "0c915838671d652f",
+  "0f8b356aac50c6e3",
+  "4a1cfe8f91a00d45"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390921",
-   "tg:markettwits:390917",
-   "tg:markettwits:390922",
-   "tg:markettwits:390923",
-   "tg:markettwits:390924",
-   "tg:markettwits:390926",
-   "tg:markettwits:390927",
-   "tg:markettwits:390928",
-   "tg:markettwits:390929",
    "tg:markettwits:390930",
    "tg:markettwits:390931",
    "tg:markettwits:390932",
@@ -549,7 +543,16 @@
    "tg:markettwits:391024",
    "tg:markettwits:391025",
    "tg:markettwits:391026",
-   "tg:markettwits:391027"
+   "tg:markettwits:391027",
+   "tg:markettwits:391028",
+   "tg:markettwits:391029",
+   "tg:markettwits:391030",
+   "tg:markettwits:391031",
+   "tg:markettwits:391032",
+   "tg:markettwits:391033",
+   "tg:markettwits:391034",
+   "tg:markettwits:391035",
+   "tg:markettwits:391036"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -583,7 +586,8 @@
    "tg:russianmacro:23655",
    "tg:russianmacro:23656",
    "tg:russianmacro:23658",
-   "tg:russianmacro:23657"
+   "tg:russianmacro:23657",
+   "tg:russianmacro:23659"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -609,7 +613,6 @@
    "tg:xtxixty:6997"
   ],
   "banksta": [
-   "tg:banksta:104248",
    "tg:banksta:104250",
    "tg:banksta:104251",
    "tg:banksta:104252",
@@ -708,7 +711,8 @@
    "tg:banksta:104362",
    "tg:banksta:104363",
    "tg:banksta:104365",
-   "tg:banksta:104366"
+   "tg:banksta:104366",
+   "tg:banksta:104367"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83629",
@@ -813,7 +817,6 @@
    "tg:cbrstocks:83721"
   ],
   "rbc_news": [
-   "tg:rbc_news:159513",
    "tg:rbc_news:159514",
    "tg:rbc_news:159515",
    "tg:rbc_news:159516",
@@ -912,10 +915,10 @@
    "tg:rbc_news:159622",
    "tg:rbc_news:159623",
    "tg:rbc_news:159621",
-   "tg:rbc_news:159613"
+   "tg:rbc_news:159613",
+   "tg:rbc_news:159624"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80752",
    "tg:interfaxonline:80753",
    "tg:interfaxonline:80754",
    "tg:interfaxonline:80755",
@@ -1014,15 +1017,11 @@
    "tg:interfaxonline:80859",
    "tg:interfaxonline:80860",
    "tg:interfaxonline:80861",
-   "tg:interfaxonline:80862"
+   "tg:interfaxonline:80862",
+   "tg:interfaxonline:80863"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793226392.5838165,
-   "usd": 80.665,
-   "cny": 12.029
-  },
   {
    "ts": 1793228526.7426288,
    "usd": 80.665,
@@ -1060,6 +1059,11 @@
   },
   {
    "ts": 1793247099.3934243,
+   "usd": null,
+   "cny": null
+  },
+  {
+   "ts": 1793249953.3026938,
    "usd": null,
    "cny": null
   }
@@ -1443,31 +1447,13 @@
   "55d7ab44ac3a157b",
   "c7828eaaec956339",
   "tg:markettwits:391027",
-  "bc69ed4cc732118c"
+  "bc69ed4cc732118c",
+  "0c915838671d652f",
+  "0f8b356aac50c6e3",
+  "4a1cfe8f91a00d45"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-29",
-   "headline": "❗ Новые блокировки счетов и налоговые претензии (октябрь…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793226414.264447
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "ЦБ не стал ужесточать регулирование выдачи необеспеченных…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793226416.0920355
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Reuters сообщил о шансах баскетболиста и химика прийти к…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793228544.050828
-  },
   {
    "date": "2026-10-29",
    "headline": "ЦБ ограничил выдачу автокредитов со сроком возврата более…",
@@ -1656,6 +1642,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793247124.8567424
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Азиатские валюты разнонаправлены, доллар стабилен после ФРС",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793249968.4797986
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Победа демократов на выборах в Конгресс может сильно…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793249970.3223329
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Стадии принятия дефолта: как комментарии инвесторов топят…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793249972.1600337
   }
  ],
  "recent_news": [
