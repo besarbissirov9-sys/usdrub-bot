@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "f5650ebf7133d1dd",
-  "tg:interfaxonline:80706",
-  "6e1a5702860b190c",
-  "322727b144270e46",
-  "b86ac83fbc51059a",
   "b351d6953710b8ec",
   "tg:banksta:104181",
   "171a71d96c44a017",
@@ -501,12 +496,16 @@
   "289c84c0a1282989",
   "92d93543765f3fbb",
   "9d2dbca03121892f",
-  "894ac109f4afddc3"
+  "894ac109f4afddc3",
+  "6ef767a1e6043ac0",
+  "tg:banksta:104456",
+  "2d85573e81d9ad2c",
+  "ddbbb1c489633308",
+  "9a5527b6badc1faf"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391114",
    "tg:markettwits:391115",
    "tg:markettwits:391116",
    "tg:markettwits:391117",
@@ -605,7 +604,8 @@
    "tg:markettwits:391221",
    "tg:markettwits:391222",
    "tg:markettwits:391223",
-   "tg:markettwits:391224"
+   "tg:markettwits:391224",
+   "tg:markettwits:391225"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -673,11 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104326",
-   "tg:banksta:104328",
-   "tg:banksta:104329",
-   "tg:banksta:104330",
-   "tg:banksta:104331",
    "tg:banksta:104333",
    "tg:banksta:104332",
    "tg:banksta:104335",
@@ -772,10 +767,14 @@
    "tg:banksta:104447",
    "tg:banksta:104450",
    "tg:banksta:104451",
-   "tg:banksta:104452"
+   "tg:banksta:104452",
+   "tg:banksta:104453",
+   "tg:banksta:104454",
+   "tg:banksta:104457",
+   "tg:banksta:104458",
+   "tg:banksta:104456"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83660",
    "tg:cbrstocks:83661",
    "tg:cbrstocks:83662",
    "tg:cbrstocks:83663",
@@ -874,7 +873,8 @@
    "tg:cbrstocks:83770",
    "tg:cbrstocks:83771",
    "tg:cbrstocks:83772",
-   "tg:cbrstocks:83773"
+   "tg:cbrstocks:83773",
+   "tg:cbrstocks:83774"
   ],
   "rbc_news": [
    "tg:rbc_news:159592",
@@ -979,7 +979,6 @@
    "tg:rbc_news:159702"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80799",
    "tg:interfaxonline:80800",
    "tg:interfaxonline:80801",
    "tg:interfaxonline:80802",
@@ -1078,15 +1077,11 @@
    "tg:interfaxonline:80909",
    "tg:interfaxonline:80910",
    "tg:interfaxonline:80893",
-   "tg:interfaxonline:80911"
+   "tg:interfaxonline:80911",
+   "tg:interfaxonline:80912"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793291243.4673886,
-   "usd": 81.775,
-   "cny": 12.2005
-  },
   {
    "ts": 1793294375.0759578,
    "usd": 81.775,
@@ -1124,6 +1119,11 @@
   },
   {
    "ts": 1793312465.2832782,
+   "usd": 81.775,
+   "cny": 12.2005
+  },
+  {
+   "ts": 1793315004.1584885,
    "usd": 81.775,
    "cny": 12.2005
   }
@@ -1620,7 +1620,12 @@
   "289c84c0a1282989",
   "92d93543765f3fbb",
   "9d2dbca03121892f",
-  "894ac109f4afddc3"
+  "894ac109f4afddc3",
+  "6ef767a1e6043ac0",
+  "tg:banksta:104456",
+  "2d85573e81d9ad2c",
+  "ddbbb1c489633308",
+  "9a5527b6badc1faf"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1728,6 +1733,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793312495.1285806
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Экономист объяснил, почему россияне стали избавляться от…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793315024.9889605
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Основатель Binance Чжао заявил, что убытки от взлома…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793315026.903644
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Яндекс - несколько скоростей одного бизнеса",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793315028.815613
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Доля нерезидентов в российских ОФЗ снизилась в сентябре до…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793315030.7399783
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "📉ЦБ РФ: Доля нерезидентов в ОФЗ на 1 октября снизилась до…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793315032.6491082
   }
  ],
  "recent_news": [
