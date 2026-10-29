@@ -437,7 +437,10 @@
   "4aa6ca17b52a1143",
   "93447ee59951d935",
   "80258b29fece6e5a",
-  "131d150364069ddc"
+  "131d150364069ddc",
+  "6b023882f3b5c3d3",
+  "90069b4f740e1284",
+  "b37d73e52217cdb4"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -601,7 +604,6 @@
    "tg:xtxixty:6997"
   ],
   "banksta": [
-   "tg:banksta:104246",
    "tg:banksta:104247",
    "tg:banksta:104248",
    "tg:banksta:104250",
@@ -700,7 +702,8 @@
    "tg:banksta:104360",
    "tg:banksta:104361",
    "tg:banksta:104362",
-   "tg:banksta:104363"
+   "tg:banksta:104363",
+   "tg:banksta:104365"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83629",
@@ -907,7 +910,6 @@
    "tg:rbc_news:159613"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80745",
    "tg:interfaxonline:80746",
    "tg:interfaxonline:80747",
    "tg:interfaxonline:80748",
@@ -1006,15 +1008,11 @@
    "tg:interfaxonline:80852",
    "tg:interfaxonline:80853",
    "tg:interfaxonline:80854",
-   "tg:interfaxonline:80855"
+   "tg:interfaxonline:80855",
+   "tg:interfaxonline:80856"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793214697.4917166,
-   "usd": 80.665,
-   "cny": 12.029
-  },
   {
    "ts": 1793217439.2768786,
    "usd": 80.665,
@@ -1057,6 +1055,11 @@
   },
   {
    "ts": 1793235554.2417417,
+   "usd": 80.665,
+   "cny": 12.029
+  },
+  {
+   "ts": 1793238624.213119,
    "usd": 80.665,
    "cny": 12.029
   }
@@ -1432,31 +1435,13 @@
   "4aa6ca17b52a1143",
   "93447ee59951d935",
   "80258b29fece6e5a",
-  "131d150364069ddc"
+  "131d150364069ddc",
+  "6b023882f3b5c3d3",
+  "90069b4f740e1284",
+  "b37d73e52217cdb4"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-29",
-   "headline": "Канадский доллар удерживает рост после повышения ставки…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793224427.4847393
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Крупнейший в мире добытчик алмазов De Beers Group,…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793224429.3874335
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "❗️🇺🇸🇷🇺#санкции #россия #сша #бизнес ВОПРОС О ВОЗМОЖНОСТИ…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793224431.2771258
-  },
   {
    "date": "2026-10-29",
    "headline": "Сальдированная прибыль российских компаний по итогам…",
@@ -1645,6 +1630,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793235583.421043
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Нефть дорожает на 2% на сообщениях о новых ударах хуситов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793238639.8540215
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "СД “Займера” рекомендовал выплатить дивиденды по итогам 3…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793238641.6789973
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "\"Займер\" увеличил чистую прибыль в 3 квартале на 48% к…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793238643.526576
   }
  ],
  "recent_news": [
