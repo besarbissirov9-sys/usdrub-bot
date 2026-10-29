@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "b351d6953710b8ec",
-  "tg:banksta:104181",
-  "171a71d96c44a017",
-  "tg:markettwits:390508",
-  "5fe4044d7b930037",
   "tg:markettwits:390538",
   "5a6977c8e5c37ceb",
   "82766a47de7eb48d",
@@ -501,7 +496,12 @@
   "tg:banksta:104456",
   "2d85573e81d9ad2c",
   "ddbbb1c489633308",
-  "9a5527b6badc1faf"
+  "9a5527b6badc1faf",
+  "tg:cbrstocks:83769",
+  "be3ad735b2bfdd02",
+  "9df3469b32fa5162",
+  "eb6aec4a0843487a",
+  "719ae1cfbca0259e"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -673,7 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104333",
    "tg:banksta:104332",
    "tg:banksta:104335",
    "tg:banksta:104336",
@@ -772,10 +771,10 @@
    "tg:banksta:104454",
    "tg:banksta:104457",
    "tg:banksta:104458",
-   "tg:banksta:104456"
+   "tg:banksta:104456",
+   "tg:banksta:104459"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83661",
    "tg:cbrstocks:83662",
    "tg:cbrstocks:83663",
    "tg:cbrstocks:83664",
@@ -874,7 +873,8 @@
    "tg:cbrstocks:83771",
    "tg:cbrstocks:83772",
    "tg:cbrstocks:83773",
-   "tg:cbrstocks:83774"
+   "tg:cbrstocks:83774",
+   "tg:cbrstocks:83769"
   ],
   "rbc_news": [
    "tg:rbc_news:159592",
@@ -979,9 +979,6 @@
    "tg:rbc_news:159702"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80800",
-   "tg:interfaxonline:80801",
-   "tg:interfaxonline:80802",
    "tg:interfaxonline:80803",
    "tg:interfaxonline:80804",
    "tg:interfaxonline:80805",
@@ -1078,15 +1075,13 @@
    "tg:interfaxonline:80910",
    "tg:interfaxonline:80893",
    "tg:interfaxonline:80911",
-   "tg:interfaxonline:80912"
+   "tg:interfaxonline:80912",
+   "tg:interfaxonline:80913",
+   "tg:interfaxonline:80914",
+   "tg:interfaxonline:80915"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793294375.0759578,
-   "usd": 81.775,
-   "cny": 12.2005
-  },
   {
    "ts": 1793297041.5641909,
    "usd": 81.775,
@@ -1126,11 +1121,14 @@
    "ts": 1793315004.1584885,
    "usd": 81.775,
    "cny": 12.2005
+  },
+  {
+   "ts": 1793317125.386991,
+   "usd": 81.775,
+   "cny": 12.2005
   }
  ],
  "ai_seen": [
-  "b351d6953710b8ec",
-  "tg:banksta:104181",
   "171a71d96c44a017",
   "tg:markettwits:390508",
   "5fe4044d7b930037",
@@ -1625,7 +1623,12 @@
   "tg:banksta:104456",
   "2d85573e81d9ad2c",
   "ddbbb1c489633308",
-  "9a5527b6badc1faf"
+  "9a5527b6badc1faf",
+  "tg:cbrstocks:83769",
+  "be3ad735b2bfdd02",
+  "9df3469b32fa5162",
+  "eb6aec4a0843487a",
+  "719ae1cfbca0259e"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1768,6 +1771,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793315032.6491082
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "#Бонды ДОЛЯ НЕРЕЗИДЕНТОВ В РОССИЙСКИХ ОФЗ В СЕНТЯБРЕ 2026…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793317149.2805352
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "ЦБ РФ обсуждает возможность наделить НРД правом…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793317151.2391398
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "ЦБ разочарован позицией Мосбиржи в спорах с эмитентами об…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793317153.267536
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Следует подумать об установлении дополнительной…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793317155.2265701
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "ЕЦБ сохранил ключевые ставки на уровне 2,50%, 2,65% и 2,90%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793317157.1815863
   }
  ],
  "recent_news": [
