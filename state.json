@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "9d27c0c73495ce28",
-  "tg:markettwits:390449",
-  "tg:cbrstocks:83598",
-  "bf8862796b3aa49a",
-  "26390c5767bc27dc",
   "63c37d8a45ded549",
   "1faea747d687cc90",
   "e9beb446b4f43f05",
@@ -501,13 +496,16 @@
   "tg:interfaxonline:80889",
   "0b6a9e9c1b6f7f75",
   "670210fac6eef153",
-  "tg:banksta:104434"
+  "tg:banksta:104434",
+  "9dfb2967ace7f031",
+  "f59b26eda2a55d13",
+  "tg:rbc_news:159689",
+  "50403dbe9b193b36",
+  "bd184848e26aae01"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391078",
-   "tg:markettwits:391079",
    "tg:markettwits:391080",
    "tg:markettwits:391081",
    "tg:markettwits:391082",
@@ -605,7 +603,9 @@
    "tg:markettwits:391191",
    "tg:markettwits:391192",
    "tg:markettwits:391193",
-   "tg:markettwits:391194"
+   "tg:markettwits:391194",
+   "tg:markettwits:391195",
+   "tg:markettwits:391196"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -673,9 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104310",
-   "tg:banksta:104311",
-   "tg:banksta:104309",
    "tg:banksta:104312",
    "tg:banksta:104313",
    "tg:banksta:104314",
@@ -772,10 +769,12 @@
    "tg:banksta:104431",
    "tg:banksta:104432",
    "tg:banksta:104433",
-   "tg:banksta:104434"
+   "tg:banksta:104434",
+   "tg:banksta:104435",
+   "tg:banksta:104436",
+   "tg:banksta:104438"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83659",
    "tg:cbrstocks:83660",
    "tg:cbrstocks:83661",
    "tg:cbrstocks:83662",
@@ -874,12 +873,10 @@
    "tg:cbrstocks:83768",
    "tg:cbrstocks:83770",
    "tg:cbrstocks:83771",
-   "tg:cbrstocks:83772"
+   "tg:cbrstocks:83772",
+   "tg:cbrstocks:83773"
   ],
   "rbc_news": [
-   "tg:rbc_news:159577",
-   "tg:rbc_news:159578",
-   "tg:rbc_news:159579",
    "tg:rbc_news:159580",
    "tg:rbc_news:159581",
    "tg:rbc_news:159586",
@@ -976,12 +973,12 @@
    "tg:rbc_news:159686",
    "tg:rbc_news:159687",
    "tg:rbc_news:159688",
-   "tg:rbc_news:159690"
+   "tg:rbc_news:159690",
+   "tg:rbc_news:159691",
+   "tg:rbc_news:159692",
+   "tg:rbc_news:159689"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80789",
-   "tg:interfaxonline:80790",
-   "tg:interfaxonline:80791",
    "tg:interfaxonline:80792",
    "tg:interfaxonline:80793",
    "tg:interfaxonline:80794",
@@ -1078,15 +1075,13 @@
    "tg:interfaxonline:80901",
    "tg:interfaxonline:80902",
    "tg:interfaxonline:80903",
-   "tg:interfaxonline:80889"
+   "tg:interfaxonline:80889",
+   "tg:interfaxonline:80904",
+   "tg:interfaxonline:80905",
+   "tg:interfaxonline:80906"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793278627.6790853,
-   "usd": 81.12,
-   "cny": 12.095
-  },
   {
    "ts": 1793281816.3417323,
    "usd": 81.1375,
@@ -1119,6 +1114,11 @@
   },
   {
    "ts": 1793299834.645737,
+   "usd": 81.775,
+   "cny": 12.2005
+  },
+  {
+   "ts": 1793302665.8141344,
    "usd": 81.775,
    "cny": 12.2005
   }
@@ -1590,45 +1590,15 @@
   "tg:interfaxonline:80889",
   "0b6a9e9c1b6f7f75",
   "670210fac6eef153",
-  "tg:banksta:104434"
+  "tg:banksta:104434",
+  "9dfb2967ace7f031",
+  "f59b26eda2a55d13",
+  "tg:rbc_news:159689",
+  "50403dbe9b193b36",
+  "bd184848e26aae01"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-29",
-   "headline": "Официальные курсы валют на 30 октября: ¥ — ₽12,0844, $ —…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793284821.3550582
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Правительство выделит более 720 млн рублей на поддержку…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793284823.2658136
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "ДОМ. РФ увеличил чистую прибыль на 39% по итогам 9 месяцев…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793284825.189972
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Евро дешевеет к доллару после публикации решения ЕЦБ",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793284827.0963519
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Затраты энергокомпаний на ремонт объектов к зиме составят…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793284829.063826
-  },
   {
    "date": "2026-10-29",
    "headline": "Объем выданных ипотечных кредитов в 2026 году может…",
@@ -1803,6 +1773,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793299865.2934573
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Белоруссия пока не ведет переговоры о снятии санкций с…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793302688.5939229
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Военная операция на Украине. Онлайн",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793302690.491682
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Российские туристы смогут оплачивать покупки по QR-кодам в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793302692.3700414
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "МИД РФ призвал снять санкции с России для…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793302694.299512
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Что может сломать частный алготрейдинг на Мосбирже: разбор…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793302696.2191408
   }
  ],
  "recent_news": [
