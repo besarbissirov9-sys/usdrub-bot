@@ -2,8 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "75971799cba5dbb6",
-  "ce756c918cd0610b",
   "0101ec3723b9967b",
   "699bf909d74d2115",
   "b70a6958be36d8b2",
@@ -498,19 +496,16 @@
   "650b448fa98ea7f1",
   "f74499439be324db",
   "f945713cf62b564f",
-  "be3eff7a95cf217a"
+  "be3eff7a95cf217a",
+  "3b0bb93ad5257e41",
+  "bf7ecad61bd99366",
+  "bb689d755c09fabc",
+  "fb0528cce3f677f5",
+  "50ede4e10bacbe50"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391034",
-   "tg:markettwits:391035",
-   "tg:markettwits:391036",
-   "tg:markettwits:391037",
-   "tg:markettwits:391038",
-   "tg:markettwits:391040",
-   "tg:markettwits:391041",
-   "tg:markettwits:391042",
    "tg:markettwits:391044",
    "tg:markettwits:391045",
    "tg:markettwits:391043",
@@ -602,7 +597,15 @@
    "tg:markettwits:391140",
    "tg:markettwits:391141",
    "tg:markettwits:391142",
-   "tg:markettwits:391143"
+   "tg:markettwits:391143",
+   "tg:markettwits:391144",
+   "tg:markettwits:391145",
+   "tg:markettwits:391146",
+   "tg:markettwits:391147",
+   "tg:markettwits:391150",
+   "tg:markettwits:391151",
+   "tg:markettwits:391152",
+   "tg:markettwits:391153"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -666,13 +669,10 @@
    "tg:xtxixty:6988",
    "tg:xtxixty:6992",
    "tg:xtxixty:6997",
-   "tg:xtxixty:7005"
+   "tg:xtxixty:7005",
+   "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104282",
-   "tg:banksta:104283",
-   "tg:banksta:104284",
-   "tg:banksta:104285",
    "tg:banksta:104286",
    "tg:banksta:104287",
    "tg:banksta:104288",
@@ -768,7 +768,11 @@
    "tg:banksta:104393",
    "tg:banksta:104392",
    "tg:banksta:104394",
-   "tg:banksta:104396"
+   "tg:banksta:104396",
+   "tg:banksta:104397",
+   "tg:banksta:104398",
+   "tg:banksta:104399",
+   "tg:banksta:104402"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83656",
@@ -873,9 +877,6 @@
    "tg:cbrstocks:83768"
   ],
   "rbc_news": [
-   "tg:rbc_news:159550",
-   "tg:rbc_news:159551",
-   "tg:rbc_news:159552",
    "tg:rbc_news:159553",
    "tg:rbc_news:159554",
    "tg:rbc_news:159555",
@@ -972,11 +973,12 @@
    "tg:rbc_news:159662",
    "tg:rbc_news:159663",
    "tg:rbc_news:159664",
-   "tg:rbc_news:159665"
+   "tg:rbc_news:159665",
+   "tg:rbc_news:159666",
+   "tg:rbc_news:159667",
+   "tg:rbc_news:159668"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80771",
-   "tg:interfaxonline:80772",
    "tg:interfaxonline:80773",
    "tg:interfaxonline:80776",
    "tg:interfaxonline:80777",
@@ -1074,15 +1076,12 @@
    "tg:interfaxonline:80879",
    "tg:interfaxonline:80880",
    "tg:interfaxonline:80884",
-   "tg:interfaxonline:80885"
+   "tg:interfaxonline:80885",
+   "tg:interfaxonline:80886",
+   "tg:interfaxonline:80887"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793258539.545199,
-   "usd": 80.45,
-   "cny": 12.028
-  },
   {
    "ts": 1793261917.0162172,
    "usd": 81.065,
@@ -1117,6 +1116,11 @@
    "ts": 1793278627.6790853,
    "usd": 81.12,
    "cny": 12.095
+  },
+  {
+   "ts": 1793281816.3417323,
+   "usd": 81.1375,
+   "cny": 12.092
   }
  ],
  "ai_seen": [
@@ -1551,45 +1555,15 @@
   "650b448fa98ea7f1",
   "f74499439be324db",
   "f945713cf62b564f",
-  "be3eff7a95cf217a"
+  "be3eff7a95cf217a",
+  "3b0bb93ad5257e41",
+  "bf7ecad61bd99366",
+  "bb689d755c09fabc",
+  "fb0528cce3f677f5",
+  "50ede4e10bacbe50"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-29",
-   "headline": "Путин оценил долю рубля в российско-африканских…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793265051.308362
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Путин: доля рубля в расчетах с Африкой составляет до 85%",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793265053.2755651
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Путин: Доля рубля в российско-африканских коммерческих…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793265055.2566974
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Доля рубля в российско-африканских коммерческих операциях…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793265057.2409518
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "ДОМ.PФ по итогам 2026 года ожидает сохранить…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793265059.2860577
-  },
   {
    "date": "2026-10-29",
    "headline": "\"Переход к восстановлению\": аналитик оценил динамику…",
@@ -1764,6 +1738,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793278656.2175624
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Цена фьючерсов на уран превысила 91 доллар за фунт впервые…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793281839.9755197
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Силуанов увидел будущее за цифровым рублем",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793281841.8614855
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Международные резервы России за неделю выросли на 6,4…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793281843.7727711
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Чистая прибыль НЛМК по РСБУ за 9 месяцев выросла до 58,7…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793281845.6729026
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Переводы по СБП для бизнеса увеличат до 30 млн рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793281847.5612078
   }
  ],
  "recent_news": [
