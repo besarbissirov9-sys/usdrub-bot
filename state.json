@@ -432,7 +432,12 @@
   "d7a3cf4297ccb9fd",
   "tg:russianmacro:23657",
   "tg:cbrstocks:83721",
-  "c79f10b83760df8b"
+  "c79f10b83760df8b",
+  "3a3cf061f5a8eac2",
+  "4aa6ca17b52a1143",
+  "93447ee59951d935",
+  "80258b29fece6e5a",
+  "131d150364069ddc"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -902,8 +907,6 @@
    "tg:rbc_news:159613"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80743",
-   "tg:interfaxonline:80744",
    "tg:interfaxonline:80745",
    "tg:interfaxonline:80746",
    "tg:interfaxonline:80747",
@@ -1001,15 +1004,12 @@
    "tg:interfaxonline:80850",
    "tg:interfaxonline:80851",
    "tg:interfaxonline:80852",
-   "tg:interfaxonline:80853"
+   "tg:interfaxonline:80853",
+   "tg:interfaxonline:80854",
+   "tg:interfaxonline:80855"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793211509.140667,
-   "usd": 80.665,
-   "cny": 12.029
-  },
   {
    "ts": 1793214697.4917166,
    "usd": 80.665,
@@ -1052,6 +1052,11 @@
   },
   {
    "ts": 1793232604.9016616,
+   "usd": 80.665,
+   "cny": 12.029
+  },
+  {
+   "ts": 1793235554.2417417,
    "usd": 80.665,
    "cny": 12.029
   }
@@ -1422,45 +1427,15 @@
   "d7a3cf4297ccb9fd",
   "tg:russianmacro:23657",
   "tg:cbrstocks:83721",
-  "c79f10b83760df8b"
+  "c79f10b83760df8b",
+  "3a3cf061f5a8eac2",
+  "4aa6ca17b52a1143",
+  "93447ee59951d935",
+  "80258b29fece6e5a",
+  "131d150364069ddc"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-29",
-   "headline": "Вопрос об отмене санкций в отношении РФПИ обсуждается с США",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793221979.401699
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Минфин США ввел санкции против двух граждан России,…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793221981.2869852
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Кремль подтвердил диалог с США о снятии санкций с РФПИ",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793221983.1789172
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Ушаков: вопрос о возможности снятия санкций с РФПИ уже…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793221985.07308
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Минфин США ввел санкции против двух россиян",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793221986.964283
-  },
   {
    "date": "2026-10-29",
    "headline": "Канадский доллар удерживает рост после повышения ставки…",
@@ -1635,6 +1610,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793232646.4272988
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Банк России рассказал о своем ориентире умеренных…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793235575.8027153
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "ЦБ ввел требования к поставщикам облачных сервисов для…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793235577.6926637
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Путин призвал расширять расчеты с Африкой в национальных…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793235579.621705
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "\"Сбер\" допускает сохранение ключевой ставки ЦБ в декабре,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793235581.5253909
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "РСПП хочет обратиться за временным снятием санкций со…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793235583.421043
   }
  ],
  "recent_news": [
