@@ -1,6 +1,6 @@
 {
  "last_rate": 80.81,
- "summary_date": "2026-10-28",
+ "summary_date": "2026-10-29",
  "posted": [
   "75971799cba5dbb6",
   "ce756c918cd0610b",
@@ -453,17 +453,16 @@
   "a170631783e2e205",
   "tg:markettwits:391039",
   "76fe040b2d9554c2",
-  "912320f6c37f47ed"
+  "912320f6c37f47ed",
+  "4e131405e1182d66",
+  "tg:cbrstocks:83744",
+  "a8c2e38299d3949b",
+  "eedcab838946e8e7",
+  "tg:banksta:104369"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390940",
-   "tg:markettwits:390942",
-   "tg:markettwits:390944",
-   "tg:markettwits:390945",
-   "tg:markettwits:390946",
-   "tg:markettwits:390947",
    "tg:markettwits:390948",
    "tg:markettwits:390949",
    "tg:markettwits:390950",
@@ -557,7 +556,13 @@
    "tg:markettwits:391044",
    "tg:markettwits:391045",
    "tg:markettwits:391043",
-   "tg:markettwits:391039"
+   "tg:markettwits:391039",
+   "tg:markettwits:391046",
+   "tg:markettwits:391047",
+   "tg:markettwits:391048",
+   "tg:markettwits:391049",
+   "tg:markettwits:391050",
+   "tg:markettwits:391051"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -593,7 +598,8 @@
    "tg:russianmacro:23658",
    "tg:russianmacro:23657",
    "tg:russianmacro:23659",
-   "tg:russianmacro:23660"
+   "tg:russianmacro:23660",
+   "tg:russianmacro:23661"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -619,7 +625,6 @@
    "tg:xtxixty:6997"
   ],
   "banksta": [
-   "tg:banksta:104251",
    "tg:banksta:104252",
    "tg:banksta:104253",
    "tg:banksta:104254",
@@ -718,12 +723,10 @@
    "tg:banksta:104365",
    "tg:banksta:104366",
    "tg:banksta:104367",
-   "tg:banksta:104368"
+   "tg:banksta:104368",
+   "tg:banksta:104369"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83629",
-   "tg:cbrstocks:83627",
-   "tg:cbrstocks:83626",
    "tg:cbrstocks:83625",
    "tg:cbrstocks:83637",
    "tg:cbrstocks:83639",
@@ -820,12 +823,12 @@
    "tg:cbrstocks:83740",
    "tg:cbrstocks:83734",
    "tg:cbrstocks:83733",
-   "tg:cbrstocks:83721"
+   "tg:cbrstocks:83721",
+   "tg:cbrstocks:83741",
+   "tg:cbrstocks:83743",
+   "tg:cbrstocks:83744"
   ],
   "rbc_news": [
-   "tg:rbc_news:159516",
-   "tg:rbc_news:159517",
-   "tg:rbc_news:159518",
    "tg:rbc_news:159519",
    "tg:rbc_news:159520",
    "tg:rbc_news:159521",
@@ -922,10 +925,12 @@
    "tg:rbc_news:159613",
    "tg:rbc_news:159624",
    "tg:rbc_news:159625",
-   "tg:rbc_news:159628"
+   "tg:rbc_news:159628",
+   "tg:rbc_news:159629",
+   "tg:rbc_news:159630",
+   "tg:rbc_news:159631"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80753",
    "tg:interfaxonline:80754",
    "tg:interfaxonline:80755",
    "tg:interfaxonline:80756",
@@ -1024,20 +1029,11 @@
    "tg:interfaxonline:80860",
    "tg:interfaxonline:80861",
    "tg:interfaxonline:80862",
-   "tg:interfaxonline:80863"
+   "tg:interfaxonline:80863",
+   "tg:interfaxonline:80864"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793230717.8841403,
-   "usd": 80.665,
-   "cny": 12.029
-  },
-  {
-   "ts": 1793232604.9016616,
-   "usd": 80.665,
-   "cny": 12.029
-  },
   {
    "ts": 1793235554.2417417,
    "usd": 80.665,
@@ -1072,6 +1068,11 @@
    "ts": 1793252258.9324868,
    "usd": null,
    "cny": null
+  },
+  {
+   "ts": 1793254686.5239892,
+   "usd": null,
+   "cny": 12.0315
   }
  ],
  "ai_seen": [
@@ -1461,45 +1462,15 @@
   "a170631783e2e205",
   "tg:markettwits:391039",
   "76fe040b2d9554c2",
-  "912320f6c37f47ed"
+  "912320f6c37f47ed",
+  "4e131405e1182d66",
+  "tg:cbrstocks:83744",
+  "a8c2e38299d3949b",
+  "eedcab838946e8e7",
+  "tg:banksta:104369"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-29",
-   "headline": "может ухудшиться финансовое положение заемщика.Скрытый…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793230745.629924
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "#Банки Банк России устанавливает ограничения на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793230747.612506
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "ЦБ РФ сохранил антициклическую надбавку к нормативам…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793230749.603904
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Путин предложил подключить страны Африки к системе…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793230751.616165
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "ОФЗ покупают третью неделю подряд. На что рассчитывают…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793232639.092747
-  },
   {
    "date": "2026-10-29",
    "headline": "Банк России подготовил итоговый вариант Основных…",
@@ -1674,6 +1645,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793252283.0659914
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Курс юаня на Мосбирже в начале торгов вырос до 12,04 рубля",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793254704.6392796
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "#YDEX Яндекс в этом году не планирует увеличивать объем…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793254706.6206434
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Рубль утром слегка опускается в паре с юанем на Московской…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793254708.436966
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "На Сахалине браконьерам дали условный срок за вылов краба…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793254710.290467
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Физлица продолжают сокращать объём средств на срочных…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793254712.1029923
   }
  ],
  "recent_news": [
