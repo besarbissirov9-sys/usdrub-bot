@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "45925b7dee42668a",
-  "98bff4f1d8d56c7c",
-  "615bba731a8ebd0c",
-  "tg:banksta:104168",
-  "b00127edd11c10dc",
   "7e1077798c17b13a",
   "d4b8d8351f28fb9c",
   "tg:markettwits:390480",
@@ -501,17 +496,16 @@
   "ce6850cc4392f333",
   "3af61e788605129a",
   "7d85354c503e6d0b",
-  "21c1cf543ec23d05"
+  "21c1cf543ec23d05",
+  "tg:markettwits:391221",
+  "8e905f6637a03391",
+  "tg:interfaxonline:80893",
+  "01923d7ce5df632a",
+  "5129ae0634f978d2"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391101",
-   "tg:markettwits:391102",
-   "tg:markettwits:391105",
-   "tg:markettwits:391108",
-   "tg:markettwits:391109",
-   "tg:markettwits:391110",
    "tg:markettwits:391111",
    "tg:markettwits:391112",
    "tg:markettwits:391113",
@@ -605,7 +599,13 @@
    "tg:markettwits:391212",
    "tg:markettwits:391213",
    "tg:markettwits:391214",
-   "tg:markettwits:391215"
+   "tg:markettwits:391215",
+   "tg:markettwits:391216",
+   "tg:markettwits:391217",
+   "tg:markettwits:391218",
+   "tg:markettwits:391219",
+   "tg:markettwits:391220",
+   "tg:markettwits:391221"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -673,10 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104323",
-   "tg:banksta:104322",
-   "tg:banksta:104319",
-   "tg:banksta:104324",
    "tg:banksta:104325",
    "tg:banksta:104327",
    "tg:banksta:104326",
@@ -772,7 +768,11 @@
    "tg:banksta:104441",
    "tg:banksta:104442",
    "tg:banksta:104443",
-   "tg:banksta:104444"
+   "tg:banksta:104444",
+   "tg:banksta:104445",
+   "tg:banksta:104446",
+   "tg:banksta:104447",
+   "tg:banksta:104450"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83660",
@@ -877,8 +877,6 @@
    "tg:cbrstocks:83773"
   ],
   "rbc_news": [
-   "tg:rbc_news:159590",
-   "tg:rbc_news:159591",
    "tg:rbc_news:159592",
    "tg:rbc_news:159593",
    "tg:rbc_news:159594",
@@ -976,10 +974,11 @@
    "tg:rbc_news:159695",
    "tg:rbc_news:159684",
    "tg:rbc_news:159696",
-   "tg:rbc_news:159698"
+   "tg:rbc_news:159698",
+   "tg:rbc_news:159701",
+   "tg:rbc_news:159702"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80797",
    "tg:interfaxonline:80798",
    "tg:interfaxonline:80799",
    "tg:interfaxonline:80800",
@@ -1078,15 +1077,11 @@
    "tg:interfaxonline:80897",
    "tg:interfaxonline:80908",
    "tg:interfaxonline:80909",
-   "tg:interfaxonline:80910"
+   "tg:interfaxonline:80910",
+   "tg:interfaxonline:80893"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793287821.6961536,
-   "usd": 81.775,
-   "cny": 12.1935
-  },
   {
    "ts": 1793291243.4673886,
    "usd": 81.775,
@@ -1119,6 +1114,11 @@
   },
   {
    "ts": 1793307840.2173529,
+   "usd": 81.775,
+   "cny": 12.2005
+  },
+  {
+   "ts": 1793310180.8241746,
    "usd": 81.775,
    "cny": 12.2005
   }
@@ -1605,7 +1605,12 @@
   "ce6850cc4392f333",
   "3af61e788605129a",
   "7d85354c503e6d0b",
-  "21c1cf543ec23d05"
+  "21c1cf543ec23d05",
+  "tg:markettwits:391221",
+  "8e905f6637a03391",
+  "tg:interfaxonline:80893",
+  "01923d7ce5df632a",
+  "5129ae0634f978d2"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1643,6 +1648,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793307871.6519156
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "💥✴️#хак #крипто Цифровой рубль не пострадал при взломе…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793310197.3984437
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "ЦБ: криптобиржи и раньше отказывались от работы с…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793310199.221945
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Доходы бюджета РФ от введения 22% НДС с трансграничной…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793310201.0395348
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "В сентябре 2026 г. потреб. кредитование сократилось вдвое,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793310202.8706827
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "ЦБ не планирует скрывать реестры цифровых депозитариев и…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793310204.721965
   }
  ],
  "recent_news": [
