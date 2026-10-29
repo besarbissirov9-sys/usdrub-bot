@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "08a632210250caed",
-  "b8233b485c0d7703",
-  "f3645babe1314d0c",
-  "9812aa1c718784fa",
-  "9cf9558b5a13ceb8",
   "45925b7dee42668a",
   "98bff4f1d8d56c7c",
   "615bba731a8ebd0c",
@@ -501,15 +496,16 @@
   "tg:banksta:104423",
   "tg:interfaxonline:80897",
   "tg:rbc_news:159684",
-  "4cd17ea86d113d27"
+  "4cd17ea86d113d27",
+  "fb7520c559b71678",
+  "ce6850cc4392f333",
+  "3af61e788605129a",
+  "7d85354c503e6d0b",
+  "21c1cf543ec23d05"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391096",
-   "tg:markettwits:391097",
-   "tg:markettwits:391098",
-   "tg:markettwits:391100",
    "tg:markettwits:391101",
    "tg:markettwits:391102",
    "tg:markettwits:391105",
@@ -605,7 +601,11 @@
    "tg:markettwits:391208",
    "tg:markettwits:391209",
    "tg:markettwits:391210",
-   "tg:markettwits:391211"
+   "tg:markettwits:391211",
+   "tg:markettwits:391212",
+   "tg:markettwits:391213",
+   "tg:markettwits:391214",
+   "tg:markettwits:391215"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -673,10 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104315",
-   "tg:banksta:104317",
-   "tg:banksta:104318",
-   "tg:banksta:104320",
    "tg:banksta:104323",
    "tg:banksta:104322",
    "tg:banksta:104319",
@@ -772,7 +768,11 @@
    "tg:banksta:104438",
    "tg:banksta:104439",
    "tg:banksta:104440",
-   "tg:banksta:104423"
+   "tg:banksta:104423",
+   "tg:banksta:104441",
+   "tg:banksta:104442",
+   "tg:banksta:104443",
+   "tg:banksta:104444"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83660",
@@ -877,8 +877,6 @@
    "tg:cbrstocks:83773"
   ],
   "rbc_news": [
-   "tg:rbc_news:159588",
-   "tg:rbc_news:159589",
    "tg:rbc_news:159590",
    "tg:rbc_news:159591",
    "tg:rbc_news:159592",
@@ -976,12 +974,11 @@
    "tg:rbc_news:159693",
    "tg:rbc_news:159694",
    "tg:rbc_news:159695",
-   "tg:rbc_news:159684"
+   "tg:rbc_news:159684",
+   "tg:rbc_news:159696",
+   "tg:rbc_news:159698"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80794",
-   "tg:interfaxonline:80795",
-   "tg:interfaxonline:80796",
    "tg:interfaxonline:80797",
    "tg:interfaxonline:80798",
    "tg:interfaxonline:80799",
@@ -1078,15 +1075,13 @@
    "tg:interfaxonline:80905",
    "tg:interfaxonline:80906",
    "tg:interfaxonline:80907",
-   "tg:interfaxonline:80897"
+   "tg:interfaxonline:80897",
+   "tg:interfaxonline:80908",
+   "tg:interfaxonline:80909",
+   "tg:interfaxonline:80910"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793284800.8182805,
-   "usd": 81.35,
-   "cny": 12.1365
-  },
   {
    "ts": 1793287821.6961536,
    "usd": 81.775,
@@ -1119,6 +1114,11 @@
   },
   {
    "ts": 1793305223.1601927,
+   "usd": 81.775,
+   "cny": 12.2005
+  },
+  {
+   "ts": 1793307840.2173529,
    "usd": 81.775,
    "cny": 12.2005
   }
@@ -1600,219 +1600,49 @@
   "tg:banksta:104423",
   "tg:interfaxonline:80897",
   "tg:rbc_news:159684",
-  "4cd17ea86d113d27"
+  "4cd17ea86d113d27",
+  "fb7520c559b71678",
+  "ce6850cc4392f333",
+  "3af61e788605129a",
+  "7d85354c503e6d0b",
+  "21c1cf543ec23d05"
  ],
  "layout_i": 0,
  "day_news": [
   {
-   "date": "2026-10-29",
-   "headline": "Рубль на \"Мосбирже\" подешевел к юаню",
+   "date": "2026-10-30",
+   "headline": "Итоги недели. Почему политикам никогда нельзя верить. Курс…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1793291269.3522222
+   "ts": 1793307863.6432247
   },
   {
-   "date": "2026-10-29",
-   "headline": "Рубль в четверг упал в паре с юанем, ускорил снижение…",
+   "date": "2026-10-30",
+   "headline": "ЦБ предложил ввести ответственность компаний за…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1793291271.37568
+   "ts": 1793307865.6376126
   },
   {
-   "date": "2026-10-29",
-   "headline": "Курс юаня на Московской бирже вырос до 12,2 рубля",
+   "date": "2026-10-30",
+   "headline": "ЦБ недоволен Мосбиржей, но инвесторы не поняли кому и на…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1793291273.4299133
+   "ts": 1793307867.634456
   },
   {
-   "date": "2026-10-29",
-   "headline": "Госдума приняла в I чтении проект о повышении МРОТ до 28…",
+   "date": "2026-10-30",
+   "headline": "🔥Красный день 29 октября на Московской бирже",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1793291275.4207664
+   "ts": 1793307869.6445658
   },
   {
-   "date": "2026-10-29",
-   "headline": "💲ЦБ оставил официальный курс доллара ниже ₽81 Официальный…",
+   "date": "2026-10-30",
+   "headline": "Более половины россиян не откладывают на пенсию — и зря!…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1793291277.3919919
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Карта доходности классов активов в рублях за 20 лет: от…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793294397.8251555
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Минцифры обсуждает для банковских MVNO минимальную…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793294399.9644542
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Госдума в первом чтении поддержала повышение МРОТа до 28…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793294401.9829621
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "«Фундаментальная астрология»: рубль, «Дом.РФ» и притоки в…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793294403.9953392
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "\"Потенциал движения ограничен\": рубль заметно снизился к…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793294406.0324354
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Сбор в 100 рублей с зарубежных посылок не будут взимать…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793297069.0397081
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Путин: товарооборот России и Африки в 27 млрд долларов —…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793297071.181255
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Объем инвестиций в Мурманской области превысил 143…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793297074.402989
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Доля инвестиций нерезидентов в ОФЗ в сентябре снизилась…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793297076.4042258
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Канадский доллар укрепляется после решения Банка Канады и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793297078.561502
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "ЦБ оставил официальный курс доллара в размере 80 рублей",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793299857.388939
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "💵💶Официальные курсы ЦБ РФ с 30 октября - 80,6761 руб./$1 и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793299859.4134426
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "ЦБ понизил официальный курс доллара на 30 октября до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793299861.3640547
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Россия и Африка намерены расширять использование…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793299863.2728388
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Компания А7, созданная Банком ПСБ, готова помочь странам…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793299865.2934573
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Белоруссия пока не ведет переговоры о снятии санкций с…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793302688.5939229
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Военная операция на Украине. Онлайн",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793302690.491682
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Российские туристы смогут оплачивать покупки по QR-кодам в…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793302692.3700414
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "МИД РФ призвал снять санкции с России для…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793302694.299512
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Что может сломать частный алготрейдинг на Мосбирже: разбор…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793302696.2191408
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Куда девается пенсия человека, который до нее не дожил?…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793305259.0944638
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Около трети россиян тратят больше, чем зарабатывают —…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793305261.0367649
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Что произошло за день: четверг, 29 октября ➖Госдума…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793305262.9916759
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Другие заявления Владимира Путина во время выступления на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793305264.9630673
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "ЦБ предложил ужесточить ответственность директоров…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793305266.8900313
+   "ts": 1793307871.6519156
   }
  ],
  "recent_news": [
