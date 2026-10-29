@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "a11c481610c3deca",
-  "9e4514fecbd0334c",
-  "9cb1c7dde6065eac",
-  "e52830740486c968",
-  "1f3e794cf08c35f4",
   "a4e562c4ad892449",
   "21b950e9b3342b98",
   "tg:banksta:104155",
@@ -501,17 +496,16 @@
   "bd80bdfa648d457e",
   "tg:banksta:104403",
   "245f98778743a1a4",
-  "8f21f1d92581f2db"
+  "8f21f1d92581f2db",
+  "34bd6ea538f535ac",
+  "tg:banksta:104409",
+  "tg:banksta:104408",
+  "5d1c03c44b91b7fb",
+  "tg:banksta:104407"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391051",
-   "tg:markettwits:391053",
-   "tg:markettwits:391054",
-   "tg:markettwits:391055",
-   "tg:markettwits:391056",
-   "tg:markettwits:391057",
    "tg:markettwits:391058",
    "tg:markettwits:391059",
    "tg:markettwits:391060",
@@ -605,7 +599,13 @@
    "tg:markettwits:391159",
    "tg:markettwits:391161",
    "tg:markettwits:391162",
-   "tg:markettwits:391163"
+   "tg:markettwits:391163",
+   "tg:markettwits:391164",
+   "tg:markettwits:391165",
+   "tg:markettwits:391168",
+   "tg:markettwits:391169",
+   "tg:markettwits:391171",
+   "tg:markettwits:391172"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -673,10 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104289",
-   "tg:banksta:104290",
-   "tg:banksta:104291",
-   "tg:banksta:104292",
    "tg:banksta:104293",
    "tg:banksta:104294",
    "tg:banksta:104295",
@@ -772,10 +768,13 @@
    "tg:banksta:104402",
    "tg:banksta:104404",
    "tg:banksta:104405",
-   "tg:banksta:104403"
+   "tg:banksta:104403",
+   "tg:banksta:104406",
+   "tg:banksta:104409",
+   "tg:banksta:104408",
+   "tg:banksta:104407"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83656",
    "tg:cbrstocks:83657",
    "tg:cbrstocks:83658",
    "tg:cbrstocks:83659",
@@ -874,13 +873,10 @@
    "tg:cbrstocks:83765",
    "tg:cbrstocks:83766",
    "tg:cbrstocks:83767",
-   "tg:cbrstocks:83768"
+   "tg:cbrstocks:83768",
+   "tg:cbrstocks:83770"
   ],
   "rbc_news": [
-   "tg:rbc_news:159555",
-   "tg:rbc_news:159556",
-   "tg:rbc_news:159557",
-   "tg:rbc_news:159558",
    "tg:rbc_news:159561",
    "tg:rbc_news:159562",
    "tg:rbc_news:159563",
@@ -976,10 +972,13 @@
    "tg:rbc_news:159667",
    "tg:rbc_news:159668",
    "tg:rbc_news:159669",
-   "tg:rbc_news:159670"
+   "tg:rbc_news:159670",
+   "tg:rbc_news:159671",
+   "tg:rbc_news:159674",
+   "tg:rbc_news:159675",
+   "tg:rbc_news:159676"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80776",
    "tg:interfaxonline:80777",
    "tg:interfaxonline:80778",
    "tg:interfaxonline:80774",
@@ -1078,15 +1077,11 @@
    "tg:interfaxonline:80885",
    "tg:interfaxonline:80886",
    "tg:interfaxonline:80887",
-   "tg:interfaxonline:80888"
+   "tg:interfaxonline:80888",
+   "tg:interfaxonline:80890"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793265026.8204396,
-   "usd": 81.2,
-   "cny": 12.1035
-  },
   {
    "ts": 1793268121.3339176,
    "usd": 81.16,
@@ -1121,6 +1116,11 @@
    "ts": 1793284800.8182805,
    "usd": 81.35,
    "cny": 12.1365
+  },
+  {
+   "ts": 1793287821.6961536,
+   "usd": 81.775,
+   "cny": 12.1935
   }
  ],
  "ai_seen": [
@@ -1565,45 +1565,15 @@
   "bd80bdfa648d457e",
   "tg:banksta:104403",
   "245f98778743a1a4",
-  "8f21f1d92581f2db"
+  "8f21f1d92581f2db",
+  "34bd6ea538f535ac",
+  "tg:banksta:104409",
+  "tg:banksta:104408",
+  "5d1c03c44b91b7fb",
+  "tg:banksta:104407"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-29",
-   "headline": "#VTBR #Прогноз КОНСЕНСУС-ПРОГНОЗ Интерфакса: ВТБ в III…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793270938.550768
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Силуанов заявил, что МРОТ к 2030 году составит 35 тысяч…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793270940.4342067
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "В бюджет РФ в этом году поступили 722 млрд рублей дивидендов",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793270942.3266985
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Доллар упал ниже 80 рублей. @banksta",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793270944.2172723
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "ЦБ внес НАУФОР в реестр СРО для депозитариев ЦФА и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793270946.1184418
-  },
   {
    "date": "2026-10-29",
    "headline": "#Макро Глава Минфина Силуанов: Один процентный пункт…",
@@ -1778,6 +1748,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793284829.063826
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Объем выданных ипотечных кредитов в 2026 году может…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793287838.6701682
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Банк России снизил курс евро до 89 рублей @banksta",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793287840.5283694
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "По итогам третьего квартала общий оборот (GMV) финансовых…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793287842.364602
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Объем инвестиций нерезидентов в ОФЗ в сентябре снизился на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793287844.2114882
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Калининградец вернул долг 20,6 млн рублей криптой, но суд…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793287846.0380492
   }
  ],
  "recent_news": [
