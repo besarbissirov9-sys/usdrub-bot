@@ -440,7 +440,9 @@
   "131d150364069ddc",
   "6b023882f3b5c3d3",
   "90069b4f740e1284",
-  "b37d73e52217cdb4"
+  "b37d73e52217cdb4",
+  "6dc6cb53aaa49dc2",
+  "55d7ab44ac3a157b"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -604,7 +606,6 @@
    "tg:xtxixty:6997"
   ],
   "banksta": [
-   "tg:banksta:104247",
    "tg:banksta:104248",
    "tg:banksta:104250",
    "tg:banksta:104251",
@@ -703,7 +704,8 @@
    "tg:banksta:104361",
    "tg:banksta:104362",
    "tg:banksta:104363",
-   "tg:banksta:104365"
+   "tg:banksta:104365",
+   "tg:banksta:104366"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83629",
@@ -910,7 +912,6 @@
    "tg:rbc_news:159613"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80747",
    "tg:interfaxonline:80748",
    "tg:interfaxonline:80749",
    "tg:interfaxonline:80750",
@@ -1009,15 +1010,11 @@
    "tg:interfaxonline:80854",
    "tg:interfaxonline:80855",
    "tg:interfaxonline:80856",
-   "tg:interfaxonline:80857"
+   "tg:interfaxonline:80857",
+   "tg:interfaxonline:80858"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793221959.0698512,
-   "usd": 80.665,
-   "cny": 12.029
-  },
   {
    "ts": 1793224409.930838,
    "usd": 80.665,
@@ -1055,6 +1052,11 @@
   },
   {
    "ts": 1793241359.8072298,
+   "usd": 80.665,
+   "cny": 12.029
+  },
+  {
+   "ts": 1793244080.166418,
    "usd": 80.665,
    "cny": 12.029
   }
@@ -1433,24 +1435,12 @@
   "131d150364069ddc",
   "6b023882f3b5c3d3",
   "90069b4f740e1284",
-  "b37d73e52217cdb4"
+  "b37d73e52217cdb4",
+  "6dc6cb53aaa49dc2",
+  "55d7ab44ac3a157b"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-29",
-   "headline": "Сальдированная прибыль российских компаний по итогам…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793224433.168357
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Что произошло за день: среда, 28 октября ➖Авиасбор для…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793224435.0439575
-  },
   {
    "date": "2026-10-29",
    "headline": "Президент России Владимир Путин заявил, что система…",
@@ -1646,6 +1636,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793238643.526576
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Рубль завершает октябрь на мажорной ноте",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793244098.9053917
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Пентагон отказался расследовать сбои Starlink на Украине",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793244100.8105469
   }
  ],
  "recent_news": [
