@@ -442,16 +442,14 @@
   "90069b4f740e1284",
   "b37d73e52217cdb4",
   "6dc6cb53aaa49dc2",
-  "55d7ab44ac3a157b"
+  "55d7ab44ac3a157b",
+  "c7828eaaec956339",
+  "tg:markettwits:391027",
+  "bc69ed4cc732118c"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:390911",
-   "tg:markettwits:390912",
-   "tg:markettwits:390913",
-   "tg:markettwits:390915",
-   "tg:markettwits:390920",
    "tg:markettwits:390921",
    "tg:markettwits:390917",
    "tg:markettwits:390922",
@@ -546,7 +544,12 @@
    "tg:markettwits:391019",
    "tg:markettwits:391020",
    "tg:markettwits:391021",
-   "tg:markettwits:391018"
+   "tg:markettwits:391018",
+   "tg:markettwits:391022",
+   "tg:markettwits:391024",
+   "tg:markettwits:391025",
+   "tg:markettwits:391026",
+   "tg:markettwits:391027"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -912,10 +915,6 @@
    "tg:rbc_news:159613"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80748",
-   "tg:interfaxonline:80749",
-   "tg:interfaxonline:80750",
-   "tg:interfaxonline:80751",
    "tg:interfaxonline:80752",
    "tg:interfaxonline:80753",
    "tg:interfaxonline:80754",
@@ -1011,15 +1010,14 @@
    "tg:interfaxonline:80855",
    "tg:interfaxonline:80856",
    "tg:interfaxonline:80857",
-   "tg:interfaxonline:80858"
+   "tg:interfaxonline:80858",
+   "tg:interfaxonline:80859",
+   "tg:interfaxonline:80860",
+   "tg:interfaxonline:80861",
+   "tg:interfaxonline:80862"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793224409.930838,
-   "usd": 80.665,
-   "cny": 12.029
-  },
   {
    "ts": 1793226392.5838165,
    "usd": 80.665,
@@ -1059,6 +1057,11 @@
    "ts": 1793244080.166418,
    "usd": 80.665,
    "cny": 12.029
+  },
+  {
+   "ts": 1793247099.3934243,
+   "usd": null,
+   "cny": null
   }
  ],
  "ai_seen": [
@@ -1437,31 +1440,13 @@
   "90069b4f740e1284",
   "b37d73e52217cdb4",
   "6dc6cb53aaa49dc2",
-  "55d7ab44ac3a157b"
+  "55d7ab44ac3a157b",
+  "c7828eaaec956339",
+  "tg:markettwits:391027",
+  "bc69ed4cc732118c"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-29",
-   "headline": "Президент России Владимир Путин заявил, что система…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793226408.7545068
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Каждый год в эту неделю инфляция немного подскакивает -…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793226410.5946681
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Банк России вновь сохранил антициклическую надбавку на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793226412.4288638
-  },
   {
    "date": "2026-10-29",
    "headline": "❗ Новые блокировки счетов и налоговые претензии (октябрь…",
@@ -1650,6 +1635,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793244100.8105469
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "«Гугл» выплатил 16,8 млрд рублей штрафов",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793247120.8134885
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "🇺🇸🇺🇦#украина #геополитика #спутники Девять сенаторов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793247122.817162
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Азия. Четверг.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793247124.8567424
   }
  ],
  "recent_news": [
