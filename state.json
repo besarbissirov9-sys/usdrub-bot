@@ -493,23 +493,16 @@
   "tg:banksta:104392",
   "fcef5012f944a59c",
   "021a322f42d6bd0e",
-  "9b430c58fb179c81"
+  "9b430c58fb179c81",
+  "tg:banksta:104396",
+  "650b448fa98ea7f1",
+  "f74499439be324db",
+  "f945713cf62b564f",
+  "be3eff7a95cf217a"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391018",
-   "tg:markettwits:391022",
-   "tg:markettwits:391024",
-   "tg:markettwits:391025",
-   "tg:markettwits:391026",
-   "tg:markettwits:391027",
-   "tg:markettwits:391028",
-   "tg:markettwits:391029",
-   "tg:markettwits:391030",
-   "tg:markettwits:391031",
-   "tg:markettwits:391032",
-   "tg:markettwits:391033",
    "tg:markettwits:391034",
    "tg:markettwits:391035",
    "tg:markettwits:391036",
@@ -597,7 +590,19 @@
    "tg:markettwits:391125",
    "tg:markettwits:391126",
    "tg:markettwits:391127",
-   "tg:markettwits:391128"
+   "tg:markettwits:391128",
+   "tg:markettwits:391129",
+   "tg:markettwits:391130",
+   "tg:markettwits:391132",
+   "tg:markettwits:391133",
+   "tg:markettwits:391135",
+   "tg:markettwits:391136",
+   "tg:markettwits:391137",
+   "tg:markettwits:391138",
+   "tg:markettwits:391140",
+   "tg:markettwits:391141",
+   "tg:markettwits:391142",
+   "tg:markettwits:391143"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -636,7 +641,8 @@
    "tg:russianmacro:23660",
    "tg:russianmacro:23661",
    "tg:russianmacro:23662",
-   "tg:russianmacro:23666"
+   "tg:russianmacro:23666",
+   "tg:russianmacro:23667"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -659,11 +665,10 @@
    "tg:xtxixty:6981",
    "tg:xtxixty:6988",
    "tg:xtxixty:6992",
-   "tg:xtxixty:6997"
+   "tg:xtxixty:6997",
+   "tg:xtxixty:7005"
   ],
   "banksta": [
-   "tg:banksta:104280",
-   "tg:banksta:104281",
    "tg:banksta:104282",
    "tg:banksta:104283",
    "tg:banksta:104284",
@@ -761,13 +766,11 @@
    "tg:banksta:104390",
    "tg:banksta:104391",
    "tg:banksta:104393",
-   "tg:banksta:104392"
+   "tg:banksta:104392",
+   "tg:banksta:104394",
+   "tg:banksta:104396"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83652",
-   "tg:cbrstocks:83653",
-   "tg:cbrstocks:83654",
-   "tg:cbrstocks:83655",
    "tg:cbrstocks:83656",
    "tg:cbrstocks:83657",
    "tg:cbrstocks:83658",
@@ -863,13 +866,13 @@
    "tg:cbrstocks:83759",
    "tg:cbrstocks:83762",
    "tg:cbrstocks:83761",
-   "tg:cbrstocks:83763"
+   "tg:cbrstocks:83763",
+   "tg:cbrstocks:83765",
+   "tg:cbrstocks:83766",
+   "tg:cbrstocks:83767",
+   "tg:cbrstocks:83768"
   ],
   "rbc_news": [
-   "tg:rbc_news:159547",
-   "tg:rbc_news:159545",
-   "tg:rbc_news:159549",
-   "tg:rbc_news:159548",
    "tg:rbc_news:159550",
    "tg:rbc_news:159551",
    "tg:rbc_news:159552",
@@ -965,11 +968,13 @@
    "tg:rbc_news:159658",
    "tg:rbc_news:159659",
    "tg:rbc_news:159660",
-   "tg:rbc_news:159661"
+   "tg:rbc_news:159661",
+   "tg:rbc_news:159662",
+   "tg:rbc_news:159663",
+   "tg:rbc_news:159664",
+   "tg:rbc_news:159665"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80768",
-   "tg:interfaxonline:80770",
    "tg:interfaxonline:80771",
    "tg:interfaxonline:80772",
    "tg:interfaxonline:80773",
@@ -1067,15 +1072,12 @@
    "tg:interfaxonline:80866",
    "tg:interfaxonline:80878",
    "tg:interfaxonline:80879",
-   "tg:interfaxonline:80880"
+   "tg:interfaxonline:80880",
+   "tg:interfaxonline:80884",
+   "tg:interfaxonline:80885"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793254686.5239892,
-   "usd": null,
-   "cny": 12.0315
-  },
   {
    "ts": 1793258539.545199,
    "usd": 80.45,
@@ -1110,6 +1112,11 @@
    "ts": 1793275691.942893,
    "usd": null,
    "cny": null
+  },
+  {
+   "ts": 1793278627.6790853,
+   "usd": 81.12,
+   "cny": 12.095
   }
  ],
  "ai_seen": [
@@ -1539,45 +1546,15 @@
   "tg:banksta:104392",
   "fcef5012f944a59c",
   "021a322f42d6bd0e",
-  "9b430c58fb179c81"
+  "9b430c58fb179c81",
+  "tg:banksta:104396",
+  "650b448fa98ea7f1",
+  "f74499439be324db",
+  "f945713cf62b564f",
+  "be3eff7a95cf217a"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-29",
-   "headline": "Судебные приставы списали около 14,7 млрд рублей со счёта…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793261939.4179168
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Red Wings отсудила 35 миллионов рублей у поставщика",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793261941.4226465
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "Курс юаня упал ниже ₽12 впервые почти за три месяца",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793261943.4445822
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "\"Яндекс\" в рамках buyback выкупил 0,53% акций на 7,7 млрд…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793261945.4485214
-  },
-  {
-   "date": "2026-10-29",
-   "headline": "#DOMRF #Отчетность ДОМ.РФ: МСФО 9мес2026 Чистая прибыль:…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793261947.4527173
-  },
   {
    "date": "2026-10-29",
    "headline": "Путин оценил долю рубля в российско-африканских…",
@@ -1752,6 +1729,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793275736.489408
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "ПСБ совместно с «Центром беспилотных систем и технологий»…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793278648.5714395
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Курс юаня корректируется вверх после обновления минимума с…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793278650.4734774
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Цена на серебро может превысить 70 долларов за унцию в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793278652.3996878
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Выручка «Черкизово» по РСБУ за 9 месяцев увеличилась до…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793278654.3155253
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "«Газпром» в 2018-2025 годах снизил затраты на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793278656.2175624
   }
  ],
  "recent_news": [
