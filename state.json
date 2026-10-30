@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "107243649afc874b",
-  "tg:markettwits:390618",
-  "tg:markettwits:390615",
-  "cf5f74bcc4ee3d72",
-  "tg:russianmacro:23648",
   "tg:rbc_news:159488",
   "f442517738951d7c",
   "f83d73c9aefaf4b6",
@@ -501,7 +496,12 @@
   "tg:banksta:104493",
   "tg:markettwits:391338",
   "39b49397c9918fc8",
-  "tg:cbrstocks:83805"
+  "tg:cbrstocks:83805",
+  "tg:banksta:104498",
+  "c4595c0c88fa3534",
+  "d4a983d60ddbf916",
+  "2a267b192702d266",
+  "c2fd7543d939910f"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -677,9 +677,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104369",
-   "tg:banksta:104371",
-   "tg:banksta:104372",
    "tg:banksta:104374",
    "tg:banksta:104373",
    "tg:banksta:104376",
@@ -776,11 +773,12 @@
    "tg:banksta:104492",
    "tg:banksta:104494",
    "tg:banksta:104495",
-   "tg:banksta:104493"
+   "tg:banksta:104493",
+   "tg:banksta:104496",
+   "tg:banksta:104497",
+   "tg:banksta:104498"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83697",
-   "tg:cbrstocks:83698",
    "tg:cbrstocks:83699",
    "tg:cbrstocks:83700",
    "tg:cbrstocks:83688",
@@ -878,13 +876,11 @@
    "tg:cbrstocks:83802",
    "tg:cbrstocks:83803",
    "tg:cbrstocks:83804",
-   "tg:cbrstocks:83805"
+   "tg:cbrstocks:83805",
+   "tg:cbrstocks:83806",
+   "tg:cbrstocks:83807"
   ],
   "rbc_news": [
-   "tg:rbc_news:159613",
-   "tg:rbc_news:159624",
-   "tg:rbc_news:159625",
-   "tg:rbc_news:159628",
    "tg:rbc_news:159629",
    "tg:rbc_news:159630",
    "tg:rbc_news:159631",
@@ -980,10 +976,13 @@
    "tg:rbc_news:159735",
    "tg:rbc_news:159736",
    "tg:rbc_news:159737",
-   "tg:rbc_news:159738"
+   "tg:rbc_news:159738",
+   "tg:rbc_news:159739",
+   "tg:rbc_news:159740",
+   "tg:rbc_news:159741",
+   "tg:rbc_news:159742"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80838",
    "tg:interfaxonline:80834",
    "tg:interfaxonline:80849",
    "tg:interfaxonline:80850",
@@ -1082,15 +1081,11 @@
    "tg:interfaxonline:80951",
    "tg:interfaxonline:80952",
    "tg:interfaxonline:80953",
-   "tg:interfaxonline:80954"
+   "tg:interfaxonline:80954",
+   "tg:interfaxonline:80955"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793345943.048713,
-   "usd": 81.35,
-   "cny": 12.143
-  },
   {
    "ts": 1793348887.5433388,
    "usd": 81.0775,
@@ -1125,14 +1120,14 @@
    "ts": 1793364903.3020592,
    "usd": 81.0675,
    "cny": 12.084
+  },
+  {
+   "ts": 1793368114.4910543,
+   "usd": 81.11,
+   "cny": 12.0775
   }
  ],
  "ai_seen": [
-  "9ae1279dd291f2ec",
-  "tg:interfaxonline:80733",
-  "6934f8f7573a9eb3",
-  "2a3242693fdf5ea1",
-  "107243649afc874b",
   "tg:markettwits:390618",
   "tg:markettwits:390615",
   "cf5f74bcc4ee3d72",
@@ -1627,45 +1622,15 @@
   "tg:banksta:104493",
   "tg:markettwits:391338",
   "39b49397c9918fc8",
-  "tg:cbrstocks:83805"
+  "tg:cbrstocks:83805",
+  "tg:banksta:104498",
+  "c4595c0c88fa3534",
+  "d4a983d60ddbf916",
+  "2a267b192702d266",
+  "c2fd7543d939910f"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "Рубль останется крепким: что ждет российскую валюту в ноябре",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793351885.1722877
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "😀😀😀😀😀😀😀😀 Деньги приходят, пока вы отдыхаете: 7000 РУБЛЕЙ В…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793351887.101894
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "⬜️ Биткоин частично восстановился на фоне падения после…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793351889.0105689
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Гитару исполнителя песни Last Christmas продали за 241…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793351890.928524
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "#Прогноз #Макро ВТБ ожидает курс доллара ниже 90 рублей на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793351892.7963772
-  },
   {
    "date": "2026-10-30",
    "headline": "Бывший Мосгорломбард – МГКЛ – допустил первый технический…",
@@ -1840,6 +1805,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793364932.096461
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Число участников Клуба акционеров Сбера достигло миллиона…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793368132.6848726
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Чистый убыток ТМК за девять месяцев составил 38,9…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793368134.5127044
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "ТМК за 9 месяцев получила чистый убыток по РСБУ в 38,9…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793368136.3395877
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Чистый убыток «АЛРОСА» по РСБУ за 9 месяцев составил 23,55…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793368138.1946409
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "\"Атомэнергопром\" разместил облигации с переменным купоном…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793368140.0171123
   }
  ],
  "recent_news": [
