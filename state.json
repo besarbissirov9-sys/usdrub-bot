@@ -2,10 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "d4c8e0397ea15625",
-  "02405370646cbe0b",
-  "tg:interfaxonline:80713",
-  "965ba400ead041b0",
   "tg:banksta:104203",
   "d5944ce3cc637522",
   "05fd4135a0c18e55",
@@ -501,7 +497,11 @@
   "tg:cbrstocks:83760",
   "f283cdc97770a461",
   "tg:cbrstocks:83756",
-  "15de419e3d0b7d2d"
+  "15de419e3d0b7d2d",
+  "2e9a30639629aeb7",
+  "04ea2b16d1847344",
+  "a810a697009011ea",
+  "2a99a3ea61b6175b"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -673,8 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104338",
-   "tg:banksta:104339",
    "tg:banksta:104340",
    "tg:banksta:104341",
    "tg:banksta:104342",
@@ -772,7 +770,9 @@
    "tg:banksta:104460",
    "tg:banksta:104461",
    "tg:banksta:104462",
-   "tg:banksta:104464"
+   "tg:banksta:104464",
+   "tg:banksta:104465",
+   "tg:banksta:104466"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83665",
@@ -979,7 +979,6 @@
    "tg:rbc_news:159702"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80811",
    "tg:interfaxonline:80812",
    "tg:interfaxonline:80813",
    "tg:interfaxonline:80814",
@@ -1078,15 +1077,11 @@
    "tg:interfaxonline:80918",
    "tg:interfaxonline:80919",
    "tg:interfaxonline:80920",
-   "tg:interfaxonline:80921"
+   "tg:interfaxonline:80921",
+   "tg:interfaxonline:80922"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793307840.2173529,
-   "usd": 81.775,
-   "cny": 12.2005
-  },
   {
    "ts": 1793310180.8241746,
    "usd": 81.775,
@@ -1126,13 +1121,14 @@
    "ts": 1793328723.5571096,
    "usd": 81.775,
    "cny": 12.2005
+  },
+  {
+   "ts": 1793331168.6710413,
+   "usd": null,
+   "cny": null
   }
  ],
  "ai_seen": [
-  "1f76c448b841bf68",
-  "d53e07edb03e1048",
-  "88d88661f5b6851c",
-  "d4c8e0397ea15625",
   "02405370646cbe0b",
   "tg:interfaxonline:80713",
   "965ba400ead041b0",
@@ -1628,38 +1624,14 @@
   "tg:cbrstocks:83760",
   "f283cdc97770a461",
   "tg:cbrstocks:83756",
-  "15de419e3d0b7d2d"
+  "15de419e3d0b7d2d",
+  "2e9a30639629aeb7",
+  "04ea2b16d1847344",
+  "a810a697009011ea",
+  "2a99a3ea61b6175b"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "Доходы бюджета РФ от введения 22% НДС с трансграничной…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793310201.0395348
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "В сентябре 2026 г. потреб. кредитование сократилось вдвое,…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793310202.8706827
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "ЦБ не планирует скрывать реестры цифровых депозитариев и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793310204.721965
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "В России зафиксировали средние зарплаты выше 200 тысяч…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793312487.5851693
-  },
   {
    "date": "2026-10-30",
    "headline": "Позитив испарился. Акции и инвестиции",
@@ -1841,6 +1813,34 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793326122.553865
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Азиатские валюты разнонаправлены перед решением Банка Японии",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793331186.1817553
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Глава Минфина США заявил, что Иран с трудом платит военным…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793331188.041295
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Binance раскрыла детали инцидента, который затронул свыше…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793331189.9007103
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Азия. Пятница.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793331191.7681253
   }
  ],
  "recent_news": [
