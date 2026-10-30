@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "c545075b0a5b7cb7",
-  "tg:markettwits:390703",
-  "c96baaea0613f481",
-  "81aeb74f320b3cca",
-  "tg:banksta:104240",
   "53cc76a2efc24cf7",
   "tg:cbrstocks:83664",
   "tg:banksta:104241",
@@ -501,16 +496,16 @@
   "63edbf94aed7e26e",
   "226625ab264c17fa",
   "4625db3382ad2b8b",
-  "70a69f2a23fd1be9"
+  "70a69f2a23fd1be9",
+  "tg:markettwits:391390",
+  "5f264b10473c3da4",
+  "29ed8242125eba61",
+  "tg:interfaxonline:80967",
+  "tg:interfaxonline:80963"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391283",
-   "tg:markettwits:391284",
-   "tg:markettwits:391285",
-   "tg:markettwits:391286",
-   "tg:markettwits:391287",
    "tg:markettwits:391288",
    "tg:markettwits:391289",
    "tg:markettwits:391290",
@@ -605,7 +600,12 @@
    "tg:markettwits:391384",
    "tg:markettwits:391385",
    "tg:markettwits:391386",
-   "tg:markettwits:391387"
+   "tg:markettwits:391387",
+   "tg:markettwits:391388",
+   "tg:markettwits:391389",
+   "tg:markettwits:391391",
+   "tg:markettwits:391392",
+   "tg:markettwits:391390"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -780,7 +780,6 @@
    "tg:banksta:104526"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83706",
    "tg:cbrstocks:83707",
    "tg:cbrstocks:83708",
    "tg:cbrstocks:83710",
@@ -879,10 +878,10 @@
    "tg:cbrstocks:83810",
    "tg:cbrstocks:83811",
    "tg:cbrstocks:83812",
-   "tg:cbrstocks:83813"
+   "tg:cbrstocks:83813",
+   "tg:cbrstocks:83814"
   ],
   "rbc_news": [
-   "tg:rbc_news:159654",
    "tg:rbc_news:159655",
    "tg:rbc_news:159656",
    "tg:rbc_news:159657",
@@ -981,12 +980,10 @@
    "tg:rbc_news:159762",
    "tg:rbc_news:159763",
    "tg:rbc_news:159764",
-   "tg:rbc_news:159765"
+   "tg:rbc_news:159765",
+   "tg:rbc_news:159766"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80864",
-   "tg:interfaxonline:80865",
-   "tg:interfaxonline:80867",
    "tg:interfaxonline:80869",
    "tg:interfaxonline:80870",
    "tg:interfaxonline:80871",
@@ -1083,7 +1080,10 @@
    "tg:interfaxonline:80970",
    "tg:interfaxonline:80971",
    "tg:interfaxonline:80972",
-   "tg:interfaxonline:80973"
+   "tg:interfaxonline:80973",
+   "tg:interfaxonline:80974",
+   "tg:interfaxonline:80967",
+   "tg:interfaxonline:80963"
   ]
  },
  "rate_samples": [
@@ -1126,14 +1126,14 @@
    "ts": 1793390149.37382,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793392009.0334837,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "9f54e70c218a3816",
-  "23839ea02758be34",
-  "81f16f20aa615c82",
-  "b3dce7db587e9905",
-  "1e612d623bd16cea",
   "c545075b0a5b7cb7",
   "tg:markettwits:390703",
   "c96baaea0613f481",
@@ -1628,45 +1628,15 @@
   "63edbf94aed7e26e",
   "226625ab264c17fa",
   "4625db3382ad2b8b",
-  "70a69f2a23fd1be9"
+  "70a69f2a23fd1be9",
+  "tg:markettwits:391390",
+  "5f264b10473c3da4",
+  "29ed8242125eba61",
+  "tg:interfaxonline:80967",
+  "tg:interfaxonline:80963"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "Рубль в пятницу укрепился в паре с юанем перед выходными…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793377452.6930647
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Российский рынок завершает октябрь выше 2500 пунктов,…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793377454.5325778
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Девелопер «АПРИ» получил за 9 месяцев 1,6 млрд рублей…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793377456.3787632
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "💵💶Официальные курсы ЦБ РФ с 31 октября - 80,5573 руб./$1 и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793377458.2186
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Deutsche Bank: доллар больше не надёжная гавань в эпоху ИИ",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793377460.0852854
-  },
   {
    "date": "2026-10-30",
    "headline": "#PHOR СД Фосагро рекомендовал внеочередному общему…",
@@ -1841,6 +1811,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793390175.9311836
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "🇺🇸🇷🇺#санкции #россия #трамп Трамп: Глупые люди хотели,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793392026.8516366
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Совет директоров \"ФосАгро\" рекомендовал выплатить…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793392028.7438824
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Инвестиции без спешки: торгуем в выходные",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793392030.6506
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "🇷🇺🔼Рынок акций РФ в пятницу превысил 2510п по индексу…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793392032.5429409
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "🛢Brent подорожала до $117,6 за баррель Цены на нефть…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793392034.5001557
   }
  ],
  "recent_news": [
