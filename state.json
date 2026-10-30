@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "86934e1f95ddd2d4",
-  "0509f82d5b49ffe5",
-  "tg:banksta:104248",
-  "6223db8f58e618bd",
-  "tg:markettwits:390719",
   "44770c21c00181a1",
   "05bc374a7210cd8d",
   "85e3a9b78af7fb28",
@@ -501,7 +496,12 @@
   "61e62ee1d0ff71aa",
   "a3f2bd8dea24ac5e",
   "fe899847f5b63d9b",
-  "b4b5fa64435b0629"
+  "b4b5fa64435b0629",
+  "2981eb0e01703667",
+  "a6426e106068c4f1",
+  "6cfd1421ad1c47bc",
+  "69a4b0f21fa421a1",
+  "d65a61537b12a01c"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -678,7 +678,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104409",
    "tg:banksta:104408",
    "tg:banksta:104407",
    "tg:banksta:104411",
@@ -777,7 +776,8 @@
    "tg:banksta:104523",
    "tg:banksta:104526",
    "tg:banksta:104527",
-   "tg:banksta:104528"
+   "tg:banksta:104528",
+   "tg:banksta:104529"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83708",
@@ -984,7 +984,6 @@
    "tg:rbc_news:159768"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80870",
    "tg:interfaxonline:80871",
    "tg:interfaxonline:80872",
    "tg:interfaxonline:80873",
@@ -1083,7 +1082,8 @@
    "tg:interfaxonline:80974",
    "tg:interfaxonline:80967",
    "tg:interfaxonline:80963",
-   "tg:interfaxonline:80975"
+   "tg:interfaxonline:80975",
+   "tg:interfaxonline:80976"
   ]
  },
  "rate_samples": [
@@ -1131,14 +1131,14 @@
    "ts": 1793396457.716805,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793398656.2167428,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:markettwits:390710",
-  "a10d4f1fba67eb0e",
-  "ab934a056b7bb277",
-  "1fbac6e94b9b02ba",
-  "86934e1f95ddd2d4",
   "0509f82d5b49ffe5",
   "tg:banksta:104248",
   "6223db8f58e618bd",
@@ -1633,7 +1633,12 @@
   "61e62ee1d0ff71aa",
   "a3f2bd8dea24ac5e",
   "fe899847f5b63d9b",
-  "b4b5fa64435b0629"
+  "b4b5fa64435b0629",
+  "2981eb0e01703667",
+  "a6426e106068c4f1",
+  "6cfd1421ad1c47bc",
+  "69a4b0f21fa421a1",
+  "d65a61537b12a01c"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1706,6 +1711,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793396486.3278468
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Трамп заявил, что \"глупые люди\" требовали от него санкций…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793398676.650481
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "UBS повысил прогноз по злотому на фоне давления на валюту",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793398678.5216646
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Чистая прибыль «Саратовэнерго» по РСБУ упала за 9 месяцев…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793398680.3960505
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Чистая прибыль «Россетей Волга» по РСБУ выросла за 9…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793398682.3279932
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Акции «Самолета» растут на заявлениях ВТБ о санациях",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793398684.1835625
   }
  ],
  "recent_news": [
