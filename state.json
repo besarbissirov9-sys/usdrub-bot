@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "tg:rbc_news:159499",
-  "cc101a4b9ed05efe",
-  "9dd12d948f206390",
-  "tg:markettwits:390674",
-  "tg:banksta:104238",
   "9f54e70c218a3816",
   "23839ea02758be34",
   "81f16f20aa615c82",
@@ -501,13 +496,16 @@
   "a27c799d3ba0d700",
   "3a981369a17e25ff",
   "16677ad6b336f116",
-  "6fccc9607091f13b"
+  "6fccc9607091f13b",
+  "b5902f5be959a2ed",
+  "4ed4951755281345",
+  "1b1fe03d2c6f22f0",
+  "ad236d37db54e29c",
+  "3c1af78e0cc3327d"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391281",
-   "tg:markettwits:391282",
    "tg:markettwits:391283",
    "tg:markettwits:391284",
    "tg:markettwits:391285",
@@ -605,7 +603,9 @@
    "tg:markettwits:391382",
    "tg:markettwits:391383",
    "tg:markettwits:391384",
-   "tg:markettwits:391385"
+   "tg:markettwits:391385",
+   "tg:markettwits:391386",
+   "tg:markettwits:391387"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -678,8 +678,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104399",
-   "tg:banksta:104402",
    "tg:banksta:104404",
    "tg:banksta:104405",
    "tg:banksta:104403",
@@ -777,7 +775,9 @@
    "tg:banksta:104517",
    "tg:banksta:104518",
    "tg:banksta:104519",
-   "tg:banksta:104520"
+   "tg:banksta:104520",
+   "tg:banksta:104521",
+   "tg:banksta:104522"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83706",
@@ -882,9 +882,6 @@
    "tg:cbrstocks:83813"
   ],
   "rbc_news": [
-   "tg:rbc_news:159649",
-   "tg:rbc_news:159650",
-   "tg:rbc_news:159651",
    "tg:rbc_news:159652",
    "tg:rbc_news:159653",
    "tg:rbc_news:159654",
@@ -981,7 +978,10 @@
    "tg:rbc_news:159757",
    "tg:rbc_news:159758",
    "tg:rbc_news:159759",
-   "tg:rbc_news:159760"
+   "tg:rbc_news:159760",
+   "tg:rbc_news:159761",
+   "tg:rbc_news:159762",
+   "tg:rbc_news:159763"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80862",
@@ -1088,11 +1088,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793364903.3020592,
-   "usd": 81.0675,
-   "cny": 12.084
-  },
-  {
    "ts": 1793368114.4910543,
    "usd": 81.11,
    "cny": 12.0775
@@ -1126,14 +1121,14 @@
    "ts": 1793384487.1591651,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793387677.6941652,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "049cff1243a2ad1e",
-  "fcdd454759f6e32b",
-  "7577dbeb438a7501",
-  "daed03c47265838d",
-  "3f55feb2186bcaeb",
   "tg:rbc_news:159499",
   "cc101a4b9ed05efe",
   "9dd12d948f206390",
@@ -1628,45 +1623,15 @@
   "a27c799d3ba0d700",
   "3a981369a17e25ff",
   "16677ad6b336f116",
-  "6fccc9607091f13b"
+  "6fccc9607091f13b",
+  "b5902f5be959a2ed",
+  "4ed4951755281345",
+  "1b1fe03d2c6f22f0",
+  "ad236d37db54e29c",
+  "3c1af78e0cc3327d"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "ЦБ установил курс доллара на уровне 80,56 рубля",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793371271.6319609
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "ЦБ оставил официальный курс доллара на выходные и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793371273.6697598
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Центробанк опубликовал официальный курс валют с субботы",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793371275.708343
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "💲ЦБ оставил официальный курс доллара ниже ₽81 Официальный…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793371277.7042458
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "ЦБ понизил официальный курс доллара на 31 октября до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793371279.7489874
-  },
   {
    "date": "2026-10-30",
    "headline": "“ЭН+ ГРУП” сократила чистую прибыль по РСБУ за 9 месяцев…",
@@ -1841,6 +1806,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793384522.4256098
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Юань на Мосбирже тестирует на прочность \"круглую\"…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793387702.5038738
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Россия вложила в экономику Таиланда шесть миллиардов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793387704.678331
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "В Волгограде конфисковали имущество экс-депутата на 500…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793387706.6655438
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "\"Ростелеком\" за 9 месяцев получил чистый убыток по РСБУ в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793387708.663948
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Пьянов считает акции ВТБ недооцененными",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793387710.660964
   }
  ],
  "recent_news": [
