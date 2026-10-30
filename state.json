@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "tg:markettwits:390538",
-  "5a6977c8e5c37ceb",
-  "82766a47de7eb48d",
-  "e08fc71fcc80f688",
-  "9b435eff415fb32c",
   "c70b1f76e8edec56",
   "cfe3dab44e6954ff",
   "tg:rbc_news:159462",
@@ -501,7 +496,12 @@
   "be3ad735b2bfdd02",
   "9df3469b32fa5162",
   "eb6aec4a0843487a",
-  "719ae1cfbca0259e"
+  "719ae1cfbca0259e",
+  "7c6ea4122b0cd599",
+  "fdc8529d410df703",
+  "7cdf9de8990f5a06",
+  "tg:cbrstocks:83764",
+  "be031d819a4ef066"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -673,7 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104332",
    "tg:banksta:104335",
    "tg:banksta:104336",
    "tg:banksta:104337",
@@ -772,10 +771,10 @@
    "tg:banksta:104457",
    "tg:banksta:104458",
    "tg:banksta:104456",
-   "tg:banksta:104459"
+   "tg:banksta:104459",
+   "tg:banksta:104460"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83662",
    "tg:cbrstocks:83663",
    "tg:cbrstocks:83664",
    "tg:cbrstocks:83665",
@@ -874,7 +873,8 @@
    "tg:cbrstocks:83772",
    "tg:cbrstocks:83773",
    "tg:cbrstocks:83774",
-   "tg:cbrstocks:83769"
+   "tg:cbrstocks:83769",
+   "tg:cbrstocks:83764"
   ],
   "rbc_news": [
    "tg:rbc_news:159592",
@@ -979,7 +979,6 @@
    "tg:rbc_news:159702"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80803",
    "tg:interfaxonline:80804",
    "tg:interfaxonline:80805",
    "tg:interfaxonline:80808",
@@ -1078,15 +1077,11 @@
    "tg:interfaxonline:80912",
    "tg:interfaxonline:80913",
    "tg:interfaxonline:80914",
-   "tg:interfaxonline:80915"
+   "tg:interfaxonline:80915",
+   "tg:interfaxonline:80916"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793297041.5641909,
-   "usd": 81.775,
-   "cny": 12.2005
-  },
   {
    "ts": 1793299834.645737,
    "usd": 81.775,
@@ -1126,14 +1121,14 @@
    "ts": 1793317125.386991,
    "usd": 81.775,
    "cny": 12.2005
+  },
+  {
+   "ts": 1793319054.072572,
+   "usd": 81.775,
+   "cny": 12.2005
   }
  ],
  "ai_seen": [
-  "171a71d96c44a017",
-  "tg:markettwits:390508",
-  "5fe4044d7b930037",
-  "tg:markettwits:390538",
-  "5a6977c8e5c37ceb",
   "82766a47de7eb48d",
   "e08fc71fcc80f688",
   "9b435eff415fb32c",
@@ -1628,7 +1623,12 @@
   "be3ad735b2bfdd02",
   "9df3469b32fa5162",
   "eb6aec4a0843487a",
-  "719ae1cfbca0259e"
+  "719ae1cfbca0259e",
+  "7c6ea4122b0cd599",
+  "fdc8529d410df703",
+  "7cdf9de8990f5a06",
+  "tg:cbrstocks:83764",
+  "be031d819a4ef066"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1806,6 +1806,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793317157.1815863
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Банк России внёс НАУФОР в реестр саморегулируемых…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793319072.522999
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Через несколько часов запускаем приложение конференции и…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793319074.4362645
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "О работе в такси",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793319076.3388114
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "🇷🇺 ЦБ: ограничения на личные криптокошельки не коснутся…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793319078.2441652
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "X5 перед ноябрьским решением по дивидендам – что изменил…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793319080.155798
   }
  ],
  "recent_news": [
