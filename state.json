@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "tg:interfaxonline:80738",
-  "9b23f8931e9bb169",
-  "f8428ba5fe50a946",
-  "7c74db553ccd46d3",
-  "tg:interfaxonline:80740",
   "f3ddf524b8524973",
   "b4a780ecba2355f3",
   "a4d955841486c206",
@@ -501,23 +496,16 @@
   "8139b8cf215ad2c7",
   "09487009f02985e3",
   "tg:rbc_news:159745",
-  "35902661d9beeaa4"
+  "35902661d9beeaa4",
+  "ce1d20da551396e5",
+  "88302c90c0330bf0",
+  "855cf67250e64acd",
+  "2e438f45f0e28a59",
+  "1210137046e5ac8d"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391258",
-   "tg:markettwits:391259",
-   "tg:markettwits:391260",
-   "tg:markettwits:391261",
-   "tg:markettwits:391262",
-   "tg:markettwits:391263",
-   "tg:markettwits:391265",
-   "tg:markettwits:391266",
-   "tg:markettwits:391267",
-   "tg:markettwits:391268",
-   "tg:markettwits:391269",
-   "tg:markettwits:391270",
    "tg:markettwits:391271",
    "tg:markettwits:391272",
    "tg:markettwits:391273",
@@ -605,7 +593,19 @@
    "tg:markettwits:391361",
    "tg:markettwits:391362",
    "tg:markettwits:391363",
-   "tg:markettwits:391364"
+   "tg:markettwits:391364",
+   "tg:markettwits:391365",
+   "tg:markettwits:391366",
+   "tg:markettwits:391367",
+   "tg:markettwits:391368",
+   "tg:markettwits:391369",
+   "tg:markettwits:391370",
+   "tg:markettwits:391371",
+   "tg:markettwits:391372",
+   "tg:markettwits:391373",
+   "tg:markettwits:391374",
+   "tg:markettwits:391375",
+   "tg:markettwits:391376"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -677,10 +677,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104378",
-   "tg:banksta:104379",
-   "tg:banksta:104380",
-   "tg:banksta:104382",
    "tg:banksta:104383",
    "tg:banksta:104386",
    "tg:banksta:104370",
@@ -776,11 +772,13 @@
    "tg:banksta:104499",
    "tg:banksta:104500",
    "tg:banksta:104501",
-   "tg:banksta:104502"
+   "tg:banksta:104502",
+   "tg:banksta:104503",
+   "tg:banksta:104504",
+   "tg:banksta:104505",
+   "tg:banksta:104506"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83688",
-   "tg:cbrstocks:83701",
    "tg:cbrstocks:83704",
    "tg:cbrstocks:83705",
    "tg:cbrstocks:83706",
@@ -878,13 +876,11 @@
    "tg:cbrstocks:83806",
    "tg:cbrstocks:83807",
    "tg:cbrstocks:83808",
-   "tg:cbrstocks:83809"
+   "tg:cbrstocks:83809",
+   "tg:cbrstocks:83810",
+   "tg:cbrstocks:83811"
   ],
   "rbc_news": [
-   "tg:rbc_news:159631",
-   "tg:rbc_news:159632",
-   "tg:rbc_news:159633",
-   "tg:rbc_news:159634",
    "tg:rbc_news:159636",
    "tg:rbc_news:159637",
    "tg:rbc_news:159638",
@@ -980,11 +976,13 @@
    "tg:rbc_news:159741",
    "tg:rbc_news:159742",
    "tg:rbc_news:159743",
-   "tg:rbc_news:159745"
+   "tg:rbc_news:159745",
+   "tg:rbc_news:159746",
+   "tg:rbc_news:159747",
+   "tg:rbc_news:159748",
+   "tg:rbc_news:159749"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80851",
-   "tg:interfaxonline:80852",
    "tg:interfaxonline:80853",
    "tg:interfaxonline:80854",
    "tg:interfaxonline:80855",
@@ -1082,15 +1080,12 @@
    "tg:interfaxonline:80955",
    "tg:interfaxonline:80956",
    "tg:interfaxonline:80957",
-   "tg:interfaxonline:80959"
+   "tg:interfaxonline:80959",
+   "tg:interfaxonline:80960",
+   "tg:interfaxonline:80961"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793351866.0727215,
-   "usd": 80.875,
-   "cny": 12.044
-  },
   {
    "ts": 1793354864.824029,
    "usd": 80.7225,
@@ -1125,14 +1120,14 @@
    "ts": 1793371246.4746327,
    "usd": 80.82,
    "cny": 12.0655
+  },
+  {
+   "ts": 1793374399.804909,
+   "usd": 80.955,
+   "cny": 12.0635
   }
  ],
  "ai_seen": [
-  "f442517738951d7c",
-  "f83d73c9aefaf4b6",
-  "c108c0e5a53e4802",
-  "a16c192b11bbb539",
-  "tg:interfaxonline:80738",
   "9b23f8931e9bb169",
   "f8428ba5fe50a946",
   "7c74db553ccd46d3",
@@ -1627,45 +1622,15 @@
   "8139b8cf215ad2c7",
   "09487009f02985e3",
   "tg:rbc_news:159745",
-  "35902661d9beeaa4"
+  "35902661d9beeaa4",
+  "ce1d20da551396e5",
+  "88302c90c0330bf0",
+  "855cf67250e64acd",
+  "2e438f45f0e28a59",
+  "1210137046e5ac8d"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "Цена нефти Brent поднялась выше 118 долларов",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793357435.278063
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "На обновление подвижного состава Москвы выделят 306,1 млрд…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793357437.3205497
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "За девять месяцев «Соллерс» получил убыток почти в 125 млн…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793357439.3319342
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Роскомнадзор попросил суд взыскать с стримера Мафани 15…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793357441.3704267
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Выручка ТГК-2 по РСБУ за 9 месяцев выросла до 41,7 млрд…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793357443.4165423
-  },
   {
    "date": "2026-10-30",
    "headline": "Чистый убыток ОАК по РСБУ за 9 месяцев вырос до 1,57 млрд…",
@@ -1840,6 +1805,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793371279.7489874
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "“ЭН+ ГРУП” сократила чистую прибыль по РСБУ за 9 месяцев…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793374421.976003
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Банки РФ в январе-сентябре увеличили выдачу ипотечных…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793374423.8980181
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "«Нижнекамскнефтехим» получил почти 8 млрд рублей чистого…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793374425.8142538
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Чистый убыток «Алросы» за девять месяцев превысил 23,5…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793374427.7344968
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Курс юаня к рублю на Мосбирже снижается, но остается выше…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793374429.6711388
   }
  ],
  "recent_news": [
@@ -2048,5 +2048,6 @@
  "week_cal": "2026-10-26",
  "week_poll": "2026-10-26",
  "week_chart": "2026-10-25",
- "digest_date": "2026-10-29"
+ "digest_date": "2026-10-29",
+ "week_fc": "2026-10-30"
 }
