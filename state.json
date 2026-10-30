@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "tg:banksta:104203",
-  "d5944ce3cc637522",
-  "05fd4135a0c18e55",
-  "tg:rbc_news:159458",
-  "8485066e48787176",
   "a1028de7264c3223",
   "96280a397c9c4e73",
   "b850834be4ab63e9",
@@ -501,18 +496,16 @@
   "2e9a30639629aeb7",
   "04ea2b16d1847344",
   "a810a697009011ea",
-  "2a99a3ea61b6175b"
+  "2a99a3ea61b6175b",
+  "98905b4ea91e1b38",
+  "cabe570f91bf7908",
+  "tg:markettwits:391226",
+  "be291d8cabb1ebff",
+  "dbb699d9f5cf5e46"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391115",
-   "tg:markettwits:391116",
-   "tg:markettwits:391117",
-   "tg:markettwits:391118",
-   "tg:markettwits:391119",
-   "tg:markettwits:391120",
-   "tg:markettwits:391121",
    "tg:markettwits:391122",
    "tg:markettwits:391123",
    "tg:markettwits:391124",
@@ -605,7 +598,14 @@
    "tg:markettwits:391222",
    "tg:markettwits:391223",
    "tg:markettwits:391224",
-   "tg:markettwits:391225"
+   "tg:markettwits:391225",
+   "tg:markettwits:391228",
+   "tg:markettwits:391229",
+   "tg:markettwits:391230",
+   "tg:markettwits:391231",
+   "tg:markettwits:391232",
+   "tg:markettwits:391233",
+   "tg:markettwits:391226"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -673,7 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104340",
    "tg:banksta:104341",
    "tg:banksta:104342",
    "tg:banksta:104344",
@@ -772,7 +771,8 @@
    "tg:banksta:104462",
    "tg:banksta:104464",
    "tg:banksta:104465",
-   "tg:banksta:104466"
+   "tg:banksta:104466",
+   "tg:banksta:104467"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83665",
@@ -979,8 +979,6 @@
    "tg:rbc_news:159702"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80812",
-   "tg:interfaxonline:80813",
    "tg:interfaxonline:80814",
    "tg:interfaxonline:80815",
    "tg:interfaxonline:80816",
@@ -1078,20 +1076,12 @@
    "tg:interfaxonline:80919",
    "tg:interfaxonline:80920",
    "tg:interfaxonline:80921",
-   "tg:interfaxonline:80922"
+   "tg:interfaxonline:80922",
+   "tg:interfaxonline:80923",
+   "tg:interfaxonline:80924"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793310180.8241746,
-   "usd": 81.775,
-   "cny": 12.2005
-  },
-  {
-   "ts": 1793312465.2832782,
-   "usd": 81.775,
-   "cny": 12.2005
-  },
   {
    "ts": 1793315004.1584885,
    "usd": 81.775,
@@ -1126,14 +1116,14 @@
    "ts": 1793331168.6710413,
    "usd": null,
    "cny": null
+  },
+  {
+   "ts": 1793334101.5864663,
+   "usd": null,
+   "cny": null
   }
  ],
  "ai_seen": [
-  "02405370646cbe0b",
-  "tg:interfaxonline:80713",
-  "965ba400ead041b0",
-  "tg:banksta:104203",
-  "d5944ce3cc637522",
   "05fd4135a0c18e55",
   "tg:rbc_news:159458",
   "8485066e48787176",
@@ -1628,45 +1618,15 @@
   "2e9a30639629aeb7",
   "04ea2b16d1847344",
   "a810a697009011ea",
-  "2a99a3ea61b6175b"
+  "2a99a3ea61b6175b",
+  "98905b4ea91e1b38",
+  "cabe570f91bf7908",
+  "tg:markettwits:391226",
+  "be291d8cabb1ebff",
+  "dbb699d9f5cf5e46"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "Позитив испарился. Акции и инвестиции",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793312489.4819303
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "У ЦБ нет задачи привлечь на крипторынок как можно больше…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793312491.3661668
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "ЦБ разочарован позицией Мосбиржи, которая в спорах вокруг…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793312493.2364166
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Два банка изменили ставки по кредитам наличными после…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793312495.1285806
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Экономист объяснил, почему россияне стали избавляться от…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793315024.9889605
-  },
   {
    "date": "2026-10-30",
    "headline": "Основатель Binance Чжао заявил, что убытки от взлома…",
@@ -1841,6 +1801,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793331191.7681253
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Рынок акций РФ открылся в утреннюю сессию ростом индексов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793334124.845061
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Мнение о сегменте ВДО",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793334126.8125584
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "📬 mt в max 🗓КАЛЕНДАРЬ НА СЕГОДНЯ — 2026.10.30 🌎встреча…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793334128.7717004
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Binance приостановила ввод и вывод криптовалют. Компания…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793334130.7813735
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Криптанов треснули об шляпу",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793334132.8760617
   }
  ],
  "recent_news": [
