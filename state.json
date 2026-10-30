@@ -2,8 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "d53e07edb03e1048",
-  "88d88661f5b6851c",
   "d4c8e0397ea15625",
   "02405370646cbe0b",
   "tg:interfaxonline:80713",
@@ -501,7 +499,9 @@
   "170be9547ee2f270",
   "d6be88217aa046f8",
   "tg:cbrstocks:83760",
-  "f283cdc97770a461"
+  "f283cdc97770a461",
+  "tg:cbrstocks:83756",
+  "15de419e3d0b7d2d"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -673,7 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104337",
    "tg:banksta:104338",
    "tg:banksta:104339",
    "tg:banksta:104340",
@@ -772,10 +771,10 @@
    "tg:banksta:104459",
    "tg:banksta:104460",
    "tg:banksta:104461",
-   "tg:banksta:104462"
+   "tg:banksta:104462",
+   "tg:banksta:104464"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83664",
    "tg:cbrstocks:83665",
    "tg:cbrstocks:83666",
    "tg:cbrstocks:83667",
@@ -874,7 +873,8 @@
    "tg:cbrstocks:83774",
    "tg:cbrstocks:83769",
    "tg:cbrstocks:83764",
-   "tg:cbrstocks:83760"
+   "tg:cbrstocks:83760",
+   "tg:cbrstocks:83756"
   ],
   "rbc_news": [
    "tg:rbc_news:159592",
@@ -979,8 +979,6 @@
    "tg:rbc_news:159702"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80808",
-   "tg:interfaxonline:80809",
    "tg:interfaxonline:80810",
    "tg:interfaxonline:80811",
    "tg:interfaxonline:80812",
@@ -1078,15 +1076,12 @@
    "tg:interfaxonline:80915",
    "tg:interfaxonline:80916",
    "tg:interfaxonline:80917",
-   "tg:interfaxonline:80918"
+   "tg:interfaxonline:80918",
+   "tg:interfaxonline:80919",
+   "tg:interfaxonline:80920"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793302665.8141344,
-   "usd": 81.775,
-   "cny": 12.2005
-  },
   {
    "ts": 1793305223.1601927,
    "usd": 81.775,
@@ -1126,11 +1121,14 @@
    "ts": 1793322955.54291,
    "usd": 81.775,
    "cny": 12.2005
+  },
+  {
+   "ts": 1793326103.3890185,
+   "usd": 81.775,
+   "cny": 12.2005
   }
  ],
  "ai_seen": [
-  "tg:markettwits:390561",
-  "166515a64dce403a",
   "1f76c448b841bf68",
   "d53e07edb03e1048",
   "88d88661f5b6851c",
@@ -1628,24 +1626,12 @@
   "170be9547ee2f270",
   "d6be88217aa046f8",
   "tg:cbrstocks:83760",
-  "f283cdc97770a461"
+  "f283cdc97770a461",
+  "tg:cbrstocks:83756",
+  "15de419e3d0b7d2d"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "💥✴️#хак #крипто Цифровой рубль не пострадал при взломе…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793310197.3984437
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "ЦБ: криптобиржи и раньше отказывались от работы с…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793310199.221945
-  },
   {
    "date": "2026-10-30",
    "headline": "Доходы бюджета РФ от введения 22% НДС с трансграничной…",
@@ -1841,6 +1827,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793322982.1213548
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "#Ссанкции",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793326120.6596723
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "ЦБ ужесточил контроль за аудиторами на финансовом рынке",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793326122.553865
   }
  ],
  "recent_news": [
