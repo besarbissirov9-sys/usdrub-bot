@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "d91ce67b0d67e374",
-  "tg:markettwits:390710",
-  "a10d4f1fba67eb0e",
-  "ab934a056b7bb277",
-  "1fbac6e94b9b02ba",
   "86934e1f95ddd2d4",
   "0509f82d5b49ffe5",
   "tg:banksta:104248",
@@ -501,13 +496,16 @@
   "23f4049d21719f2b",
   "678eb6fed14c3f7c",
   "b59a648a7d420efd",
-  "26375169a5f9cb2d"
+  "26375169a5f9cb2d",
+  "312c16625cfd10d9",
+  "61e62ee1d0ff71aa",
+  "a3f2bd8dea24ac5e",
+  "fe899847f5b63d9b",
+  "b4b5fa64435b0629"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391292",
-   "tg:markettwits:391293",
    "tg:markettwits:391294",
    "tg:markettwits:391295",
    "tg:markettwits:391296",
@@ -605,7 +603,9 @@
    "tg:markettwits:391393",
    "tg:markettwits:391394",
    "tg:markettwits:391395",
-   "tg:markettwits:391396"
+   "tg:markettwits:391396",
+   "tg:markettwits:391397",
+   "tg:markettwits:391398"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -678,7 +678,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104406",
    "tg:banksta:104409",
    "tg:banksta:104408",
    "tg:banksta:104407",
@@ -777,7 +776,8 @@
    "tg:banksta:104522",
    "tg:banksta:104523",
    "tg:banksta:104526",
-   "tg:banksta:104527"
+   "tg:banksta:104527",
+   "tg:banksta:104528"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83708",
@@ -1088,11 +1088,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793374399.804909,
-   "usd": 80.955,
-   "cny": 12.0635
-  },
-  {
    "ts": 1793377437.764678,
    "usd": 81.0,
    "cny": 12.0715
@@ -1131,14 +1126,14 @@
    "ts": 1793394410.185593,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793396457.716805,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "53cc76a2efc24cf7",
-  "tg:banksta:104241",
-  "f11d6e68278ba42f",
-  "tg:markettwits:390711",
-  "d91ce67b0d67e374",
   "tg:markettwits:390710",
   "a10d4f1fba67eb0e",
   "ab934a056b7bb277",
@@ -1633,7 +1628,12 @@
   "23f4049d21719f2b",
   "678eb6fed14c3f7c",
   "b59a648a7d420efd",
-  "26375169a5f9cb2d"
+  "26375169a5f9cb2d",
+  "312c16625cfd10d9",
+  "61e62ee1d0ff71aa",
+  "a3f2bd8dea24ac5e",
+  "fe899847f5b63d9b",
+  "b4b5fa64435b0629"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1671,6 +1671,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793394441.9014645
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Выручка «ЭсЭфАй» по РСБУ упала за январь-сентябрь на 87,1%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793396478.736238
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "ПАО «ЭсЭфАй» опубликовало результаты по РСБУ за девять…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793396480.6286657
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Мосбиржа запретит с 3 ноября короткие позиции по акциям МГКЛ",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793396482.5297065
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Politico: Трамп давит на Литву для снятия санкций с калия…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793396484.4194658
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Худший месяц для евро против фунта с 2022 года: Франция…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793396486.3278468
   }
  ],
  "recent_news": [
