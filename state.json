@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "049cff1243a2ad1e",
-  "fcdd454759f6e32b",
-  "7577dbeb438a7501",
-  "daed03c47265838d",
-  "3f55feb2186bcaeb",
   "tg:rbc_news:159499",
   "cc101a4b9ed05efe",
   "9dd12d948f206390",
@@ -501,12 +496,16 @@
   "7e839cb6f29daa4a",
   "21aaa52f010456df",
   "482273990ba68449",
-  "39a8c35ad70257d8"
+  "39a8c35ad70257d8",
+  "eda1b444de6fc217",
+  "a27c799d3ba0d700",
+  "3a981369a17e25ff",
+  "16677ad6b336f116",
+  "6fccc9607091f13b"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391280",
    "tg:markettwits:391281",
    "tg:markettwits:391282",
    "tg:markettwits:391283",
@@ -605,7 +604,8 @@
    "tg:markettwits:391381",
    "tg:markettwits:391382",
    "tg:markettwits:391383",
-   "tg:markettwits:391384"
+   "tg:markettwits:391384",
+   "tg:markettwits:391385"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -678,8 +678,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104397",
-   "tg:banksta:104398",
    "tg:banksta:104399",
    "tg:banksta:104402",
    "tg:banksta:104404",
@@ -777,7 +775,9 @@
    "tg:banksta:104515",
    "tg:banksta:104516",
    "tg:banksta:104517",
-   "tg:banksta:104518"
+   "tg:banksta:104518",
+   "tg:banksta:104519",
+   "tg:banksta:104520"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83706",
@@ -882,7 +882,6 @@
    "tg:cbrstocks:83813"
   ],
   "rbc_news": [
-   "tg:rbc_news:159648",
    "tg:rbc_news:159649",
    "tg:rbc_news:159650",
    "tg:rbc_news:159651",
@@ -981,7 +980,8 @@
    "tg:rbc_news:159756",
    "tg:rbc_news:159757",
    "tg:rbc_news:159758",
-   "tg:rbc_news:159759"
+   "tg:rbc_news:159759",
+   "tg:rbc_news:159760"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80862",
@@ -1088,11 +1088,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793361979.3330977,
-   "usd": 81.0125,
-   "cny": 12.085
-  },
-  {
    "ts": 1793364903.3020592,
    "usd": 81.0675,
    "cny": 12.084
@@ -1126,14 +1121,14 @@
    "ts": 1793382373.1847913,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793384487.1591651,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:banksta:104225",
-  "tg:banksta:104233",
-  "9af3e097f8c7b853",
-  "f0e1ee6aed732451",
-  "tg:rbc_news:159502",
   "049cff1243a2ad1e",
   "fcdd454759f6e32b",
   "7577dbeb438a7501",
@@ -1628,45 +1623,15 @@
   "7e839cb6f29daa4a",
   "21aaa52f010456df",
   "482273990ba68449",
-  "39a8c35ad70257d8"
+  "39a8c35ad70257d8",
+  "eda1b444de6fc217",
+  "a27c799d3ba0d700",
+  "3a981369a17e25ff",
+  "16677ad6b336f116",
+  "6fccc9607091f13b"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "Число участников Клуба акционеров Сбера достигло миллиона…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793368132.6848726
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Чистый убыток ТМК за девять месяцев составил 38,9…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793368134.5127044
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "ТМК за 9 месяцев получила чистый убыток по РСБУ в 38,9…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793368136.3395877
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Чистый убыток «АЛРОСА» по РСБУ за 9 месяцев составил 23,55…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793368138.1946409
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "\"Атомэнергопром\" разместил облигации с переменным купоном…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793368140.0171123
-  },
   {
    "date": "2026-10-30",
    "headline": "ЦБ установил курс доллара на уровне 80,56 рубля",
@@ -1841,6 +1806,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793382399.3322384
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "\"Опирается на высокую выручку\": юань упал, но остался выше…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793384514.340284
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "США продлили отсрочку от санкций для сербской NIS до 11…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793384516.3593602
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Глава ТПП рассказал о закупках «санкционки» в СССР",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793384518.3657289
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Мировые цены на нефть поднимаются в пятницу вечером",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793384520.406849
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "🏦 Сбер – Отчёт, дивиденды и справедливая стоимость",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793384522.4256098
   }
  ],
  "recent_news": [
