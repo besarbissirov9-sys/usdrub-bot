@@ -2,8 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "85e3a9b78af7fb28",
-  "2ad5c850eba68f8a",
   "tg:cbrstocks:83668",
   "tg:russianmacro:23651",
   "205fb4d2d1778e1c",
@@ -501,7 +499,9 @@
   "69a4b0f21fa421a1",
   "d65a61537b12a01c",
   "dca68bdee2f9d2e4",
-  "4a3f631eab397bbc"
+  "4a3f631eab397bbc",
+  "3f3c0dd39a59c98c",
+  "784e6e2a4ecc1d8b"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -984,7 +984,6 @@
    "tg:rbc_news:159768"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80871",
    "tg:interfaxonline:80872",
    "tg:interfaxonline:80873",
    "tg:interfaxonline:80874",
@@ -1083,15 +1082,11 @@
    "tg:interfaxonline:80967",
    "tg:interfaxonline:80963",
    "tg:interfaxonline:80975",
-   "tg:interfaxonline:80976"
+   "tg:interfaxonline:80976",
+   "tg:interfaxonline:80977"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793380086.6141675,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793382373.1847913,
    "usd": 81.0,
@@ -1136,11 +1131,14 @@
    "ts": 1793400830.626765,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793402563.5030441,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "6223db8f58e618bd",
-  "tg:markettwits:390719",
   "44770c21c00181a1",
   "05bc374a7210cd8d",
   "85e3a9b78af7fb28",
@@ -1638,7 +1636,9 @@
   "69a4b0f21fa421a1",
   "d65a61537b12a01c",
   "dca68bdee2f9d2e4",
-  "4a3f631eab397bbc"
+  "4a3f631eab397bbc",
+  "3f3c0dd39a59c98c",
+  "784e6e2a4ecc1d8b"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1760,6 +1760,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793400851.8721933
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Выручка «Россетей Московский регион» по РСБУ поднялась за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793402583.1301365
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Выручка «Россетей Томск» по РСБУ выросла за 9 месяцев на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793402585.0575585
   }
  ],
  "recent_news": [
