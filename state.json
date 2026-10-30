@@ -2,12 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "c70b1f76e8edec56",
-  "cfe3dab44e6954ff",
-  "tg:rbc_news:159462",
-  "tg:markettwits:390561",
-  "166515a64dce403a",
-  "1f76c448b841bf68",
   "d53e07edb03e1048",
   "88d88661f5b6851c",
   "d4c8e0397ea15625",
@@ -501,7 +495,13 @@
   "fdc8529d410df703",
   "7cdf9de8990f5a06",
   "tg:cbrstocks:83764",
-  "be031d819a4ef066"
+  "be031d819a4ef066",
+  "f52ee29dccb22b79",
+  "tg:banksta:104462",
+  "170be9547ee2f270",
+  "d6be88217aa046f8",
+  "tg:cbrstocks:83760",
+  "f283cdc97770a461"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -673,8 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104335",
-   "tg:banksta:104336",
    "tg:banksta:104337",
    "tg:banksta:104338",
    "tg:banksta:104339",
@@ -772,10 +770,11 @@
    "tg:banksta:104458",
    "tg:banksta:104456",
    "tg:banksta:104459",
-   "tg:banksta:104460"
+   "tg:banksta:104460",
+   "tg:banksta:104461",
+   "tg:banksta:104462"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83663",
    "tg:cbrstocks:83664",
    "tg:cbrstocks:83665",
    "tg:cbrstocks:83666",
@@ -874,7 +873,8 @@
    "tg:cbrstocks:83773",
    "tg:cbrstocks:83774",
    "tg:cbrstocks:83769",
-   "tg:cbrstocks:83764"
+   "tg:cbrstocks:83764",
+   "tg:cbrstocks:83760"
   ],
   "rbc_news": [
    "tg:rbc_news:159592",
@@ -979,8 +979,6 @@
    "tg:rbc_news:159702"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80804",
-   "tg:interfaxonline:80805",
    "tg:interfaxonline:80808",
    "tg:interfaxonline:80809",
    "tg:interfaxonline:80810",
@@ -1078,15 +1076,12 @@
    "tg:interfaxonline:80913",
    "tg:interfaxonline:80914",
    "tg:interfaxonline:80915",
-   "tg:interfaxonline:80916"
+   "tg:interfaxonline:80916",
+   "tg:interfaxonline:80917",
+   "tg:interfaxonline:80918"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793299834.645737,
-   "usd": 81.775,
-   "cny": 12.2005
-  },
   {
    "ts": 1793302665.8141344,
    "usd": 81.775,
@@ -1126,14 +1121,14 @@
    "ts": 1793319054.072572,
    "usd": 81.775,
    "cny": 12.2005
+  },
+  {
+   "ts": 1793322955.54291,
+   "usd": 81.775,
+   "cny": 12.2005
   }
  ],
  "ai_seen": [
-  "82766a47de7eb48d",
-  "e08fc71fcc80f688",
-  "9b435eff415fb32c",
-  "cfe3dab44e6954ff",
-  "tg:rbc_news:159462",
   "tg:markettwits:390561",
   "166515a64dce403a",
   "1f76c448b841bf68",
@@ -1628,45 +1623,15 @@
   "fdc8529d410df703",
   "7cdf9de8990f5a06",
   "tg:cbrstocks:83764",
-  "be031d819a4ef066"
+  "be031d819a4ef066",
+  "tg:banksta:104462",
+  "170be9547ee2f270",
+  "d6be88217aa046f8",
+  "tg:cbrstocks:83760",
+  "f283cdc97770a461"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "Итоги недели. Почему политикам никогда нельзя верить. Курс…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793307863.6432247
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "ЦБ предложил ввести ответственность компаний за…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793307865.6376126
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "ЦБ недоволен Мосбиржей, но инвесторы не поняли кому и на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793307867.634456
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "🔥Красный день 29 октября на Московской бирже",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793307869.6445658
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Более половины россиян не откладывают на пенсию — и зря!…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793307871.6519156
-  },
   {
    "date": "2026-10-30",
    "headline": "💥✴️#хак #крипто Цифровой рубль не пострадал при взломе…",
@@ -1841,6 +1806,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793319080.155798
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "20-летний канадец украл 185 биткоинов на 1 млрд рублей и…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793322974.4900525
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Криптовалюта Лайткоин просела на 10% в медвежьей торговле…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793322976.374636
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "«Яндекс» в феврале-2027 определится с дивидендами за 2026…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793322978.2898395
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "#Политика Главное из выступления Путина на саммите…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793322980.2081184
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "ЦБ может начать публиковать обезличенные данные о…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793322982.1213548
   }
  ],
  "recent_news": [
