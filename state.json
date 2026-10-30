@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "761dab991fa9154d",
-  "tg:cbrstocks:83626",
-  "e11027f3008b5037",
-  "e71e0455533dd15c",
-  "tg:cbrstocks:83625",
   "6f972030d8909e3e",
   "e6291663a72be184",
   "b1a714b293ea161d",
@@ -501,21 +496,16 @@
   "0f2a7676c3ed508f",
   "69c302c86803d096",
   "37ccecf47320050a",
-  "7c22b78eaa68439a"
+  "7c22b78eaa68439a",
+  "76dbc7729501018d",
+  "e121d84b1ddbc592",
+  "e130c1ef1077668c",
+  "3032132729830781",
+  "901ee66f94ea0a07"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391200",
-   "tg:markettwits:391201",
-   "tg:markettwits:391202",
-   "tg:markettwits:391203",
-   "tg:markettwits:391204",
-   "tg:markettwits:391205",
-   "tg:markettwits:391206",
-   "tg:markettwits:391207",
-   "tg:markettwits:391208",
-   "tg:markettwits:391209",
    "tg:markettwits:391210",
    "tg:markettwits:391211",
    "tg:markettwits:391212",
@@ -605,7 +595,17 @@
    "tg:markettwits:391301",
    "tg:markettwits:391302",
    "tg:markettwits:391303",
-   "tg:markettwits:391305"
+   "tg:markettwits:391305",
+   "tg:markettwits:391307",
+   "tg:markettwits:391308",
+   "tg:markettwits:391309",
+   "tg:markettwits:391310",
+   "tg:markettwits:391311",
+   "tg:markettwits:391312",
+   "tg:markettwits:391313",
+   "tg:markettwits:391314",
+   "tg:markettwits:391315",
+   "tg:markettwits:391316"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -647,7 +647,8 @@
    "tg:russianmacro:23666",
    "tg:russianmacro:23667",
    "tg:russianmacro:23668",
-   "tg:russianmacro:23669"
+   "tg:russianmacro:23669",
+   "tg:russianmacro:23670"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -675,7 +676,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104356",
    "tg:banksta:104357",
    "tg:banksta:104359",
    "tg:banksta:104360",
@@ -774,10 +774,10 @@
    "tg:banksta:104479",
    "tg:banksta:104480",
    "tg:banksta:104481",
-   "tg:banksta:104483"
+   "tg:banksta:104483",
+   "tg:banksta:104484"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83682",
    "tg:cbrstocks:83683",
    "tg:cbrstocks:83679",
    "tg:cbrstocks:83684",
@@ -876,11 +876,10 @@
    "tg:cbrstocks:83788",
    "tg:cbrstocks:83789",
    "tg:cbrstocks:83792",
-   "tg:cbrstocks:83791"
+   "tg:cbrstocks:83791",
+   "tg:cbrstocks:83793"
   ],
   "rbc_news": [
-   "tg:rbc_news:159614",
-   "tg:rbc_news:159615",
    "tg:rbc_news:159616",
    "tg:rbc_news:159617",
    "tg:rbc_news:159618",
@@ -978,11 +977,11 @@
    "tg:rbc_news:159722",
    "tg:rbc_news:159724",
    "tg:rbc_news:159725",
-   "tg:rbc_news:159726"
+   "tg:rbc_news:159726",
+   "tg:rbc_news:159729",
+   "tg:rbc_news:159730"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80832",
-   "tg:interfaxonline:80833",
    "tg:interfaxonline:80835",
    "tg:interfaxonline:80836",
    "tg:interfaxonline:80837",
@@ -1080,15 +1079,12 @@
    "tg:interfaxonline:80943",
    "tg:interfaxonline:80944",
    "tg:interfaxonline:80945",
-   "tg:interfaxonline:80946"
+   "tg:interfaxonline:80946",
+   "tg:interfaxonline:80947",
+   "tg:interfaxonline:80948"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793334101.5864663,
-   "usd": null,
-   "cny": null
-  },
   {
    "ts": 1793337052.4010894,
    "usd": null,
@@ -1123,14 +1119,14 @@
    "ts": 1793354864.824029,
    "usd": 80.7225,
    "cny": 12.053
+  },
+  {
+   "ts": 1793357411.3635468,
+   "usd": 80.85,
+   "cny": 12.071
   }
  ],
  "ai_seen": [
-  "bbe6477b93656d97",
-  "268a144256c47d0f",
-  "ff7d28b314ce6001",
-  "c8bf9c547aaf7728",
-  "761dab991fa9154d",
   "tg:cbrstocks:83626",
   "e11027f3008b5037",
   "e71e0455533dd15c",
@@ -1625,45 +1621,15 @@
   "0f2a7676c3ed508f",
   "69c302c86803d096",
   "37ccecf47320050a",
-  "7c22b78eaa68439a"
+  "7c22b78eaa68439a",
+  "76dbc7729501018d",
+  "e121d84b1ddbc592",
+  "e130c1ef1077668c",
+  "3032132729830781",
+  "901ee66f94ea0a07"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "ВТБ с 1 ноября улучшит условия по накопительному счету в…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793339856.9429224
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Чистая прибыль «РусГидро» по РСБУ за 9 месяцев выросла до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793339858.9088311
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Binance заморозила активы на три миллиарда долларов",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793339860.8740144
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Цена на нефть марки Brent превысила 113 долларов за баррель",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793339862.8859878
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Binance оценила ущерб от взлома криптобиржи в 6,3…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793339864.9204662
-  },
   {
    "date": "2026-10-30",
    "headline": "Курс юаня на Мосбирже в начале торгов растет до 12,22 рубля",
@@ -1838,6 +1804,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793354895.8306844
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Цена нефти Brent поднялась выше 118 долларов",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793357435.278063
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "На обновление подвижного состава Москвы выделят 306,1 млрд…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793357437.3205497
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "За девять месяцев «Соллерс» получил убыток почти в 125 млн…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793357439.3319342
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Роскомнадзор попросил суд взыскать с стримера Мафани 15…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793357441.3704267
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Выручка ТГК-2 по РСБУ за 9 месяцев выросла до 41,7 млрд…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793357443.4165423
   }
  ],
  "recent_news": [
