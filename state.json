@@ -979,7 +979,6 @@
    "tg:rbc_news:159702"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80810",
    "tg:interfaxonline:80811",
    "tg:interfaxonline:80812",
    "tg:interfaxonline:80813",
@@ -1078,15 +1077,11 @@
    "tg:interfaxonline:80917",
    "tg:interfaxonline:80918",
    "tg:interfaxonline:80919",
-   "tg:interfaxonline:80920"
+   "tg:interfaxonline:80920",
+   "tg:interfaxonline:80921"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793305223.1601927,
-   "usd": 81.775,
-   "cny": 12.2005
-  },
   {
    "ts": 1793307840.2173529,
    "usd": 81.775,
@@ -1124,6 +1119,11 @@
   },
   {
    "ts": 1793326103.3890185,
+   "usd": 81.775,
+   "cny": 12.2005
+  },
+  {
+   "ts": 1793328723.5571096,
    "usd": 81.775,
    "cny": 12.2005
   }
