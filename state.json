@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-29",
  "posted": [
-  "a1028de7264c3223",
-  "96280a397c9c4e73",
-  "b850834be4ab63e9",
-  "32117014de00dd25",
-  "82b03b89b3bc0e87",
   "934699a1fc43a71d",
   "tg:markettwits:390581",
   "5eaa8230841eb277",
@@ -501,23 +496,16 @@
   "cabe570f91bf7908",
   "tg:markettwits:391226",
   "be291d8cabb1ebff",
-  "dbb699d9f5cf5e46"
+  "dbb699d9f5cf5e46",
+  "29cf1a1c5c2107b0",
+  "tg:markettwits:391244",
+  "tg:rbc_news:159703",
+  "7654d52f1f9dbb2f",
+  "tg:markettwits:391239"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391122",
-   "tg:markettwits:391123",
-   "tg:markettwits:391124",
-   "tg:markettwits:391125",
-   "tg:markettwits:391126",
-   "tg:markettwits:391127",
-   "tg:markettwits:391128",
-   "tg:markettwits:391129",
-   "tg:markettwits:391130",
-   "tg:markettwits:391132",
-   "tg:markettwits:391133",
-   "tg:markettwits:391135",
    "tg:markettwits:391136",
    "tg:markettwits:391137",
    "tg:markettwits:391138",
@@ -605,7 +593,19 @@
    "tg:markettwits:391231",
    "tg:markettwits:391232",
    "tg:markettwits:391233",
-   "tg:markettwits:391226"
+   "tg:markettwits:391226",
+   "tg:markettwits:391234",
+   "tg:markettwits:391235",
+   "tg:markettwits:391236",
+   "tg:markettwits:391237",
+   "tg:markettwits:391238",
+   "tg:markettwits:391240",
+   "tg:markettwits:391241",
+   "tg:markettwits:391242",
+   "tg:markettwits:391243",
+   "tg:markettwits:391245",
+   "tg:markettwits:391244",
+   "tg:markettwits:391239"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -673,7 +673,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104341",
    "tg:banksta:104342",
    "tg:banksta:104344",
    "tg:banksta:104343",
@@ -772,7 +771,8 @@
    "tg:banksta:104464",
    "tg:banksta:104465",
    "tg:banksta:104466",
-   "tg:banksta:104467"
+   "tg:banksta:104467",
+   "tg:banksta:104468"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83665",
@@ -877,8 +877,6 @@
    "tg:cbrstocks:83756"
   ],
   "rbc_news": [
-   "tg:rbc_news:159592",
-   "tg:rbc_news:159593",
    "tg:rbc_news:159594",
    "tg:rbc_news:159596",
    "tg:rbc_news:159597",
@@ -976,13 +974,11 @@
    "tg:rbc_news:159696",
    "tg:rbc_news:159698",
    "tg:rbc_news:159701",
-   "tg:rbc_news:159702"
+   "tg:rbc_news:159702",
+   "tg:rbc_news:159704",
+   "tg:rbc_news:159703"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80814",
-   "tg:interfaxonline:80815",
-   "tg:interfaxonline:80816",
-   "tg:interfaxonline:80817",
    "tg:interfaxonline:80818",
    "tg:interfaxonline:80819",
    "tg:interfaxonline:80820",
@@ -1078,15 +1074,14 @@
    "tg:interfaxonline:80921",
    "tg:interfaxonline:80922",
    "tg:interfaxonline:80923",
-   "tg:interfaxonline:80924"
+   "tg:interfaxonline:80924",
+   "tg:interfaxonline:80925",
+   "tg:interfaxonline:80926",
+   "tg:interfaxonline:80927",
+   "tg:interfaxonline:80928"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793315004.1584885,
-   "usd": 81.775,
-   "cny": 12.2005
-  },
   {
    "ts": 1793317125.386991,
    "usd": 81.775,
@@ -1121,14 +1116,14 @@
    "ts": 1793334101.5864663,
    "usd": null,
    "cny": null
+  },
+  {
+   "ts": 1793337052.4010894,
+   "usd": null,
+   "cny": null
   }
  ],
  "ai_seen": [
-  "05fd4135a0c18e55",
-  "tg:rbc_news:159458",
-  "8485066e48787176",
-  "a1028de7264c3223",
-  "96280a397c9c4e73",
   "b850834be4ab63e9",
   "32117014de00dd25",
   "82b03b89b3bc0e87",
@@ -1623,45 +1618,15 @@
   "cabe570f91bf7908",
   "tg:markettwits:391226",
   "be291d8cabb1ebff",
-  "dbb699d9f5cf5e46"
+  "dbb699d9f5cf5e46",
+  "29cf1a1c5c2107b0",
+  "tg:markettwits:391244",
+  "tg:rbc_news:159703",
+  "7654d52f1f9dbb2f",
+  "tg:markettwits:391239"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-30",
-   "headline": "Основатель Binance Чжао заявил, что убытки от взлома…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793315026.903644
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Яндекс - несколько скоростей одного бизнеса",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793315028.815613
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Доля нерезидентов в российских ОФЗ снизилась в сентябре до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793315030.7399783
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "📉ЦБ РФ: Доля нерезидентов в ОФЗ на 1 октября снизилась до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793315032.6491082
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "#Бонды ДОЛЯ НЕРЕЗИДЕНТОВ В РОССИЙСКИХ ОФЗ В СЕНТЯБРЕ 2026…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793317149.2805352
-  },
   {
    "date": "2026-10-30",
    "headline": "ЦБ РФ обсуждает возможность наделить НРД правом…",
@@ -1836,6 +1801,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793334132.8760617
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "ЦБ оценил влияние роста рублевых расчетов на валютный курс",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793337072.9773111
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "🇰🇵#кндр #впк #геополитика Всего лишь спустя несколько…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793337075.060821
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "❗️❗️ Чанпэн Чжао подтвердил взлом Binance Основатель…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793337077.0495713
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "«Крупнейший взлом в истории». Что известно о выводе…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793337079.0833082
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "❗️🇯🇵#дкп #япония #цб ЯПОНИЯ - СТАВКА ЦБ = 1.25% (ОЖИД…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793337081.0333116
   }
  ],
  "recent_news": [
