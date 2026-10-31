@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "af8a165d6d39bae4",
   "tg:banksta:104269",
   "f6844f314e909b72",
   "tg:banksta:104271",
@@ -501,7 +500,8 @@
   "tg:rbc_news:159786",
   "bf513c3ae2b34bca",
   "b3314cfd9ddeddb4",
-  "48801c86cb4094c1"
+  "48801c86cb4094c1",
+  "146db867d46c0032"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -680,7 +680,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104426",
    "tg:banksta:104427",
    "tg:banksta:104431",
    "tg:banksta:104432",
@@ -779,7 +778,8 @@
    "tg:banksta:104538",
    "tg:banksta:104543",
    "tg:banksta:104544",
-   "tg:banksta:104545"
+   "tg:banksta:104545",
+   "tg:banksta:104546"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83714",
@@ -884,7 +884,6 @@
    "tg:cbrstocks:83819"
   ],
   "rbc_news": [
-   "tg:rbc_news:159679",
    "tg:rbc_news:159677",
    "tg:rbc_news:159680",
    "tg:rbc_news:159681",
@@ -983,7 +982,8 @@
    "tg:rbc_news:159784",
    "tg:rbc_news:159785",
    "tg:rbc_news:159786",
-   "tg:rbc_news:159787"
+   "tg:rbc_news:159787",
+   "tg:rbc_news:159788"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80890",
@@ -1133,10 +1133,14 @@
    "ts": 1793447301.4879596,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793449153.85709,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "465cc60904acbf59",
   "fadc034de66d5a7b",
   "tg:rbc_news:159527",
   "af8a165d6d39bae4",
@@ -1635,17 +1639,11 @@
   "tg:rbc_news:159786",
   "bf513c3ae2b34bca",
   "b3314cfd9ddeddb4",
-  "48801c86cb4094c1"
+  "48801c86cb4094c1",
+  "146db867d46c0032"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "Трамп заявил, что \"глупые люди\" требовали от него санкций…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793398676.650481
-  },
   {
    "date": "2026-10-31",
    "headline": "UBS повысил прогноз по злотому на фоне давления на валюту",
@@ -1848,6 +1846,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793447315.275122
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Приставы с 2017 года взыскали с алиментщиков более 507…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793449171.16103
   }
  ],
  "recent_news": [
