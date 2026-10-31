@@ -2,9 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "tg:rbc_news:159535",
-  "465cc60904acbf59",
-  "fadc034de66d5a7b",
   "tg:rbc_news:159527",
   "af8a165d6d39bae4",
   "tg:banksta:104269",
@@ -501,12 +498,14 @@
   "9bfea650c5c010eb",
   "841e10ca6af2eab2",
   "a853452abae297a6",
-  "60b4f5915a2d6958"
+  "60b4f5915a2d6958",
+  "tg:rbc_news:159786",
+  "bf513c3ae2b34bca",
+  "b3314cfd9ddeddb4"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391323",
    "tg:markettwits:391324",
    "tg:markettwits:391325",
    "tg:markettwits:391327",
@@ -605,7 +604,8 @@
    "tg:markettwits:391422",
    "tg:markettwits:391423",
    "tg:markettwits:391424",
-   "tg:markettwits:391425"
+   "tg:markettwits:391425",
+   "tg:markettwits:391426"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -782,7 +782,6 @@
    "tg:banksta:104544"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83712",
    "tg:cbrstocks:83714",
    "tg:cbrstocks:83715",
    "tg:cbrstocks:83716",
@@ -881,11 +880,10 @@
    "tg:cbrstocks:83815",
    "tg:cbrstocks:83816",
    "tg:cbrstocks:83817",
-   "tg:cbrstocks:83818"
+   "tg:cbrstocks:83818",
+   "tg:cbrstocks:83819"
   ],
   "rbc_news": [
-   "tg:rbc_news:159675",
-   "tg:rbc_news:159676",
    "tg:rbc_news:159678",
    "tg:rbc_news:159679",
    "tg:rbc_news:159677",
@@ -983,11 +981,11 @@
    "tg:rbc_news:159781",
    "tg:rbc_news:159782",
    "tg:rbc_news:159783",
-   "tg:rbc_news:159784"
+   "tg:rbc_news:159784",
+   "tg:rbc_news:159785",
+   "tg:rbc_news:159786"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80887",
-   "tg:interfaxonline:80888",
    "tg:interfaxonline:80890",
    "tg:interfaxonline:80891",
    "tg:interfaxonline:80892",
@@ -1085,15 +1083,12 @@
    "tg:interfaxonline:80986",
    "tg:interfaxonline:80987",
    "tg:interfaxonline:80988",
-   "tg:interfaxonline:80989"
+   "tg:interfaxonline:80989",
+   "tg:interfaxonline:80990",
+   "tg:interfaxonline:80991"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793423289.6673508,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793425384.9696367,
    "usd": 81.0,
@@ -1133,12 +1128,14 @@
    "ts": 1793443098.6679997,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793445131.7552145,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:interfaxonline:80774",
-  "tg:banksta:104266",
-  "tg:banksta:104265",
   "tg:rbc_news:159535",
   "465cc60904acbf59",
   "fadc034de66d5a7b",
@@ -1635,31 +1632,13 @@
   "9bfea650c5c010eb",
   "841e10ca6af2eab2",
   "a853452abae297a6",
-  "60b4f5915a2d6958"
+  "60b4f5915a2d6958",
+  "tg:rbc_news:159786",
+  "bf513c3ae2b34bca",
+  "b3314cfd9ddeddb4"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "ПАО «ЭсЭфАй» опубликовало результаты по РСБУ за девять…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793396480.6286657
-  },
-  {
-   "date": "2026-10-31",
-   "headline": "Мосбиржа запретит с 3 ноября короткие позиции по акциям МГКЛ",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793396482.5297065
-  },
-  {
-   "date": "2026-10-31",
-   "headline": "Politico: Трамп давит на Литву для снятия санкций с калия…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793396484.4194658
-  },
   {
    "date": "2026-10-31",
    "headline": "Худший месяц для евро против фунта с 2022 года: Франция…",
@@ -1848,6 +1827,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793443125.2593844
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Ровно 18 лет назад была представлена концепция биткоина 31…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793445147.7959564
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Конференция smart-lab Тимофей Орловский Честное мнение…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793445149.6520276
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "78% денег инвесторов - в облигациях. А биржа предлагает…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793445151.5423636
   }
  ],
  "recent_news": [
