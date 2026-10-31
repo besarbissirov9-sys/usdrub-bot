@@ -2,8 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "tg:interfaxonline:80765",
-  "181f41dab0dcbff1",
   "44cbae0396854573",
   "tg:rbc_news:159530",
   "553f8e46b41cf318",
@@ -501,7 +499,9 @@
   "b92b2005ea77c248",
   "396c95fbc0a7c076",
   "54853fbf745e6632",
-  "1df319cef7000ca7"
+  "1df319cef7000ca7",
+  "23c05142439d59f0",
+  "6e96871dbbaa992d"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -650,7 +650,8 @@
    "tg:russianmacro:23669",
    "tg:russianmacro:23670",
    "tg:russianmacro:23671",
-   "tg:russianmacro:23675"
+   "tg:russianmacro:23675",
+   "tg:russianmacro:23676"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -678,8 +679,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104414",
-   "tg:banksta:104415",
    "tg:banksta:104421",
    "tg:banksta:104420",
    "tg:banksta:104422",
@@ -777,7 +776,9 @@
    "tg:banksta:104530",
    "tg:banksta:104531",
    "tg:banksta:104532",
-   "tg:banksta:104534"
+   "tg:banksta:104534",
+   "tg:banksta:104535",
+   "tg:banksta:104536"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83711",
@@ -882,9 +883,6 @@
    "tg:cbrstocks:83817"
   ],
   "rbc_news": [
-   "tg:rbc_news:159665",
-   "tg:rbc_news:159666",
-   "tg:rbc_news:159667",
    "tg:rbc_news:159668",
    "tg:rbc_news:159669",
    "tg:rbc_news:159670",
@@ -981,10 +979,12 @@
    "tg:rbc_news:159773",
    "tg:rbc_news:159774",
    "tg:rbc_news:159775",
-   "tg:rbc_news:159776"
+   "tg:rbc_news:159776",
+   "tg:rbc_news:159777",
+   "tg:rbc_news:159778",
+   "tg:rbc_news:159779"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80884",
    "tg:interfaxonline:80885",
    "tg:interfaxonline:80886",
    "tg:interfaxonline:80887",
@@ -1083,15 +1083,11 @@
    "tg:interfaxonline:80983",
    "tg:interfaxonline:80984",
    "tg:interfaxonline:80985",
-   "tg:interfaxonline:80986"
+   "tg:interfaxonline:80986",
+   "tg:interfaxonline:80987"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793413517.8000755,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793416198.1267784,
    "usd": 81.0,
@@ -1131,11 +1127,14 @@
    "ts": 1793434241.2419662,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793436870.2746787,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "dc0e992fb1329327",
-  "f40a9124edd9110c",
   "8eb368c80efde850",
   "tg:markettwits:390746",
   "tg:interfaxonline:80765",
@@ -1633,7 +1632,9 @@
   "b92b2005ea77c248",
   "396c95fbc0a7c076",
   "54853fbf745e6632",
-  "1df319cef7000ca7"
+  "1df319cef7000ca7",
+  "23c05142439d59f0",
+  "6e96871dbbaa992d"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1818,6 +1819,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793434259.3511183
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Правительство РФ выделило еще 725 млн рублей на льготные…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793436889.001948
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "На чём зарабатывает Татнефть?",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793436891.0201426
   }
  ],
  "recent_news": [
