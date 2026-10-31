@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "tg:cbrstocks:83676",
   "1b89bc596aa1f44d",
   "36532393f28f55a3",
   "7f08be99a17c4e4e",
@@ -501,7 +500,8 @@
   "2085a3f02d13c7eb",
   "tg:banksta:104562",
   "353d44a8461bcb58",
-  "ffd5c4539d92b59f"
+  "ffd5c4539d92b59f",
+  "e191b0f560154d69"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -680,7 +680,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104445",
    "tg:banksta:104446",
    "tg:banksta:104447",
    "tg:banksta:104450",
@@ -779,7 +778,8 @@
    "tg:banksta:104562",
    "tg:banksta:104563",
    "tg:banksta:104573",
-   "tg:banksta:104574"
+   "tg:banksta:104574",
+   "tg:banksta:104575"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83717",
@@ -884,7 +884,6 @@
    "tg:cbrstocks:83822"
   ],
   "rbc_news": [
-   "tg:rbc_news:159684",
    "tg:rbc_news:159696",
    "tg:rbc_news:159698",
    "tg:rbc_news:159701",
@@ -983,7 +982,8 @@
    "tg:rbc_news:159801",
    "tg:rbc_news:159802",
    "tg:rbc_news:159803",
-   "tg:rbc_news:159804"
+   "tg:rbc_news:159804",
+   "tg:rbc_news:159805"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80900",
@@ -1090,11 +1090,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793452369.9199317,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793454859.44908,
    "usd": 81.0,
    "cny": 12.0715
@@ -1143,10 +1138,14 @@
    "ts": 1793472217.7979379,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793474596.1634302,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "519d5bb8c969e155",
   "tg:markettwits:390775",
   "f1f32d0bd758a105",
   "tg:cbrstocks:83676",
@@ -1645,17 +1644,11 @@
   "2085a3f02d13c7eb",
   "tg:banksta:104562",
   "353d44a8461bcb58",
-  "ffd5c4539d92b59f"
+  "ffd5c4539d92b59f",
+  "e191b0f560154d69"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "🚀 Рубль остаётся крепким, ралли в акциях замедлилось, МГКЛ…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793427656.6514266
-  },
   {
    "date": "2026-10-31",
    "headline": "30 лет за компьютером",
@@ -1858,6 +1851,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793472234.6643376
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Сколько дефолтов случилось с 26 по 30 октября на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793474611.2124336
   }
  ],
  "recent_news": [
