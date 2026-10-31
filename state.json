@@ -2,8 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "519d5bb8c969e155",
-  "tg:markettwits:390775",
   "f1f32d0bd758a105",
   "tg:cbrstocks:83676",
   "1b89bc596aa1f44d",
@@ -501,15 +499,13 @@
   "tg:banksta:104549",
   "f680ad8f0d43e07e",
   "1e0f4e8950bdb308",
-  "2085a3f02d13c7eb"
+  "2085a3f02d13c7eb",
+  "tg:banksta:104562",
+  "353d44a8461bcb58"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391332",
-   "tg:markettwits:391333",
-   "tg:markettwits:391334",
-   "tg:markettwits:391335",
    "tg:markettwits:391336",
    "tg:markettwits:391337",
    "tg:markettwits:391339",
@@ -605,7 +601,11 @@
    "tg:markettwits:391430",
    "tg:markettwits:391431",
    "tg:markettwits:391432",
-   "tg:markettwits:391433"
+   "tg:markettwits:391433",
+   "tg:markettwits:391434",
+   "tg:markettwits:391435",
+   "tg:markettwits:391436",
+   "tg:markettwits:391437"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -680,7 +680,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104441",
    "tg:banksta:104442",
    "tg:banksta:104443",
    "tg:banksta:104444",
@@ -779,7 +778,8 @@
    "tg:banksta:104556",
    "tg:banksta:104559",
    "tg:banksta:104560",
-   "tg:banksta:104561"
+   "tg:banksta:104561",
+   "tg:banksta:104562"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83716",
@@ -884,7 +884,6 @@
    "tg:cbrstocks:83821"
   ],
   "rbc_news": [
-   "tg:rbc_news:159689",
    "tg:rbc_news:159693",
    "tg:rbc_news:159694",
    "tg:rbc_news:159695",
@@ -983,11 +982,10 @@
    "tg:rbc_news:159797",
    "tg:rbc_news:159798",
    "tg:rbc_news:159799",
-   "tg:rbc_news:159800"
+   "tg:rbc_news:159800",
+   "tg:rbc_news:159801"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80898",
-   "tg:interfaxonline:80899",
    "tg:interfaxonline:80900",
    "tg:interfaxonline:80901",
    "tg:interfaxonline:80902",
@@ -1085,15 +1083,12 @@
    "tg:interfaxonline:80994",
    "tg:interfaxonline:80995",
    "tg:interfaxonline:80996",
-   "tg:interfaxonline:80997"
+   "tg:interfaxonline:80997",
+   "tg:interfaxonline:80998",
+   "tg:interfaxonline:80999"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793445131.7552145,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793447301.4879596,
    "usd": 81.0,
@@ -1143,11 +1138,14 @@
    "ts": 1793466237.9571204,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793468097.1654522,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "f5103f2690a6d224",
-  "ae607806b645ebc5",
   "c12512484e16d19e",
   "519d5bb8c969e155",
   "tg:markettwits:390775",
@@ -1645,24 +1643,12 @@
   "tg:banksta:104549",
   "f680ad8f0d43e07e",
   "1e0f4e8950bdb308",
-  "2085a3f02d13c7eb"
+  "2085a3f02d13c7eb",
+  "tg:banksta:104562",
+  "353d44a8461bcb58"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "🔥Что там с последним торговым днем октября?",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793404672.9211426
-  },
-  {
-   "date": "2026-10-31",
-   "headline": "Аэропорт на Нормандских островах сообщил о сбоях в работе…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793418531.3144195
-  },
   {
    "date": "2026-10-31",
    "headline": "Что случилось этой ночью: суббота, 31 октября 📌Сергей…",
@@ -1858,6 +1844,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793466258.2152562
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Мошенник с сайта знакомств обманул москвичку на 8 млн…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793468113.123615
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Россия на G20 оценила действия по подрыву международной…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793468114.972464
   }
  ],
  "recent_news": [
