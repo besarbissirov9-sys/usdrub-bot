@@ -2,10 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "44cbae0396854573",
-  "tg:rbc_news:159530",
-  "553f8e46b41cf318",
-  "20dcc5daa0479faf",
   "0eeb8365940f6790",
   "tg:interfaxonline:80774",
   "tg:banksta:104266",
@@ -501,18 +497,15 @@
   "54853fbf745e6632",
   "1df319cef7000ca7",
   "23c05142439d59f0",
-  "6e96871dbbaa992d"
+  "6e96871dbbaa992d",
+  "tg:markettwits:391421",
+  "b70a1e8876fef38d",
+  "tg:banksta:104543",
+  "tg:markettwits:391415"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391312",
-   "tg:markettwits:391313",
-   "tg:markettwits:391314",
-   "tg:markettwits:391315",
-   "tg:markettwits:391316",
-   "tg:markettwits:391317",
-   "tg:markettwits:391318",
    "tg:markettwits:391319",
    "tg:markettwits:391320",
    "tg:markettwits:391321",
@@ -605,7 +598,14 @@
    "tg:markettwits:391411",
    "tg:markettwits:391412",
    "tg:markettwits:391413",
-   "tg:markettwits:391414"
+   "tg:markettwits:391414",
+   "tg:markettwits:391416",
+   "tg:markettwits:391417",
+   "tg:markettwits:391418",
+   "tg:markettwits:391419",
+   "tg:markettwits:391420",
+   "tg:markettwits:391421",
+   "tg:markettwits:391415"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -679,7 +679,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104422",
    "tg:banksta:104424",
    "tg:banksta:104425",
    "tg:banksta:104426",
@@ -778,10 +777,10 @@
    "tg:banksta:104535",
    "tg:banksta:104536",
    "tg:banksta:104537",
-   "tg:banksta:104538"
+   "tg:banksta:104538",
+   "tg:banksta:104543"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83711",
    "tg:cbrstocks:83712",
    "tg:cbrstocks:83714",
    "tg:cbrstocks:83715",
@@ -880,10 +879,10 @@
    "tg:cbrstocks:83814",
    "tg:cbrstocks:83815",
    "tg:cbrstocks:83816",
-   "tg:cbrstocks:83817"
+   "tg:cbrstocks:83817",
+   "tg:cbrstocks:83818"
   ],
   "rbc_news": [
-   "tg:rbc_news:159670",
    "tg:rbc_news:159671",
    "tg:rbc_news:159674",
    "tg:rbc_news:159675",
@@ -982,11 +981,10 @@
    "tg:rbc_news:159778",
    "tg:rbc_news:159779",
    "tg:rbc_news:159780",
-   "tg:rbc_news:159781"
+   "tg:rbc_news:159781",
+   "tg:rbc_news:159782"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80885",
-   "tg:interfaxonline:80886",
    "tg:interfaxonline:80887",
    "tg:interfaxonline:80888",
    "tg:interfaxonline:80890",
@@ -1084,15 +1082,12 @@
    "tg:interfaxonline:80984",
    "tg:interfaxonline:80985",
    "tg:interfaxonline:80986",
-   "tg:interfaxonline:80987"
+   "tg:interfaxonline:80987",
+   "tg:interfaxonline:80988",
+   "tg:interfaxonline:80989"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793418515.7590199,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793420773.0635493,
    "usd": 81.0,
@@ -1132,13 +1127,14 @@
    "ts": 1793438841.4990427,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793441139.644261,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "8eb368c80efde850",
-  "tg:markettwits:390746",
-  "tg:interfaxonline:80765",
-  "181f41dab0dcbff1",
   "44cbae0396854573",
   "tg:rbc_news:159530",
   "553f8e46b41cf318",
@@ -1634,24 +1630,14 @@
   "54853fbf745e6632",
   "1df319cef7000ca7",
   "23c05142439d59f0",
-  "6e96871dbbaa992d"
+  "6e96871dbbaa992d",
+  "tg:markettwits:391421",
+  "b70a1e8876fef38d",
+  "tg:banksta:104543",
+  "tg:markettwits:391415"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "Глава МИД РФ заявил, что сущностные вопросы в отношениях с…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793394433.773395
-  },
-  {
-   "date": "2026-10-31",
-   "headline": "ФБР выясняет масштабы инцидента на криптовалютной бирже…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793394435.8306587
-  },
   {
    "date": "2026-10-31",
    "headline": "Чистая прибыль «Промомеда» по РСБУ за 9 месяцев выросла в…",
@@ -1833,6 +1819,34 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793436891.0201426
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "✴️🇷🇺#торги #крипто #россия Мосбиржа считает запуск торгов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793441156.8249245
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Мосбиржа назвала доступные монеты и время торгов криптой с…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793441158.7250865
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "ЦБ отозвал лицензию из-за проблем с ликвидностью и угрозы…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793441160.67462
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "⚠️🇺🇦#украина #геополитика #европа #нато #санкции #россия…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793441162.5903127
   }
  ],
  "recent_news": [
