@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "c12512484e16d19e",
   "519d5bb8c969e155",
   "tg:markettwits:390775",
   "f1f32d0bd758a105",
@@ -501,12 +500,12 @@
   "tg:markettwits:391428",
   "tg:banksta:104549",
   "f680ad8f0d43e07e",
-  "1e0f4e8950bdb308"
+  "1e0f4e8950bdb308",
+  "2085a3f02d13c7eb"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391331",
    "tg:markettwits:391332",
    "tg:markettwits:391333",
    "tg:markettwits:391334",
@@ -605,7 +604,8 @@
    "tg:markettwits:391429",
    "tg:markettwits:391430",
    "tg:markettwits:391431",
-   "tg:markettwits:391432"
+   "tg:markettwits:391432",
+   "tg:markettwits:391433"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -680,7 +680,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104423",
    "tg:banksta:104441",
    "tg:banksta:104442",
    "tg:banksta:104443",
@@ -779,7 +778,8 @@
    "tg:banksta:104555",
    "tg:banksta:104556",
    "tg:banksta:104559",
-   "tg:banksta:104560"
+   "tg:banksta:104560",
+   "tg:banksta:104561"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83716",
@@ -884,7 +884,6 @@
    "tg:cbrstocks:83821"
   ],
   "rbc_news": [
-   "tg:rbc_news:159692",
    "tg:rbc_news:159689",
    "tg:rbc_news:159693",
    "tg:rbc_news:159694",
@@ -983,10 +982,10 @@
    "tg:rbc_news:159796",
    "tg:rbc_news:159797",
    "tg:rbc_news:159798",
-   "tg:rbc_news:159799"
+   "tg:rbc_news:159799",
+   "tg:rbc_news:159800"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80896",
    "tg:interfaxonline:80898",
    "tg:interfaxonline:80899",
    "tg:interfaxonline:80900",
@@ -1085,15 +1084,11 @@
    "tg:interfaxonline:80993",
    "tg:interfaxonline:80994",
    "tg:interfaxonline:80995",
-   "tg:interfaxonline:80996"
+   "tg:interfaxonline:80996",
+   "tg:interfaxonline:80997"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793443098.6679997,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793445131.7552145,
    "usd": 81.0,
@@ -1143,10 +1138,14 @@
    "ts": 1793464113.2523491,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793466237.9571204,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:markettwits:390766",
   "f5103f2690a6d224",
   "ae607806b645ebc5",
   "c12512484e16d19e",
@@ -1645,17 +1644,11 @@
   "tg:markettwits:391428",
   "tg:banksta:104549",
   "f680ad8f0d43e07e",
-  "1e0f4e8950bdb308"
+  "1e0f4e8950bdb308",
+  "2085a3f02d13c7eb"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "Выручка «Россетей Томск» по РСБУ выросла за 9 месяцев на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793402585.0575585
-  },
   {
    "date": "2026-10-31",
    "headline": "🔥Что там с последним торговым днем октября?",
@@ -1858,6 +1851,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793464129.458067
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "С 1 декабря Мосбиржа запустит торги криптовалютами…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793466258.2152562
   }
  ],
  "recent_news": [
@@ -2066,6 +2066,6 @@
  "week_cal": "2026-10-26",
  "week_poll": "2026-10-26",
  "week_chart": "2026-10-25",
- "digest_date": "2026-10-30",
+ "digest_date": "2026-10-31",
  "week_fc": "2026-10-30"
 }
