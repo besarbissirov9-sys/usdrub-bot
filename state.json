@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "tg:rbc_news:159527",
   "af8a165d6d39bae4",
   "tg:banksta:104269",
   "f6844f314e909b72",
@@ -501,7 +500,8 @@
   "60b4f5915a2d6958",
   "tg:rbc_news:159786",
   "bf513c3ae2b34bca",
-  "b3314cfd9ddeddb4"
+  "b3314cfd9ddeddb4",
+  "48801c86cb4094c1"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -680,7 +680,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104425",
    "tg:banksta:104426",
    "tg:banksta:104427",
    "tg:banksta:104431",
@@ -779,7 +778,8 @@
    "tg:banksta:104537",
    "tg:banksta:104538",
    "tg:banksta:104543",
-   "tg:banksta:104544"
+   "tg:banksta:104544",
+   "tg:banksta:104545"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83714",
@@ -884,7 +884,6 @@
    "tg:cbrstocks:83819"
   ],
   "rbc_news": [
-   "tg:rbc_news:159678",
    "tg:rbc_news:159679",
    "tg:rbc_news:159677",
    "tg:rbc_news:159680",
@@ -983,7 +982,8 @@
    "tg:rbc_news:159783",
    "tg:rbc_news:159784",
    "tg:rbc_news:159785",
-   "tg:rbc_news:159786"
+   "tg:rbc_news:159786",
+   "tg:rbc_news:159787"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80890",
@@ -1090,11 +1090,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793425384.9696367,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793427640.4202046,
    "usd": 81.0,
    "cny": 12.0715
@@ -1133,10 +1128,14 @@
    "ts": 1793445131.7552145,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793447301.4879596,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:rbc_news:159535",
   "465cc60904acbf59",
   "fadc034de66d5a7b",
   "tg:rbc_news:159527",
@@ -1635,17 +1634,11 @@
   "60b4f5915a2d6958",
   "tg:rbc_news:159786",
   "bf513c3ae2b34bca",
-  "b3314cfd9ddeddb4"
+  "b3314cfd9ddeddb4",
+  "48801c86cb4094c1"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "Худший месяц для евро против фунта с 2022 года: Франция…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793396486.3278468
-  },
   {
    "date": "2026-10-31",
    "headline": "Трамп заявил, что \"глупые люди\" требовали от него санкций…",
@@ -1848,6 +1841,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793445151.5423636
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Криптовалюта EOS просела на 11% в медвежьей торговле с…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793447315.275122
   }
  ],
  "recent_news": [
