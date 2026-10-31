@@ -2,9 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "tg:rbc_news:159541",
-  "tg:markettwits:390766",
-  "f5103f2690a6d224",
   "ae607806b645ebc5",
   "c12512484e16d19e",
   "519d5bb8c969e155",
@@ -501,12 +498,14 @@
   "146db867d46c0032",
   "073f9d3fe515ba1f",
   "7420e1f32632b27e",
-  "7d544dd359990229"
+  "7d544dd359990229",
+  "tg:markettwits:391428",
+  "tg:banksta:104549",
+  "f680ad8f0d43e07e"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391325",
    "tg:markettwits:391327",
    "tg:markettwits:391328",
    "tg:markettwits:391329",
@@ -605,7 +604,8 @@
    "tg:markettwits:391424",
    "tg:markettwits:391425",
    "tg:markettwits:391426",
-   "tg:markettwits:391427"
+   "tg:markettwits:391427",
+   "tg:markettwits:391428"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -680,8 +680,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104431",
-   "tg:banksta:104432",
    "tg:banksta:104433",
    "tg:banksta:104434",
    "tg:banksta:104435",
@@ -779,7 +777,9 @@
    "tg:banksta:104544",
    "tg:banksta:104545",
    "tg:banksta:104546",
-   "tg:banksta:104548"
+   "tg:banksta:104548",
+   "tg:banksta:104550",
+   "tg:banksta:104549"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83715",
@@ -884,8 +884,6 @@
    "tg:cbrstocks:83820"
   ],
   "rbc_news": [
-   "tg:rbc_news:159682",
-   "tg:rbc_news:159683",
    "tg:rbc_news:159685",
    "tg:rbc_news:159686",
    "tg:rbc_news:159687",
@@ -983,10 +981,11 @@
    "tg:rbc_news:159788",
    "tg:rbc_news:159789",
    "tg:rbc_news:159790",
-   "tg:rbc_news:159791"
+   "tg:rbc_news:159791",
+   "tg:rbc_news:159792",
+   "tg:rbc_news:159793"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80890",
    "tg:interfaxonline:80891",
    "tg:interfaxonline:80892",
    "tg:interfaxonline:80894",
@@ -1085,15 +1084,11 @@
    "tg:interfaxonline:80988",
    "tg:interfaxonline:80989",
    "tg:interfaxonline:80990",
-   "tg:interfaxonline:80991"
+   "tg:interfaxonline:80991",
+   "tg:interfaxonline:80992"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793431464.899658,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793434241.2419662,
    "usd": 81.0,
@@ -1138,12 +1133,14 @@
    "ts": 1793452369.9199317,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793454859.44908,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:banksta:104269",
-  "f6844f314e909b72",
-  "tg:banksta:104271",
   "tg:rbc_news:159541",
   "tg:markettwits:390766",
   "f5103f2690a6d224",
@@ -1640,31 +1637,13 @@
   "146db867d46c0032",
   "073f9d3fe515ba1f",
   "7420e1f32632b27e",
-  "7d544dd359990229"
+  "7d544dd359990229",
+  "tg:markettwits:391428",
+  "tg:banksta:104549",
+  "f680ad8f0d43e07e"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "Акции «Самолета» растут на заявлениях ВТБ о санациях",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793398684.1835625
-  },
-  {
-   "date": "2026-10-31",
-   "headline": "Трамп заявил, что «глупые люди» просили его ввести санкции…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793400849.9457042
-  },
-  {
-   "date": "2026-10-31",
-   "headline": "Цена Brent превысила уровень в $113 за баррель",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793400851.8721933
-  },
   {
    "date": "2026-10-31",
    "headline": "Выручка «Россетей Московский регион» по РСБУ поднялась за…",
@@ -1853,6 +1832,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793452390.25404
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "❗️⚠️🇮🇷#иран #геополитика Иранская делегация прибыла в Доху…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793454874.1467853
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Певицу Полину Гагарину внесли в «чёрный список» налоговой.…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793454875.9962156
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Российский бизнесмен опроверг невыплату алиментов из-за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793454877.8612142
   }
  ],
  "recent_news": [
