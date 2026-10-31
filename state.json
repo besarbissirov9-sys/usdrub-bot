@@ -2,9 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "tg:banksta:104269",
-  "f6844f314e909b72",
-  "tg:banksta:104271",
   "tg:rbc_news:159541",
   "tg:markettwits:390766",
   "f5103f2690a6d224",
@@ -501,12 +498,14 @@
   "bf513c3ae2b34bca",
   "b3314cfd9ddeddb4",
   "48801c86cb4094c1",
-  "146db867d46c0032"
+  "146db867d46c0032",
+  "073f9d3fe515ba1f",
+  "7420e1f32632b27e",
+  "7d544dd359990229"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391324",
    "tg:markettwits:391325",
    "tg:markettwits:391327",
    "tg:markettwits:391328",
@@ -605,7 +604,8 @@
    "tg:markettwits:391423",
    "tg:markettwits:391424",
    "tg:markettwits:391425",
-   "tg:markettwits:391426"
+   "tg:markettwits:391426",
+   "tg:markettwits:391427"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -680,7 +680,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104427",
    "tg:banksta:104431",
    "tg:banksta:104432",
    "tg:banksta:104433",
@@ -779,10 +778,10 @@
    "tg:banksta:104543",
    "tg:banksta:104544",
    "tg:banksta:104545",
-   "tg:banksta:104546"
+   "tg:banksta:104546",
+   "tg:banksta:104548"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83714",
    "tg:cbrstocks:83715",
    "tg:cbrstocks:83716",
    "tg:cbrstocks:83717",
@@ -881,12 +880,10 @@
    "tg:cbrstocks:83816",
    "tg:cbrstocks:83817",
    "tg:cbrstocks:83818",
-   "tg:cbrstocks:83819"
+   "tg:cbrstocks:83819",
+   "tg:cbrstocks:83820"
   ],
   "rbc_news": [
-   "tg:rbc_news:159677",
-   "tg:rbc_news:159680",
-   "tg:rbc_news:159681",
    "tg:rbc_news:159682",
    "tg:rbc_news:159683",
    "tg:rbc_news:159685",
@@ -983,7 +980,10 @@
    "tg:rbc_news:159785",
    "tg:rbc_news:159786",
    "tg:rbc_news:159787",
-   "tg:rbc_news:159788"
+   "tg:rbc_news:159788",
+   "tg:rbc_news:159789",
+   "tg:rbc_news:159790",
+   "tg:rbc_news:159791"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80890",
@@ -1090,11 +1090,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793427640.4202046,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793431464.899658,
    "usd": 81.0,
    "cny": 12.0715
@@ -1138,12 +1133,14 @@
    "ts": 1793449153.85709,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793452369.9199317,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "fadc034de66d5a7b",
-  "tg:rbc_news:159527",
-  "af8a165d6d39bae4",
   "tg:banksta:104269",
   "f6844f314e909b72",
   "tg:banksta:104271",
@@ -1640,31 +1637,13 @@
   "bf513c3ae2b34bca",
   "b3314cfd9ddeddb4",
   "48801c86cb4094c1",
-  "146db867d46c0032"
+  "146db867d46c0032",
+  "073f9d3fe515ba1f",
+  "7420e1f32632b27e",
+  "7d544dd359990229"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "UBS повысил прогноз по злотому на фоне давления на валюту",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793398678.5216646
-  },
-  {
-   "date": "2026-10-31",
-   "headline": "Чистая прибыль «Саратовэнерго» по РСБУ упала за 9 месяцев…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793398680.3960505
-  },
-  {
-   "date": "2026-10-31",
-   "headline": "Чистая прибыль «Россетей Волга» по РСБУ выросла за 9…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793398682.3279932
-  },
   {
    "date": "2026-10-31",
    "headline": "Акции «Самолета» растут на заявлениях ВТБ о санациях",
@@ -1853,6 +1832,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793449171.16103
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "ТАСС: Прилучный хочет взыскать 2,8 млн рублей из-за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793452386.5471551
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "США разрешили Boeing возобновить сотрудничество с «Белавиа»",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793452388.4119525
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Инвесторы про ИИ на конференции смартлаба - перспективный…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793452390.25404
   }
  ],
  "recent_news": [
