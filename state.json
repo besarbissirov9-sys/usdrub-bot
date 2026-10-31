@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "7f08be99a17c4e4e",
   "tg:banksta:104278",
   "8f034222289e8bbd",
   "tg:markettwits:390785",
@@ -501,15 +500,12 @@
   "ffd5c4539d92b59f",
   "e191b0f560154d69",
   "f844255fb497f010",
-  "fa4f2b9b9688f8f2"
+  "fa4f2b9b9688f8f2",
+  "tg:banksta:104578"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391347",
-   "tg:markettwits:391348",
-   "tg:markettwits:391349",
-   "tg:markettwits:391350",
    "tg:markettwits:391338",
    "tg:markettwits:391351",
    "tg:markettwits:391352",
@@ -605,7 +601,11 @@
    "tg:markettwits:391444",
    "tg:markettwits:391445",
    "tg:markettwits:391446",
-   "tg:markettwits:391447"
+   "tg:markettwits:391447",
+   "tg:markettwits:391448",
+   "tg:markettwits:391449",
+   "tg:markettwits:391450",
+   "tg:markettwits:391451"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -680,7 +680,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104450",
    "tg:banksta:104451",
    "tg:banksta:104452",
    "tg:banksta:104453",
@@ -779,7 +778,8 @@
    "tg:banksta:104574",
    "tg:banksta:104575",
    "tg:banksta:104576",
-   "tg:banksta:104577"
+   "tg:banksta:104577",
+   "tg:banksta:104578"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83717",
@@ -1090,16 +1090,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793456700.2659905,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
-   "ts": 1793458718.6142418,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793460425.6226785,
    "usd": 81.0,
    "cny": 12.0715
@@ -1148,10 +1138,14 @@
    "ts": 1793478202.3640118,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793480318.8367512,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:cbrstocks:83676",
   "1b89bc596aa1f44d",
   "36532393f28f55a3",
   "7f08be99a17c4e4e",
@@ -1650,17 +1644,11 @@
   "ffd5c4539d92b59f",
   "e191b0f560154d69",
   "f844255fb497f010",
-  "fa4f2b9b9688f8f2"
+  "fa4f2b9b9688f8f2",
+  "tg:banksta:104578"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "Инфляция под конец октября — темпы сдерживает стабилизация…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793434259.3511183
-  },
   {
    "date": "2026-10-31",
    "headline": "Правительство РФ выделило еще 725 млн рублей на льготные…",
@@ -1863,6 +1851,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793478218.125949
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Лопающийся пузырь искусственного интеллекта станет…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793480336.6565819
   }
  ],
  "recent_news": [
