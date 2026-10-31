@@ -680,8 +680,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104453",
-   "tg:banksta:104454",
    "tg:banksta:104457",
    "tg:banksta:104458",
    "tg:banksta:104456",
@@ -779,7 +777,9 @@
    "tg:banksta:104577",
    "tg:banksta:104578",
    "tg:banksta:104579",
-   "tg:banksta:104581"
+   "tg:banksta:104581",
+   "tg:banksta:104582",
+   "tg:banksta:104583"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83717",
@@ -1141,6 +1141,11 @@
   },
   {
    "ts": 1793483945.3590603,
+   "usd": 81.0,
+   "cny": 12.0715
+  },
+  {
+   "ts": 1793485680.194469,
    "usd": 81.0,
    "cny": 12.0715
   }
