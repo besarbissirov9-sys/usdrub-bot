@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "8eb368c80efde850",
   "tg:markettwits:390746",
   "tg:interfaxonline:80765",
   "181f41dab0dcbff1",
@@ -501,17 +500,12 @@
   "48e730c88afb110c",
   "tg:interfaxonline:80982",
   "b92b2005ea77c248",
-  "396c95fbc0a7c076"
+  "396c95fbc0a7c076",
+  "54853fbf745e6632"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391294",
-   "tg:markettwits:391295",
-   "tg:markettwits:391296",
-   "tg:markettwits:391297",
-   "tg:markettwits:391298",
-   "tg:markettwits:391299",
    "tg:markettwits:391300",
    "tg:markettwits:391301",
    "tg:markettwits:391302",
@@ -605,7 +599,13 @@
    "tg:markettwits:391395",
    "tg:markettwits:391396",
    "tg:markettwits:391397",
-   "tg:markettwits:391398"
+   "tg:markettwits:391398",
+   "tg:markettwits:391399",
+   "tg:markettwits:391400",
+   "tg:markettwits:391401",
+   "tg:markettwits:391402",
+   "tg:markettwits:391403",
+   "tg:markettwits:391404"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -678,8 +678,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104411",
-   "tg:banksta:104412",
    "tg:banksta:104414",
    "tg:banksta:104415",
    "tg:banksta:104421",
@@ -777,10 +775,11 @@
    "tg:banksta:104528",
    "tg:banksta:104529",
    "tg:banksta:104530",
-   "tg:banksta:104531"
+   "tg:banksta:104531",
+   "tg:banksta:104532",
+   "tg:banksta:104534"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83708",
    "tg:cbrstocks:83710",
    "tg:cbrstocks:83711",
    "tg:cbrstocks:83712",
@@ -879,11 +878,10 @@
    "tg:cbrstocks:83812",
    "tg:cbrstocks:83813",
    "tg:cbrstocks:83814",
-   "tg:cbrstocks:83815"
+   "tg:cbrstocks:83815",
+   "tg:cbrstocks:83816"
   ],
   "rbc_news": [
-   "tg:rbc_news:159662",
-   "tg:rbc_news:159663",
    "tg:rbc_news:159664",
    "tg:rbc_news:159665",
    "tg:rbc_news:159666",
@@ -981,10 +979,11 @@
    "tg:rbc_news:159770",
    "tg:rbc_news:159771",
    "tg:rbc_news:159772",
-   "tg:rbc_news:159773"
+   "tg:rbc_news:159773",
+   "tg:rbc_news:159774",
+   "tg:rbc_news:159775"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80866",
    "tg:interfaxonline:80878",
    "tg:interfaxonline:80879",
    "tg:interfaxonline:80880",
@@ -1083,15 +1082,11 @@
    "tg:interfaxonline:80979",
    "tg:interfaxonline:80980",
    "tg:interfaxonline:80981",
-   "tg:interfaxonline:80982"
+   "tg:interfaxonline:80982",
+   "tg:interfaxonline:80983"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793407128.0896056,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793410678.516144,
    "usd": 81.0,
@@ -1131,10 +1126,14 @@
    "ts": 1793427640.4202046,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793431464.899658,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:russianmacro:23651",
   "205fb4d2d1778e1c",
   "dc0e992fb1329327",
   "f40a9124edd9110c",
@@ -1633,7 +1632,8 @@
   "48e730c88afb110c",
   "tg:interfaxonline:80982",
   "b92b2005ea77c248",
-  "396c95fbc0a7c076"
+  "396c95fbc0a7c076",
+  "54853fbf745e6632"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1804,6 +1804,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793427658.4794433
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Как заработать на высокой ставке: стратегия для инвестора",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793431479.373003
   }
  ],
  "recent_news": [
