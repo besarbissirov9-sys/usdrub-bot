@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "ae607806b645ebc5",
   "c12512484e16d19e",
   "519d5bb8c969e155",
   "tg:markettwits:390775",
@@ -501,7 +500,8 @@
   "7d544dd359990229",
   "tg:markettwits:391428",
   "tg:banksta:104549",
-  "f680ad8f0d43e07e"
+  "f680ad8f0d43e07e",
+  "1e0f4e8950bdb308"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -680,7 +680,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104440",
    "tg:banksta:104423",
    "tg:banksta:104441",
    "tg:banksta:104442",
@@ -779,7 +778,8 @@
    "tg:banksta:104554",
    "tg:banksta:104555",
    "tg:banksta:104556",
-   "tg:banksta:104559"
+   "tg:banksta:104559",
+   "tg:banksta:104560"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83716",
@@ -884,7 +884,6 @@
    "tg:cbrstocks:83821"
   ],
   "rbc_news": [
-   "tg:rbc_news:159691",
    "tg:rbc_news:159692",
    "tg:rbc_news:159689",
    "tg:rbc_news:159693",
@@ -983,10 +982,10 @@
    "tg:rbc_news:159795",
    "tg:rbc_news:159796",
    "tg:rbc_news:159797",
-   "tg:rbc_news:159798"
+   "tg:rbc_news:159798",
+   "tg:rbc_news:159799"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80895",
    "tg:interfaxonline:80896",
    "tg:interfaxonline:80898",
    "tg:interfaxonline:80899",
@@ -1085,15 +1084,11 @@
    "tg:interfaxonline:80992",
    "tg:interfaxonline:80993",
    "tg:interfaxonline:80994",
-   "tg:interfaxonline:80995"
+   "tg:interfaxonline:80995",
+   "tg:interfaxonline:80996"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793441139.644261,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793443098.6679997,
    "usd": 81.0,
@@ -1143,10 +1138,14 @@
    "ts": 1793462328.0967855,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793464113.2523491,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:rbc_news:159541",
   "tg:markettwits:390766",
   "f5103f2690a6d224",
   "ae607806b645ebc5",
@@ -1645,17 +1644,11 @@
   "7d544dd359990229",
   "tg:markettwits:391428",
   "tg:banksta:104549",
-  "f680ad8f0d43e07e"
+  "f680ad8f0d43e07e",
+  "1e0f4e8950bdb308"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-10-31",
-   "headline": "Выручка «Россетей Московский регион» по РСБУ поднялась за…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793402583.1301365
-  },
   {
    "date": "2026-10-31",
    "headline": "Выручка «Россетей Томск» по РСБУ выросла за 9 месяцев на…",
@@ -1858,6 +1851,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793454877.8612142
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Об сейлзах, суете и цифре, которую за вас никто не посчитает",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793464129.458067
   }
  ],
  "recent_news": [
