@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "tg:russianmacro:23651",
   "205fb4d2d1778e1c",
   "dc0e992fb1329327",
   "f40a9124edd9110c",
@@ -501,7 +500,8 @@
   "4a3f631eab397bbc",
   "3f3c0dd39a59c98c",
   "784e6e2a4ecc1d8b",
-  "b0a8dda426ded139"
+  "b0a8dda426ded139",
+  "48e730c88afb110c"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -1088,11 +1088,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793396457.716805,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793398656.2167428,
    "usd": 81.0,
    "cny": 12.0715
@@ -1131,10 +1126,14 @@
    "ts": 1793416198.1267784,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793418515.7590199,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "05bc374a7210cd8d",
   "85e3a9b78af7fb28",
   "2ad5c850eba68f8a",
   "tg:cbrstocks:83668",
@@ -1633,7 +1632,8 @@
   "4a3f631eab397bbc",
   "3f3c0dd39a59c98c",
   "784e6e2a4ecc1d8b",
-  "b0a8dda426ded139"
+  "b0a8dda426ded139",
+  "48e730c88afb110c"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1776,6 +1776,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793404672.9211426
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Аэропорт на Нормандских островах сообщил о сбоях в работе…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793418531.3144195
   }
  ],
  "recent_news": [
