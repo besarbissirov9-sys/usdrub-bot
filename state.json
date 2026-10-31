@@ -884,8 +884,6 @@
    "tg:cbrstocks:83820"
   ],
   "rbc_news": [
-   "tg:rbc_news:159685",
-   "tg:rbc_news:159686",
    "tg:rbc_news:159687",
    "tg:rbc_news:159688",
    "tg:rbc_news:159690",
@@ -983,7 +981,9 @@
    "tg:rbc_news:159790",
    "tg:rbc_news:159791",
    "tg:rbc_news:159792",
-   "tg:rbc_news:159793"
+   "tg:rbc_news:159793",
+   "tg:rbc_news:159794",
+   "tg:rbc_news:159795"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80891",
@@ -1090,11 +1090,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793434241.2419662,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793436870.2746787,
    "usd": 81.0,
    "cny": 12.0715
@@ -1136,6 +1131,11 @@
   },
   {
    "ts": 1793454859.44908,
+   "usd": 81.0,
+   "cny": 12.0715
+  },
+  {
+   "ts": 1793456700.2659905,
    "usd": 81.0,
    "cny": 12.0715
   }
