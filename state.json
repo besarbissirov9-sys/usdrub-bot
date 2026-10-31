@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-30",
  "posted": [
-  "205fb4d2d1778e1c",
   "dc0e992fb1329327",
   "f40a9124edd9110c",
   "8eb368c80efde850",
@@ -501,7 +500,8 @@
   "3f3c0dd39a59c98c",
   "784e6e2a4ecc1d8b",
   "b0a8dda426ded139",
-  "48e730c88afb110c"
+  "48e730c88afb110c",
+  "tg:interfaxonline:80982"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -678,7 +678,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104407",
    "tg:banksta:104411",
    "tg:banksta:104412",
    "tg:banksta:104414",
@@ -777,7 +776,8 @@
    "tg:banksta:104527",
    "tg:banksta:104528",
    "tg:banksta:104529",
-   "tg:banksta:104530"
+   "tg:banksta:104530",
+   "tg:banksta:104531"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83708",
@@ -882,8 +882,6 @@
    "tg:cbrstocks:83815"
   ],
   "rbc_news": [
-   "tg:rbc_news:159658",
-   "tg:rbc_news:159659",
    "tg:rbc_news:159660",
    "tg:rbc_news:159661",
    "tg:rbc_news:159662",
@@ -981,10 +979,11 @@
    "tg:rbc_news:159766",
    "tg:rbc_news:159767",
    "tg:rbc_news:159768",
-   "tg:rbc_news:159769"
+   "tg:rbc_news:159769",
+   "tg:rbc_news:159770",
+   "tg:rbc_news:159771"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80876",
    "tg:interfaxonline:80866",
    "tg:interfaxonline:80878",
    "tg:interfaxonline:80879",
@@ -1083,15 +1082,11 @@
    "tg:interfaxonline:80978",
    "tg:interfaxonline:80979",
    "tg:interfaxonline:80980",
-   "tg:interfaxonline:80981"
+   "tg:interfaxonline:80981",
+   "tg:interfaxonline:80982"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793402563.5030441,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793404655.0654693,
    "usd": 81.0,
@@ -1131,10 +1126,14 @@
    "ts": 1793423289.6673508,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793425384.9696367,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "85e3a9b78af7fb28",
   "2ad5c850eba68f8a",
   "tg:cbrstocks:83668",
   "tg:russianmacro:23651",
@@ -1633,7 +1632,8 @@
   "3f3c0dd39a59c98c",
   "784e6e2a4ecc1d8b",
   "b0a8dda426ded139",
-  "48e730c88afb110c"
+  "48e730c88afb110c",
+  "tg:interfaxonline:80982"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1783,6 +1783,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793418531.3144195
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Что случилось этой ночью: суббота, 31 октября 📌Сергей…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793425400.764005
   }
  ],
  "recent_news": [
