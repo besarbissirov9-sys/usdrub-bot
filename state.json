@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "b0ccbe2b5950ea4c",
   "tg:banksta:104289",
   "be121802f73fb45f",
   "8399556c17d8f57f",
@@ -501,12 +500,12 @@
   "ba6f35476e58fe69",
   "53e5e073835f334f",
   "28014a10d56a810e",
-  "05b4ee0d82f4a91e"
+  "05b4ee0d82f4a91e",
+  "tg:markettwits:391476"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391375",
    "tg:markettwits:391376",
    "tg:markettwits:391377",
    "tg:markettwits:391378",
@@ -605,7 +604,8 @@
    "tg:markettwits:391472",
    "tg:markettwits:391473",
    "tg:markettwits:391474",
-   "tg:markettwits:391475"
+   "tg:markettwits:391475",
+   "tg:markettwits:391476"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -885,8 +885,6 @@
    "tg:cbrstocks:83822"
   ],
   "rbc_news": [
-   "tg:rbc_news:159733",
-   "tg:rbc_news:159734",
    "tg:rbc_news:159735",
    "tg:rbc_news:159736",
    "tg:rbc_news:159737",
@@ -984,7 +982,9 @@
    "tg:rbc_news:159830",
    "tg:rbc_news:159831",
    "tg:rbc_news:159832",
-   "tg:rbc_news:159833"
+   "tg:rbc_news:159833",
+   "tg:rbc_news:159834",
+   "tg:rbc_news:159835"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80910",
@@ -1091,11 +1091,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793528193.8461866,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793530434.5246413,
    "usd": 81.0,
    "cny": 12.0715
@@ -1139,10 +1134,14 @@
    "ts": 1793548069.491527,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793549962.527697,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "7642acb87236c8d2",
   "6eeac2e8f7fc6e3d",
   "3c74e9a54a39e26f",
   "b0ccbe2b5950ea4c",
@@ -1641,17 +1640,11 @@
   "ba6f35476e58fe69",
   "53e5e073835f334f",
   "28014a10d56a810e",
-  "05b4ee0d82f4a91e"
+  "05b4ee0d82f4a91e",
+  "tg:markettwits:391476"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-01",
-   "headline": "ФБР обвинило Северную Корею в хищении более $6 млрд с…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793483965.1528556
-  },
   {
    "date": "2026-11-01",
    "headline": "Конфа Смарт-Лаба. Москва. Осень 2026",
@@ -1854,6 +1847,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793548092.2165532
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "⚠️✴️#хак #крипто #макро #история Взлом Binance…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793549979.6244469
   }
  ],
  "recent_news": [
@@ -2061,7 +2061,7 @@
  "cbr_next": "2026-10-31",
  "week_cal": "2026-10-26",
  "week_poll": "2026-10-26",
- "week_chart": "2026-10-25",
+ "week_chart": "2026-11-01",
  "digest_date": "2026-10-31",
  "week_fc": "2026-10-30"
 }
