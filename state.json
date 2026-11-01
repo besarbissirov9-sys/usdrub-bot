@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "7642acb87236c8d2",
   "6eeac2e8f7fc6e3d",
   "3c74e9a54a39e26f",
   "b0ccbe2b5950ea4c",
@@ -501,13 +500,12 @@
   "c38e2d86fef70f47",
   "tg:banksta:104604",
   "tg:banksta:104607",
-  "ba6f35476e58fe69"
+  "ba6f35476e58fe69",
+  "53e5e073835f334f"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391371",
-   "tg:markettwits:391372",
    "tg:markettwits:391373",
    "tg:markettwits:391374",
    "tg:markettwits:391375",
@@ -605,7 +603,9 @@
    "tg:markettwits:391468",
    "tg:markettwits:391469",
    "tg:markettwits:391470",
-   "tg:markettwits:391471"
+   "tg:markettwits:391471",
+   "tg:markettwits:391472",
+   "tg:markettwits:391473"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -681,7 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104478",
    "tg:banksta:104479",
    "tg:banksta:104480",
    "tg:banksta:104481",
@@ -780,7 +779,8 @@
    "tg:banksta:104605",
    "tg:banksta:104606",
    "tg:banksta:104608",
-   "tg:banksta:104607"
+   "tg:banksta:104607",
+   "tg:banksta:104609"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83717",
@@ -885,7 +885,6 @@
    "tg:cbrstocks:83822"
   ],
   "rbc_news": [
-   "tg:rbc_news:159732",
    "tg:rbc_news:159733",
    "tg:rbc_news:159734",
    "tg:rbc_news:159735",
@@ -984,7 +983,8 @@
    "tg:rbc_news:159829",
    "tg:rbc_news:159830",
    "tg:rbc_news:159831",
-   "tg:rbc_news:159832"
+   "tg:rbc_news:159832",
+   "tg:rbc_news:159833"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80910",
@@ -1091,11 +1091,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793523503.8047595,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793525798.9721847,
    "usd": 81.0,
    "cny": 12.0715
@@ -1139,10 +1134,14 @@
    "ts": 1793544011.117552,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793546066.6134868,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "538cf8a5cd58dd96",
   "c585d6ae40ec445d",
   "9e56754b94b103f9",
   "7642acb87236c8d2",
@@ -1641,7 +1640,8 @@
   "c38e2d86fef70f47",
   "tg:banksta:104604",
   "tg:banksta:104607",
-  "ba6f35476e58fe69"
+  "ba6f35476e58fe69",
+  "53e5e073835f334f"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1833,6 +1833,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793544032.8077319
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Как я отбираю идеи для покупки",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793546085.603492
   }
  ],
  "recent_news": [
