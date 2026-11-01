@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "be375f648017fd91",
   "tg:markettwits:390803",
   "tg:banksta:104295",
   "tg:markettwits:390799",
@@ -501,7 +500,8 @@
   "d377118e360399ca",
   "tg:banksta:104620",
   "89f6d334649cd268",
-  "94fb0b9b6a00566a"
+  "94fb0b9b6a00566a",
+  "tg:banksta:104624"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -681,8 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104495",
-   "tg:banksta:104493",
    "tg:banksta:104496",
    "tg:banksta:104497",
    "tg:banksta:104498",
@@ -780,7 +778,9 @@
    "tg:banksta:104619",
    "tg:banksta:104620",
    "tg:banksta:104621",
-   "tg:banksta:104623"
+   "tg:banksta:104623",
+   "tg:banksta:104625",
+   "tg:banksta:104624"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83722",
@@ -885,7 +885,6 @@
    "tg:cbrstocks:83826"
   ],
   "rbc_news": [
-   "tg:rbc_news:159748",
    "tg:rbc_news:159749",
    "tg:rbc_news:159750",
    "tg:rbc_news:159751",
@@ -984,7 +983,8 @@
    "tg:rbc_news:159844",
    "tg:rbc_news:159845",
    "tg:rbc_news:159846",
-   "tg:rbc_news:159847"
+   "tg:rbc_news:159847",
+   "tg:rbc_news:159848"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80916",
@@ -1091,11 +1091,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793549962.527697,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793552088.2526784,
    "usd": 81.0,
    "cny": 12.0715
@@ -1144,10 +1139,14 @@
    "ts": 1793570278.892119,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793572004.2089562,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "2ae6d54b967d7846",
   "30c77e9fae66898b",
   "bc331870aecccd7c",
   "be375f648017fd91",
@@ -1646,7 +1645,8 @@
   "d377118e360399ca",
   "tg:banksta:104620",
   "89f6d334649cd268",
-  "94fb0b9b6a00566a"
+  "94fb0b9b6a00566a",
+  "tg:banksta:104624"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1663,6 +1663,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793570295.7007473
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Около 6,6 трлн рублей пенсионных накоплений автоматически…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793572022.677504
   }
  ],
  "recent_news": [
