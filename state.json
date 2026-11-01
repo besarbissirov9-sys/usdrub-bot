@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "5ba2d0cc2b11c27a",
   "2ae6d54b967d7846",
   "30c77e9fae66898b",
   "bc331870aecccd7c",
@@ -501,7 +500,8 @@
   "5279f86d507eb87b",
   "tg:rbc_news:159841",
   "90ddb59e831668e7",
-  "tg:banksta:104617"
+  "tg:banksta:104617",
+  "d377118e360399ca"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -681,7 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104490",
    "tg:banksta:104491",
    "tg:banksta:104489",
    "tg:banksta:104492",
@@ -780,7 +779,8 @@
    "tg:banksta:104614",
    "tg:banksta:104615",
    "tg:banksta:104616",
-   "tg:banksta:104617"
+   "tg:banksta:104617",
+   "tg:banksta:104618"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83722",
@@ -885,7 +885,6 @@
    "tg:cbrstocks:83826"
   ],
   "rbc_news": [
-   "tg:rbc_news:159743",
    "tg:rbc_news:159745",
    "tg:rbc_news:159746",
    "tg:rbc_news:159747",
@@ -984,7 +983,8 @@
    "tg:rbc_news:159840",
    "tg:rbc_news:159842",
    "tg:rbc_news:159841",
-   "tg:rbc_news:159843"
+   "tg:rbc_news:159843",
+   "tg:rbc_news:159844"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80912",
@@ -1091,11 +1091,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793542000.6910946,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793544011.117552,
    "usd": 81.0,
    "cny": 12.0715
@@ -1144,10 +1139,14 @@
    "ts": 1793562621.4205468,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793564221.363197,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "75d7f8c0b15d9e74",
   "27a4eace12619f7f",
   "953d241e24fb30a7",
   "5ba2d0cc2b11c27a",
@@ -1646,17 +1645,11 @@
   "5279f86d507eb87b",
   "tg:rbc_news:159841",
   "90ddb59e831668e7",
-  "tg:banksta:104617"
+  "tg:banksta:104617",
+  "d377118e360399ca"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-01",
-   "headline": "КАЛЕНДАРЬ СОБЫТИЙ НА НЕДЕЛЮ С 2 ПО 6 НОЯБРЯ Понедельник…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793520883.0635958
-  },
   {
    "date": "2026-11-01",
    "headline": "Итоги октября: +800 тысяч за месяц!",
@@ -1859,6 +1852,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793562636.6226387
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "🔥 Финансовая неделя: Мосбиржа ожила, нефть по $117, новые…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793564236.0412407
   }
  ],
  "recent_news": [
