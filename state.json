@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "2fe0b10babde33cb",
   "013bccc06ead952a",
   "7ef5eccab955930f",
   "b5bde804384336b0",
@@ -501,12 +500,12 @@
   "35fb59afe32c2f1f",
   "3fc319dafed92720",
   "f2465facc5dda7c7",
-  "8c3625c92b58f8c5"
+  "8c3625c92b58f8c5",
+  "cd2e508feccc08c1"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391362",
    "tg:markettwits:391363",
    "tg:markettwits:391364",
    "tg:markettwits:391365",
@@ -605,7 +604,8 @@
    "tg:markettwits:391458",
    "tg:markettwits:391459",
    "tg:markettwits:391460",
-   "tg:markettwits:391461"
+   "tg:markettwits:391461",
+   "tg:markettwits:391462"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -681,7 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104462",
    "tg:banksta:104464",
    "tg:banksta:104465",
    "tg:banksta:104466",
@@ -780,7 +779,8 @@
    "tg:banksta:104592",
    "tg:banksta:104593",
    "tg:banksta:104594",
-   "tg:banksta:104595"
+   "tg:banksta:104595",
+   "tg:banksta:104596"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83717",
@@ -885,8 +885,6 @@
    "tg:cbrstocks:83822"
   ],
   "rbc_news": [
-   "tg:rbc_news:159716",
-   "tg:rbc_news:159717",
    "tg:rbc_news:159720",
    "tg:rbc_news:159721",
    "tg:rbc_news:159723",
@@ -984,10 +982,11 @@
    "tg:rbc_news:159817",
    "tg:rbc_news:159818",
    "tg:rbc_news:159819",
-   "tg:rbc_news:159820"
+   "tg:rbc_news:159820",
+   "tg:rbc_news:159821",
+   "tg:rbc_news:159822"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80906",
    "tg:interfaxonline:80907",
    "tg:interfaxonline:80897",
    "tg:interfaxonline:80908",
@@ -1086,15 +1085,11 @@
    "tg:interfaxonline:81003",
    "tg:interfaxonline:81004",
    "tg:interfaxonline:81005",
-   "tg:interfaxonline:81006"
+   "tg:interfaxonline:81006",
+   "tg:interfaxonline:81007"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793503023.762273,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793506029.2022302,
    "usd": 81.0,
@@ -1129,10 +1124,14 @@
    "ts": 1793523503.8047595,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793525798.9721847,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "3e19e8f48c94e0c6",
   "tg:rbc_news:159551",
   "e73082f8fbc98ada",
   "2fe0b10babde33cb",
@@ -1631,7 +1630,8 @@
   "35fb59afe32c2f1f",
   "3fc319dafed92720",
   "f2465facc5dda7c7",
-  "8c3625c92b58f8c5"
+  "8c3625c92b58f8c5",
+  "cd2e508feccc08c1"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1739,6 +1739,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793523523.801798
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Гаражные инвестиции",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793525813.0250366
   }
  ],
  "recent_news": [
