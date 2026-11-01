@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "8f034222289e8bbd",
   "tg:markettwits:390785",
   "1484fa3617cee3c9",
   "tg:rbc_news:159545",
@@ -501,7 +500,8 @@
   "f844255fb497f010",
   "fa4f2b9b9688f8f2",
   "tg:banksta:104578",
-  "fb09ecb39e3dbbd8"
+  "fb09ecb39e3dbbd8",
+  "6f0ed8a68778324a"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -986,7 +986,6 @@
    "tg:rbc_news:159807"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80900",
    "tg:interfaxonline:80901",
    "tg:interfaxonline:80902",
    "tg:interfaxonline:80903",
@@ -1085,15 +1084,11 @@
    "tg:interfaxonline:80996",
    "tg:interfaxonline:80997",
    "tg:interfaxonline:80998",
-   "tg:interfaxonline:80999"
+   "tg:interfaxonline:80999",
+   "tg:interfaxonline:81000"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793469944.971058,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793472217.7979379,
    "usd": 81.0,
@@ -1148,10 +1143,14 @@
    "ts": 1793491108.967427,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793493711.9301176,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "36532393f28f55a3",
   "7f08be99a17c4e4e",
   "tg:banksta:104278",
   "8f034222289e8bbd",
@@ -1650,7 +1649,8 @@
   "f844255fb497f010",
   "fa4f2b9b9688f8f2",
   "tg:banksta:104578",
-  "fb09ecb39e3dbbd8"
+  "fb09ecb39e3dbbd8",
+  "6f0ed8a68778324a"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1660,6 +1660,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793483965.1528556
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Конфа Смарт-Лаба. Москва. Осень 2026",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793493727.5705426
   }
  ],
  "recent_news": [
