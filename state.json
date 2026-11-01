@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "953d241e24fb30a7",
   "5ba2d0cc2b11c27a",
   "2ae6d54b967d7846",
   "30c77e9fae66898b",
@@ -501,13 +500,12 @@
   "c0bade151323235e",
   "5279f86d507eb87b",
   "tg:rbc_news:159841",
-  "90ddb59e831668e7"
+  "90ddb59e831668e7",
+  "tg:banksta:104617"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391385",
-   "tg:markettwits:391386",
    "tg:markettwits:391387",
    "tg:markettwits:391388",
    "tg:markettwits:391389",
@@ -605,7 +603,9 @@
    "tg:markettwits:391482",
    "tg:markettwits:391483",
    "tg:markettwits:391484",
-   "tg:markettwits:391485"
+   "tg:markettwits:391485",
+   "tg:markettwits:391486",
+   "tg:markettwits:391487"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -681,7 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104477",
    "tg:banksta:104490",
    "tg:banksta:104491",
    "tg:banksta:104489",
@@ -780,7 +779,8 @@
    "tg:banksta:104613",
    "tg:banksta:104614",
    "tg:banksta:104615",
-   "tg:banksta:104616"
+   "tg:banksta:104616",
+   "tg:banksta:104617"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83722",
@@ -885,7 +885,6 @@
    "tg:cbrstocks:83826"
   ],
   "rbc_news": [
-   "tg:rbc_news:159742",
    "tg:rbc_news:159743",
    "tg:rbc_news:159745",
    "tg:rbc_news:159746",
@@ -984,10 +983,10 @@
    "tg:rbc_news:159839",
    "tg:rbc_news:159840",
    "tg:rbc_news:159842",
-   "tg:rbc_news:159841"
+   "tg:rbc_news:159841",
+   "tg:rbc_news:159843"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80911",
    "tg:interfaxonline:80912",
    "tg:interfaxonline:80913",
    "tg:interfaxonline:80914",
@@ -1086,15 +1085,11 @@
    "tg:interfaxonline:81010",
    "tg:interfaxonline:81011",
    "tg:interfaxonline:81012",
-   "tg:interfaxonline:81013"
+   "tg:interfaxonline:81013",
+   "tg:interfaxonline:81014"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793539603.0482097,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793542000.6910946,
    "usd": 81.0,
@@ -1144,10 +1139,14 @@
    "ts": 1793560389.3112485,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793562621.4205468,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:interfaxonline:80798",
   "75d7f8c0b15d9e74",
   "27a4eace12619f7f",
   "953d241e24fb30a7",
@@ -1646,17 +1645,11 @@
   "c0bade151323235e",
   "5279f86d507eb87b",
   "tg:rbc_news:159841",
-  "90ddb59e831668e7"
+  "90ddb59e831668e7",
+  "tg:banksta:104617"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-01",
-   "headline": "Новости Заячьего Портфеля 31.10.26...",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793517801.098668
-  },
   {
    "date": "2026-11-01",
    "headline": "КАЛЕНДАРЬ СОБЫТИЙ НА НЕДЕЛЮ С 2 ПО 6 НОЯБРЯ Понедельник…",
@@ -1859,6 +1852,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793560411.1556845
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "«Почта России» распродает имущество, чтобы выбраться из…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793562636.6226387
   }
  ],
  "recent_news": [
