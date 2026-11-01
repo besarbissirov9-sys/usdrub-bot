@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "9091a33dd7b8409d",
   "tg:interfaxonline:80798",
   "75d7f8c0b15d9e74",
   "27a4eace12619f7f",
@@ -501,12 +500,12 @@
   "tg:markettwits:391476",
   "tg:banksta:104612",
   "133a7262e3f9ee64",
-  "tg:markettwits:391479"
+  "tg:markettwits:391479",
+  "c0bade151323235e"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391379",
    "tg:markettwits:391380",
    "tg:markettwits:391381",
    "tg:markettwits:391382",
@@ -605,7 +604,8 @@
    "tg:markettwits:391476",
    "tg:markettwits:391477",
    "tg:markettwits:391478",
-   "tg:markettwits:391479"
+   "tg:markettwits:391479",
+   "tg:markettwits:391480"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -681,8 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104483",
-   "tg:banksta:104484",
    "tg:banksta:104487",
    "tg:banksta:104488",
    "tg:banksta:104477",
@@ -780,7 +778,9 @@
    "tg:banksta:104609",
    "tg:banksta:104610",
    "tg:banksta:104611",
-   "tg:banksta:104612"
+   "tg:banksta:104612",
+   "tg:banksta:104613",
+   "tg:banksta:104614"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83717",
@@ -885,7 +885,6 @@
    "tg:cbrstocks:83822"
   ],
   "rbc_news": [
-   "tg:rbc_news:159738",
    "tg:rbc_news:159739",
    "tg:rbc_news:159740",
    "tg:rbc_news:159741",
@@ -984,10 +983,10 @@
    "tg:rbc_news:159835",
    "tg:rbc_news:159836",
    "tg:rbc_news:159837",
-   "tg:rbc_news:159838"
+   "tg:rbc_news:159838",
+   "tg:rbc_news:159839"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80893",
    "tg:interfaxonline:80911",
    "tg:interfaxonline:80912",
    "tg:interfaxonline:80913",
@@ -1086,15 +1085,11 @@
    "tg:interfaxonline:81009",
    "tg:interfaxonline:81010",
    "tg:interfaxonline:81011",
-   "tg:interfaxonline:81012"
+   "tg:interfaxonline:81012",
+   "tg:interfaxonline:81013"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793532120.5739315,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793534237.4588976,
    "usd": 81.0,
@@ -1144,10 +1139,14 @@
    "ts": 1793553673.820519,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793555749.9847987,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:banksta:104289",
   "be121802f73fb45f",
   "8399556c17d8f57f",
   "9091a33dd7b8409d",
@@ -1646,17 +1645,11 @@
   "tg:markettwits:391476",
   "tg:banksta:104612",
   "133a7262e3f9ee64",
-  "tg:markettwits:391479"
+  "tg:markettwits:391479",
+  "c0bade151323235e"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-01",
-   "headline": "ФБР заявило, что за кражей более $6 млрд в криптовалюте у…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793513885.4778147
-  },
   {
    "date": "2026-11-01",
    "headline": "Итоги 64 месяцев инвестиций. Портфель 10,108 млн рублей.…",
@@ -1859,6 +1852,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793553697.881139
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Миллион рублей пассивного дохода в год на длинных ОФЗ:…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793555789.2121127
   }
  ],
  "recent_news": [
