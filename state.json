@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "tg:interfaxonline:80798",
   "75d7f8c0b15d9e74",
   "27a4eace12619f7f",
   "953d241e24fb30a7",
@@ -501,15 +500,12 @@
   "tg:banksta:104612",
   "133a7262e3f9ee64",
   "tg:markettwits:391479",
-  "c0bade151323235e"
+  "c0bade151323235e",
+  "5279f86d507eb87b"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391380",
-   "tg:markettwits:391381",
-   "tg:markettwits:391382",
-   "tg:markettwits:391383",
    "tg:markettwits:391384",
    "tg:markettwits:391385",
    "tg:markettwits:391386",
@@ -605,7 +601,11 @@
    "tg:markettwits:391477",
    "tg:markettwits:391478",
    "tg:markettwits:391479",
-   "tg:markettwits:391480"
+   "tg:markettwits:391480",
+   "tg:markettwits:391481",
+   "tg:markettwits:391482",
+   "tg:markettwits:391483",
+   "tg:markettwits:391484"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -783,10 +783,6 @@
    "tg:banksta:104614"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83717",
-   "tg:cbrstocks:83718",
-   "tg:cbrstocks:83719",
-   "tg:cbrstocks:83720",
    "tg:cbrstocks:83722",
    "tg:cbrstocks:83723",
    "tg:cbrstocks:83724",
@@ -882,10 +878,13 @@
    "tg:cbrstocks:83819",
    "tg:cbrstocks:83820",
    "tg:cbrstocks:83821",
-   "tg:cbrstocks:83822"
+   "tg:cbrstocks:83822",
+   "tg:cbrstocks:83823",
+   "tg:cbrstocks:83824",
+   "tg:cbrstocks:83825",
+   "tg:cbrstocks:83826"
   ],
   "rbc_news": [
-   "tg:rbc_news:159739",
    "tg:rbc_news:159740",
    "tg:rbc_news:159741",
    "tg:rbc_news:159742",
@@ -984,7 +983,8 @@
    "tg:rbc_news:159836",
    "tg:rbc_news:159837",
    "tg:rbc_news:159838",
-   "tg:rbc_news:159839"
+   "tg:rbc_news:159839",
+   "tg:rbc_news:159840"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80911",
@@ -1091,11 +1091,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793534237.4588976,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793536399.6922476,
    "usd": 81.0,
    "cny": 12.0715
@@ -1144,10 +1139,14 @@
    "ts": 1793555749.9847987,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793557587.4474297,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "be121802f73fb45f",
   "8399556c17d8f57f",
   "9091a33dd7b8409d",
   "tg:interfaxonline:80798",
@@ -1646,17 +1645,11 @@
   "tg:banksta:104612",
   "133a7262e3f9ee64",
   "tg:markettwits:391479",
-  "c0bade151323235e"
+  "c0bade151323235e",
+  "5279f86d507eb87b"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-01",
-   "headline": "Итоги 64 месяцев инвестиций. Портфель 10,108 млн рублей.…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793517795.2197907
-  },
   {
    "date": "2026-11-01",
    "headline": "💵 Рубль дошёл до 80 за доллар. Это уже перебор или…",
@@ -1859,6 +1852,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793555789.2121127
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Дерипаска пошутил, что «остался в гармонии» после встречи…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793557606.8072903
   }
  ],
  "recent_news": [
