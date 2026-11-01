@@ -2,9 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "tg:rbc_news:159548",
-  "13c0eba6863173da",
-  "tg:interfaxonline:80785",
   "3e19e8f48c94e0c6",
   "tg:rbc_news:159551",
   "e73082f8fbc98ada",
@@ -501,13 +498,14 @@
   "726b367a8251608d",
   "a58281eb21f9fe55",
   "2ff4f5b946e81d48",
-  "ea884bd097470b1c"
+  "ea884bd097470b1c",
+  "tg:russianmacro:23678",
+  "27c59241413a6ca5",
+  "35fb59afe32c2f1f"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391357",
-   "tg:markettwits:391359",
    "tg:markettwits:391360",
    "tg:markettwits:391361",
    "tg:markettwits:391362",
@@ -605,7 +603,9 @@
    "tg:markettwits:391454",
    "tg:markettwits:391455",
    "tg:markettwits:391456",
-   "tg:markettwits:391457"
+   "tg:markettwits:391457",
+   "tg:markettwits:391458",
+   "tg:markettwits:391459"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -652,7 +652,8 @@
    "tg:russianmacro:23671",
    "tg:russianmacro:23675",
    "tg:russianmacro:23676",
-   "tg:russianmacro:23677"
+   "tg:russianmacro:23677",
+   "tg:russianmacro:23678"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -680,7 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104460",
    "tg:banksta:104461",
    "tg:banksta:104462",
    "tg:banksta:104464",
@@ -779,7 +779,8 @@
    "tg:banksta:104590",
    "tg:banksta:104591",
    "tg:banksta:104592",
-   "tg:banksta:104593"
+   "tg:banksta:104593",
+   "tg:banksta:104594"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83717",
@@ -884,8 +885,6 @@
    "tg:cbrstocks:83822"
   ],
   "rbc_news": [
-   "tg:rbc_news:159712",
-   "tg:rbc_news:159713",
    "tg:rbc_news:159714",
    "tg:rbc_news:159715",
    "tg:rbc_news:159716",
@@ -983,11 +982,11 @@
    "tg:rbc_news:159813",
    "tg:rbc_news:159814",
    "tg:rbc_news:159815",
-   "tg:rbc_news:159816"
+   "tg:rbc_news:159816",
+   "tg:rbc_news:159817",
+   "tg:rbc_news:159818"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80904",
-   "tg:interfaxonline:80905",
    "tg:interfaxonline:80906",
    "tg:interfaxonline:80907",
    "tg:interfaxonline:80897",
@@ -1085,15 +1084,12 @@
    "tg:interfaxonline:81001",
    "tg:interfaxonline:81002",
    "tg:interfaxonline:81003",
-   "tg:interfaxonline:81004"
+   "tg:interfaxonline:81004",
+   "tg:interfaxonline:81005",
+   "tg:interfaxonline:81006"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793497610.5265386,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793500216.9734716,
    "usd": 81.0,
@@ -1128,12 +1124,14 @@
    "ts": 1793517774.6711986,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793520862.9815652,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:cbrstocks:83679",
-  "b6e78bbd70a66354",
-  "8593240fe5e7474d",
   "tg:rbc_news:159548",
   "13c0eba6863173da",
   "tg:interfaxonline:80785",
@@ -1630,7 +1628,10 @@
   "726b367a8251608d",
   "a58281eb21f9fe55",
   "2ff4f5b946e81d48",
-  "ea884bd097470b1c"
+  "ea884bd097470b1c",
+  "tg:russianmacro:23678",
+  "27c59241413a6ca5",
+  "35fb59afe32c2f1f"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1696,6 +1697,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793517801.098668
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "КАЛЕНДАРЬ СОБЫТИЙ НА НЕДЕЛЮ С 2 ПО 6 НОЯБРЯ Понедельник…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793520883.0635958
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Итоги октября: +800 тысяч за месяц!",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793520885.0434906
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Итоги инвестирования за октябрь 2026: покупки, состав…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793520887.0195303
   }
  ],
  "recent_news": [
