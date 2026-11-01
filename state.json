@@ -2,9 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "tg:markettwits:390803",
-  "tg:banksta:104295",
-  "tg:markettwits:390799",
   "9d9798e8775e511c",
   "42e2e9845749e42a",
   "4f53cb5254eab15e",
@@ -501,7 +498,10 @@
   "tg:banksta:104620",
   "89f6d334649cd268",
   "94fb0b9b6a00566a",
-  "tg:banksta:104624"
+  "tg:banksta:104624",
+  "9cdf23910f6154cd",
+  "7b18806f14b0e646",
+  "tg:interfaxonline:81020"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -987,10 +987,6 @@
    "tg:rbc_news:159848"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80916",
-   "tg:interfaxonline:80917",
-   "tg:interfaxonline:80918",
-   "tg:interfaxonline:80919",
    "tg:interfaxonline:80920",
    "tg:interfaxonline:80921",
    "tg:interfaxonline:80922",
@@ -1086,15 +1082,14 @@
    "tg:interfaxonline:81015",
    "tg:interfaxonline:81016",
    "tg:interfaxonline:81017",
-   "tg:interfaxonline:81018"
+   "tg:interfaxonline:81018",
+   "tg:interfaxonline:81019",
+   "tg:interfaxonline:81021",
+   "tg:interfaxonline:81022",
+   "tg:interfaxonline:81020"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793553673.820519,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793555749.9847987,
    "usd": 81.0,
@@ -1144,12 +1139,14 @@
    "ts": 1793573935.0630302,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793575720.990561,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "30c77e9fae66898b",
-  "bc331870aecccd7c",
-  "be375f648017fd91",
   "tg:markettwits:390803",
   "tg:banksta:104295",
   "tg:markettwits:390799",
@@ -1646,7 +1643,10 @@
   "tg:banksta:104620",
   "89f6d334649cd268",
   "94fb0b9b6a00566a",
-  "tg:banksta:104624"
+  "tg:banksta:104624",
+  "9cdf23910f6154cd",
+  "7b18806f14b0e646",
+  "tg:interfaxonline:81020"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1670,6 +1670,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793572022.677504
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Средняя пенсия работающих россиян в сентябре превысила 24…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793575740.568434
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Цена нефти марки Brent падает более чем на 1%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793575742.4877532
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "🚢Два танкера подорвались на минах в Ормузском проливе,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793575744.400596
   }
  ],
  "recent_news": [
