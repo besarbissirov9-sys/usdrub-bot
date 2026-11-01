@@ -1,8 +1,7 @@
 {
  "last_rate": 80.81,
- "summary_date": "2026-10-31",
+ "summary_date": "2026-11-01",
  "posted": [
-  "tg:rbc_news:159545",
   "76e3898653ddd0fe",
   "tg:cbrstocks:83679",
   "b6e78bbd70a66354",
@@ -501,7 +500,8 @@
   "fb09ecb39e3dbbd8",
   "6f0ed8a68778324a",
   "dffd3d5fa4004779",
-  "tg:banksta:104592"
+  "tg:banksta:104592",
+  "305491938ddc0f24"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -884,8 +884,6 @@
    "tg:cbrstocks:83822"
   ],
   "rbc_news": [
-   "tg:rbc_news:159704",
-   "tg:rbc_news:159703",
    "tg:rbc_news:159705",
    "tg:rbc_news:159708",
    "tg:rbc_news:159709",
@@ -983,11 +981,11 @@
    "tg:rbc_news:159806",
    "tg:rbc_news:159807",
    "tg:rbc_news:159808",
-   "tg:rbc_news:159809"
+   "tg:rbc_news:159809",
+   "tg:rbc_news:159810",
+   "tg:rbc_news:159811"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80901",
-   "tg:interfaxonline:80902",
    "tg:interfaxonline:80903",
    "tg:interfaxonline:80889",
    "tg:interfaxonline:80904",
@@ -1085,15 +1083,12 @@
    "tg:interfaxonline:80997",
    "tg:interfaxonline:80998",
    "tg:interfaxonline:80999",
-   "tg:interfaxonline:81000"
+   "tg:interfaxonline:81000",
+   "tg:interfaxonline:81001",
+   "tg:interfaxonline:81002"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793491108.967427,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793493711.9301176,
    "usd": 81.0,
@@ -1128,10 +1123,14 @@
    "ts": 1793511109.1298995,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793513865.1283617,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "8f034222289e8bbd",
   "tg:markettwits:390785",
   "1484fa3617cee3c9",
   "tg:rbc_news:159545",
@@ -1630,7 +1629,8 @@
   "fb09ecb39e3dbbd8",
   "6f0ed8a68778324a",
   "dffd3d5fa4004779",
-  "tg:banksta:104592"
+  "tg:banksta:104592",
+  "305491938ddc0f24"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1661,6 +1661,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793511125.0408866
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "ФБР заявило, что за кражей более $6 млрд в криптовалюте у…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793513885.4778147
   }
  ],
  "recent_news": [
