@@ -2,8 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "be121802f73fb45f",
-  "8399556c17d8f57f",
   "9091a33dd7b8409d",
   "tg:interfaxonline:80798",
   "75d7f8c0b15d9e74",
@@ -501,14 +499,13 @@
   "28014a10d56a810e",
   "05b4ee0d82f4a91e",
   "tg:markettwits:391476",
-  "tg:banksta:104612"
+  "tg:banksta:104612",
+  "133a7262e3f9ee64",
+  "tg:markettwits:391479"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391376",
-   "tg:markettwits:391377",
-   "tg:markettwits:391378",
    "tg:markettwits:391379",
    "tg:markettwits:391380",
    "tg:markettwits:391381",
@@ -605,7 +602,10 @@
    "tg:markettwits:391473",
    "tg:markettwits:391474",
    "tg:markettwits:391475",
-   "tg:markettwits:391476"
+   "tg:markettwits:391476",
+   "tg:markettwits:391477",
+   "tg:markettwits:391478",
+   "tg:markettwits:391479"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -885,8 +885,6 @@
    "tg:cbrstocks:83822"
   ],
   "rbc_news": [
-   "tg:rbc_news:159736",
-   "tg:rbc_news:159737",
    "tg:rbc_news:159738",
    "tg:rbc_news:159739",
    "tg:rbc_news:159740",
@@ -984,7 +982,9 @@
    "tg:rbc_news:159833",
    "tg:rbc_news:159834",
    "tg:rbc_news:159835",
-   "tg:rbc_news:159836"
+   "tg:rbc_news:159836",
+   "tg:rbc_news:159837",
+   "tg:rbc_news:159838"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80893",
@@ -1139,11 +1139,14 @@
    "ts": 1793552088.2526784,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793553673.820519,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "3c74e9a54a39e26f",
-  "b0ccbe2b5950ea4c",
   "tg:banksta:104289",
   "be121802f73fb45f",
   "8399556c17d8f57f",
@@ -1641,24 +1644,12 @@
   "28014a10d56a810e",
   "05b4ee0d82f4a91e",
   "tg:markettwits:391476",
-  "tg:banksta:104612"
+  "tg:banksta:104612",
+  "133a7262e3f9ee64",
+  "tg:markettwits:391479"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-01",
-   "headline": "Иран в ходе конфликта с США уничтожил или повредил 26…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793508799.0468886
-  },
-  {
-   "date": "2026-11-01",
-   "headline": "Депутат-демократ от Миннесоты Джо Радинович рассказал, что…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793511125.0408866
-  },
   {
    "date": "2026-11-01",
    "headline": "ФБР заявило, что за кражей более $6 млрд в криптовалюте у…",
@@ -1854,6 +1845,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793552108.0892909
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "🔥 До 24,28% в рублях и 9,9% в юанях: новые облигации 2–6…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793553695.8878088
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "❗️🇺🇦#украина #геополитика Зеленский снова заявил, что…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793553697.881139
   }
  ],
  "recent_news": [
@@ -2062,6 +2067,6 @@
  "week_cal": "2026-10-26",
  "week_poll": "2026-10-26",
  "week_chart": "2026-11-01",
- "digest_date": "2026-10-31",
+ "digest_date": "2026-11-01",
  "week_fc": "2026-10-30"
 }
