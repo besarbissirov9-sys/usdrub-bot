@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "0909c5bfd5920a5c",
   "99136891c0004c75",
   "tg:interfaxonline:80769",
   "538cf8a5cd58dd96",
@@ -501,7 +500,8 @@
   "tg:rbc_news:159823",
   "85884984d90b396c",
   "tg:markettwits:391464",
-  "dc2e6f1efe3d0dad"
+  "dc2e6f1efe3d0dad",
+  "7273a3c7dd0d6f2f"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -681,8 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104468",
-   "tg:banksta:104469",
    "tg:banksta:104470",
    "tg:banksta:104472",
    "tg:banksta:104473",
@@ -780,7 +778,9 @@
    "tg:banksta:104597",
    "tg:banksta:104598",
    "tg:banksta:104599",
-   "tg:banksta:104601"
+   "tg:banksta:104601",
+   "tg:banksta:104602",
+   "tg:banksta:104603"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83717",
@@ -885,8 +885,6 @@
    "tg:cbrstocks:83822"
   ],
   "rbc_news": [
-   "tg:rbc_news:159726",
-   "tg:rbc_news:159729",
    "tg:rbc_news:159730",
    "tg:rbc_news:159731",
    "tg:rbc_news:159732",
@@ -984,7 +982,9 @@
    "tg:rbc_news:159825",
    "tg:rbc_news:159826",
    "tg:rbc_news:159827",
-   "tg:rbc_news:159828"
+   "tg:rbc_news:159828",
+   "tg:rbc_news:159829",
+   "tg:rbc_news:159830"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80908",
@@ -1091,11 +1091,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793517774.6711986,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793520862.9815652,
    "usd": 81.0,
    "cny": 12.0715
@@ -1134,10 +1129,14 @@
    "ts": 1793536399.6922476,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793539603.0482097,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "b5bde804384336b0",
   "8450dcd82068fa82",
   "tg:interfaxonline:80775",
   "0909c5bfd5920a5c",
@@ -1636,7 +1635,8 @@
   "tg:rbc_news:159823",
   "85884984d90b396c",
   "tg:markettwits:391464",
-  "dc2e6f1efe3d0dad"
+  "dc2e6f1efe3d0dad",
+  "7273a3c7dd0d6f2f"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1786,6 +1786,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793536420.151069
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Binance частично возобновила вывод средств после взлома",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793539623.1357164
   }
  ],
  "recent_news": [
