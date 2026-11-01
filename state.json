@@ -2,8 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "75d7f8c0b15d9e74",
-  "27a4eace12619f7f",
   "953d241e24fb30a7",
   "5ba2d0cc2b11c27a",
   "2ae6d54b967d7846",
@@ -501,12 +499,13 @@
   "133a7262e3f9ee64",
   "tg:markettwits:391479",
   "c0bade151323235e",
-  "5279f86d507eb87b"
+  "5279f86d507eb87b",
+  "tg:rbc_news:159841",
+  "90ddb59e831668e7"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391384",
    "tg:markettwits:391385",
    "tg:markettwits:391386",
    "tg:markettwits:391387",
@@ -605,7 +604,8 @@
    "tg:markettwits:391481",
    "tg:markettwits:391482",
    "tg:markettwits:391483",
-   "tg:markettwits:391484"
+   "tg:markettwits:391484",
+   "tg:markettwits:391485"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -681,8 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104487",
-   "tg:banksta:104488",
    "tg:banksta:104477",
    "tg:banksta:104490",
    "tg:banksta:104491",
@@ -780,7 +778,9 @@
    "tg:banksta:104611",
    "tg:banksta:104612",
    "tg:banksta:104613",
-   "tg:banksta:104614"
+   "tg:banksta:104614",
+   "tg:banksta:104615",
+   "tg:banksta:104616"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83722",
@@ -885,8 +885,6 @@
    "tg:cbrstocks:83826"
   ],
   "rbc_news": [
-   "tg:rbc_news:159740",
-   "tg:rbc_news:159741",
    "tg:rbc_news:159742",
    "tg:rbc_news:159743",
    "tg:rbc_news:159745",
@@ -984,7 +982,9 @@
    "tg:rbc_news:159837",
    "tg:rbc_news:159838",
    "tg:rbc_news:159839",
-   "tg:rbc_news:159840"
+   "tg:rbc_news:159840",
+   "tg:rbc_news:159842",
+   "tg:rbc_news:159841"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80911",
@@ -1091,11 +1091,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793536399.6922476,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793539603.0482097,
    "usd": 81.0,
    "cny": 12.0715
@@ -1144,11 +1139,14 @@
    "ts": 1793557587.4474297,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793560389.3112485,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "8399556c17d8f57f",
-  "9091a33dd7b8409d",
   "tg:interfaxonline:80798",
   "75d7f8c0b15d9e74",
   "27a4eace12619f7f",
@@ -1646,24 +1644,12 @@
   "133a7262e3f9ee64",
   "tg:markettwits:391479",
   "c0bade151323235e",
-  "5279f86d507eb87b"
+  "5279f86d507eb87b",
+  "tg:rbc_news:159841",
+  "90ddb59e831668e7"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-01",
-   "headline": "💵 Рубль дошёл до 80 за доллар. Это уже перебор или…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793517797.1909263
-  },
-  {
-   "date": "2026-11-01",
-   "headline": "Binance поэтапно возобновит вывод криптовалют после взлома…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793517799.1435072
-  },
   {
    "date": "2026-11-01",
    "headline": "Новости Заячьего Портфеля 31.10.26...",
@@ -1859,6 +1845,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793557606.8072903
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Олег Дерипаска на восьмом саммите Форума стран —…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793560409.053122
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Как мне крупно повезло на бирже. Полная история.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793560411.1556845
   }
  ],
  "recent_news": [
