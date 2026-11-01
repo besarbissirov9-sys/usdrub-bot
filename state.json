@@ -2,8 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "c585d6ae40ec445d",
-  "9e56754b94b103f9",
   "7642acb87236c8d2",
   "6eeac2e8f7fc6e3d",
   "3c74e9a54a39e26f",
@@ -501,14 +499,13 @@
   "7273a3c7dd0d6f2f",
   "f33d0a3a3361b538",
   "c38e2d86fef70f47",
-  "tg:banksta:104604"
+  "tg:banksta:104604",
+  "tg:banksta:104607",
+  "ba6f35476e58fe69"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391368",
-   "tg:markettwits:391369",
-   "tg:markettwits:391370",
    "tg:markettwits:391371",
    "tg:markettwits:391372",
    "tg:markettwits:391373",
@@ -605,7 +602,10 @@
    "tg:markettwits:391466",
    "tg:markettwits:391464",
    "tg:markettwits:391467",
-   "tg:markettwits:391468"
+   "tg:markettwits:391468",
+   "tg:markettwits:391469",
+   "tg:markettwits:391470",
+   "tg:markettwits:391471"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -681,10 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104472",
-   "tg:banksta:104473",
-   "tg:banksta:104474",
-   "tg:banksta:104475",
    "tg:banksta:104478",
    "tg:banksta:104479",
    "tg:banksta:104480",
@@ -780,7 +776,11 @@
    "tg:banksta:104601",
    "tg:banksta:104602",
    "tg:banksta:104603",
-   "tg:banksta:104604"
+   "tg:banksta:104604",
+   "tg:banksta:104605",
+   "tg:banksta:104606",
+   "tg:banksta:104608",
+   "tg:banksta:104607"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83717",
@@ -885,7 +885,6 @@
    "tg:cbrstocks:83822"
   ],
   "rbc_news": [
-   "tg:rbc_news:159731",
    "tg:rbc_news:159732",
    "tg:rbc_news:159733",
    "tg:rbc_news:159734",
@@ -984,7 +983,8 @@
    "tg:rbc_news:159828",
    "tg:rbc_news:159829",
    "tg:rbc_news:159830",
-   "tg:rbc_news:159831"
+   "tg:rbc_news:159831",
+   "tg:rbc_news:159832"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80910",
@@ -1091,11 +1091,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793520862.9815652,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793523503.8047595,
    "usd": 81.0,
    "cny": 12.0715
@@ -1139,11 +1134,14 @@
    "ts": 1793542000.6910946,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793544011.117552,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "99136891c0004c75",
-  "tg:interfaxonline:80769",
   "538cf8a5cd58dd96",
   "c585d6ae40ec445d",
   "9e56754b94b103f9",
@@ -1641,7 +1639,9 @@
   "7273a3c7dd0d6f2f",
   "f33d0a3a3361b538",
   "c38e2d86fef70f47",
-  "tg:banksta:104604"
+  "tg:banksta:104604",
+  "tg:banksta:104607",
+  "ba6f35476e58fe69"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1819,6 +1819,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793542022.1468148
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Школьники порой зарабатывают миллионы долларов на играх в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793544030.7680326
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "ВДО всё? Пожалуй, обойду стороной... А может быть и нет? 🤔",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793544032.8077319
   }
  ],
  "recent_news": [
