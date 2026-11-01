@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-10-31",
  "posted": [
-  "tg:markettwits:390785",
   "1484fa3617cee3c9",
   "tg:rbc_news:159545",
   "76e3898653ddd0fe",
@@ -501,7 +500,8 @@
   "fa4f2b9b9688f8f2",
   "tg:banksta:104578",
   "fb09ecb39e3dbbd8",
-  "6f0ed8a68778324a"
+  "6f0ed8a68778324a",
+  "dffd3d5fa4004779"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -1090,11 +1090,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793485680.194469,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
-  {
    "ts": 1793487575.9319508,
    "usd": 81.0,
    "cny": 12.0715
@@ -1133,10 +1128,14 @@
    "ts": 1793506029.2022302,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793508780.4100242,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "7f08be99a17c4e4e",
   "tg:banksta:104278",
   "8f034222289e8bbd",
   "tg:markettwits:390785",
@@ -1635,7 +1634,8 @@
   "fa4f2b9b9688f8f2",
   "tg:banksta:104578",
   "fb09ecb39e3dbbd8",
-  "6f0ed8a68778324a"
+  "6f0ed8a68778324a",
+  "dffd3d5fa4004779"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1652,6 +1652,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793493727.5705426
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Иран в ходе конфликта с США уничтожил или повредил 26…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793508799.0468886
   }
  ],
  "recent_news": [
