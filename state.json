@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "2ae6d54b967d7846",
   "30c77e9fae66898b",
   "bc331870aecccd7c",
   "be375f648017fd91",
@@ -501,12 +500,12 @@
   "tg:rbc_news:159841",
   "90ddb59e831668e7",
   "tg:banksta:104617",
-  "d377118e360399ca"
+  "d377118e360399ca",
+  "tg:banksta:104620"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391387",
    "tg:markettwits:391388",
    "tg:markettwits:391389",
    "tg:markettwits:391391",
@@ -605,7 +604,8 @@
    "tg:markettwits:391484",
    "tg:markettwits:391485",
    "tg:markettwits:391486",
-   "tg:markettwits:391487"
+   "tg:markettwits:391487",
+   "tg:markettwits:391488"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -681,8 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104491",
-   "tg:banksta:104489",
    "tg:banksta:104492",
    "tg:banksta:104494",
    "tg:banksta:104495",
@@ -780,7 +778,9 @@
    "tg:banksta:104615",
    "tg:banksta:104616",
    "tg:banksta:104617",
-   "tg:banksta:104618"
+   "tg:banksta:104618",
+   "tg:banksta:104619",
+   "tg:banksta:104620"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83722",
@@ -885,7 +885,6 @@
    "tg:cbrstocks:83826"
   ],
   "rbc_news": [
-   "tg:rbc_news:159745",
    "tg:rbc_news:159746",
    "tg:rbc_news:159747",
    "tg:rbc_news:159748",
@@ -984,11 +983,10 @@
    "tg:rbc_news:159842",
    "tg:rbc_news:159841",
    "tg:rbc_news:159843",
-   "tg:rbc_news:159844"
+   "tg:rbc_news:159844",
+   "tg:rbc_news:159845"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80912",
-   "tg:interfaxonline:80913",
    "tg:interfaxonline:80914",
    "tg:interfaxonline:80915",
    "tg:interfaxonline:80916",
@@ -1086,15 +1084,12 @@
    "tg:interfaxonline:81011",
    "tg:interfaxonline:81012",
    "tg:interfaxonline:81013",
-   "tg:interfaxonline:81014"
+   "tg:interfaxonline:81014",
+   "tg:interfaxonline:81015",
+   "tg:interfaxonline:81016"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793544011.117552,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793546066.6134868,
    "usd": 81.0,
@@ -1144,10 +1139,14 @@
    "ts": 1793564221.363197,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793566324.4807389,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "27a4eace12619f7f",
   "953d241e24fb30a7",
   "5ba2d0cc2b11c27a",
   "2ae6d54b967d7846",
@@ -1646,17 +1645,11 @@
   "tg:rbc_news:159841",
   "90ddb59e831668e7",
   "tg:banksta:104617",
-  "d377118e360399ca"
+  "d377118e360399ca",
+  "tg:banksta:104620"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-01",
-   "headline": "Итоги октября: +800 тысяч за месяц!",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793520885.0434906
-  },
   {
    "date": "2026-11-01",
    "headline": "Итоги инвестирования за октябрь 2026: покупки, состав…",
@@ -1859,6 +1852,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793564236.0412407
+  },
+  {
+   "date": "2026-11-01",
+   "headline": "Хакеры Binance используют невероятно сложные схемы…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793566343.0844553
   }
  ],
  "recent_news": [
