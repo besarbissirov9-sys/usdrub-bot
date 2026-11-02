@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "567bb1787c26b476",
-  "bfc51d298d985269",
-  "9d6a347262fb49d5",
-  "18f4bd421d0b927b",
-  "c9aaa20a079bc6a8",
   "78d1b0b539969021",
   "c1ffb1a89db421d2",
   "cf51329d6489afd6",
@@ -501,7 +496,12 @@
   "c6b0081391b01a7b",
   "22845f5bcc0ee8fe",
   "bb4edf58f8d77f3b",
-  "1d54631337777ded"
+  "1d54631337777ded",
+  "4f48610f25481740",
+  "2b3c09fd10f94684",
+  "1e1c89f38e4bfb79",
+  "a63ea3b0f2e0e7a3",
+  "tg:rbc_news:159900"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -688,7 +688,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104528",
    "tg:banksta:104529",
    "tg:banksta:104530",
    "tg:banksta:104531",
@@ -787,7 +786,8 @@
    "tg:banksta:104663",
    "tg:banksta:104662",
    "tg:banksta:104664",
-   "tg:banksta:104667"
+   "tg:banksta:104667",
+   "tg:banksta:104671"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83751",
@@ -892,8 +892,6 @@
    "tg:cbrstocks:83855"
   ],
   "rbc_news": [
-   "tg:rbc_news:159801",
-   "tg:rbc_news:159802",
    "tg:rbc_news:159803",
    "tg:rbc_news:159804",
    "tg:rbc_news:159805",
@@ -991,10 +989,11 @@
    "tg:rbc_news:159902",
    "tg:rbc_news:159903",
    "tg:rbc_news:159904",
-   "tg:rbc_news:159905"
+   "tg:rbc_news:159905",
+   "tg:rbc_news:159907",
+   "tg:rbc_news:159900"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80960",
    "tg:interfaxonline:80961",
    "tg:interfaxonline:80962",
    "tg:interfaxonline:80964",
@@ -1093,15 +1092,11 @@
    "tg:interfaxonline:81059",
    "tg:interfaxonline:81060",
    "tg:interfaxonline:81062",
-   "tg:interfaxonline:81063"
+   "tg:interfaxonline:81063",
+   "tg:interfaxonline:81064"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793615966.7860067,
-   "usd": 81.6,
-   "cny": 12.1835
-  },
   {
    "ts": 1793618942.5981784,
    "usd": 81.755,
@@ -1131,14 +1126,14 @@
    "ts": 1793637009.6167843,
    "usd": 81.81,
    "cny": 12.228
+  },
+  {
+   "ts": 1793640254.3082817,
+   "usd": 81.81,
+   "cny": 12.228
   }
  ],
  "ai_seen": [
-  "1e56b7f212626e24",
-  "debf42fcfa8169cc",
-  "b9df8eb80efeb4ff",
-  "tg:rbc_news:159602",
-  "tg:markettwits:390965",
   "567bb1787c26b476",
   "bfc51d298d985269",
   "9d6a347262fb49d5",
@@ -1633,45 +1628,15 @@
   "c6b0081391b01a7b",
   "22845f5bcc0ee8fe",
   "bb4edf58f8d77f3b",
-  "1d54631337777ded"
+  "1d54631337777ded",
+  "4f48610f25481740",
+  "2b3c09fd10f94684",
+  "1e1c89f38e4bfb79",
+  "a63ea3b0f2e0e7a3",
+  "tg:rbc_news:159900"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-02",
-   "headline": "Клиенты Binance вывели 5 миллиардов долларов после взлома…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793618961.957172
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Курс юаня на Московской бирже растет к 12,2 рубля",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793618963.831937
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Суд отложил рассмотрение жалобы ГТЛК на взыскание 57,2…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793618965.7690225
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Цена нефти марки Brent упала ниже 109 долларов за баррель",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793618967.6457977
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Совет директоров «ИНАРКТИКА» рекомендовал выплатить 10…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793618969.4969842
-  },
   {
    "date": "2026-11-02",
    "headline": "Если золото продолжит падение, спасением станут доллар и…",
@@ -1846,6 +1811,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793637064.2781105
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Цена на нефть марки Brent опустилась ниже 105 долларов за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793640275.2702537
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Давление нарастает: аналитики объяснили снижение курса рубля",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793640277.1757295
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "На развитие сельского хозяйства в Чечне направили три…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793640279.0662923
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Нефть за девять месяцев стоила ровно по бюджету: 5 453…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793640280.964489
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "💲ЦБ повысил официальный курс доллара почти до ₽81…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793640282.8975039
   }
  ],
  "recent_news": [
@@ -2054,6 +2054,6 @@
  "week_cal": "2026-11-02",
  "week_poll": "2026-11-02",
  "week_chart": "2026-11-01",
- "digest_date": "2026-11-01",
+ "digest_date": "2026-11-02",
  "week_fc": "2026-10-30"
 }
