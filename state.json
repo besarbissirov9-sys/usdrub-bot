@@ -2,12 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "ba0e9c8d2e67c43b",
-  "914490a6ca62daa6",
-  "tg:rbc_news:159601",
-  "tg:cbrstocks:83726",
-  "tg:banksta:104332",
-  "929cc3bfc2b6e2ce",
   "1e56b7f212626e24",
   "debf42fcfa8169cc",
   "b9df8eb80efeb4ff",
@@ -501,21 +495,17 @@
   "tg:russianmacro:23684",
   "fa49596ec9889fbf",
   "230a0c3d239ad409",
-  "dc4381d5392328f9"
+  "dc4381d5392328f9",
+  "6624f4ca37f4b640",
+  "36d0a7721c5db067",
+  "7c1f9a1d7902a391",
+  "tg:banksta:104663",
+  "3b3ed13f04129c32",
+  "tg:banksta:104662"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391528",
-   "tg:markettwits:391529",
-   "tg:markettwits:391530",
-   "tg:markettwits:391531",
-   "tg:markettwits:391532",
-   "tg:markettwits:391533",
-   "tg:markettwits:391534",
-   "tg:markettwits:391536",
-   "tg:markettwits:391537",
-   "tg:markettwits:391538",
    "tg:markettwits:391539",
    "tg:markettwits:391540",
    "tg:markettwits:391541",
@@ -605,7 +595,17 @@
    "tg:markettwits:391632",
    "tg:markettwits:391633",
    "tg:markettwits:391635",
-   "tg:markettwits:391634"
+   "tg:markettwits:391634",
+   "tg:markettwits:391637",
+   "tg:markettwits:391638",
+   "tg:markettwits:391639",
+   "tg:markettwits:391640",
+   "tg:markettwits:391642",
+   "tg:markettwits:391643",
+   "tg:markettwits:391644",
+   "tg:markettwits:391645",
+   "tg:markettwits:391646",
+   "tg:markettwits:391649"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -688,11 +688,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104519",
-   "tg:banksta:104520",
-   "tg:banksta:104521",
-   "tg:banksta:104522",
-   "tg:banksta:104523",
    "tg:banksta:104526",
    "tg:banksta:104527",
    "tg:banksta:104528",
@@ -787,12 +782,14 @@
    "tg:banksta:104654",
    "tg:banksta:104655",
    "tg:banksta:104657",
-   "tg:banksta:104658"
+   "tg:banksta:104658",
+   "tg:banksta:104659",
+   "tg:banksta:104660",
+   "tg:banksta:104661",
+   "tg:banksta:104663",
+   "tg:banksta:104662"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83746",
-   "tg:cbrstocks:83750",
-   "tg:cbrstocks:83748",
    "tg:cbrstocks:83751",
    "tg:cbrstocks:83752",
    "tg:cbrstocks:83753",
@@ -889,11 +886,12 @@
    "tg:cbrstocks:83849",
    "tg:cbrstocks:83850",
    "tg:cbrstocks:83851",
-   "tg:cbrstocks:83852"
+   "tg:cbrstocks:83852",
+   "tg:cbrstocks:83853",
+   "tg:cbrstocks:83854",
+   "tg:cbrstocks:83855"
   ],
   "rbc_news": [
-   "tg:rbc_news:159794",
-   "tg:rbc_news:159795",
    "tg:rbc_news:159796",
    "tg:rbc_news:159797",
    "tg:rbc_news:159798",
@@ -991,10 +989,11 @@
    "tg:rbc_news:159893",
    "tg:rbc_news:159895",
    "tg:rbc_news:159896",
-   "tg:rbc_news:159897"
+   "tg:rbc_news:159897",
+   "tg:rbc_news:159898",
+   "tg:rbc_news:159899"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80956",
    "tg:interfaxonline:80957",
    "tg:interfaxonline:80959",
    "tg:interfaxonline:80960",
@@ -1093,15 +1092,11 @@
    "tg:interfaxonline:81056",
    "tg:interfaxonline:81057",
    "tg:interfaxonline:81058",
-   "tg:interfaxonline:81059"
+   "tg:interfaxonline:81059",
+   "tg:interfaxonline:81060"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793609373.369167,
-   "usd": 81.68,
-   "cny": 12.2045
-  },
   {
    "ts": 1793612621.6937578,
    "usd": 81.5675,
@@ -1131,14 +1126,14 @@
    "ts": 1793630209.5040388,
    "usd": 81.7,
    "cny": 12.1875
+  },
+  {
+   "ts": 1793633407.2224758,
+   "usd": 81.81,
+   "cny": 12.2195
   }
  ],
  "ai_seen": [
-  "f02b9b498a25f296",
-  "baafada380ac36b4",
-  "tg:banksta:104326",
-  "c4674e6b779a5958",
-  "ba0e9c8d2e67c43b",
   "914490a6ca62daa6",
   "tg:rbc_news:159601",
   "tg:cbrstocks:83726",
@@ -1633,45 +1628,15 @@
   "tg:russianmacro:23684",
   "fa49596ec9889fbf",
   "230a0c3d239ad409",
-  "dc4381d5392328f9"
+  "dc4381d5392328f9",
+  "36d0a7721c5db067",
+  "7c1f9a1d7902a391",
+  "tg:banksta:104663",
+  "3b3ed13f04129c32",
+  "tg:banksta:104662"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-02",
-   "headline": "АЛЬФА-ИНВЕСТИЦИИ НАЧИСЛЯТ 7 ТЫСЯЧ РУБЛЕЙ ЗА СТАРТ НА БИРЖЕ…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793612637.153186
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Чистая прибыль «Газпрома» по РСБУ за 9 месяцев составила…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793612638.9810033
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Головная компания ПАО \"Газпром\" за 9 месяцев 2026 года…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793612640.806132
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Чистый убыток «Распадской» по РСБУ за 9 месяцев вырос до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793612642.6311927
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Совет директоров \"Инарктики\" рекомендовал дивиденды в 10…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793612644.557188
-  },
   {
    "date": "2026-11-02",
    "headline": "Москва направит на поддержку малого бизнеса 65,6 миллиарда…",
@@ -1846,6 +1811,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793630238.4823296
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Суд взыскал 1,5 миллиарда рублей с бывших руководителей МБР",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793633433.4497802
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "ЦБ повысил официальный курс доллара на 3 ноября почти до ₽81",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793633435.5076768
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Альфа-Инвестиции начислят 7 тысяч рублей тем, кто начинает…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793633437.5629897
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Центробанк опубликовал официальный курс валют на вторник",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793633439.617985
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Курс евро от ЦБ превысил 90 рублей @banksta",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793633441.618571
   }
  ],
  "recent_news": [
@@ -2050,7 +2050,7 @@
    "ts": 1793630238.4825191
   }
  ],
- "cbr_next": "2026-10-31",
+ "cbr_next": "2026-11-03",
  "week_cal": "2026-11-02",
  "week_poll": "2026-11-02",
  "week_chart": "2026-11-01",
