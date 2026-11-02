@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "tg:banksta:104348",
-  "45e31bf014cde472",
-  "tg:banksta:104345",
-  "tg:markettwits:390997",
-  "50fcb036ef27b7e6",
   "tg:rbc_news:159619",
   "96711eb7ce186dee",
   "tg:banksta:104346",
@@ -501,19 +496,16 @@
   "5e9f96a948bea7be",
   "be25c0bc411d514c",
   "38be986870f5fe40",
-  "f3da7dfa493a39db"
+  "f3da7dfa493a39db",
+  "tg:banksta:104682",
+  "tg:banksta:104683",
+  "44a51e2764d9c744",
+  "tg:interfaxonline:81066",
+  "tg:rbc_news:159909"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391551",
-   "tg:markettwits:391553",
-   "tg:markettwits:391554",
-   "tg:markettwits:391555",
-   "tg:markettwits:391557",
-   "tg:markettwits:391558",
-   "tg:markettwits:391559",
-   "tg:markettwits:391560",
    "tg:markettwits:391561",
    "tg:markettwits:391562",
    "tg:markettwits:391563",
@@ -605,7 +597,15 @@
    "tg:markettwits:391648",
    "tg:markettwits:391660",
    "tg:markettwits:391661",
-   "tg:markettwits:391662"
+   "tg:markettwits:391662",
+   "tg:markettwits:391663",
+   "tg:markettwits:391664",
+   "tg:markettwits:391665",
+   "tg:markettwits:391666",
+   "tg:markettwits:391667",
+   "tg:markettwits:391668",
+   "tg:markettwits:391669",
+   "tg:markettwits:391670"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -688,10 +688,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104535",
-   "tg:banksta:104536",
-   "tg:banksta:104537",
-   "tg:banksta:104538",
    "tg:banksta:104543",
    "tg:banksta:104544",
    "tg:banksta:104545",
@@ -787,7 +783,11 @@
    "tg:banksta:104673",
    "tg:banksta:104674",
    "tg:banksta:104675",
-   "tg:banksta:104676"
+   "tg:banksta:104676",
+   "tg:banksta:104680",
+   "tg:banksta:104681",
+   "tg:banksta:104682",
+   "tg:banksta:104683"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83754",
@@ -892,8 +892,6 @@
    "tg:cbrstocks:83856"
   ],
   "rbc_news": [
-   "tg:rbc_news:159806",
-   "tg:rbc_news:159807",
    "tg:rbc_news:159808",
    "tg:rbc_news:159809",
    "tg:rbc_news:159810",
@@ -991,10 +989,11 @@
    "tg:rbc_news:159900",
    "tg:rbc_news:159908",
    "tg:rbc_news:159910",
-   "tg:rbc_news:159911"
+   "tg:rbc_news:159911",
+   "tg:rbc_news:159912",
+   "tg:rbc_news:159909"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80962",
    "tg:interfaxonline:80964",
    "tg:interfaxonline:80965",
    "tg:interfaxonline:80966",
@@ -1093,15 +1092,11 @@
    "tg:interfaxonline:81062",
    "tg:interfaxonline:81063",
    "tg:interfaxonline:81064",
-   "tg:interfaxonline:81067"
+   "tg:interfaxonline:81067",
+   "tg:interfaxonline:81066"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793626725.182372,
-   "usd": 81.655,
-   "cny": 12.179
-  },
   {
    "ts": 1793630209.5040388,
    "usd": 81.7,
@@ -1131,14 +1126,14 @@
    "ts": 1793646750.598064,
    "usd": 81.81,
    "cny": 12.228
+  },
+  {
+   "ts": 1793649652.5563426,
+   "usd": 81.81,
+   "cny": 12.228
   }
  ],
  "ai_seen": [
-  "46c43585b4617e4b",
-  "15a0fba8d7daa57c",
-  "9830e3cad412cee6",
-  "1795349e80dcbcdb",
-  "tg:banksta:104343",
   "tg:banksta:104348",
   "45e31bf014cde472",
   "tg:banksta:104345",
@@ -1633,45 +1628,15 @@
   "5e9f96a948bea7be",
   "be25c0bc411d514c",
   "38be986870f5fe40",
-  "f3da7dfa493a39db"
+  "f3da7dfa493a39db",
+  "tg:banksta:104682",
+  "tg:banksta:104683",
+  "44a51e2764d9c744",
+  "tg:interfaxonline:81066",
+  "tg:rbc_news:159909"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-02",
-   "headline": "🇷🇺#MOEX #отчетность ОБЪЕМ ТОРГОВ НА МОСКОВСКОЙ БИРЖЕ В…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793630229.964232
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "🔥😱‼️ URALS В ОКТЯБРЕ - ВЫШЕ $100 Сверхдоходы, потекшие в…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793630231.9003344
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Цена нефти Brent опустилась ниже 106 долларов за баррель",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793630233.787262
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Трамп пообещал, что цены на бензин в США будут ниже двух…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793630236.639459
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "ЮГК увеличила выручку до 32,4 млрд рублей за девять месяцев",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793630238.4823296
-  },
   {
    "date": "2026-11-02",
    "headline": "Суд взыскал 1,5 миллиарда рублей с бывших руководителей МБР",
@@ -1846,6 +1811,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793646785.6232505
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Министерство финансов США продало рекордные 839 млрд…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793649671.42839
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Акции, металлы и криптовалюты потеряли почти $1 трлн из-за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793649673.3612487
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "«ФосАгро» вынесла на собрание акционеров четыре варианта…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793649675.2917736
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "ЕС готов проявить гибкость в отношении Великобритании в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793649677.241606
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Владимир Путин подписал указ, устанавливающий особый…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793649679.138651
   }
  ],
  "recent_news": [
