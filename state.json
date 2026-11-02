@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "3a523786b44c1fdf",
-  "tg:markettwits:390819",
-  "36131f25558f82db",
-  "tg:markettwits:390832",
-  "4a70e01730937ff6",
   "tg:markettwits:390826",
   "6fc12b7b965fec1e",
   "72fa4c5a605a28ed",
@@ -501,23 +496,16 @@
   "14f01462dec903ab",
   "aa2f43ecb13217d6",
   "6be6af90ee1014dc",
-  "55e6b0e2eeeb85c9"
+  "55e6b0e2eeeb85c9",
+  "tg:rbc_news:159850",
+  "2f3649d39ec84a03",
+  "tg:markettwits:391497",
+  "tg:interfaxonline:81030",
+  "9cda1913576201d6"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391389",
-   "tg:markettwits:391391",
-   "tg:markettwits:391392",
-   "tg:markettwits:391390",
-   "tg:markettwits:391393",
-   "tg:markettwits:391394",
-   "tg:markettwits:391395",
-   "tg:markettwits:391396",
-   "tg:markettwits:391397",
-   "tg:markettwits:391398",
-   "tg:markettwits:391399",
-   "tg:markettwits:391400",
    "tg:markettwits:391401",
    "tg:markettwits:391402",
    "tg:markettwits:391403",
@@ -605,7 +593,19 @@
    "tg:markettwits:391486",
    "tg:markettwits:391487",
    "tg:markettwits:391488",
-   "tg:markettwits:391489"
+   "tg:markettwits:391489",
+   "tg:markettwits:391490",
+   "tg:markettwits:391492",
+   "tg:markettwits:391493",
+   "tg:markettwits:391494",
+   "tg:markettwits:391495",
+   "tg:markettwits:391496",
+   "tg:markettwits:391498",
+   "tg:markettwits:391499",
+   "tg:markettwits:391500",
+   "tg:markettwits:391501",
+   "tg:markettwits:391502",
+   "tg:markettwits:391497"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -681,8 +681,6 @@
    "tg:xtxixty:7011"
   ],
   "banksta": [
-   "tg:banksta:104496",
-   "tg:banksta:104497",
    "tg:banksta:104498",
    "tg:banksta:104499",
    "tg:banksta:104500",
@@ -780,7 +778,9 @@
    "tg:banksta:104621",
    "tg:banksta:104623",
    "tg:banksta:104625",
-   "tg:banksta:104624"
+   "tg:banksta:104624",
+   "tg:banksta:104627",
+   "tg:banksta:104628"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83722",
@@ -885,8 +885,6 @@
    "tg:cbrstocks:83826"
   ],
   "rbc_news": [
-   "tg:rbc_news:159749",
-   "tg:rbc_news:159750",
    "tg:rbc_news:159751",
    "tg:rbc_news:159752",
    "tg:rbc_news:159753",
@@ -984,11 +982,11 @@
    "tg:rbc_news:159845",
    "tg:rbc_news:159846",
    "tg:rbc_news:159847",
-   "tg:rbc_news:159848"
+   "tg:rbc_news:159848",
+   "tg:rbc_news:159849",
+   "tg:rbc_news:159850"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80927",
-   "tg:interfaxonline:80928",
    "tg:interfaxonline:80930",
    "tg:interfaxonline:80931",
    "tg:interfaxonline:80932",
@@ -1086,15 +1084,12 @@
    "tg:interfaxonline:81026",
    "tg:interfaxonline:81027",
    "tg:interfaxonline:81028",
-   "tg:interfaxonline:81029"
+   "tg:interfaxonline:81029",
+   "tg:interfaxonline:81031",
+   "tg:interfaxonline:81030"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793570278.892119,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793572004.2089562,
    "usd": 81.0,
@@ -1134,14 +1129,14 @@
    "ts": 1793589997.3157878,
    "usd": null,
    "cny": null
+  },
+  {
+   "ts": 1793593533.6895928,
+   "usd": null,
+   "cny": null
   }
  ],
  "ai_seen": [
-  "4f53cb5254eab15e",
-  "98f3803c263566df",
-  "4339df73309fa51a",
-  "3a523786b44c1fdf",
-  "tg:markettwits:390819",
   "36131f25558f82db",
   "tg:markettwits:390832",
   "4a70e01730937ff6",
@@ -1636,7 +1631,12 @@
   "14f01462dec903ab",
   "aa2f43ecb13217d6",
   "6be6af90ee1014dc",
-  "55e6b0e2eeeb85c9"
+  "55e6b0e2eeeb85c9",
+  "tg:rbc_news:159850",
+  "2f3649d39ec84a03",
+  "tg:markettwits:391497",
+  "tg:interfaxonline:81030",
+  "9cda1913576201d6"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1716,6 +1716,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793590036.0961905
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "🧱🧱🧱🧱 В России растет спрос на 5G-роутеры. Такие устройства…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793593553.9829812
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Статистика врать не будет: почему россияне начали…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793593555.8822541
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "❗️🛢🇷🇺#GAZP #газ #европа #россия США добиваются…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793593557.7888298
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "🇺🇸США поддерживают план по возобновлению поставок…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793593559.6960967
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Криптовалюта EOS подросла на 11% в бычьей торговле в ралли",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793593561.6159701
   }
  ],
  "recent_news": [
