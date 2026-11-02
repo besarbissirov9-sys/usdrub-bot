@@ -2,8 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-01",
  "posted": [
-  "9d9798e8775e511c",
-  "42e2e9845749e42a",
   "4f53cb5254eab15e",
   "98f3803c263566df",
   "4339df73309fa51a",
@@ -501,7 +499,9 @@
   "tg:banksta:104624",
   "9cdf23910f6154cd",
   "7b18806f14b0e646",
-  "tg:interfaxonline:81020"
+  "tg:interfaxonline:81020",
+  "40e05163748dc86c",
+  "14f01462dec903ab"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -987,7 +987,6 @@
    "tg:rbc_news:159848"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80924",
    "tg:interfaxonline:80925",
    "tg:interfaxonline:80926",
    "tg:interfaxonline:80927",
@@ -1086,15 +1085,11 @@
    "tg:interfaxonline:81023",
    "tg:interfaxonline:81024",
    "tg:interfaxonline:81025",
-   "tg:interfaxonline:81026"
+   "tg:interfaxonline:81026",
+   "tg:interfaxonline:81027"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793560389.3112485,
-   "usd": 81.0,
-   "cny": 12.0715
-  },
   {
    "ts": 1793562621.4205468,
    "usd": 81.0,
@@ -1144,11 +1139,14 @@
    "ts": 1793580440.2727184,
    "usd": 81.0,
    "cny": 12.0715
+  },
+  {
+   "ts": 1793584118.4561515,
+   "usd": 81.0,
+   "cny": 12.0715
   }
  ],
  "ai_seen": [
-  "tg:markettwits:390803",
-  "tg:banksta:104295",
   "tg:markettwits:390799",
   "9d9798e8775e511c",
   "42e2e9845749e42a",
@@ -1646,7 +1644,9 @@
   "tg:banksta:104624",
   "9cdf23910f6154cd",
   "7b18806f14b0e646",
-  "tg:interfaxonline:81020"
+  "tg:interfaxonline:81020",
+  "40e05163748dc86c",
+  "14f01462dec903ab"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1691,6 +1691,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793575744.400596
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Нефть дешевеет: Трамп выбирает дипломатию с Ираном перед…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793584138.848409
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "ФосАгро: рекомендованный дивиденд 309 руб., но радоваться…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793584140.8296633
   }
  ],
  "recent_news": [
