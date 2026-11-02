@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "tg:rbc_news:159619",
-  "96711eb7ce186dee",
-  "tg:banksta:104346",
-  "d2b43b534c77f4b8",
-  "d496ffd805e1a7f6",
   "364533c37497e125",
   "tg:banksta:104354",
   "d432e705546adecf",
@@ -501,14 +496,16 @@
   "tg:banksta:104683",
   "44a51e2764d9c744",
   "tg:interfaxonline:81066",
-  "tg:rbc_news:159909"
+  "tg:rbc_news:159909",
+  "a79e99f7bc8e16e9",
+  "tg:interfaxonline:81065",
+  "7cb35b7cd89320ca",
+  "tg:rbc_news:159906",
+  "77d275ad9d7f9d70"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391561",
-   "tg:markettwits:391562",
-   "tg:markettwits:391563",
    "tg:markettwits:391564",
    "tg:markettwits:391565",
    "tg:markettwits:391566",
@@ -605,7 +602,10 @@
    "tg:markettwits:391667",
    "tg:markettwits:391668",
    "tg:markettwits:391669",
-   "tg:markettwits:391670"
+   "tg:markettwits:391670",
+   "tg:markettwits:391671",
+   "tg:markettwits:391672",
+   "tg:markettwits:391673"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -688,8 +688,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104543",
-   "tg:banksta:104544",
    "tg:banksta:104545",
    "tg:banksta:104546",
    "tg:banksta:104548",
@@ -787,12 +785,11 @@
    "tg:banksta:104680",
    "tg:banksta:104681",
    "tg:banksta:104682",
-   "tg:banksta:104683"
+   "tg:banksta:104683",
+   "tg:banksta:104684",
+   "tg:banksta:104685"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83754",
-   "tg:cbrstocks:83755",
-   "tg:cbrstocks:83757",
    "tg:cbrstocks:83758",
    "tg:cbrstocks:83759",
    "tg:cbrstocks:83762",
@@ -889,12 +886,12 @@
    "tg:cbrstocks:83855",
    "tg:cbrstocks:83857",
    "tg:cbrstocks:83858",
-   "tg:cbrstocks:83856"
+   "tg:cbrstocks:83856",
+   "tg:cbrstocks:83859",
+   "tg:cbrstocks:83860",
+   "tg:cbrstocks:83861"
   ],
   "rbc_news": [
-   "tg:rbc_news:159808",
-   "tg:rbc_news:159809",
-   "tg:rbc_news:159810",
    "tg:rbc_news:159811",
    "tg:rbc_news:159812",
    "tg:rbc_news:159813",
@@ -991,10 +988,12 @@
    "tg:rbc_news:159910",
    "tg:rbc_news:159911",
    "tg:rbc_news:159912",
-   "tg:rbc_news:159909"
+   "tg:rbc_news:159909",
+   "tg:rbc_news:159913",
+   "tg:rbc_news:159914",
+   "tg:rbc_news:159906"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80964",
    "tg:interfaxonline:80965",
    "tg:interfaxonline:80966",
    "tg:interfaxonline:80968",
@@ -1093,15 +1092,11 @@
    "tg:interfaxonline:81063",
    "tg:interfaxonline:81064",
    "tg:interfaxonline:81067",
-   "tg:interfaxonline:81066"
+   "tg:interfaxonline:81066",
+   "tg:interfaxonline:81065"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793630209.5040388,
-   "usd": 81.7,
-   "cny": 12.1875
-  },
   {
    "ts": 1793633407.2224758,
    "usd": 81.81,
@@ -1131,14 +1126,14 @@
    "ts": 1793649652.5563426,
    "usd": 81.81,
    "cny": 12.228
+  },
+  {
+   "ts": 1793652300.6510425,
+   "usd": 81.81,
+   "cny": 12.228
   }
  ],
  "ai_seen": [
-  "tg:banksta:104348",
-  "45e31bf014cde472",
-  "tg:banksta:104345",
-  "tg:markettwits:390997",
-  "50fcb036ef27b7e6",
   "tg:rbc_news:159619",
   "96711eb7ce186dee",
   "tg:banksta:104346",
@@ -1633,45 +1628,15 @@
   "tg:banksta:104683",
   "44a51e2764d9c744",
   "tg:interfaxonline:81066",
-  "tg:rbc_news:159909"
+  "tg:rbc_news:159909",
+  "a79e99f7bc8e16e9",
+  "tg:interfaxonline:81065",
+  "7cb35b7cd89320ca",
+  "tg:rbc_news:159906",
+  "77d275ad9d7f9d70"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-02",
-   "headline": "Суд взыскал 1,5 миллиарда рублей с бывших руководителей МБР",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793633433.4497802
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "ЦБ повысил официальный курс доллара на 3 ноября почти до ₽81",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793633435.5076768
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Альфа-Инвестиции начислят 7 тысяч рублей тем, кто начинает…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793633437.5629897
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Центробанк опубликовал официальный курс валют на вторник",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793633439.617985
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Курс евро от ЦБ превысил 90 рублей @banksta",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793633441.618571
-  },
   {
    "date": "2026-11-02",
    "headline": "Рубль в понедельник заметно опустился к юаню на фоне…",
@@ -1846,6 +1811,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793649679.138651
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Как играют в покер за кэш столами",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793652319.4048812
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Что произошло за день: понедельник, 2 ноября ➖Минфин РФ…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793652321.3137648
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Средняя максимальная ставка по вкладам топ-10 банков РФ в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793652323.2658527
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Иран готов открыть Ормузский пролив в течение двух дней,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793652325.2089443
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "ФосАгро отчиталась за 9 м. 2026 г. — выручка…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793652327.1455631
   }
  ],
  "recent_news": [
