@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "b60b0bcfe6cbc5fc",
-  "tg:rbc_news:159621",
-  "983d19ba51d891bf",
-  "ba33f55760836935",
-  "2799a1719a8250a0",
   "3e2820a360e8deae",
   "tg:banksta:104359",
   "tg:markettwits:391018",
@@ -501,13 +496,16 @@
   "tg:markettwits:391674",
   "fa5dc3b94ab64a69",
   "055123085fca66a4",
-  "a18762641eb82d66"
+  "a18762641eb82d66",
+  "145127b3e2ad5b7d",
+  "de60acbdffadca5f",
+  "a3fd3cc4cc28ac69",
+  "49901a3a78059568",
+  "2108d83646bbab7f"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391573",
-   "tg:markettwits:391574",
    "tg:markettwits:391575",
    "tg:markettwits:391576",
    "tg:markettwits:391577",
@@ -605,7 +603,9 @@
    "tg:markettwits:391681",
    "tg:markettwits:391682",
    "tg:markettwits:391677",
-   "tg:markettwits:391674"
+   "tg:markettwits:391674",
+   "tg:markettwits:391683",
+   "tg:markettwits:391684"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -688,7 +688,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104550",
    "tg:banksta:104549",
    "tg:banksta:104552",
    "tg:banksta:104553",
@@ -787,7 +786,8 @@
    "tg:banksta:104685",
    "tg:banksta:104687",
    "tg:banksta:104688",
-   "tg:banksta:104689"
+   "tg:banksta:104689",
+   "tg:banksta:104690"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83758",
@@ -892,8 +892,6 @@
    "tg:cbrstocks:83861"
   ],
   "rbc_news": [
-   "tg:rbc_news:159813",
-   "tg:rbc_news:159814",
    "tg:rbc_news:159815",
    "tg:rbc_news:159816",
    "tg:rbc_news:159817",
@@ -991,7 +989,9 @@
    "tg:rbc_news:159914",
    "tg:rbc_news:159906",
    "tg:rbc_news:159915",
-   "tg:rbc_news:159916"
+   "tg:rbc_news:159916",
+   "tg:rbc_news:159917",
+   "tg:rbc_news:159918"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80965",
@@ -1098,11 +1098,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793633407.2224758,
-   "usd": 81.81,
-   "cny": 12.2195
-  },
-  {
    "ts": 1793637009.6167843,
    "usd": 81.81,
    "cny": 12.228
@@ -1136,14 +1131,14 @@
    "ts": 1793654781.8712761,
    "usd": 81.81,
    "cny": 12.228
+  },
+  {
+   "ts": 1793657107.1217918,
+   "usd": 81.81,
+   "cny": 12.228
   }
  ],
  "ai_seen": [
-  "364533c37497e125",
-  "tg:banksta:104354",
-  "d432e705546adecf",
-  "a89595306f16a8ea",
-  "1a7208959d32bf40",
   "b60b0bcfe6cbc5fc",
   "tg:rbc_news:159621",
   "983d19ba51d891bf",
@@ -1638,7 +1633,12 @@
   "tg:markettwits:391674",
   "fa5dc3b94ab64a69",
   "055123085fca66a4",
-  "a18762641eb82d66"
+  "a18762641eb82d66",
+  "145127b3e2ad5b7d",
+  "de60acbdffadca5f",
+  "a3fd3cc4cc28ac69",
+  "49901a3a78059568",
+  "2108d83646bbab7f"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1676,6 +1676,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793654813.0405047
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Трамп связал падение цен на нефть с ожиданиями конца войны…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793657126.963213
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Кот, Баффет и плюс 36%: помещичьи рассуждения о бумагах ВК",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793657128.8452468
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Яндекс годами теснил Гугл и одержал победу. Теперь…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793657130.7313597
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "ЦБ рассказал, как изменились ставки по вкладам в десяти…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793657132.6261659
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "💰Итоги 2 ноября на Московской бирже",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793657134.532654
   }
  ],
  "recent_news": [
