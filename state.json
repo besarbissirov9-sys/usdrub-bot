@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "46c43585b4617e4b",
-  "15a0fba8d7daa57c",
-  "9830e3cad412cee6",
-  "1795349e80dcbcdb",
-  "tg:banksta:104343",
   "tg:banksta:104348",
   "45e31bf014cde472",
   "tg:banksta:104345",
@@ -501,14 +496,16 @@
   "tg:cbrstocks:83856",
   "tg:markettwits:391648",
   "7820ab3255e518c0",
-  "64a7de0699a74cc2"
+  "64a7de0699a74cc2",
+  "473e78c60dfacaf5",
+  "5e9f96a948bea7be",
+  "be25c0bc411d514c",
+  "38be986870f5fe40",
+  "f3da7dfa493a39db"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391548",
-   "tg:markettwits:391549",
-   "tg:markettwits:391550",
    "tg:markettwits:391551",
    "tg:markettwits:391553",
    "tg:markettwits:391554",
@@ -605,7 +602,10 @@
    "tg:markettwits:391657",
    "tg:markettwits:391658",
    "tg:markettwits:391659",
-   "tg:markettwits:391648"
+   "tg:markettwits:391648",
+   "tg:markettwits:391660",
+   "tg:markettwits:391661",
+   "tg:markettwits:391662"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -688,9 +688,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104531",
-   "tg:banksta:104532",
-   "tg:banksta:104534",
    "tg:banksta:104535",
    "tg:banksta:104536",
    "tg:banksta:104537",
@@ -787,7 +784,10 @@
    "tg:banksta:104667",
    "tg:banksta:104671",
    "tg:banksta:104672",
-   "tg:banksta:104673"
+   "tg:banksta:104673",
+   "tg:banksta:104674",
+   "tg:banksta:104675",
+   "tg:banksta:104676"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83754",
@@ -892,8 +892,6 @@
    "tg:cbrstocks:83856"
   ],
   "rbc_news": [
-   "tg:rbc_news:159804",
-   "tg:rbc_news:159805",
    "tg:rbc_news:159806",
    "tg:rbc_news:159807",
    "tg:rbc_news:159808",
@@ -991,10 +989,11 @@
    "tg:rbc_news:159905",
    "tg:rbc_news:159907",
    "tg:rbc_news:159900",
-   "tg:rbc_news:159908"
+   "tg:rbc_news:159908",
+   "tg:rbc_news:159910",
+   "tg:rbc_news:159911"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80961",
    "tg:interfaxonline:80962",
    "tg:interfaxonline:80964",
    "tg:interfaxonline:80965",
@@ -1093,15 +1092,11 @@
    "tg:interfaxonline:81060",
    "tg:interfaxonline:81062",
    "tg:interfaxonline:81063",
-   "tg:interfaxonline:81064"
+   "tg:interfaxonline:81064",
+   "tg:interfaxonline:81067"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793622123.6721294,
-   "usd": 81.4825,
-   "cny": 12.153
-  },
   {
    "ts": 1793626725.182372,
    "usd": 81.655,
@@ -1131,14 +1126,14 @@
    "ts": 1793643375.455686,
    "usd": 81.81,
    "cny": 12.228
+  },
+  {
+   "ts": 1793646750.598064,
+   "usd": 81.81,
+   "cny": 12.228
   }
  ],
  "ai_seen": [
-  "78d1b0b539969021",
-  "c1ffb1a89db421d2",
-  "cf51329d6489afd6",
-  "caf6332ecbc8fb49",
-  "175c1f2c02fd1828",
   "46c43585b4617e4b",
   "15a0fba8d7daa57c",
   "9830e3cad412cee6",
@@ -1633,45 +1628,15 @@
   "tg:cbrstocks:83856",
   "tg:markettwits:391648",
   "7820ab3255e518c0",
-  "64a7de0699a74cc2"
+  "64a7de0699a74cc2",
+  "473e78c60dfacaf5",
+  "5e9f96a948bea7be",
+  "be25c0bc411d514c",
+  "38be986870f5fe40",
+  "f3da7dfa493a39db"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-02",
-   "headline": "Курс юаня на Мосбирже в понедельник качнулся вверх",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793626747.0445936
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Верховный суд России запретил наследникам претендовать на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793626749.028109
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "NYT узнала, что ФИФА тайно платила миллионы долларов…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793626750.9451942
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Marvell Technology покупает Lumentum за 115 миллиардов…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793626752.8781378
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "ЦБ Казахстана направит на внутренний валютный рынок 910…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793626754.7923226
-  },
   {
    "date": "2026-11-02",
    "headline": "🇷🇺#MOEX #отчетность ОБЪЕМ ТОРГОВ НА МОСКОВСКОЙ БИРЖЕ В…",
@@ -1846,6 +1811,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793643417.4778078
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Украина недополучила 551 миллион долларов из-за снижения…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793646777.669658
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Meta* может привлечь 20 миллиардов долларов, пишет Bloomberg",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793646779.6407251
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Объем торгов на Мосбирже почти достиг 213 трлн рублей в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793646781.6694348
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Объем торгов на Московской бирже в октябре 2026 года…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793646783.6362326
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Следующий уровень улучшения торговых систем",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793646785.6232505
   }
  ],
  "recent_news": [
