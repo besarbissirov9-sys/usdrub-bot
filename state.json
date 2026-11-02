@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "3e2820a360e8deae",
-  "tg:banksta:104359",
-  "tg:markettwits:391018",
-  "b6e10495420dcd60",
-  "tg:interfaxonline:80838",
   "tg:rbc_news:159613",
   "2cf488c61b4f261b",
   "dcc8b98b2e2a67d0",
@@ -501,7 +496,12 @@
   "de60acbdffadca5f",
   "a3fd3cc4cc28ac69",
   "49901a3a78059568",
-  "2108d83646bbab7f"
+  "2108d83646bbab7f",
+  "108a338be840f1e2",
+  "5d72d1f376cbfc9c",
+  "0b9c3a1b9ceb2687",
+  "254e1032156f26dc",
+  "02e0c7bf94792d04"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -688,8 +688,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104549",
-   "tg:banksta:104552",
    "tg:banksta:104553",
    "tg:banksta:104554",
    "tg:banksta:104555",
@@ -787,7 +785,9 @@
    "tg:banksta:104687",
    "tg:banksta:104688",
    "tg:banksta:104689",
-   "tg:banksta:104690"
+   "tg:banksta:104690",
+   "tg:banksta:104691",
+   "tg:banksta:104692"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83758",
@@ -1098,11 +1098,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793637009.6167843,
-   "usd": 81.81,
-   "cny": 12.228
-  },
-  {
    "ts": 1793640254.3082817,
    "usd": 81.81,
    "cny": 12.228
@@ -1136,14 +1131,14 @@
    "ts": 1793657107.1217918,
    "usd": 81.81,
    "cny": 12.228
+  },
+  {
+   "ts": 1793659390.5188076,
+   "usd": 81.81,
+   "cny": 12.228
   }
  ],
  "ai_seen": [
-  "b60b0bcfe6cbc5fc",
-  "tg:rbc_news:159621",
-  "983d19ba51d891bf",
-  "ba33f55760836935",
-  "2799a1719a8250a0",
   "3e2820a360e8deae",
   "tg:banksta:104359",
   "tg:markettwits:391018",
@@ -1638,7 +1633,12 @@
   "de60acbdffadca5f",
   "a3fd3cc4cc28ac69",
   "49901a3a78059568",
-  "2108d83646bbab7f"
+  "2108d83646bbab7f",
+  "108a338be840f1e2",
+  "5d72d1f376cbfc9c",
+  "0b9c3a1b9ceb2687",
+  "254e1032156f26dc",
+  "02e0c7bf94792d04"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1711,6 +1711,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793657134.532654
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Как затравленный ВК стал любимкой инвесторов? Что компания…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793659415.9157946
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "ЦБ сообщил о росте максимальной ставки по вкладам до 13,09%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793659417.9265983
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Рынок США продолжает падать из-за технологического сектора",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793659419.9416506
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "ЦБ продлил на IV кв. 2026 г. рекомендации банкам по…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793659421.9768565
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "ЦБ обсудит с рынком новые требования к кредитному анализу",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793659423.9822924
   }
  ],
  "recent_news": [
