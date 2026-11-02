@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "78d1b0b539969021",
-  "c1ffb1a89db421d2",
-  "cf51329d6489afd6",
-  "caf6332ecbc8fb49",
-  "175c1f2c02fd1828",
   "46c43585b4617e4b",
   "15a0fba8d7daa57c",
   "9830e3cad412cee6",
@@ -501,16 +496,16 @@
   "2b3c09fd10f94684",
   "1e1c89f38e4bfb79",
   "a63ea3b0f2e0e7a3",
-  "tg:rbc_news:159900"
+  "tg:rbc_news:159900",
+  "92617e67940575da",
+  "tg:cbrstocks:83856",
+  "tg:markettwits:391648",
+  "7820ab3255e518c0",
+  "64a7de0699a74cc2"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391542",
-   "tg:markettwits:391543",
-   "tg:markettwits:391544",
-   "tg:markettwits:391546",
-   "tg:markettwits:391547",
    "tg:markettwits:391548",
    "tg:markettwits:391549",
    "tg:markettwits:391550",
@@ -605,7 +600,12 @@
    "tg:markettwits:391649",
    "tg:markettwits:391651",
    "tg:markettwits:391654",
-   "tg:markettwits:391655"
+   "tg:markettwits:391655",
+   "tg:markettwits:391656",
+   "tg:markettwits:391657",
+   "tg:markettwits:391658",
+   "tg:markettwits:391659",
+   "tg:markettwits:391648"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -688,8 +688,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104529",
-   "tg:banksta:104530",
    "tg:banksta:104531",
    "tg:banksta:104532",
    "tg:banksta:104534",
@@ -787,12 +785,11 @@
    "tg:banksta:104662",
    "tg:banksta:104664",
    "tg:banksta:104667",
-   "tg:banksta:104671"
+   "tg:banksta:104671",
+   "tg:banksta:104672",
+   "tg:banksta:104673"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83751",
-   "tg:cbrstocks:83752",
-   "tg:cbrstocks:83753",
    "tg:cbrstocks:83754",
    "tg:cbrstocks:83755",
    "tg:cbrstocks:83757",
@@ -889,10 +886,12 @@
    "tg:cbrstocks:83852",
    "tg:cbrstocks:83853",
    "tg:cbrstocks:83854",
-   "tg:cbrstocks:83855"
+   "tg:cbrstocks:83855",
+   "tg:cbrstocks:83857",
+   "tg:cbrstocks:83858",
+   "tg:cbrstocks:83856"
   ],
   "rbc_news": [
-   "tg:rbc_news:159803",
    "tg:rbc_news:159804",
    "tg:rbc_news:159805",
    "tg:rbc_news:159806",
@@ -991,7 +990,8 @@
    "tg:rbc_news:159904",
    "tg:rbc_news:159905",
    "tg:rbc_news:159907",
-   "tg:rbc_news:159900"
+   "tg:rbc_news:159900",
+   "tg:rbc_news:159908"
   ],
   "interfaxonline": [
    "tg:interfaxonline:80961",
@@ -1098,11 +1098,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793618942.5981784,
-   "usd": 81.755,
-   "cny": 12.193
-  },
-  {
    "ts": 1793622123.6721294,
    "usd": 81.4825,
    "cny": 12.153
@@ -1131,14 +1126,14 @@
    "ts": 1793640254.3082817,
    "usd": 81.81,
    "cny": 12.228
+  },
+  {
+   "ts": 1793643375.455686,
+   "usd": 81.81,
+   "cny": 12.228
   }
  ],
  "ai_seen": [
-  "567bb1787c26b476",
-  "bfc51d298d985269",
-  "9d6a347262fb49d5",
-  "18f4bd421d0b927b",
-  "c9aaa20a079bc6a8",
   "78d1b0b539969021",
   "c1ffb1a89db421d2",
   "cf51329d6489afd6",
@@ -1633,45 +1628,15 @@
   "2b3c09fd10f94684",
   "1e1c89f38e4bfb79",
   "a63ea3b0f2e0e7a3",
-  "tg:rbc_news:159900"
+  "tg:rbc_news:159900",
+  "92617e67940575da",
+  "tg:cbrstocks:83856",
+  "tg:markettwits:391648",
+  "7820ab3255e518c0",
+  "64a7de0699a74cc2"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-02",
-   "headline": "Если золото продолжит падение, спасением станут доллар и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793622149.7573912
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Совет директоров ЛЭСК рекомендовал дивиденды за 9 месяцев…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793622151.8175063
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "\"Библио-Глобус\" взыскал с Express Airline более 6,8…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793622153.8084486
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Российский дизайнер Bentley Илья Разумов рассказал Радио…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793622155.933103
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Brent подешевела до $108,48 за баррель",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793622158.0221264
-  },
   {
    "date": "2026-11-02",
    "headline": "Курс юаня на Мосбирже в понедельник качнулся вверх",
@@ -1846,6 +1811,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793640282.8975039
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Цена на нефть марки Brent опустилась ниже 104 долларов за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793643409.599804
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "#PHOR СД Фосагро рекомендовал внеочередному общему…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793643411.586071
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "🇷🇺#fx #россия ЦБ установил официальные курсы валют на 3…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793643413.546987
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Официальные курсы валют на 3 ноября: ¥ — ₽12,1714, $ —…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793643415.5012457
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Объем торгов \"Мосбиржи\" в октябре вырос на 23% до 212,9…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793643417.4778078
   }
  ],
  "recent_news": [
