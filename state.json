@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "bcbb5fe45d2569e6",
-  "e32f04899ba9933c",
-  "34a2b41774154cf0",
-  "tg:interfaxonline:80834",
-  "5f638195fb8e8cf9",
   "bba5f9bd3d556f38",
   "tg:cbrstocks:83734",
   "tg:cbrstocks:83733",
@@ -501,7 +496,12 @@
   "379b5b9f210fc735",
   "df10dfc7163847dd",
   "8726db1a3e27358b",
-  "32cb43e76543a1ec"
+  "32cb43e76543a1ec",
+  "tg:cbrstocks:83847",
+  "3ffa3aa1e872ebc4",
+  "7d58558e71327df0",
+  "6e1bb9aedf86d8c7",
+  "tg:cbrstocks:83846"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -688,7 +688,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104553",
    "tg:banksta:104554",
    "tg:banksta:104555",
    "tg:banksta:104556",
@@ -787,11 +786,10 @@
    "tg:banksta:104689",
    "tg:banksta:104690",
    "tg:banksta:104691",
-   "tg:banksta:104692"
+   "tg:banksta:104692",
+   "tg:banksta:104693"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83758",
-   "tg:cbrstocks:83759",
    "tg:cbrstocks:83762",
    "tg:cbrstocks:83761",
    "tg:cbrstocks:83763",
@@ -889,7 +887,9 @@
    "tg:cbrstocks:83856",
    "tg:cbrstocks:83859",
    "tg:cbrstocks:83860",
-   "tg:cbrstocks:83861"
+   "tg:cbrstocks:83861",
+   "tg:cbrstocks:83847",
+   "tg:cbrstocks:83846"
   ],
   "rbc_news": [
    "tg:rbc_news:159815",
@@ -994,9 +994,6 @@
    "tg:rbc_news:159918"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80969",
-   "tg:interfaxonline:80970",
-   "tg:interfaxonline:80971",
    "tg:interfaxonline:80972",
    "tg:interfaxonline:80973",
    "tg:interfaxonline:80974",
@@ -1093,15 +1090,13 @@
    "tg:interfaxonline:81071",
    "tg:interfaxonline:81072",
    "tg:interfaxonline:81073",
-   "tg:interfaxonline:81061"
+   "tg:interfaxonline:81061",
+   "tg:interfaxonline:81074",
+   "tg:interfaxonline:81075",
+   "tg:interfaxonline:81076"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793640254.3082817,
-   "usd": 81.81,
-   "cny": 12.228
-  },
   {
    "ts": 1793643375.455686,
    "usd": 81.81,
@@ -1141,14 +1136,14 @@
    "ts": 1793661787.30556,
    "usd": 81.81,
    "cny": 12.228
+  },
+  {
+   "ts": 1793663800.1781352,
+   "usd": 81.81,
+   "cny": 12.228
   }
  ],
  "ai_seen": [
-  "tg:rbc_news:159613",
-  "2cf488c61b4f261b",
-  "dcc8b98b2e2a67d0",
-  "2e4e4a86fa3ac497",
-  "79674c5974076539",
   "bcbb5fe45d2569e6",
   "e32f04899ba9933c",
   "34a2b41774154cf0",
@@ -1643,7 +1638,12 @@
   "379b5b9f210fc735",
   "df10dfc7163847dd",
   "8726db1a3e27358b",
-  "32cb43e76543a1ec"
+  "32cb43e76543a1ec",
+  "tg:cbrstocks:83847",
+  "3ffa3aa1e872ebc4",
+  "7d58558e71327df0",
+  "6e1bb9aedf86d8c7",
+  "tg:cbrstocks:83846"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1786,6 +1786,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793661816.0739672
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "🥇 Золото почти у $3 800: прогноз «Солид Менеджмент» близок…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793663817.466786
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Тимофей третий день не выходит на связь",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793663819.3021243
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Московская биржа запустит организованный рынок цифровых…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793663821.1387928
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Мосбиржа с 1 декабря запускает первый в России…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793663822.9690084
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "#MOEX Мосбиржа официально объявила о запуске торгов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793663824.8107636
   }
  ],
  "recent_news": [
