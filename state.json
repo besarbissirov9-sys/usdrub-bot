@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "34313a96d0556a81",
-  "e3abf7b772aedd0a",
-  "tg:rbc_news:159645",
-  "83f28f20c41c2b8c",
-  "fe5656a501518ceb",
   "2525091fe2ddeef1",
   "57a791a1b2864b72",
   "tg:interfaxonline:80876",
@@ -501,18 +496,16 @@
   "5cc9c3975fa59f13",
   "42161cace7544f84",
   "tg:banksta:104715",
-  "b25b777175989140"
+  "b25b777175989140",
+  "c27dc83af1766cd4",
+  "45cdb2a4d7a909ed",
+  "1b13332169efd2e5",
+  "1a139336bc4856d3",
+  "8d208ca165cb9946"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391675",
-   "tg:markettwits:391676",
-   "tg:markettwits:391678",
-   "tg:markettwits:391679",
-   "tg:markettwits:391680",
-   "tg:markettwits:391681",
-   "tg:markettwits:391682",
    "tg:markettwits:391677",
    "tg:markettwits:391674",
    "tg:markettwits:391683",
@@ -605,7 +598,14 @@
    "tg:markettwits:391775",
    "tg:markettwits:391776",
    "tg:markettwits:391777",
-   "tg:markettwits:391778"
+   "tg:markettwits:391778",
+   "tg:markettwits:391780",
+   "tg:markettwits:391781",
+   "tg:markettwits:391782",
+   "tg:markettwits:391783",
+   "tg:markettwits:391784",
+   "tg:markettwits:391785",
+   "tg:markettwits:391786"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -691,7 +691,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104583",
    "tg:banksta:104590",
    "tg:banksta:104591",
    "tg:banksta:104592",
@@ -790,10 +789,10 @@
    "tg:banksta:104710",
    "tg:banksta:104714",
    "tg:banksta:104716",
-   "tg:banksta:104715"
+   "tg:banksta:104715",
+   "tg:banksta:104717"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83756",
    "tg:cbrstocks:83775",
    "tg:cbrstocks:83776",
    "tg:cbrstocks:83777",
@@ -892,13 +891,10 @@
    "tg:cbrstocks:83874",
    "tg:cbrstocks:83876",
    "tg:cbrstocks:83878",
-   "tg:cbrstocks:83879"
+   "tg:cbrstocks:83879",
+   "tg:cbrstocks:83880"
   ],
   "rbc_news": [
-   "tg:rbc_news:159848",
-   "tg:rbc_news:159849",
-   "tg:rbc_news:159850",
-   "tg:rbc_news:159851",
    "tg:rbc_news:159852",
    "tg:rbc_news:159853",
    "tg:rbc_news:159854",
@@ -994,11 +990,13 @@
    "tg:rbc_news:159949",
    "tg:rbc_news:159950",
    "tg:rbc_news:159952",
-   "tg:rbc_news:159953"
+   "tg:rbc_news:159953",
+   "tg:rbc_news:159954",
+   "tg:rbc_news:159955",
+   "tg:rbc_news:159956",
+   "tg:rbc_news:159957"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80996",
-   "tg:interfaxonline:80997",
    "tg:interfaxonline:80998",
    "tg:interfaxonline:80999",
    "tg:interfaxonline:81000",
@@ -1096,15 +1094,12 @@
    "tg:interfaxonline:81099",
    "tg:interfaxonline:81100",
    "tg:interfaxonline:81101",
-   "tg:interfaxonline:81102"
+   "tg:interfaxonline:81102",
+   "tg:interfaxonline:81103",
+   "tg:interfaxonline:81104"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793683226.8305125,
-   "usd": null,
-   "cny": null
-  },
   {
    "ts": 1793686683.7257187,
    "usd": 81.9975,
@@ -1134,14 +1129,14 @@
    "ts": 1793704449.7177396,
    "usd": 81.88,
    "cny": 12.186
+  },
+  {
+   "ts": 1793707116.8392155,
+   "usd": 81.8875,
+   "cny": 12.1695
   }
  ],
  "ai_seen": [
-  "fc4940f1c0d77d80",
-  "4070958a38047c14",
-  "128476a00a55315d",
-  "tg:cbrstocks:83748",
-  "8791342dcfde76e8",
   "34313a96d0556a81",
   "e3abf7b772aedd0a",
   "tg:rbc_news:159645",
@@ -1636,45 +1631,15 @@
   "5cc9c3975fa59f13",
   "42161cace7544f84",
   "tg:banksta:104715",
-  "b25b777175989140"
+  "b25b777175989140",
+  "c27dc83af1766cd4",
+  "45cdb2a4d7a909ed",
+  "1b13332169efd2e5",
+  "1a139336bc4856d3",
+  "8d208ca165cb9946"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-03",
-   "headline": "🇷🇺#SPBE #отчетность СОВОКУПНЫЙ ОБЪЁМ ТОРГОВ НЕОАКТИВАМИ И…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793686701.0973082
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Рубль утром немного дорожает в паре с юанем на Московской…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793686702.9319837
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Курс юаня на Мосбирже снижается до 12,21 рубля",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793686704.7670457
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Рынок акций РФ открылся в основную сессию ростом индексов…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793686706.648611
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Ozon. Отчет за 3 кв 2026 по МСФО",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793686708.5088966
-  },
   {
    "date": "2026-11-03",
    "headline": "Объем торгов бумагами и неоактивами на «СПБ бирже» достиг…",
@@ -1849,6 +1814,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793704477.031147
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "В России с Google взыскивают почти 38 млрд рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793707138.7624252
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Кабмин выделит 22 регионам более 13 млрд рублей на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793707140.6274486
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Курс юаня во вторник снижается к российской валюте",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793707142.5428417
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Сервис Fresh tunes оштрафован на 2,5 млн рублей за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793707144.4234746
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Фунт растёт на фоне слабого доллара в ожидании ставки…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793707146.3069592
   }
  ],
  "recent_news": [
