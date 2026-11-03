@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "f59b26eda2a55d13",
-  "tg:rbc_news:159689",
-  "50403dbe9b193b36",
-  "bd184848e26aae01",
-  "7e6c4f60a81eee4c",
   "tg:banksta:104423",
   "tg:interfaxonline:80897",
   "tg:rbc_news:159684",
@@ -501,12 +496,16 @@
   "db736fa7030ca2df",
   "bbc21ba15ccae594",
   "0c032db147c31fcd",
-  "250d1ef65ff517a8"
+  "250d1ef65ff517a8",
+  "5489393dbeb7f38a",
+  "a9c8529e38afb988",
+  "cbbf3a698282468f",
+  "dc60cc3653d91896",
+  "196e50963a16d3a0"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391760",
    "tg:markettwits:391761",
    "tg:markettwits:391762",
    "tg:markettwits:391763",
@@ -605,7 +604,8 @@
    "tg:markettwits:391858",
    "tg:markettwits:391859",
    "tg:markettwits:391860",
-   "tg:markettwits:391861"
+   "tg:markettwits:391861",
+   "tg:markettwits:391862"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -692,7 +692,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104620",
    "tg:banksta:104621",
    "tg:banksta:104623",
    "tg:banksta:104625",
@@ -791,7 +790,8 @@
    "tg:banksta:104745",
    "tg:banksta:104746",
    "tg:banksta:104747",
-   "tg:banksta:104748"
+   "tg:banksta:104748",
+   "tg:banksta:104749"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83800",
@@ -1102,11 +1102,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793723072.393325,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
-  {
    "ts": 1793726505.6355417,
    "usd": 82.0725,
    "cny": 12.189
@@ -1140,14 +1135,14 @@
    "ts": 1793743088.8888776,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793745151.9334729,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "tg:interfaxonline:80889",
-  "0b6a9e9c1b6f7f75",
-  "670210fac6eef153",
-  "tg:banksta:104434",
-  "9dfb2967ace7f031",
   "f59b26eda2a55d13",
   "tg:rbc_news:159689",
   "50403dbe9b193b36",
@@ -1642,7 +1637,12 @@
   "db736fa7030ca2df",
   "bbc21ba15ccae594",
   "0c032db147c31fcd",
-  "250d1ef65ff517a8"
+  "250d1ef65ff517a8",
+  "5489393dbeb7f38a",
+  "a9c8529e38afb988",
+  "cbbf3a698282468f",
+  "dc60cc3653d91896",
+  "196e50963a16d3a0"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1715,6 +1715,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793743119.247975
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "📝 Самое дорогое тестовое задание в истории: как КНДР…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793745176.871587
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "ЮГК установил финальный ориентир ставки купона по юаневым…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793745178.8787727
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Россияне стали больше жаловаться в ЦБ",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793745180.8935907
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Банк России подал новый иск в суд ЕС к Совету Евросоюза,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793745182.9376976
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "МГКЛ допустил второй техдефолт по выплате купона облигаций",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793745184.951383
   }
  ],
  "recent_news": [
