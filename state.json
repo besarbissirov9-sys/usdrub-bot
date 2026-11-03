@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "tg:banksta:104420",
-  "a42ed782fd005d54",
-  "6d990f4515c65cc9",
-  "f92b3b4962046202",
-  "760cc4b8e47ba6e5",
   "3bd439bf431df8ff",
   "12c872ffc5e6215f",
   "6928f913ec0acf08",
@@ -501,13 +496,16 @@
   "tg:rbc_news:159994",
   "a643bb2c52b2cc5b",
   "d63a6dc8d59ef07b",
-  "6fca10a183b23379"
+  "6fca10a183b23379",
+  "8fd1a092b0ab0b53",
+  "61bdf2a318c99685",
+  "db6bd48333c43c88",
+  "de00b36769a61e0a",
+  "75aa443da6e17774"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391746",
-   "tg:markettwits:391747",
    "tg:markettwits:391748",
    "tg:markettwits:391749",
    "tg:markettwits:391751",
@@ -605,7 +603,9 @@
    "tg:markettwits:391830",
    "tg:markettwits:391846",
    "tg:markettwits:391847",
-   "tg:markettwits:391848"
+   "tg:markettwits:391848",
+   "tg:markettwits:391849",
+   "tg:markettwits:391850"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -692,8 +692,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104614",
-   "tg:banksta:104615",
    "tg:banksta:104616",
    "tg:banksta:104617",
    "tg:banksta:104618",
@@ -791,7 +789,9 @@
    "tg:banksta:104739",
    "tg:banksta:104740",
    "tg:banksta:104738",
-   "tg:banksta:104742"
+   "tg:banksta:104742",
+   "tg:banksta:104743",
+   "tg:banksta:104744"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83799",
@@ -896,7 +896,6 @@
    "tg:cbrstocks:83904"
   ],
   "rbc_news": [
-   "tg:rbc_news:159878",
    "tg:rbc_news:159879",
    "tg:rbc_news:159881",
    "tg:rbc_news:159882",
@@ -995,10 +994,10 @@
    "tg:rbc_news:159991",
    "tg:rbc_news:159992",
    "tg:rbc_news:159993",
-   "tg:rbc_news:159994"
+   "tg:rbc_news:159994",
+   "tg:rbc_news:159995"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81016",
    "tg:interfaxonline:81017",
    "tg:interfaxonline:81018",
    "tg:interfaxonline:81019",
@@ -1097,15 +1096,11 @@
    "tg:interfaxonline:81119",
    "tg:interfaxonline:81120",
    "tg:interfaxonline:81124",
-   "tg:interfaxonline:81125"
+   "tg:interfaxonline:81125",
+   "tg:interfaxonline:81126"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793714335.4263768,
-   "usd": 81.975,
-   "cny": 12.185
-  },
   {
    "ts": 1793717397.3953278,
    "usd": 82.25,
@@ -1140,14 +1135,14 @@
    "ts": 1793734908.1356363,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793737748.469194,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "tg:interfaxonline:80892",
-  "8b3bea4eb50c08a2",
-  "a20bbf91761071ce",
-  "tg:rbc_news:159677",
-  "fd00ac0a6e8b5963",
   "tg:banksta:104420",
   "a42ed782fd005d54",
   "6d990f4515c65cc9",
@@ -1642,45 +1637,15 @@
   "tg:rbc_news:159994",
   "a643bb2c52b2cc5b",
   "d63a6dc8d59ef07b",
-  "6fca10a183b23379"
+  "6fca10a183b23379",
+  "8fd1a092b0ab0b53",
+  "61bdf2a318c99685",
+  "db6bd48333c43c88",
+  "de00b36769a61e0a",
+  "75aa443da6e17774"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-03",
-   "headline": "Официальный курс доллара на 4 ноября превысил 81 рубль",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793719803.480323
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "ЦБ установил официальный курс доллара на 4 ноября ниже ₽82",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793719805.3565443
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "ЦБ начал повышать курсы валют — доллар поднялся выше 81…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793719807.3778312
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "💵💶Официальные курсы ЦБ РФ с 4 ноября - 81,6699 руб./$1 и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793719809.2620006
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "«Флориду ждёт крах рынка недвижимости на триллион…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793719811.2209976
-  },
   {
    "date": "2026-11-03",
    "headline": "Курс юаня на Мосбирже снизился до 12,19 рубля",
@@ -1855,6 +1820,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793734939.4366183
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "🔥 Инвестиции – это просто. Пассивный доход на лайте.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793737769.363318
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "До 16,8% годовых с рейтингом AAA. Смотрим самые доходные…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793737771.3776996
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "🎩 АБЗ-1: асфальтовые реки, чужие долги и кэптивная рулетка",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793737773.4188793
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "📉 Российский рынок: зависимость от нефти и Ближнего Востока",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793737775.5121799
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Наш фондовый рынок замкнулся на внутренний спрос",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793737777.5227735
   }
  ],
  "recent_news": [
