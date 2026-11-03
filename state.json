@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "2525091fe2ddeef1",
-  "57a791a1b2864b72",
-  "tg:interfaxonline:80876",
-  "tg:interfaxonline:80866",
-  "tg:cbrstocks:83759",
   "975911905f1e36f4",
   "70e3a87b9051796f",
   "tg:banksta:104370",
@@ -501,23 +496,16 @@
   "45cdb2a4d7a909ed",
   "1b13332169efd2e5",
   "1a139336bc4856d3",
-  "8d208ca165cb9946"
+  "8d208ca165cb9946",
+  "5f504c0a21d03353",
+  "13ee0a772217fb85",
+  "4d813addd1b2fee5",
+  "0e0b39d0baf3a9ae",
+  "cf029b43eba75d90"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391677",
-   "tg:markettwits:391674",
-   "tg:markettwits:391683",
-   "tg:markettwits:391684",
-   "tg:markettwits:391687",
-   "tg:markettwits:391688",
-   "tg:markettwits:391690",
-   "tg:markettwits:391691",
-   "tg:markettwits:391692",
-   "tg:markettwits:391689",
-   "tg:markettwits:391685",
-   "tg:markettwits:391693",
    "tg:markettwits:391694",
    "tg:markettwits:391695",
    "tg:markettwits:391696",
@@ -605,7 +593,19 @@
    "tg:markettwits:391783",
    "tg:markettwits:391784",
    "tg:markettwits:391785",
-   "tg:markettwits:391786"
+   "tg:markettwits:391786",
+   "tg:markettwits:391788",
+   "tg:markettwits:391789",
+   "tg:markettwits:391790",
+   "tg:markettwits:391791",
+   "tg:markettwits:391792",
+   "tg:markettwits:391793",
+   "tg:markettwits:391794",
+   "tg:markettwits:391795",
+   "tg:markettwits:391796",
+   "tg:markettwits:391797",
+   "tg:markettwits:391798",
+   "tg:markettwits:391799"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -691,8 +691,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104590",
-   "tg:banksta:104591",
    "tg:banksta:104592",
    "tg:banksta:104593",
    "tg:banksta:104594",
@@ -790,11 +788,11 @@
    "tg:banksta:104714",
    "tg:banksta:104716",
    "tg:banksta:104715",
-   "tg:banksta:104717"
+   "tg:banksta:104717",
+   "tg:banksta:104719",
+   "tg:banksta:104720"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83775",
-   "tg:cbrstocks:83776",
    "tg:cbrstocks:83777",
    "tg:cbrstocks:83778",
    "tg:cbrstocks:83779",
@@ -892,12 +890,11 @@
    "tg:cbrstocks:83876",
    "tg:cbrstocks:83878",
    "tg:cbrstocks:83879",
-   "tg:cbrstocks:83880"
+   "tg:cbrstocks:83880",
+   "tg:cbrstocks:83881",
+   "tg:cbrstocks:83882"
   ],
   "rbc_news": [
-   "tg:rbc_news:159852",
-   "tg:rbc_news:159853",
-   "tg:rbc_news:159854",
    "tg:rbc_news:159855",
    "tg:rbc_news:159857",
    "tg:rbc_news:159858",
@@ -994,14 +991,12 @@
    "tg:rbc_news:159954",
    "tg:rbc_news:159955",
    "tg:rbc_news:159956",
-   "tg:rbc_news:159957"
+   "tg:rbc_news:159957",
+   "tg:rbc_news:159968",
+   "tg:rbc_news:159969",
+   "tg:rbc_news:159970"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80998",
-   "tg:interfaxonline:80999",
-   "tg:interfaxonline:81000",
-   "tg:interfaxonline:81001",
-   "tg:interfaxonline:81002",
    "tg:interfaxonline:81003",
    "tg:interfaxonline:81004",
    "tg:interfaxonline:81005",
@@ -1096,15 +1091,15 @@
    "tg:interfaxonline:81101",
    "tg:interfaxonline:81102",
    "tg:interfaxonline:81103",
-   "tg:interfaxonline:81104"
+   "tg:interfaxonline:81104",
+   "tg:interfaxonline:81105",
+   "tg:interfaxonline:81106",
+   "tg:interfaxonline:81107",
+   "tg:interfaxonline:81108",
+   "tg:interfaxonline:81109"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793686683.7257187,
-   "usd": 81.9975,
-   "cny": 12.2055
-  },
   {
    "ts": 1793691253.0745106,
    "usd": 82.07,
@@ -1134,14 +1129,14 @@
    "ts": 1793707116.8392155,
    "usd": 81.8875,
    "cny": 12.1695
+  },
+  {
+   "ts": 1793710270.3387105,
+   "usd": 81.97,
+   "cny": 12.179
   }
  ],
  "ai_seen": [
-  "34313a96d0556a81",
-  "e3abf7b772aedd0a",
-  "tg:rbc_news:159645",
-  "83f28f20c41c2b8c",
-  "fe5656a501518ceb",
   "2525091fe2ddeef1",
   "57a791a1b2864b72",
   "tg:interfaxonline:80876",
@@ -1636,45 +1631,15 @@
   "45cdb2a4d7a909ed",
   "1b13332169efd2e5",
   "1a139336bc4856d3",
-  "8d208ca165cb9946"
+  "8d208ca165cb9946",
+  "5f504c0a21d03353",
+  "13ee0a772217fb85",
+  "4d813addd1b2fee5",
+  "0e0b39d0baf3a9ae",
+  "cf029b43eba75d90"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-03",
-   "headline": "Объем торгов бумагами и неоактивами на «СПБ бирже» достиг…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793691278.3688707
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Цена на палладий упала ниже 950 долларов впервые с мая…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793691280.3233175
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Просроченная задолженность предприятий общепита к сентябрю…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793691282.284979
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Австралийский центробанк повысил ставку рефинансирования…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793691284.2792776
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "ПАО «МГКЛ» не перечислило в срок купонный платёж по…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793691286.2790077
-  },
   {
    "date": "2026-11-03",
    "headline": "Банк России купил юаней на внутреннем рынке на 12,1…",
@@ -1849,6 +1814,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793707146.3069592
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "На госнацполитику в проекте бюджета заложили более 14…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793710296.9182997
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "На завершение строительства порта Корсаков выделят 600…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793710298.9877267
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Аналитики Синары снизили целевую цену акций Эталон Груп на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793710301.006816
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "На работы по возделыванию озимых выделят более 13…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793710303.0664432
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "\"Почта России\" в октябре получила из бюджета 7,4 млрд…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793710305.0600119
   }
  ],
  "recent_news": [
