@@ -2,9 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "80c6dcf6fa6d2f48",
-  "6eeabb49ff651737",
-  "d7a3cf4297ccb9fd",
   "tg:russianmacro:23657",
   "tg:cbrstocks:83721",
   "c79f10b83760df8b",
@@ -501,7 +498,10 @@
   "1b650c7b9f41228f",
   "d797898b55df23b6",
   "dd113f9adfaffd88",
-  "3159fed3795e97d7"
+  "3159fed3795e97d7",
+  "tg:interfaxonline:81081",
+  "729df75a675b2853",
+  "e5265dd3bf5e9e20"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -994,8 +994,6 @@
    "tg:rbc_news:159918"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80967",
-   "tg:interfaxonline:80963",
    "tg:interfaxonline:80975",
    "tg:interfaxonline:80976",
    "tg:interfaxonline:80977",
@@ -1093,15 +1091,12 @@
    "tg:interfaxonline:81076",
    "tg:interfaxonline:81077",
    "tg:interfaxonline:81078",
-   "tg:interfaxonline:81079"
+   "tg:interfaxonline:81079",
+   "tg:interfaxonline:81080",
+   "tg:interfaxonline:81081"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793649652.5563426,
-   "usd": 81.81,
-   "cny": 12.228
-  },
   {
    "ts": 1793652300.6510425,
    "usd": 81.81,
@@ -1141,12 +1136,14 @@
    "ts": 1793670224.1044853,
    "usd": 81.81,
    "cny": 12.228
+  },
+  {
+   "ts": 1793673024.8502333,
+   "usd": 81.81,
+   "cny": 12.228
   }
  ],
  "ai_seen": [
-  "5f638195fb8e8cf9",
-  "bba5f9bd3d556f38",
-  "tg:cbrstocks:83734",
   "tg:cbrstocks:83733",
   "05f4c4cd86ffca49",
   "80c6dcf6fa6d2f48",
@@ -1643,24 +1640,13 @@
   "1b650c7b9f41228f",
   "d797898b55df23b6",
   "dd113f9adfaffd88",
-  "3159fed3795e97d7"
+  "3159fed3795e97d7",
+  "tg:interfaxonline:81081",
+  "729df75a675b2853",
+  "e5265dd3bf5e9e20"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-03",
-   "headline": "⬇️🇺🇸#MRVL = 32% за 3 дня сильнейшее 3-дневное падение с…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793654805.065455
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "❗️🇮🇷#иран #геополитика #трамп ТРАМП: Цены на нефть ПАДАЮТ…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793654807.094061
-  },
   {
    "date": "2026-11-03",
    "headline": "Трамп объяснил резкое падение цен на нефть",
@@ -1849,6 +1835,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793666246.8776405
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "🚀Китайская ракета-носитель вывела на орбиту группу из 18…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793673045.0815873
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Не только углеводороды: как Россия перестраивает экспорт…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793673047.0155427
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Нефть дорожает после удара США по иранскому острову Кешм",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793673048.9283793
   }
  ],
  "recent_news": [
