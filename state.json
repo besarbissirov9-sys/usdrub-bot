@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "tg:banksta:104423",
   "tg:interfaxonline:80897",
   "tg:rbc_news:159684",
   "4cd17ea86d113d27",
@@ -501,7 +500,8 @@
   "a9c8529e38afb988",
   "cbbf3a698282468f",
   "dc60cc3653d91896",
-  "196e50963a16d3a0"
+  "196e50963a16d3a0",
+  "tg:russianmacro:23687"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -663,7 +663,8 @@
    "tg:russianmacro:23686",
    "tg:russianmacro:23688",
    "tg:russianmacro:23689",
-   "tg:russianmacro:23690"
+   "tg:russianmacro:23690",
+   "tg:russianmacro:23687"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -1140,10 +1141,14 @@
    "ts": 1793745151.9334729,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793747955.8684561,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "f59b26eda2a55d13",
   "tg:rbc_news:159689",
   "50403dbe9b193b36",
   "bd184848e26aae01",
@@ -1642,7 +1647,8 @@
   "a9c8529e38afb988",
   "cbbf3a698282468f",
   "dc60cc3653d91896",
-  "196e50963a16d3a0"
+  "196e50963a16d3a0",
+  "tg:russianmacro:23687"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1750,6 +1756,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793745184.951383
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "БАНК АВСТРАЛИИ: ВТОРОЙ ХАЙК ПОДРЯД, СИГНАЛ ЖЕСТКОВАТ…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793747974.9568684
   }
  ],
  "recent_news": [
