@@ -2,10 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-02",
  "posted": [
-  "bba5f9bd3d556f38",
-  "tg:cbrstocks:83734",
-  "tg:cbrstocks:83733",
-  "05f4c4cd86ffca49",
   "80c6dcf6fa6d2f48",
   "6eeabb49ff651737",
   "d7a3cf4297ccb9fd",
@@ -501,7 +497,11 @@
   "3ffa3aa1e872ebc4",
   "7d58558e71327df0",
   "6e1bb9aedf86d8c7",
-  "tg:cbrstocks:83846"
+  "tg:cbrstocks:83846",
+  "1b650c7b9f41228f",
+  "d797898b55df23b6",
+  "dd113f9adfaffd88",
+  "3159fed3795e97d7"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -994,7 +994,6 @@
    "tg:rbc_news:159918"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80972",
    "tg:interfaxonline:80973",
    "tg:interfaxonline:80974",
    "tg:interfaxonline:80967",
@@ -1093,15 +1092,11 @@
    "tg:interfaxonline:81061",
    "tg:interfaxonline:81074",
    "tg:interfaxonline:81075",
-   "tg:interfaxonline:81076"
+   "tg:interfaxonline:81076",
+   "tg:interfaxonline:81077"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793643375.455686,
-   "usd": 81.81,
-   "cny": 12.228
-  },
   {
    "ts": 1793646750.598064,
    "usd": 81.81,
@@ -1141,13 +1136,14 @@
    "ts": 1793663800.1781352,
    "usd": 81.81,
    "cny": 12.228
+  },
+  {
+   "ts": 1793666218.532813,
+   "usd": 81.81,
+   "cny": 12.228
   }
  ],
  "ai_seen": [
-  "bcbb5fe45d2569e6",
-  "e32f04899ba9933c",
-  "34a2b41774154cf0",
-  "tg:interfaxonline:80834",
   "5f638195fb8e8cf9",
   "bba5f9bd3d556f38",
   "tg:cbrstocks:83734",
@@ -1643,7 +1639,11 @@
   "3ffa3aa1e872ebc4",
   "7d58558e71327df0",
   "6e1bb9aedf86d8c7",
-  "tg:cbrstocks:83846"
+  "tg:cbrstocks:83846",
+  "1b650c7b9f41228f",
+  "d797898b55df23b6",
+  "dd113f9adfaffd88",
+  "3159fed3795e97d7"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1821,6 +1821,34 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793663824.8107636
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Эксперт рассказала, как получить 36 тысяч рублей от…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793666240.9912503
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Чистая прибыль \"Совкомбанка\" за 9 месяцев по РСБУ выросла…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793666242.9539816
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "МИД РФ: Запад вряд ли отменит санкции даже при…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793666244.9204524
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "«Почта России» выставила на торги комплекс Главпочтамта в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793666246.8776405
   }
  ],
  "recent_news": [
