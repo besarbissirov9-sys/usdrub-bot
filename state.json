@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "fc4940f1c0d77d80",
-  "4070958a38047c14",
-  "128476a00a55315d",
-  "tg:cbrstocks:83748",
-  "8791342dcfde76e8",
   "34313a96d0556a81",
   "e3abf7b772aedd0a",
   "tg:rbc_news:159645",
@@ -501,19 +496,16 @@
   "edc4632a51b8ce26",
   "06eaa1dba4ba2ffb",
   "fc0838a8f8a88286",
-  "c7345cc038f3ac4f"
+  "c7345cc038f3ac4f",
+  "75315d4319c35b39",
+  "5cc9c3975fa59f13",
+  "42161cace7544f84",
+  "tg:banksta:104715",
+  "b25b777175989140"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391666",
-   "tg:markettwits:391667",
-   "tg:markettwits:391668",
-   "tg:markettwits:391669",
-   "tg:markettwits:391670",
-   "tg:markettwits:391671",
-   "tg:markettwits:391672",
-   "tg:markettwits:391673",
    "tg:markettwits:391675",
    "tg:markettwits:391676",
    "tg:markettwits:391678",
@@ -605,7 +597,15 @@
    "tg:markettwits:391767",
    "tg:markettwits:391768",
    "tg:markettwits:391769",
-   "tg:markettwits:391770"
+   "tg:markettwits:391770",
+   "tg:markettwits:391771",
+   "tg:markettwits:391772",
+   "tg:markettwits:391773",
+   "tg:markettwits:391774",
+   "tg:markettwits:391775",
+   "tg:markettwits:391776",
+   "tg:markettwits:391777",
+   "tg:markettwits:391778"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -691,9 +691,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104579",
-   "tg:banksta:104581",
-   "tg:banksta:104582",
    "tg:banksta:104583",
    "tg:banksta:104590",
    "tg:banksta:104591",
@@ -790,7 +787,10 @@
    "tg:banksta:104706",
    "tg:banksta:104708",
    "tg:banksta:104709",
-   "tg:banksta:104710"
+   "tg:banksta:104710",
+   "tg:banksta:104714",
+   "tg:banksta:104716",
+   "tg:banksta:104715"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83756",
@@ -895,10 +895,6 @@
    "tg:cbrstocks:83879"
   ],
   "rbc_news": [
-   "tg:rbc_news:159844",
-   "tg:rbc_news:159845",
-   "tg:rbc_news:159846",
-   "tg:rbc_news:159847",
    "tg:rbc_news:159848",
    "tg:rbc_news:159849",
    "tg:rbc_news:159850",
@@ -994,11 +990,13 @@
    "tg:rbc_news:159944",
    "tg:rbc_news:159945",
    "tg:rbc_news:159947",
-   "tg:rbc_news:159948"
+   "tg:rbc_news:159948",
+   "tg:rbc_news:159949",
+   "tg:rbc_news:159950",
+   "tg:rbc_news:159952",
+   "tg:rbc_news:159953"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:80994",
-   "tg:interfaxonline:80995",
    "tg:interfaxonline:80996",
    "tg:interfaxonline:80997",
    "tg:interfaxonline:80998",
@@ -1096,15 +1094,12 @@
    "tg:interfaxonline:81097",
    "tg:interfaxonline:81098",
    "tg:interfaxonline:81099",
-   "tg:interfaxonline:81100"
+   "tg:interfaxonline:81100",
+   "tg:interfaxonline:81101",
+   "tg:interfaxonline:81102"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793679652.9080474,
-   "usd": null,
-   "cny": null
-  },
   {
    "ts": 1793683226.8305125,
    "usd": null,
@@ -1134,14 +1129,14 @@
    "ts": 1793701163.223532,
    "usd": 81.88,
    "cny": 12.187
+  },
+  {
+   "ts": 1793704449.7177396,
+   "usd": 81.88,
+   "cny": 12.186
   }
  ],
  "ai_seen": [
-  "tg:banksta:104373",
-  "203fd75aebb2fc42",
-  "tg:markettwits:391063",
-  "0ca66ba7d2d25f4c",
-  "tg:banksta:104377",
   "fc4940f1c0d77d80",
   "4070958a38047c14",
   "128476a00a55315d",
@@ -1636,45 +1631,15 @@
   "edc4632a51b8ce26",
   "06eaa1dba4ba2ffb",
   "fc0838a8f8a88286",
-  "c7345cc038f3ac4f"
+  "c7345cc038f3ac4f",
+  "75315d4319c35b39",
+  "5cc9c3975fa59f13",
+  "42161cace7544f84",
+  "tg:banksta:104715",
+  "b25b777175989140"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-03",
-   "headline": "Приставы в России взыскивают с Telegram штрафы на 8,5…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793683242.5143592
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Сбер. Нотки пессимизма!",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793683244.3732271
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Почему сегодня падает китайский юань?",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793683246.2760699
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Рынок акций РФ открылся ростом индексов МосБиржи и РТС на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793683248.142378
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Азиатские валюты разнонаправлены: юань слабеет, вона…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793683249.9595554
-  },
   {
    "date": "2026-11-03",
    "headline": "🇷🇺#SPBE #отчетность СОВОКУПНЫЙ ОБЪЁМ ТОРГОВ НЕОАКТИВАМИ И…",
@@ -1849,6 +1814,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793701207.672995
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "В Петербурге зарегистрировали иск к \"Газпрому\" на 89,5…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793704469.4693143
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Кредитные организации вернули долги клиентов на 105,5 млн…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793704471.369463
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Росприроднадзор просит суд взыскать с \"Дулисьмы\" 722…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793704473.247688
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Владельцы смартфонов iPhone, включая модель iPhone 16,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793704475.1541567
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Среднемесячная зарплата в Петербурге к 2029 году достигнет…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793704477.031147
   }
  ],
  "recent_news": [
