@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "bd80bdfa648d457e",
-  "tg:banksta:104403",
-  "245f98778743a1a4",
-  "8f21f1d92581f2db",
-  "34bd6ea538f535ac",
   "tg:banksta:104409",
   "tg:banksta:104408",
   "5d1c03c44b91b7fb",
@@ -501,15 +496,16 @@
   "044c39d4d44290a7",
   "0ecfab1ca46145f2",
   "58a5cac2b159b258",
-  "35ad048bda3dcb4f"
+  "35ad048bda3dcb4f",
+  "40f5475000369a18",
+  "tg:markettwits:391830",
+  "4897a1fe2390ea3e",
+  "4ff04569e7cbb2a9",
+  "2c65c8df872080fa"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391737",
-   "tg:markettwits:391738",
-   "tg:markettwits:391739",
-   "tg:markettwits:391740",
    "tg:markettwits:391741",
    "tg:markettwits:391742",
    "tg:markettwits:391745",
@@ -605,7 +601,11 @@
    "tg:markettwits:391839",
    "tg:markettwits:391840",
    "tg:markettwits:391841",
-   "tg:markettwits:391842"
+   "tg:markettwits:391842",
+   "tg:markettwits:391843",
+   "tg:markettwits:391844",
+   "tg:markettwits:391845",
+   "tg:markettwits:391830"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -692,8 +692,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104607",
-   "tg:banksta:104609",
    "tg:banksta:104610",
    "tg:banksta:104611",
    "tg:banksta:104612",
@@ -791,7 +789,9 @@
    "tg:banksta:104732",
    "tg:banksta:104733",
    "tg:banksta:104734",
-   "tg:banksta:104735"
+   "tg:banksta:104735",
+   "tg:banksta:104736",
+   "tg:banksta:104737"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83799",
@@ -896,8 +896,6 @@
    "tg:cbrstocks:83904"
   ],
   "rbc_news": [
-   "tg:rbc_news:159870",
-   "tg:rbc_news:159871",
    "tg:rbc_news:159872",
    "tg:rbc_news:159873",
    "tg:rbc_news:159874",
@@ -995,12 +993,11 @@
    "tg:rbc_news:159984",
    "tg:rbc_news:159980",
    "tg:rbc_news:159985",
-   "tg:rbc_news:159986"
+   "tg:rbc_news:159986",
+   "tg:rbc_news:159987",
+   "tg:rbc_news:159988"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81012",
-   "tg:interfaxonline:81013",
-   "tg:interfaxonline:81014",
    "tg:interfaxonline:81015",
    "tg:interfaxonline:81016",
    "tg:interfaxonline:81017",
@@ -1097,15 +1094,13 @@
    "tg:interfaxonline:81115",
    "tg:interfaxonline:81116",
    "tg:interfaxonline:81117",
-   "tg:interfaxonline:81118"
+   "tg:interfaxonline:81118",
+   "tg:interfaxonline:81119",
+   "tg:interfaxonline:81120",
+   "tg:interfaxonline:81124"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793707116.8392155,
-   "usd": 81.8875,
-   "cny": 12.1695
-  },
   {
    "ts": 1793710270.3387105,
    "usd": 81.97,
@@ -1135,14 +1130,14 @@
    "ts": 1793726505.6355417,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793729392.2328272,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "bf7ecad61bd99366",
-  "bb689d755c09fabc",
-  "fb0528cce3f677f5",
-  "50ede4e10bacbe50",
-  "74e0cbb3d132c663",
   "bd80bdfa648d457e",
   "tg:banksta:104403",
   "245f98778743a1a4",
@@ -1637,45 +1632,15 @@
   "044c39d4d44290a7",
   "0ecfab1ca46145f2",
   "58a5cac2b159b258",
-  "35ad048bda3dcb4f"
+  "35ad048bda3dcb4f",
+  "40f5475000369a18",
+  "tg:markettwits:391830",
+  "4897a1fe2390ea3e",
+  "4ff04569e7cbb2a9",
+  "2c65c8df872080fa"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-03",
-   "headline": "На госнацполитику в проекте бюджета заложили более 14…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793710296.9182997
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "На завершение строительства порта Корсаков выделят 600…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793710298.9877267
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Аналитики Синары снизили целевую цену акций Эталон Груп на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793710301.006816
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "На работы по возделыванию озимых выделят более 13…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793710303.0664432
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "\"Почта России\" в октябре получила из бюджета 7,4 млрд…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793710305.0600119
-  },
   {
    "date": "2026-11-03",
    "headline": "Цена на нефть Brent опустилась ниже 101 доллара",
@@ -1850,6 +1815,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793726541.3709688
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Цена галлона бензина в США в день голосования составила…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793729418.5330424
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "🇷🇺#fx #россия ЦБ установил официальные курсы валют на 4…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793729420.606297
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Официальные курсы валют на 4 ноября: ¥ — ₽12,1816, $ —…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793729422.671103
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Чистая прибыль «ЯТЭК» по РСБУ за 9 месяцев выросла на 27,5%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793729424.6780922
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Экс-глава China Eastern Airlines получил 14 лет тюрьмы за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793729426.7120934
   }
  ],
  "recent_news": [
