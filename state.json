@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "tg:interfaxonline:80889",
-  "0b6a9e9c1b6f7f75",
-  "670210fac6eef153",
-  "tg:banksta:104434",
-  "9dfb2967ace7f031",
   "f59b26eda2a55d13",
   "tg:rbc_news:159689",
   "50403dbe9b193b36",
@@ -501,15 +496,16 @@
   "476b18bf66189788",
   "tg:rbc_news:159983",
   "63822275710d7386",
-  "5739bda0e02ac4bb"
+  "5739bda0e02ac4bb",
+  "tg:rbc_news:159981",
+  "db736fa7030ca2df",
+  "bbc21ba15ccae594",
+  "0c032db147c31fcd",
+  "250d1ef65ff517a8"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391756",
-   "tg:markettwits:391757",
-   "tg:markettwits:391758",
-   "tg:markettwits:391759",
    "tg:markettwits:391760",
    "tg:markettwits:391761",
    "tg:markettwits:391762",
@@ -605,7 +601,11 @@
    "tg:markettwits:391854",
    "tg:markettwits:391855",
    "tg:markettwits:391856",
-   "tg:markettwits:391857"
+   "tg:markettwits:391857",
+   "tg:markettwits:391858",
+   "tg:markettwits:391859",
+   "tg:markettwits:391860",
+   "tg:markettwits:391861"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -692,7 +692,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104619",
    "tg:banksta:104620",
    "tg:banksta:104621",
    "tg:banksta:104623",
@@ -791,7 +790,8 @@
    "tg:banksta:104744",
    "tg:banksta:104745",
    "tg:banksta:104746",
-   "tg:banksta:104747"
+   "tg:banksta:104747",
+   "tg:banksta:104748"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83800",
@@ -896,9 +896,6 @@
    "tg:cbrstocks:83903"
   ],
   "rbc_news": [
-   "tg:rbc_news:159883",
-   "tg:rbc_news:159884",
-   "tg:rbc_news:159885",
    "tg:rbc_news:159886",
    "tg:rbc_news:159887",
    "tg:rbc_news:159888",
@@ -995,7 +992,10 @@
    "tg:rbc_news:159995",
    "tg:rbc_news:159996",
    "tg:rbc_news:159997",
-   "tg:rbc_news:159983"
+   "tg:rbc_news:159983",
+   "tg:rbc_news:159998",
+   "tg:rbc_news:159999",
+   "tg:rbc_news:159981"
   ],
   "interfaxonline": [
    "tg:interfaxonline:81017",
@@ -1102,11 +1102,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793719785.8756037,
-   "usd": 82.0725,
-   "cny": 12.1875
-  },
-  {
    "ts": 1793723072.393325,
    "usd": 82.0725,
    "cny": 12.189
@@ -1140,14 +1135,14 @@
    "ts": 1793740536.3581548,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793743088.8888776,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "3bd439bf431df8ff",
-  "12c872ffc5e6215f",
-  "6928f913ec0acf08",
-  "05e74aeb00adf465",
-  "232fd6d586750a9d",
   "tg:interfaxonline:80889",
   "0b6a9e9c1b6f7f75",
   "670210fac6eef153",
@@ -1642,7 +1637,12 @@
   "476b18bf66189788",
   "tg:rbc_news:159983",
   "63822275710d7386",
-  "5739bda0e02ac4bb"
+  "5739bda0e02ac4bb",
+  "tg:rbc_news:159981",
+  "db736fa7030ca2df",
+  "bbc21ba15ccae594",
+  "0c032db147c31fcd",
+  "250d1ef65ff517a8"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1680,6 +1680,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793740561.6213272
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "США прекратят оказывать помощь Израилю в конце 2026 года,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793743111.3740783
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "КЛВЗ: В зоне риска.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793743113.3355193
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Акции не ходят по прямой: как заработать на качелях",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793743115.3280315
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Впечатления от конференции Smart Lab в Москве",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793743117.2941887
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Банк России разрешил регулируемым криптообменникам…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793743119.247975
   }
  ],
  "recent_news": [
