@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "975911905f1e36f4",
-  "70e3a87b9051796f",
-  "tg:banksta:104370",
-  "9a129ac843ad6018",
-  "tg:cbrstocks:83761",
   "tg:markettwits:391119",
   "7e1685c04193aa8d",
   "c0558a98427b6bb9",
@@ -501,31 +496,16 @@
   "13ee0a772217fb85",
   "4d813addd1b2fee5",
   "0e0b39d0baf3a9ae",
-  "cf029b43eba75d90"
+  "cf029b43eba75d90",
+  "4dbddaa711795a42",
+  "5beacfe5eb4451a8",
+  "93610a6fb6d83333",
+  "7da939d548ea658f",
+  "ce54f766d2cd5b55"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391694",
-   "tg:markettwits:391695",
-   "tg:markettwits:391696",
-   "tg:markettwits:391697",
-   "tg:markettwits:391698",
-   "tg:markettwits:391699",
-   "tg:markettwits:391700",
-   "tg:markettwits:391701",
-   "tg:markettwits:391702",
-   "tg:markettwits:391703",
-   "tg:markettwits:391704",
-   "tg:markettwits:391705",
-   "tg:markettwits:391706",
-   "tg:markettwits:391707",
-   "tg:markettwits:391708",
-   "tg:markettwits:391709",
-   "tg:markettwits:391710",
-   "tg:markettwits:391711",
-   "tg:markettwits:391712",
-   "tg:markettwits:391713",
    "tg:markettwits:391714",
    "tg:markettwits:391715",
    "tg:markettwits:391716",
@@ -605,7 +585,27 @@
    "tg:markettwits:391796",
    "tg:markettwits:391797",
    "tg:markettwits:391798",
-   "tg:markettwits:391799"
+   "tg:markettwits:391799",
+   "tg:markettwits:391800",
+   "tg:markettwits:391801",
+   "tg:markettwits:391802",
+   "tg:markettwits:391803",
+   "tg:markettwits:391804",
+   "tg:markettwits:391805",
+   "tg:markettwits:391806",
+   "tg:markettwits:391807",
+   "tg:markettwits:391808",
+   "tg:markettwits:391809",
+   "tg:markettwits:391810",
+   "tg:markettwits:391811",
+   "tg:markettwits:391812",
+   "tg:markettwits:391813",
+   "tg:markettwits:391814",
+   "tg:markettwits:391815",
+   "tg:markettwits:391816",
+   "tg:markettwits:391817",
+   "tg:markettwits:391818",
+   "tg:markettwits:391819"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -691,10 +691,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104592",
-   "tg:banksta:104593",
-   "tg:banksta:104594",
-   "tg:banksta:104595",
    "tg:banksta:104596",
    "tg:banksta:104597",
    "tg:banksta:104598",
@@ -790,16 +786,13 @@
    "tg:banksta:104715",
    "tg:banksta:104717",
    "tg:banksta:104719",
-   "tg:banksta:104720"
+   "tg:banksta:104720",
+   "tg:banksta:104721",
+   "tg:banksta:104722",
+   "tg:banksta:104723",
+   "tg:banksta:104724"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83777",
-   "tg:cbrstocks:83778",
-   "tg:cbrstocks:83779",
-   "tg:cbrstocks:83780",
-   "tg:cbrstocks:83781",
-   "tg:cbrstocks:83782",
-   "tg:cbrstocks:83784",
    "tg:cbrstocks:83785",
    "tg:cbrstocks:83786",
    "tg:cbrstocks:83787",
@@ -892,13 +885,16 @@
    "tg:cbrstocks:83879",
    "tg:cbrstocks:83880",
    "tg:cbrstocks:83881",
-   "tg:cbrstocks:83882"
+   "tg:cbrstocks:83882",
+   "tg:cbrstocks:83883",
+   "tg:cbrstocks:83884",
+   "tg:cbrstocks:83885",
+   "tg:cbrstocks:83886",
+   "tg:cbrstocks:83887",
+   "tg:cbrstocks:83888",
+   "tg:cbrstocks:83889"
   ],
   "rbc_news": [
-   "tg:rbc_news:159855",
-   "tg:rbc_news:159857",
-   "tg:rbc_news:159858",
-   "tg:rbc_news:159859",
    "tg:rbc_news:159860",
    "tg:rbc_news:159861",
    "tg:rbc_news:159862",
@@ -994,12 +990,13 @@
    "tg:rbc_news:159957",
    "tg:rbc_news:159968",
    "tg:rbc_news:159969",
-   "tg:rbc_news:159970"
+   "tg:rbc_news:159970",
+   "tg:rbc_news:159971",
+   "tg:rbc_news:159972",
+   "tg:rbc_news:159973",
+   "tg:rbc_news:159974"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81003",
-   "tg:interfaxonline:81004",
-   "tg:interfaxonline:81005",
    "tg:interfaxonline:81006",
    "tg:interfaxonline:81007",
    "tg:interfaxonline:81008",
@@ -1096,15 +1093,13 @@
    "tg:interfaxonline:81106",
    "tg:interfaxonline:81107",
    "tg:interfaxonline:81108",
-   "tg:interfaxonline:81109"
+   "tg:interfaxonline:81109",
+   "tg:interfaxonline:81110",
+   "tg:interfaxonline:81111",
+   "tg:interfaxonline:81112"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793691253.0745106,
-   "usd": 82.07,
-   "cny": 12.2035
-  },
   {
    "ts": 1793694750.981618,
    "usd": 81.94,
@@ -1134,14 +1129,14 @@
    "ts": 1793710270.3387105,
    "usd": 81.97,
    "cny": 12.179
+  },
+  {
+   "ts": 1793714335.4263768,
+   "usd": 81.975,
+   "cny": 12.185
   }
  ],
  "ai_seen": [
-  "2525091fe2ddeef1",
-  "57a791a1b2864b72",
-  "tg:interfaxonline:80876",
-  "tg:interfaxonline:80866",
-  "tg:cbrstocks:83759",
   "975911905f1e36f4",
   "70e3a87b9051796f",
   "tg:banksta:104370",
@@ -1636,45 +1631,15 @@
   "13ee0a772217fb85",
   "4d813addd1b2fee5",
   "0e0b39d0baf3a9ae",
-  "cf029b43eba75d90"
+  "cf029b43eba75d90",
+  "4dbddaa711795a42",
+  "5beacfe5eb4451a8",
+  "93610a6fb6d83333",
+  "7da939d548ea658f",
+  "ce54f766d2cd5b55"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-03",
-   "headline": "Банк России купил юаней на внутреннем рынке на 12,1…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793694776.890566
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "ЦБ ожидает, что правительство абсорбирует ликвидность на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793694778.8993568
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "МГКЛ кратко. Мнение",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793694780.9115477
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Баланс валютного рынка смещается в сторону спроса",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793694782.9413717
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Газовый бизнес \"Газпрома\" чувствует себя все увереннее",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793694784.934605
-  },
   {
    "date": "2026-11-03",
    "headline": "🇷🇺🇺🇸#T #SPBE #неоактивы #торги Т-Инвестиции и СПБ Биржа…",
@@ -1849,6 +1814,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793710305.0600119
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Цена на нефть Brent опустилась ниже 101 доллара",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793714356.2537339
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Курс юаня на Мосбирже снижается к российской валюте",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793714358.1732695
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Мишустин: кабмин направит более 13 млрд рублей на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793714360.0567505
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Рублев проиграл на старте четвертого подряд турнира ATP",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793714361.9223998
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Цифровой двойник главы Приангарья похитил 26 миллионов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793714363.7958252
   }
  ],
  "recent_news": [
