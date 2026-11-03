@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "tg:markettwits:391119",
-  "7e1685c04193aa8d",
-  "c0558a98427b6bb9",
-  "5ed0bc660ffbffdb",
-  "986094a07d7d4cdb",
   "tg:banksta:104392",
   "fcef5012f944a59c",
   "021a322f42d6bd0e",
@@ -501,19 +496,16 @@
   "5beacfe5eb4451a8",
   "93610a6fb6d83333",
   "7da939d548ea658f",
-  "ce54f766d2cd5b55"
+  "ce54f766d2cd5b55",
+  "b663a3d3561c8d3d",
+  "tg:banksta:104727",
+  "tg:markettwits:391827",
+  "87c78de371b2d0ba",
+  "17e11ef0012bd03e"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391714",
-   "tg:markettwits:391715",
-   "tg:markettwits:391716",
-   "tg:markettwits:391717",
-   "tg:markettwits:391718",
-   "tg:markettwits:391719",
-   "tg:markettwits:391720",
-   "tg:markettwits:391721",
    "tg:markettwits:391722",
    "tg:markettwits:391723",
    "tg:markettwits:391724",
@@ -605,7 +597,15 @@
    "tg:markettwits:391816",
    "tg:markettwits:391817",
    "tg:markettwits:391818",
-   "tg:markettwits:391819"
+   "tg:markettwits:391819",
+   "tg:markettwits:391820",
+   "tg:markettwits:391821",
+   "tg:markettwits:391822",
+   "tg:markettwits:391823",
+   "tg:markettwits:391824",
+   "tg:markettwits:391825",
+   "tg:markettwits:391826",
+   "tg:markettwits:391827"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -691,9 +691,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104596",
-   "tg:banksta:104597",
-   "tg:banksta:104598",
    "tg:banksta:104599",
    "tg:banksta:104601",
    "tg:banksta:104602",
@@ -790,15 +787,12 @@
    "tg:banksta:104721",
    "tg:banksta:104722",
    "tg:banksta:104723",
-   "tg:banksta:104724"
+   "tg:banksta:104724",
+   "tg:banksta:104725",
+   "tg:banksta:104726",
+   "tg:banksta:104727"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83785",
-   "tg:cbrstocks:83786",
-   "tg:cbrstocks:83787",
-   "tg:cbrstocks:83788",
-   "tg:cbrstocks:83789",
-   "tg:cbrstocks:83792",
    "tg:cbrstocks:83791",
    "tg:cbrstocks:83793",
    "tg:cbrstocks:83795",
@@ -892,13 +886,15 @@
    "tg:cbrstocks:83886",
    "tg:cbrstocks:83887",
    "tg:cbrstocks:83888",
-   "tg:cbrstocks:83889"
+   "tg:cbrstocks:83889",
+   "tg:cbrstocks:83890",
+   "tg:cbrstocks:83891",
+   "tg:cbrstocks:83892",
+   "tg:cbrstocks:83893",
+   "tg:cbrstocks:83894",
+   "tg:cbrstocks:83895"
   ],
   "rbc_news": [
-   "tg:rbc_news:159860",
-   "tg:rbc_news:159861",
-   "tg:rbc_news:159862",
-   "tg:rbc_news:159863",
    "tg:rbc_news:159864",
    "tg:rbc_news:159865",
    "tg:rbc_news:159866",
@@ -994,11 +990,13 @@
    "tg:rbc_news:159971",
    "tg:rbc_news:159972",
    "tg:rbc_news:159973",
-   "tg:rbc_news:159974"
+   "tg:rbc_news:159974",
+   "tg:rbc_news:159975",
+   "tg:rbc_news:159976",
+   "tg:rbc_news:159977",
+   "tg:rbc_news:159978"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81006",
-   "tg:interfaxonline:81007",
    "tg:interfaxonline:81008",
    "tg:interfaxonline:81009",
    "tg:interfaxonline:81010",
@@ -1096,15 +1094,12 @@
    "tg:interfaxonline:81109",
    "tg:interfaxonline:81110",
    "tg:interfaxonline:81111",
-   "tg:interfaxonline:81112"
+   "tg:interfaxonline:81112",
+   "tg:interfaxonline:81113",
+   "tg:interfaxonline:81114"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793694750.981618,
-   "usd": 81.94,
-   "cny": 12.182
-  },
   {
    "ts": 1793697993.0155418,
    "usd": 81.89,
@@ -1134,14 +1129,14 @@
    "ts": 1793714335.4263768,
    "usd": 81.975,
    "cny": 12.185
+  },
+  {
+   "ts": 1793717397.3953278,
+   "usd": 82.25,
+   "cny": 12.2185
   }
  ],
  "ai_seen": [
-  "975911905f1e36f4",
-  "70e3a87b9051796f",
-  "tg:banksta:104370",
-  "9a129ac843ad6018",
-  "tg:cbrstocks:83761",
   "tg:markettwits:391119",
   "7e1685c04193aa8d",
   "c0558a98427b6bb9",
@@ -1636,45 +1631,15 @@
   "5beacfe5eb4451a8",
   "93610a6fb6d83333",
   "7da939d548ea658f",
-  "ce54f766d2cd5b55"
+  "ce54f766d2cd5b55",
+  "b663a3d3561c8d3d",
+  "tg:banksta:104727",
+  "tg:markettwits:391827",
+  "87c78de371b2d0ba",
+  "17e11ef0012bd03e"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-03",
-   "headline": "🇷🇺🇺🇸#T #SPBE #неоактивы #торги Т-Инвестиции и СПБ Биржа…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793698015.809949
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "На развитие цифровой среды и инноваций в Москве заложили…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793698017.7009642
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Каким будет курс рубля в ноябре",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793698019.6301863
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Google оштрафована на 3,8 млн рублей за неудаление…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793698021.5690591
-  },
-  {
-   "date": "2026-11-03",
-   "headline": "Мировые центробанки нарастили закупки золота до максимума…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793698023.5619857
-  },
   {
    "date": "2026-11-03",
    "headline": "Обезьяна с долларом: макаки в США подорожали до 20 тысяч…",
@@ -1849,6 +1814,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793714363.7958252
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Сборы в МХТ имени Чехова достигли 2 млрд рублей в сезон",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793717419.4537785
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "ФСБ получит доступ к персональным данным клиентов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793717421.4441385
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "⬆️🛢#нефть Brent тестирует 50-дневку, отыграла почти все…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793717423.4109554
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "Дал трём ИИ по миллиону. Пока индекс обгоняет только один",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793717425.36902
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "📉 Brent торгуется ниже $101, теряя в цене 3,3%, до $100,93",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793717427.4316645
   }
  ],
  "recent_news": [
