@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "4cd17ea86d113d27",
   "fb7520c559b71678",
   "ce6850cc4392f333",
   "3af61e788605129a",
@@ -501,7 +500,8 @@
   "196e50963a16d3a0",
   "tg:russianmacro:23687",
   "869cb5152bdb55b4",
-  "3dca4bbd7896062a"
+  "3dca4bbd7896062a",
+  "e13320a9193fe31e"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -999,9 +999,6 @@
    "tg:rbc_news:159981"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81018",
-   "tg:interfaxonline:81019",
-   "tg:interfaxonline:81021",
    "tg:interfaxonline:81022",
    "tg:interfaxonline:81020",
    "tg:interfaxonline:81023",
@@ -1098,15 +1095,13 @@
    "tg:interfaxonline:81124",
    "tg:interfaxonline:81125",
    "tg:interfaxonline:81126",
-   "tg:interfaxonline:81127"
+   "tg:interfaxonline:81127",
+   "tg:interfaxonline:81128",
+   "tg:interfaxonline:81129",
+   "tg:interfaxonline:81130"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793729392.2328272,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793732216.8021116,
    "usd": 82.0725,
@@ -1146,10 +1141,14 @@
    "ts": 1793750108.2850842,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793752229.0946398,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "bd184848e26aae01",
   "7e6c4f60a81eee4c",
   "tg:banksta:104423",
   "tg:interfaxonline:80897",
@@ -1648,7 +1647,8 @@
   "196e50963a16d3a0",
   "tg:russianmacro:23687",
   "869cb5152bdb55b4",
-  "3dca4bbd7896062a"
+  "3dca4bbd7896062a",
+  "e13320a9193fe31e"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1777,6 +1777,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793750131.032882
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Россияне планируют потратить на распродажах в ноябре 8,5…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793752247.933199
   }
  ],
  "recent_news": [
