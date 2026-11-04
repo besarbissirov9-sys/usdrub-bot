@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "fb7520c559b71678",
   "ce6850cc4392f333",
   "3af61e788605129a",
   "7d85354c503e6d0b",
@@ -501,7 +500,8 @@
   "tg:russianmacro:23687",
   "869cb5152bdb55b4",
   "3dca4bbd7896062a",
-  "e13320a9193fe31e"
+  "e13320a9193fe31e",
+  "bbf7e91a7d8a7da5"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -693,7 +693,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104621",
    "tg:banksta:104623",
    "tg:banksta:104625",
    "tg:banksta:104624",
@@ -792,7 +791,8 @@
    "tg:banksta:104746",
    "tg:banksta:104747",
    "tg:banksta:104748",
-   "tg:banksta:104749"
+   "tg:banksta:104749",
+   "tg:banksta:104750"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83800",
@@ -999,9 +999,6 @@
    "tg:rbc_news:159981"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81022",
-   "tg:interfaxonline:81020",
-   "tg:interfaxonline:81023",
    "tg:interfaxonline:81024",
    "tg:interfaxonline:81025",
    "tg:interfaxonline:81026",
@@ -1098,15 +1095,13 @@
    "tg:interfaxonline:81127",
    "tg:interfaxonline:81128",
    "tg:interfaxonline:81129",
-   "tg:interfaxonline:81130"
+   "tg:interfaxonline:81130",
+   "tg:interfaxonline:81131",
+   "tg:interfaxonline:81132",
+   "tg:interfaxonline:81133"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793732216.8021116,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793734908.1356363,
    "usd": 82.0725,
@@ -1146,10 +1141,14 @@
    "ts": 1793752229.0946398,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793756264.5616817,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "7e6c4f60a81eee4c",
   "tg:banksta:104423",
   "tg:interfaxonline:80897",
   "tg:rbc_news:159684",
@@ -1648,7 +1647,8 @@
   "tg:russianmacro:23687",
   "869cb5152bdb55b4",
   "3dca4bbd7896062a",
-  "e13320a9193fe31e"
+  "e13320a9193fe31e",
+  "bbf7e91a7d8a7da5"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1784,6 +1784,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793752247.933199
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Нефть дорожает на фоне противоречивых сигналов США-Иран",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793756278.8889015
   }
  ],
  "recent_news": [
