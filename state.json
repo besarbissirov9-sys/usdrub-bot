@@ -2,10 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-04",
  "posted": [
-  "bacad32c25e6b1a9",
-  "e2fffdb52c096dd8",
-  "5076921513ba78c6",
-  "tg:banksta:104477",
   "tg:interfaxonline:80939",
   "tg:banksta:104491",
   "tg:banksta:104489",
@@ -501,7 +497,11 @@
   "tg:banksta:104804",
   "tg:banksta:104790",
   "f6bdb0f73f70cc26",
-  "b7399c1401c059b5"
+  "b7399c1401c059b5",
+  "691fed8aeaf7a983",
+  "e287518ff3c75cf7",
+  "6f88f91811bdaec2",
+  "799d30fc1ce8d2eb"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -695,7 +695,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104683",
    "tg:banksta:104684",
    "tg:banksta:104685",
    "tg:banksta:104687",
@@ -794,7 +793,8 @@
    "tg:banksta:104809",
    "tg:banksta:104805",
    "tg:banksta:104804",
-   "tg:banksta:104790"
+   "tg:banksta:104790",
+   "tg:banksta:104810"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83812",
@@ -899,7 +899,6 @@
    "tg:cbrstocks:83916"
   ],
   "rbc_news": [
-   "tg:rbc_news:159938",
    "tg:rbc_news:159939",
    "tg:rbc_news:159940",
    "tg:rbc_news:159941",
@@ -998,10 +997,10 @@
    "tg:rbc_news:160054",
    "tg:rbc_news:160055",
    "tg:rbc_news:160056",
-   "tg:rbc_news:160057"
+   "tg:rbc_news:160057",
+   "tg:rbc_news:160058"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81057",
    "tg:interfaxonline:81058",
    "tg:interfaxonline:81059",
    "tg:interfaxonline:81060",
@@ -1100,7 +1099,8 @@
    "tg:interfaxonline:81159",
    "tg:interfaxonline:81160",
    "tg:interfaxonline:81161",
-   "tg:interfaxonline:81162"
+   "tg:interfaxonline:81162",
+   "tg:interfaxonline:81163"
   ]
  },
  "rate_samples": [
@@ -1138,13 +1138,14 @@
    "ts": 1793828327.410827,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793831199.7817454,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "e130c1ef1077668c",
-  "3032132729830781",
-  "901ee66f94ea0a07",
-  "bacad32c25e6b1a9",
   "e2fffdb52c096dd8",
   "5076921513ba78c6",
   "tg:banksta:104477",
@@ -1640,7 +1641,11 @@
   "tg:banksta:104804",
   "tg:banksta:104790",
   "f6bdb0f73f70cc26",
-  "b7399c1401c059b5"
+  "b7399c1401c059b5",
+  "691fed8aeaf7a983",
+  "e287518ff3c75cf7",
+  "6f88f91811bdaec2",
+  "799d30fc1ce8d2eb"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1678,6 +1683,34 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793828356.0457575
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Разница между самой высокой и низкой пенсией составила 23…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793831225.8189561
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Макрообзор № 44 (2026)",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793831227.6840084
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Почему в России все так дорого? От цены бутылки чая до…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793831229.5485952
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Газпром - новая идея 💼",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793831231.446402
   }
  ],
  "recent_news": [
