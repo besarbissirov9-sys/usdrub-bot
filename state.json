@@ -2,9 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-04",
  "posted": [
-  "7654d52f1f9dbb2f",
-  "tg:markettwits:391239",
-  "705f9612af0b3aa0",
   "1e9aaa983132d879",
   "4002e762029e5487",
   "edb534828358333b",
@@ -501,27 +498,14 @@
   "tg:banksta:104782",
   "584a982d9891f5f3",
   "tg:markettwits:391988",
-  "e93a34fb99382571"
+  "e93a34fb99382571",
+  "tg:banksta:104785",
+  "aaa61f268fb6fa4f",
+  "tg:rbc_news:160043"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391890",
-   "tg:markettwits:391891",
-   "tg:markettwits:391892",
-   "tg:markettwits:391894",
-   "tg:markettwits:391895",
-   "tg:markettwits:391893",
-   "tg:markettwits:391896",
-   "tg:markettwits:391897",
-   "tg:markettwits:391898",
-   "tg:markettwits:391899",
-   "tg:markettwits:391900",
-   "tg:markettwits:391901",
-   "tg:markettwits:391902",
-   "tg:markettwits:391903",
-   "tg:markettwits:391905",
-   "tg:markettwits:391906",
    "tg:markettwits:391907",
    "tg:markettwits:391908",
    "tg:markettwits:391909",
@@ -605,7 +589,23 @@
    "tg:markettwits:391989",
    "tg:markettwits:391990",
    "tg:markettwits:391991",
-   "tg:markettwits:391988"
+   "tg:markettwits:391988",
+   "tg:markettwits:391992",
+   "tg:markettwits:391993",
+   "tg:markettwits:391994",
+   "tg:markettwits:391995",
+   "tg:markettwits:391996",
+   "tg:markettwits:391997",
+   "tg:markettwits:391998",
+   "tg:markettwits:391999",
+   "tg:markettwits:392000",
+   "tg:markettwits:392001",
+   "tg:markettwits:392002",
+   "tg:markettwits:392003",
+   "tg:markettwits:392004",
+   "tg:markettwits:392005",
+   "tg:markettwits:392006",
+   "tg:markettwits:392007"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -695,9 +695,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104654",
-   "tg:banksta:104655",
-   "tg:banksta:104657",
    "tg:banksta:104658",
    "tg:banksta:104659",
    "tg:banksta:104660",
@@ -794,7 +791,10 @@
    "tg:banksta:104772",
    "tg:banksta:104778",
    "tg:banksta:104781",
-   "tg:banksta:104782"
+   "tg:banksta:104782",
+   "tg:banksta:104783",
+   "tg:banksta:104784",
+   "tg:banksta:104785"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83803",
@@ -899,9 +899,6 @@
    "tg:cbrstocks:83907"
   ],
   "rbc_news": [
-   "tg:rbc_news:159923",
-   "tg:rbc_news:159924",
-   "tg:rbc_news:159925",
    "tg:rbc_news:159926",
    "tg:rbc_news:159927",
    "tg:rbc_news:159928",
@@ -998,10 +995,12 @@
    "tg:rbc_news:160039",
    "tg:rbc_news:160040",
    "tg:rbc_news:160041",
-   "tg:rbc_news:160042"
+   "tg:rbc_news:160042",
+   "tg:rbc_news:160044",
+   "tg:rbc_news:160045",
+   "tg:rbc_news:160043"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81045",
    "tg:interfaxonline:81046",
    "tg:interfaxonline:81047",
    "tg:interfaxonline:81048",
@@ -1100,15 +1099,11 @@
    "tg:interfaxonline:81149",
    "tg:interfaxonline:81150",
    "tg:interfaxonline:81151",
-   "tg:interfaxonline:81152"
+   "tg:interfaxonline:81152",
+   "tg:interfaxonline:81153"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793782718.1105213,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793789817.222626,
    "usd": 82.0725,
@@ -1133,12 +1128,14 @@
    "ts": 1793803277.1419604,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793806568.6414564,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "dbb699d9f5cf5e46",
-  "29cf1a1c5c2107b0",
-  "tg:markettwits:391244",
   "tg:rbc_news:159703",
   "7654d52f1f9dbb2f",
   "tg:markettwits:391239",
@@ -1635,31 +1632,13 @@
   "tg:banksta:104782",
   "584a982d9891f5f3",
   "tg:markettwits:391988",
-  "e93a34fb99382571"
+  "e93a34fb99382571",
+  "tg:banksta:104785",
+  "aaa61f268fb6fa4f",
+  "tg:rbc_news:160043"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-04",
-   "headline": "❗️🇸🇪#дкп #швеция #цб Швеция - ставка ЦБ = 2% ( ожид 2% /…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793782756.8677359
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "МИРОВЫЕ ЦБ В ОКТЯБРЕ: ИЗМЕНЕНИЯ ПО СТАВКАМ МИНИМАЛЬНЫЕ, А…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793782758.9053943
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "🚀 6 облигаций в юанях с ежемесячными купонами и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793782760.9517148
-  },
   {
    "date": "2026-11-04",
    "headline": "✴️🇺🇸#крипто #выборы #сша По оценкам Grayscale Research,…",
@@ -1848,6 +1827,27 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793803309.4564333
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Французский банк Le Crédit Mutuel Arkéa стал жертвой…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793806588.3698394
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Прощание с бэк-вокалистом «Любэ» Алексеем Тарасовым прошло…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793806590.4216871
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Общий суд Европейского союза отменил санкционную меру,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793806592.4794512
   }
  ],
  "recent_news": [
