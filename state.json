@@ -2,10 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "3af61e788605129a",
-  "7d85354c503e6d0b",
-  "21c1cf543ec23d05",
-  "tg:markettwits:391221",
   "8e905f6637a03391",
   "tg:interfaxonline:80893",
   "01923d7ce5df632a",
@@ -501,17 +497,15 @@
   "3dca4bbd7896062a",
   "e13320a9193fe31e",
   "bbf7e91a7d8a7da5",
-  "53a952cf54a48107"
+  "53a952cf54a48107",
+  "tg:markettwits:391866",
+  "60e2c36c6963cea8",
+  "cf1f7d573ea95a19",
+  "b20f51bddb8589dd"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391761",
-   "tg:markettwits:391762",
-   "tg:markettwits:391763",
-   "tg:markettwits:391764",
-   "tg:markettwits:391765",
-   "tg:markettwits:391766",
    "tg:markettwits:391767",
    "tg:markettwits:391768",
    "tg:markettwits:391769",
@@ -605,7 +599,13 @@
    "tg:markettwits:391859",
    "tg:markettwits:391860",
    "tg:markettwits:391861",
-   "tg:markettwits:391862"
+   "tg:markettwits:391862",
+   "tg:markettwits:391863",
+   "tg:markettwits:391864",
+   "tg:markettwits:391865",
+   "tg:markettwits:391868",
+   "tg:markettwits:391869",
+   "tg:markettwits:391866"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -999,7 +999,6 @@
    "tg:rbc_news:159981"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81026",
    "tg:interfaxonline:81027",
    "tg:interfaxonline:81028",
    "tg:interfaxonline:81029",
@@ -1098,15 +1097,11 @@
    "tg:interfaxonline:81132",
    "tg:interfaxonline:81133",
    "tg:interfaxonline:81134",
-   "tg:interfaxonline:81135"
+   "tg:interfaxonline:81135",
+   "tg:interfaxonline:81136"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793743088.8888776,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793745151.9334729,
    "usd": 82.0725,
@@ -1141,13 +1136,14 @@
    "ts": 1793762160.531714,
    "usd": null,
    "cny": null
+  },
+  {
+   "ts": 1793765309.732107,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "tg:interfaxonline:80897",
-  "tg:rbc_news:159684",
-  "4cd17ea86d113d27",
-  "fb7520c559b71678",
   "ce6850cc4392f333",
   "3af61e788605129a",
   "7d85354c503e6d0b",
@@ -1643,7 +1639,11 @@
   "3dca4bbd7896062a",
   "e13320a9193fe31e",
   "bbf7e91a7d8a7da5",
-  "53a952cf54a48107"
+  "53a952cf54a48107",
+  "tg:markettwits:391866",
+  "60e2c36c6963cea8",
+  "cf1f7d573ea95a19",
+  "b20f51bddb8589dd"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1793,6 +1793,34 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793762196.6094828
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "📬 mt в max 🗓КАЛЕНДАРЬ НА СЕГОДНЯ — 2026.11.04 🇷🇺РФ - День…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793765328.7875829
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Сестра лидера КНДР назвала обвинения по делу Binance…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793765330.7881484
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Азия. Среда.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793765332.8066878
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Турецкая лира к баксу разменяла полтос",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793765334.812969
   }
  ],
  "recent_news": [
