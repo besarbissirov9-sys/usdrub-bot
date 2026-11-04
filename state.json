@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-04",
  "posted": [
-  "f52ee29dccb22b79",
-  "tg:banksta:104462",
-  "170be9547ee2f270",
-  "d6be88217aa046f8",
-  "tg:cbrstocks:83760",
   "f283cdc97770a461",
   "tg:cbrstocks:83756",
   "15de419e3d0b7d2d",
@@ -501,27 +496,16 @@
   "fc32cb18f020e368",
   "2543f6e28902504a",
   "e1e5837cce6a90c4",
-  "fed2120bd437a1ca"
+  "fed2120bd437a1ca",
+  "2c84ea425e2533fc",
+  "2e94a0b910444ba0",
+  "d5cced3b337d868f",
+  "09172ce893a66b87",
+  "e5fe20811885b653"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391841",
-   "tg:markettwits:391842",
-   "tg:markettwits:391843",
-   "tg:markettwits:391844",
-   "tg:markettwits:391845",
-   "tg:markettwits:391830",
-   "tg:markettwits:391846",
-   "tg:markettwits:391847",
-   "tg:markettwits:391848",
-   "tg:markettwits:391849",
-   "tg:markettwits:391850",
-   "tg:markettwits:391851",
-   "tg:markettwits:391852",
-   "tg:markettwits:391853",
-   "tg:markettwits:391854",
-   "tg:markettwits:391855",
    "tg:markettwits:391856",
    "tg:markettwits:391857",
    "tg:markettwits:391858",
@@ -605,7 +589,23 @@
    "tg:markettwits:391938",
    "tg:markettwits:391939",
    "tg:markettwits:391940",
-   "tg:markettwits:391941"
+   "tg:markettwits:391941",
+   "tg:markettwits:391942",
+   "tg:markettwits:391943",
+   "tg:markettwits:391944",
+   "tg:markettwits:391945",
+   "tg:markettwits:391946",
+   "tg:markettwits:391947",
+   "tg:markettwits:391948",
+   "tg:markettwits:391949",
+   "tg:markettwits:391950",
+   "tg:markettwits:391951",
+   "tg:markettwits:391952",
+   "tg:markettwits:391953",
+   "tg:markettwits:391954",
+   "tg:markettwits:391955",
+   "tg:markettwits:391956",
+   "tg:markettwits:391957"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -695,8 +695,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104639",
-   "tg:banksta:104641",
    "tg:banksta:104642",
    "tg:banksta:104645",
    "tg:banksta:104647",
@@ -794,7 +792,9 @@
    "tg:banksta:104760",
    "tg:banksta:104761",
    "tg:banksta:104762",
-   "tg:banksta:104763"
+   "tg:banksta:104763",
+   "tg:banksta:104764",
+   "tg:banksta:104765"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83802",
@@ -899,8 +899,6 @@
    "tg:cbrstocks:83906"
   ],
   "rbc_news": [
-   "tg:rbc_news:159913",
-   "tg:rbc_news:159914",
    "tg:rbc_news:159906",
    "tg:rbc_news:159915",
    "tg:rbc_news:159916",
@@ -998,12 +996,11 @@
    "tg:rbc_news:160020",
    "tg:rbc_news:160021",
    "tg:rbc_news:160022",
-   "tg:rbc_news:160023"
+   "tg:rbc_news:160023",
+   "tg:rbc_news:160024",
+   "tg:rbc_news:160025"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81038",
-   "tg:interfaxonline:81039",
-   "tg:interfaxonline:81040",
    "tg:interfaxonline:81041",
    "tg:interfaxonline:81042",
    "tg:interfaxonline:81043",
@@ -1100,15 +1097,13 @@
    "tg:interfaxonline:81143",
    "tg:interfaxonline:81144",
    "tg:interfaxonline:81145",
-   "tg:interfaxonline:81146"
+   "tg:interfaxonline:81146",
+   "tg:interfaxonline:81147",
+   "tg:interfaxonline:81148",
+   "tg:interfaxonline:81149"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793768407.828658,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793771558.9194715,
    "usd": 82.0725,
@@ -1133,14 +1128,14 @@
    "ts": 1793789817.222626,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793792806.5913694,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "7c6ea4122b0cd599",
-  "fdc8529d410df703",
-  "7cdf9de8990f5a06",
-  "tg:cbrstocks:83764",
-  "be031d819a4ef066",
   "tg:banksta:104462",
   "170be9547ee2f270",
   "d6be88217aa046f8",
@@ -1635,45 +1630,15 @@
   "fc32cb18f020e368",
   "2543f6e28902504a",
   "e1e5837cce6a90c4",
-  "fed2120bd437a1ca"
+  "fed2120bd437a1ca",
+  "2c84ea425e2533fc",
+  "2e94a0b910444ba0",
+  "d5cced3b337d868f",
+  "09172ce893a66b87",
+  "e5fe20811885b653"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-04",
-   "headline": "Нефть дорожает на фоне противоречивых сигналов США-Иран",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793756278.8889015
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Рубль к концу года: почему дорогая нефть не гарантирует…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793762196.6094828
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "📬 mt в max 🗓КАЛЕНДАРЬ НА СЕГОДНЯ — 2026.11.04 🇷🇺РФ - День…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793765328.7875829
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Сестра лидера КНДР назвала обвинения по делу Binance…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793765330.7881484
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Азия. Среда.",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793765332.8066878
-  },
   {
    "date": "2026-11-04",
    "headline": "Турецкая лира к баксу разменяла полтос",
@@ -1848,6 +1813,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793789850.2227998
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "⚡️Налоги в 2027: что нужно знать КАЖДОМУ инвестору и…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793792826.5298111
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Самые выгодные накопительные счета в ноября с доходностью…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793792828.5579138
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "ПДС: доплату государства хотят заморозить на 5-10 лет.…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793792830.445901
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "ЦБ Узбекистана повысил прогноз роста ВВП в 2026 году до 8%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793792832.35094
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "ЦБ Узбекистана сохранил основную ставку на уровне 14%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793792834.281784
   }
  ],
  "recent_news": [
