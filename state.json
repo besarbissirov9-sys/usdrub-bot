@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-04",
  "posted": [
-  "76dbc7729501018d",
-  "e121d84b1ddbc592",
-  "e130c1ef1077668c",
-  "3032132729830781",
-  "901ee66f94ea0a07",
   "bacad32c25e6b1a9",
   "e2fffdb52c096dd8",
   "5076921513ba78c6",
@@ -501,18 +496,16 @@
   "tg:banksta:104796",
   "fb86b39abed37387",
   "tg:banksta:104791",
-  "2a6d60b9ed92f2f0"
+  "2a6d60b9ed92f2f0",
+  "tg:banksta:104805",
+  "tg:banksta:104804",
+  "tg:banksta:104790",
+  "f6bdb0f73f70cc26",
+  "b7399c1401c059b5"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391940",
-   "tg:markettwits:391941",
-   "tg:markettwits:391942",
-   "tg:markettwits:391943",
-   "tg:markettwits:391944",
-   "tg:markettwits:391945",
-   "tg:markettwits:391946",
    "tg:markettwits:391947",
    "tg:markettwits:391948",
    "tg:markettwits:391949",
@@ -605,7 +598,14 @@
    "tg:markettwits:392037",
    "tg:markettwits:392038",
    "tg:markettwits:392039",
-   "tg:markettwits:392040"
+   "tg:markettwits:392040",
+   "tg:markettwits:392041",
+   "tg:markettwits:392042",
+   "tg:markettwits:392043",
+   "tg:markettwits:392044",
+   "tg:markettwits:392045",
+   "tg:markettwits:392046",
+   "tg:markettwits:392047"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -695,11 +695,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104675",
-   "tg:banksta:104676",
-   "tg:banksta:104680",
-   "tg:banksta:104681",
-   "tg:banksta:104682",
    "tg:banksta:104683",
    "tg:banksta:104684",
    "tg:banksta:104685",
@@ -794,7 +789,12 @@
    "tg:banksta:104801",
    "tg:banksta:104803",
    "tg:banksta:104796",
-   "tg:banksta:104791"
+   "tg:banksta:104791",
+   "tg:banksta:104806",
+   "tg:banksta:104809",
+   "tg:banksta:104805",
+   "tg:banksta:104804",
+   "tg:banksta:104790"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83812",
@@ -899,7 +899,6 @@
    "tg:cbrstocks:83916"
   ],
   "rbc_news": [
-   "tg:rbc_news:159937",
    "tg:rbc_news:159938",
    "tg:rbc_news:159939",
    "tg:rbc_news:159940",
@@ -998,10 +997,10 @@
    "tg:rbc_news:160053",
    "tg:rbc_news:160054",
    "tg:rbc_news:160055",
-   "tg:rbc_news:160056"
+   "tg:rbc_news:160056",
+   "tg:rbc_news:160057"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81056",
    "tg:interfaxonline:81057",
    "tg:interfaxonline:81058",
    "tg:interfaxonline:81059",
@@ -1100,15 +1099,11 @@
    "tg:interfaxonline:81158",
    "tg:interfaxonline:81159",
    "tg:interfaxonline:81160",
-   "tg:interfaxonline:81161"
+   "tg:interfaxonline:81161",
+   "tg:interfaxonline:81162"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793806568.6414564,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793809724.6116488,
    "usd": 82.0725,
@@ -1138,14 +1133,14 @@
    "ts": 1793825742.6142514,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793828327.410827,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "69c302c86803d096",
-  "37ccecf47320050a",
-  "7c22b78eaa68439a",
-  "76dbc7729501018d",
-  "e121d84b1ddbc592",
   "e130c1ef1077668c",
   "3032132729830781",
   "901ee66f94ea0a07",
@@ -1640,219 +1635,49 @@
   "tg:banksta:104796",
   "fb86b39abed37387",
   "tg:banksta:104791",
-  "2a6d60b9ed92f2f0"
+  "2a6d60b9ed92f2f0",
+  "tg:banksta:104805",
+  "tg:banksta:104804",
+  "tg:banksta:104790",
+  "f6bdb0f73f70cc26",
+  "b7399c1401c059b5"
  ],
  "layout_i": 0,
  "day_news": [
   {
-   "date": "2026-11-04",
-   "headline": "Российские банки за девять месяцев заработали 3,7 трлн…",
+   "date": "2026-11-05",
+   "headline": "Россия экстрадировала в Китай гражданина, которого…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1793809750.2986119
+   "ts": 1793828348.0822573
   },
   {
-   "date": "2026-11-04",
-   "headline": "ВТБ отчитался за 9 месяцев 2026 г. — резервирование и…",
+   "date": "2026-11-05",
+   "headline": "Лондон продолжает терять статус финансового центра.…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1793809752.5086854
+   "ts": 1793828350.032442
   },
   {
-   "date": "2026-11-04",
-   "headline": "⚠️🇨🇭🇷🇺#санкции #россия ШВЕЙЦАРИЯ УТВЕРДИЛА 21-Й ПАКЕТ…",
+   "date": "2026-11-05",
+   "headline": "Цены на нефть упали почти на 10% за день. Лидер демократов…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1793809754.6015232
+   "ts": 1793828352.0008435
   },
   {
-   "date": "2026-11-04",
-   "headline": "ДЕМОКРАТЫ ПЛАНИРУЮТ АГРЕССИВНЫЕ РАССЛЕДОВАНИЯ…",
+   "date": "2026-11-05",
+   "headline": "Выборы в США: демократы взяли Конгресс. Что будет с…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1793809756.6470103
+   "ts": 1793828353.988186
   },
   {
-   "date": "2026-11-04",
-   "headline": "📉Brent снижается на 5,2%, до $98,80",
+   "date": "2026-11-05",
+   "headline": "Выборы в США: рынок вырос, но не весь. Что будет с…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1793809758.7383256
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Россия выдала Китаю обвиняемого в хищении миллиардов юаней…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793812927.1255043
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "На Украине раскрыли масштабную коррупционную схему…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793812928.9889293
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Стоимость криптовалюты Trump Трампа упала почти на 10%",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793812930.8449564
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "⚠️🇺🇸🇮🇷#санкции #иран Трамп продлил на год введенные еще в…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793812932.6837199
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "❗️🇨🇭🇷🇺#санкции #россия Швейцария вслед за ЕС сняла санкции…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793812934.6361248
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Швейцария исключила из санкционного списка по России…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793816071.0814123
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Швейцария сняла санкции с Фридмана и Усманова",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793816072.9811273
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "⚠️🇺🇸🇮🇷#санкции #иран Минфин США расширил санкции против…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793816074.8962352
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "⚠️🇷🇺#акции #россия #выборы #сша Для IMOEХ пока ситуация…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793816076.9197664
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "#Нефтянка Brent -10%",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793816078.8517885
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Фондовый рынок США, рынок драгметаллов и криптовалюты…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793819599.7914948
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Илон Маск потерял около 30 миллиардов долларов, пишут СМИ",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793819601.7519076
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Полеты из России в Джидду с 1 декабря будут стоить около…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793819603.690078
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Швейцария переняла рестрикции, прописанные в 21-м пакете…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793819605.621444
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "⚠️🇺🇸🇮🇷#санкции #иран Бессент заявил, что США продолжат…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793819607.5270786
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Аналитики: рубль слабо отреагирует на покупку валюты в…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793822937.862851
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Стоимость биткоина превысила 80 тысяч долларов впервые…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793822940.7620425
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Главные новости к вечеру 4 ноября. Кратко: ▪ Демократы…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793822942.7455177
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Швейцария присоединилась к ряду мер из 21-го пакета…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793822944.6366003
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Швейцария внесла в санкционные списки более 250 физлиц и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793822946.659421
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Brent подешевела на 10%, опустившись ниже $100, а WTI -…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793825761.661279
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Россия два квартала подряд удерживает статус крупнейшего…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793825763.5279212
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Отчет по портфелю за октябрь. Ого, вышел в плюс! Пассивный…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793825765.4135463
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Покупателей всё больше тревожит динамическое…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793825767.286622
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Где бы взять 1 000 пунктов IMOEX?",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793825769.1471415
+   "ts": 1793828356.0457575
   }
  ],
  "recent_news": [
