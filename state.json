@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-04",
  "posted": [
-  "8ed06d244e078b7c",
-  "tg:markettwits:391293",
-  "tg:rbc_news:159722",
-  "b00082981f6ddba0",
-  "tg:cbrstocks:83791",
   "tg:banksta:104483",
   "0f2a7676c3ed508f",
   "69c302c86803d096",
@@ -501,7 +496,12 @@
   "43b9b215be31e1de",
   "30b64aff70fbd30f",
   "9391e59b39ba3466",
-  "tg:markettwits:392037"
+  "tg:markettwits:392037",
+  "a29a83a2b45d256a",
+  "b34611e0bc097942",
+  "tg:rbc_news:160055",
+  "66f15671827bc68d",
+  "292fec9f286c6c0f"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -695,8 +695,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104664",
-   "tg:banksta:104667",
    "tg:banksta:104671",
    "tg:banksta:104672",
    "tg:banksta:104673",
@@ -794,7 +792,9 @@
    "tg:banksta:104794",
    "tg:banksta:104795",
    "tg:banksta:104797",
-   "tg:banksta:104798"
+   "tg:banksta:104798",
+   "tg:banksta:104799",
+   "tg:banksta:104800"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83812",
@@ -899,8 +899,6 @@
    "tg:cbrstocks:83916"
   ],
   "rbc_news": [
-   "tg:rbc_news:159934",
-   "tg:rbc_news:159935",
    "tg:rbc_news:159936",
    "tg:rbc_news:159937",
    "tg:rbc_news:159938",
@@ -998,10 +996,11 @@
    "tg:rbc_news:160050",
    "tg:rbc_news:160051",
    "tg:rbc_news:160052",
-   "tg:rbc_news:160053"
+   "tg:rbc_news:160053",
+   "tg:rbc_news:160054",
+   "tg:rbc_news:160055"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81054",
    "tg:interfaxonline:81055",
    "tg:interfaxonline:81056",
    "tg:interfaxonline:81057",
@@ -1100,15 +1099,11 @@
    "tg:interfaxonline:81156",
    "tg:interfaxonline:81157",
    "tg:interfaxonline:81158",
-   "tg:interfaxonline:81159"
+   "tg:interfaxonline:81159",
+   "tg:interfaxonline:81160"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793799905.8541446,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793803277.1419604,
    "usd": 82.0725,
@@ -1138,14 +1133,14 @@
    "ts": 1793819578.964337,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793822912.8324544,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "bfcfdb1337920587",
-  "d0b41f738cda8276",
-  "30c31a84639c571d",
-  "8ed06d244e078b7c",
-  "tg:markettwits:391293",
   "tg:rbc_news:159722",
   "b00082981f6ddba0",
   "tg:cbrstocks:83791",
@@ -1640,45 +1635,15 @@
   "43b9b215be31e1de",
   "30b64aff70fbd30f",
   "9391e59b39ba3466",
-  "tg:markettwits:392037"
+  "tg:markettwits:392037",
+  "a29a83a2b45d256a",
+  "b34611e0bc097942",
+  "tg:rbc_news:160055",
+  "66f15671827bc68d",
+  "292fec9f286c6c0f"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-04",
-   "headline": "Тревожные новости из Турции",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793799929.0761685
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "ЦБ Узбекистана сообщил о росте денежных переводов из-за…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793799931.0266957
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "В Питере похитили 24-летнего криптана. На мужчину напали…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793803301.224997
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Консорциум во главе с американским миллиардером Тоддом…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793803303.2784805
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Суд ЕС отменил часть санкций против Российского морского…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793803305.308023
-  },
   {
    "date": "2026-11-04",
    "headline": "⚠️🇪🇺🇺🇸🇺🇦#украина #геополитика #санкции #выборы #сша…",
@@ -1853,6 +1818,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793819607.5270786
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Аналитики: рубль слабо отреагирует на покупку валюты в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793822937.862851
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Стоимость биткоина превысила 80 тысяч долларов впервые…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793822940.7620425
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Главные новости к вечеру 4 ноября. Кратко: ▪ Демократы…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793822942.7455177
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Швейцария присоединилась к ряду мер из 21-го пакета…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793822944.6366003
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Швейцария внесла в санкционные списки более 250 физлиц и…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793822946.659421
   }
  ],
  "recent_news": [
