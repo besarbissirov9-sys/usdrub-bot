@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-04",
  "posted": [
-  "tg:banksta:104483",
-  "0f2a7676c3ed508f",
-  "69c302c86803d096",
-  "37ccecf47320050a",
-  "7c22b78eaa68439a",
   "76dbc7729501018d",
   "e121d84b1ddbc592",
   "e130c1ef1077668c",
@@ -501,14 +496,16 @@
   "b34611e0bc097942",
   "tg:rbc_news:160055",
   "66f15671827bc68d",
-  "292fec9f286c6c0f"
+  "292fec9f286c6c0f",
+  "591cc88c5e99852a",
+  "tg:banksta:104796",
+  "fb86b39abed37387",
+  "tg:banksta:104791",
+  "2a6d60b9ed92f2f0"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391937",
-   "tg:markettwits:391938",
-   "tg:markettwits:391939",
    "tg:markettwits:391940",
    "tg:markettwits:391941",
    "tg:markettwits:391942",
@@ -605,7 +602,10 @@
    "tg:markettwits:392034",
    "tg:markettwits:392035",
    "tg:markettwits:392036",
-   "tg:markettwits:392037"
+   "tg:markettwits:392037",
+   "tg:markettwits:392038",
+   "tg:markettwits:392039",
+   "tg:markettwits:392040"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -695,10 +695,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104671",
-   "tg:banksta:104672",
-   "tg:banksta:104673",
-   "tg:banksta:104674",
    "tg:banksta:104675",
    "tg:banksta:104676",
    "tg:banksta:104680",
@@ -794,7 +790,11 @@
    "tg:banksta:104797",
    "tg:banksta:104798",
    "tg:banksta:104799",
-   "tg:banksta:104800"
+   "tg:banksta:104800",
+   "tg:banksta:104801",
+   "tg:banksta:104803",
+   "tg:banksta:104796",
+   "tg:banksta:104791"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83812",
@@ -899,7 +899,6 @@
    "tg:cbrstocks:83916"
   ],
   "rbc_news": [
-   "tg:rbc_news:159936",
    "tg:rbc_news:159937",
    "tg:rbc_news:159938",
    "tg:rbc_news:159939",
@@ -998,10 +997,10 @@
    "tg:rbc_news:160052",
    "tg:rbc_news:160053",
    "tg:rbc_news:160054",
-   "tg:rbc_news:160055"
+   "tg:rbc_news:160055",
+   "tg:rbc_news:160056"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81055",
    "tg:interfaxonline:81056",
    "tg:interfaxonline:81057",
    "tg:interfaxonline:81058",
@@ -1100,15 +1099,11 @@
    "tg:interfaxonline:81157",
    "tg:interfaxonline:81158",
    "tg:interfaxonline:81159",
-   "tg:interfaxonline:81160"
+   "tg:interfaxonline:81160",
+   "tg:interfaxonline:81161"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793803277.1419604,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793806568.6414564,
    "usd": 82.0725,
@@ -1138,14 +1133,14 @@
    "ts": 1793822912.8324544,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793825742.6142514,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "tg:rbc_news:159722",
-  "b00082981f6ddba0",
-  "tg:cbrstocks:83791",
-  "tg:banksta:104483",
-  "0f2a7676c3ed508f",
   "69c302c86803d096",
   "37ccecf47320050a",
   "7c22b78eaa68439a",
@@ -1640,45 +1635,15 @@
   "b34611e0bc097942",
   "tg:rbc_news:160055",
   "66f15671827bc68d",
-  "292fec9f286c6c0f"
+  "292fec9f286c6c0f",
+  "591cc88c5e99852a",
+  "tg:banksta:104796",
+  "fb86b39abed37387",
+  "tg:banksta:104791",
+  "2a6d60b9ed92f2f0"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-04",
-   "headline": "⚠️🇪🇺🇺🇸🇺🇦#украина #геополитика #санкции #выборы #сша…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793803307.3858235
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Центробанки мира в сентябре увеличили золотые резервы до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793803309.4564333
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Французский банк Le Crédit Mutuel Arkéa стал жертвой…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793806588.3698394
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Прощание с бэк-вокалистом «Любэ» Алексеем Тарасовым прошло…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793806590.4216871
-  },
-  {
-   "date": "2026-11-04",
-   "headline": "Общий суд Европейского союза отменил санкционную меру,…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793806592.4794512
-  },
   {
    "date": "2026-11-04",
    "headline": "Российские банки за девять месяцев заработали 3,7 трлн…",
@@ -1853,6 +1818,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793822946.659421
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Brent подешевела на 10%, опустившись ниже $100, а WTI -…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793825761.661279
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Россия два квартала подряд удерживает статус крупнейшего…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793825763.5279212
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Отчет по портфелю за октябрь. Ого, вышел в плюс! Пассивный…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793825765.4135463
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Покупателей всё больше тревожит динамическое…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793825767.286622
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Где бы взять 1 000 пунктов IMOEX?",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793825769.1471415
   }
  ],
  "recent_news": [
