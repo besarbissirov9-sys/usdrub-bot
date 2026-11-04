@@ -2,10 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-03",
  "posted": [
-  "8e905f6637a03391",
-  "tg:interfaxonline:80893",
-  "01923d7ce5df632a",
-  "5129ae0634f978d2",
   "264d7c69a5ff4435",
   "289c84c0a1282989",
   "92d93543765f3fbb",
@@ -501,21 +497,15 @@
   "tg:markettwits:391866",
   "60e2c36c6963cea8",
   "cf1f7d573ea95a19",
-  "b20f51bddb8589dd"
+  "b20f51bddb8589dd",
+  "e4cfaeebe86494ab",
+  "0439bec003e9cea8",
+  "f59b26eda2a55d13",
+  "9123134eaf40fd05"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391767",
-   "tg:markettwits:391768",
-   "tg:markettwits:391769",
-   "tg:markettwits:391770",
-   "tg:markettwits:391771",
-   "tg:markettwits:391772",
-   "tg:markettwits:391773",
-   "tg:markettwits:391774",
-   "tg:markettwits:391775",
-   "tg:markettwits:391776",
    "tg:markettwits:391777",
    "tg:markettwits:391778",
    "tg:markettwits:391780",
@@ -605,7 +595,17 @@
    "tg:markettwits:391865",
    "tg:markettwits:391868",
    "tg:markettwits:391869",
-   "tg:markettwits:391866"
+   "tg:markettwits:391866",
+   "tg:markettwits:391870",
+   "tg:markettwits:391871",
+   "tg:markettwits:391872",
+   "tg:markettwits:391873",
+   "tg:markettwits:391874",
+   "tg:markettwits:391875",
+   "tg:markettwits:391876",
+   "tg:markettwits:391877",
+   "tg:markettwits:391878",
+   "tg:markettwits:391879"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -693,7 +693,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104623",
    "tg:banksta:104625",
    "tg:banksta:104624",
    "tg:banksta:104627",
@@ -792,7 +791,8 @@
    "tg:banksta:104747",
    "tg:banksta:104748",
    "tg:banksta:104749",
-   "tg:banksta:104750"
+   "tg:banksta:104750",
+   "tg:banksta:104751"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83800",
@@ -897,7 +897,6 @@
    "tg:cbrstocks:83903"
   ],
   "rbc_news": [
-   "tg:rbc_news:159886",
    "tg:rbc_news:159887",
    "tg:rbc_news:159888",
    "tg:rbc_news:159890",
@@ -996,10 +995,10 @@
    "tg:rbc_news:159983",
    "tg:rbc_news:159998",
    "tg:rbc_news:159999",
-   "tg:rbc_news:159981"
+   "tg:rbc_news:159981",
+   "tg:rbc_news:160000"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81027",
    "tg:interfaxonline:81028",
    "tg:interfaxonline:81029",
    "tg:interfaxonline:81031",
@@ -1098,15 +1097,11 @@
    "tg:interfaxonline:81133",
    "tg:interfaxonline:81134",
    "tg:interfaxonline:81135",
-   "tg:interfaxonline:81136"
+   "tg:interfaxonline:81136",
+   "tg:interfaxonline:81137"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793745151.9334729,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793747955.8684561,
    "usd": 82.0725,
@@ -1141,13 +1136,14 @@
    "ts": 1793765309.732107,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793768407.828658,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "ce6850cc4392f333",
-  "3af61e788605129a",
-  "7d85354c503e6d0b",
-  "21c1cf543ec23d05",
   "tg:markettwits:391221",
   "8e905f6637a03391",
   "tg:interfaxonline:80893",
@@ -1643,7 +1639,11 @@
   "tg:markettwits:391866",
   "60e2c36c6963cea8",
   "cf1f7d573ea95a19",
-  "b20f51bddb8589dd"
+  "b20f51bddb8589dd",
+  "e4cfaeebe86494ab",
+  "0439bec003e9cea8",
+  "f59b26eda2a55d13",
+  "9123134eaf40fd05"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1821,6 +1821,34 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793765334.812969
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Вклад ИИ в мировую экономику к 2030 году достигнет 22,3…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793768424.0245554
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Если вдруг Владимир Путин покидает досрочно свой пост",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793768425.856688
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Военная операция на Украине. Онлайн",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793768427.6844263
+  },
+  {
+   "date": "2026-11-04",
+   "headline": "Где трендовая система на самом деле зарабатывает: 1 % дней…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793768429.5894265
   }
  ],
  "recent_news": [
