@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-04",
  "posted": [
-  "e0ae55e5b6668166",
   "f648f19ab461ebfd",
   "67b52bd408c42584",
   "tg:banksta:104493",
@@ -501,7 +500,8 @@
   "tg:banksta:104813",
   "015a9f30fdde76da",
   "c4dfc1361a6ada2d",
-  "5270099562a217a7"
+  "5270099562a217a7",
+  "26ee8e0c3f4a5c88"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -695,7 +695,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104691",
    "tg:banksta:104692",
    "tg:banksta:104693",
    "tg:banksta:104694",
@@ -794,7 +793,8 @@
    "tg:banksta:104814",
    "tg:banksta:104816",
    "tg:banksta:104818",
-   "tg:banksta:104819"
+   "tg:banksta:104819",
+   "tg:banksta:104820"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83812",
@@ -1105,11 +1105,6 @@
  },
  "rate_samples": [
   {
-   "ts": 1793822912.8324544,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
-  {
    "ts": 1793825742.6142514,
    "usd": 82.0725,
    "cny": 12.189
@@ -1143,10 +1138,14 @@
    "ts": 1793842861.067101,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793846287.6864142,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "tg:banksta:104491",
   "tg:banksta:104489",
   "8c58e258f3d24db6",
   "e0ae55e5b6668166",
@@ -1645,7 +1644,8 @@
   "tg:banksta:104813",
   "015a9f30fdde76da",
   "c4dfc1361a6ada2d",
-  "5270099562a217a7"
+  "5270099562a217a7",
+  "26ee8e0c3f4a5c88"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1739,6 +1739,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793842875.7039154
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "\"Любой ценой\". Европу предупредили о нюансах жизни без…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793846304.9216542
   }
  ],
  "recent_news": [
