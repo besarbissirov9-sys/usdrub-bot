@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-05",
  "posted": [
-  "a6426e106068c4f1",
-  "6cfd1421ad1c47bc",
-  "69a4b0f21fa421a1",
-  "d65a61537b12a01c",
-  "dca68bdee2f9d2e4",
   "4a3f631eab397bbc",
   "3f3c0dd39a59c98c",
   "784e6e2a4ecc1d8b",
@@ -501,15 +496,16 @@
   "4fee180f3ca33908",
   "tg:interfaxonline:81194",
   "fdbd77a2c92ca383",
-  "c4e3ec955bcafc42"
+  "c4e3ec955bcafc42",
+  "36019ca308799d7c",
+  "c9f06db43636e8ab",
+  "ecb723ef8010d2b3",
+  "9ed0d6916776ae1b",
+  "bddc2adf8c00113a"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:392094",
-   "tg:markettwits:392095",
-   "tg:markettwits:392096",
-   "tg:markettwits:392097",
    "tg:markettwits:392100",
    "tg:markettwits:392101",
    "tg:markettwits:392102",
@@ -605,7 +601,11 @@
    "tg:markettwits:392200",
    "tg:markettwits:392201",
    "tg:markettwits:392202",
-   "tg:markettwits:392203"
+   "tg:markettwits:392203",
+   "tg:markettwits:392204",
+   "tg:markettwits:392205",
+   "tg:markettwits:392206",
+   "tg:markettwits:392207"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -697,9 +697,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104738",
-   "tg:banksta:104742",
-   "tg:banksta:104743",
    "tg:banksta:104744",
    "tg:banksta:104745",
    "tg:banksta:104746",
@@ -796,10 +793,12 @@
    "tg:banksta:104871",
    "tg:banksta:104873",
    "tg:banksta:104874",
-   "tg:banksta:104877"
+   "tg:banksta:104877",
+   "tg:banksta:104879",
+   "tg:banksta:104881",
+   "tg:banksta:104883"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83831",
    "tg:cbrstocks:83832",
    "tg:cbrstocks:83833",
    "tg:cbrstocks:83834",
@@ -898,11 +897,10 @@
    "tg:cbrstocks:83939",
    "tg:cbrstocks:83940",
    "tg:cbrstocks:83941",
-   "tg:cbrstocks:83942"
+   "tg:cbrstocks:83942",
+   "tg:cbrstocks:83943"
   ],
   "rbc_news": [
-   "tg:rbc_news:159983",
-   "tg:rbc_news:159998",
    "tg:rbc_news:159999",
    "tg:rbc_news:159981",
    "tg:rbc_news:160000",
@@ -1000,10 +998,11 @@
    "tg:rbc_news:160117",
    "tg:rbc_news:160118",
    "tg:rbc_news:160119",
-   "tg:rbc_news:160120"
+   "tg:rbc_news:160120",
+   "tg:rbc_news:160121",
+   "tg:rbc_news:160122"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81092",
    "tg:interfaxonline:81093",
    "tg:interfaxonline:81094",
    "tg:interfaxonline:81095",
@@ -1102,15 +1101,11 @@
    "tg:interfaxonline:81195",
    "tg:interfaxonline:81196",
    "tg:interfaxonline:81199",
-   "tg:interfaxonline:81194"
+   "tg:interfaxonline:81194",
+   "tg:interfaxonline:81200"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793878655.340138,
-   "usd": 82.2875,
-   "cny": 12.248
-  },
   {
    "ts": 1793881922.430773,
    "usd": 82.2875,
@@ -1135,14 +1130,14 @@
    "ts": 1793897195.7240758,
    "usd": 82.3,
    "cny": 12.22
+  },
+  {
+   "ts": 1793900475.051107,
+   "usd": 82.3,
+   "cny": 12.22
   }
  ],
  "ai_seen": [
-  "fe899847f5b63d9b",
-  "b4b5fa64435b0629",
-  "2981eb0e01703667",
-  "a6426e106068c4f1",
-  "6cfd1421ad1c47bc",
   "69a4b0f21fa421a1",
   "d65a61537b12a01c",
   "dca68bdee2f9d2e4",
@@ -1637,45 +1632,15 @@
   "4fee180f3ca33908",
   "tg:interfaxonline:81194",
   "fdbd77a2c92ca383",
-  "c4e3ec955bcafc42"
+  "c4e3ec955bcafc42",
+  "36019ca308799d7c",
+  "c9f06db43636e8ab",
+  "ecb723ef8010d2b3",
+  "9ed0d6916776ae1b",
+  "bddc2adf8c00113a"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-05",
-   "headline": "#OZON #Прогноз Т-Инвестиции: На фоне позитивных…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793878674.1225157
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "В Красноярске мошенники просветили сейф за 30 млн рублей.…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793878676.0560193
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "Фунт слабеет перед решением Банка Англии, доллар взял паузу",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793878677.9859242
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "Минфин увеличит в ноябре ежедневный объём покупки валюты и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793878679.9277437
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "HSBC: успехи демократов на выборах давят на доллар",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793878681.85654
-  },
   {
    "date": "2026-11-05",
    "headline": "Т-Инвестиции повысили целевую цену акций Озона на 14% до…",
@@ -1850,6 +1815,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793897230.0485027
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Госдолг Киргизии достиг почти 10,4 миллиарда долларов",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793900503.4757316
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Стоимость биткоина упала ниже 77 тысяч долларов",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793900505.4239018
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "«Покупка риска»: выборы в США, цены на нефть и курс рубля",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793900507.4208229
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Официальные курсы валют на 6 ноября: ¥ — ₽12,2570, $ —…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793900509.3818774
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Кабмин разрешил Минфину увеличить внутренние займы до 1…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793900511.3610322
   }
  ],
  "recent_news": [
@@ -2058,6 +2058,6 @@
  "week_cal": "2026-11-02",
  "week_poll": "2026-11-02",
  "week_chart": "2026-11-01",
- "digest_date": "2026-11-04",
+ "digest_date": "2026-11-05",
  "week_fc": "2026-10-30"
 }
