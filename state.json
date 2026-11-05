@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-05",
  "posted": [
-  "f680ad8f0d43e07e",
-  "1e0f4e8950bdb308",
-  "2085a3f02d13c7eb",
-  "tg:banksta:104562",
-  "353d44a8461bcb58",
   "ffd5c4539d92b59f",
   "e191b0f560154d69",
   "f844255fb497f010",
@@ -501,7 +496,12 @@
   "f64da0b4c4dc921a",
   "tg:markettwits:392237",
   "1fbe4248b41fafb0",
-  "c979f325fca23036"
+  "c979f325fca23036",
+  "081c06fc9f7b0d86",
+  "d46d72f4e67228f4",
+  "89c4d5801efb1b9b",
+  "7defc64631b02e9c",
+  "0fdcd4b8a37e16e1"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -697,8 +697,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104764",
-   "tg:banksta:104765",
    "tg:banksta:104770",
    "tg:banksta:104766",
    "tg:banksta:104771",
@@ -796,7 +794,9 @@
    "tg:banksta:104918",
    "tg:banksta:104920",
    "tg:banksta:104921",
-   "tg:banksta:104922"
+   "tg:banksta:104922",
+   "tg:banksta:104923",
+   "tg:banksta:104924"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83844",
@@ -1003,8 +1003,6 @@
    "tg:rbc_news:160134"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81100",
-   "tg:interfaxonline:81101",
    "tg:interfaxonline:81102",
    "tg:interfaxonline:81103",
    "tg:interfaxonline:81104",
@@ -1102,15 +1100,12 @@
    "tg:interfaxonline:81202",
    "tg:interfaxonline:81205",
    "tg:interfaxonline:81206",
-   "tg:interfaxonline:81207"
+   "tg:interfaxonline:81207",
+   "tg:interfaxonline:81208",
+   "tg:interfaxonline:81209"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793897195.7240758,
-   "usd": 82.3,
-   "cny": 12.22
-  },
   {
    "ts": 1793900475.051107,
    "usd": 82.3,
@@ -1145,14 +1140,14 @@
    "ts": 1793917802.3163018,
    "usd": 82.3,
    "cny": 12.22
+  },
+  {
+   "ts": 1793920511.3841608,
+   "usd": 82.3,
+   "cny": 12.22
   }
  ],
  "ai_seen": [
-  "7d544dd359990229",
-  "tg:markettwits:391428",
-  "tg:banksta:104549",
-  "f680ad8f0d43e07e",
-  "1e0f4e8950bdb308",
   "2085a3f02d13c7eb",
   "tg:banksta:104562",
   "353d44a8461bcb58",
@@ -1647,7 +1642,12 @@
   "f64da0b4c4dc921a",
   "tg:markettwits:392237",
   "1fbe4248b41fafb0",
-  "c979f325fca23036"
+  "c979f325fca23036",
+  "081c06fc9f7b0d86",
+  "d46d72f4e67228f4",
+  "89c4d5801efb1b9b",
+  "7defc64631b02e9c",
+  "0fdcd4b8a37e16e1"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1755,6 +1755,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793917834.7707202
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Росфинмониторинг заморозил более миллиарда рублей на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793920532.596395
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "В Росфинмониторинге рассказали о расчетах за наркотики…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793920534.4911122
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Суд Люксембурга разрешил разблокировку ценных бумаг…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793920536.3853543
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "АЛРОСА. Новая дивполитика не приближает выплату дивидендов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793920538.2724614
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "ROA, ROE, FL, EFL и их связь с безрисковой ставкой",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793920540.1568294
   }
  ],
  "recent_news": [
