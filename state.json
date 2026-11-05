@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-05",
  "posted": [
-  "855cf67250e64acd",
-  "2e438f45f0e28a59",
-  "1210137046e5ac8d",
-  "7119a59d822353c3",
-  "tg:interfaxonline:80968",
   "a051683fec9a0473",
   "6c5afdc56d51d34c",
   "tg:interfaxonline:80958",
@@ -501,26 +496,16 @@
   "b43949ff33186c4a",
   "f040280879f01336",
   "22ef5a6325fb2275",
-  "594ff5cd0b13d9a8"
+  "594ff5cd0b13d9a8",
+  "9e07b45b29d408f7",
+  "b91e59deb590d50f",
+  "1de13ed2ae570485",
+  "tg:markettwits:392099",
+  "tg:markettwits:392098"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391986",
-   "tg:markettwits:391987",
-   "tg:markettwits:391989",
-   "tg:markettwits:391990",
-   "tg:markettwits:391991",
-   "tg:markettwits:391988",
-   "tg:markettwits:391992",
-   "tg:markettwits:391993",
-   "tg:markettwits:391994",
-   "tg:markettwits:391995",
-   "tg:markettwits:391996",
-   "tg:markettwits:391997",
-   "tg:markettwits:391998",
-   "tg:markettwits:391999",
-   "tg:markettwits:392000",
    "tg:markettwits:392001",
    "tg:markettwits:392002",
    "tg:markettwits:392003",
@@ -605,7 +590,22 @@
    "tg:markettwits:392084",
    "tg:markettwits:392085",
    "tg:markettwits:392086",
-   "tg:markettwits:392087"
+   "tg:markettwits:392087",
+   "tg:markettwits:392088",
+   "tg:markettwits:392089",
+   "tg:markettwits:392090",
+   "tg:markettwits:392091",
+   "tg:markettwits:392092",
+   "tg:markettwits:392093",
+   "tg:markettwits:392094",
+   "tg:markettwits:392095",
+   "tg:markettwits:392096",
+   "tg:markettwits:392097",
+   "tg:markettwits:392100",
+   "tg:markettwits:392101",
+   "tg:markettwits:392102",
+   "tg:markettwits:392099",
+   "tg:markettwits:392098"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -667,7 +667,8 @@
    "tg:russianmacro:23687",
    "tg:russianmacro:23691",
    "tg:russianmacro:23692",
-   "tg:russianmacro:23693"
+   "tg:russianmacro:23693",
+   "tg:russianmacro:23694"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -696,11 +697,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104697",
-   "tg:banksta:104699",
-   "tg:banksta:104698",
-   "tg:banksta:104700",
-   "tg:banksta:104701",
    "tg:banksta:104702",
    "tg:banksta:104703",
    "tg:banksta:104705",
@@ -795,14 +791,14 @@
    "tg:banksta:104821",
    "tg:banksta:104822",
    "tg:banksta:104823",
-   "tg:banksta:104824"
+   "tg:banksta:104824",
+   "tg:banksta:104825",
+   "tg:banksta:104826",
+   "tg:banksta:104827",
+   "tg:banksta:104828",
+   "tg:banksta:104829"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83814",
-   "tg:cbrstocks:83815",
-   "tg:cbrstocks:83816",
-   "tg:cbrstocks:83817",
-   "tg:cbrstocks:83818",
    "tg:cbrstocks:83819",
    "tg:cbrstocks:83820",
    "tg:cbrstocks:83821",
@@ -897,14 +893,14 @@
    "tg:cbrstocks:83915",
    "tg:cbrstocks:83916",
    "tg:cbrstocks:83917",
-   "tg:cbrstocks:83918"
+   "tg:cbrstocks:83918",
+   "tg:cbrstocks:83919",
+   "tg:cbrstocks:83920",
+   "tg:cbrstocks:83921",
+   "tg:cbrstocks:83922",
+   "tg:cbrstocks:83923"
   ],
   "rbc_news": [
-   "tg:rbc_news:159950",
-   "tg:rbc_news:159952",
-   "tg:rbc_news:159953",
-   "tg:rbc_news:159954",
-   "tg:rbc_news:159955",
    "tg:rbc_news:159956",
    "tg:rbc_news:159957",
    "tg:rbc_news:159968",
@@ -999,10 +995,14 @@
    "tg:rbc_news:160065",
    "tg:rbc_news:160066",
    "tg:rbc_news:160067",
-   "tg:rbc_news:160068"
+   "tg:rbc_news:160068",
+   "tg:rbc_news:160069",
+   "tg:rbc_news:160071",
+   "tg:rbc_news:160072",
+   "tg:rbc_news:160073",
+   "tg:rbc_news:160074"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81073",
    "tg:interfaxonline:81061",
    "tg:interfaxonline:81074",
    "tg:interfaxonline:81075",
@@ -1101,20 +1101,11 @@
    "tg:interfaxonline:81171",
    "tg:interfaxonline:81173",
    "tg:interfaxonline:81172",
-   "tg:interfaxonline:81175"
+   "tg:interfaxonline:81175",
+   "tg:interfaxonline:81176"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793838455.1367023,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
-  {
-   "ts": 1793842861.067101,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793846287.6864142,
    "usd": 82.0725,
@@ -1139,14 +1130,14 @@
    "ts": 1793859924.1226947,
    "usd": 82.37,
    "cny": 12.257
+  },
+  {
+   "ts": 1793864743.0465338,
+   "usd": 82.57,
+   "cny": 12.2865
   }
  ],
  "ai_seen": [
-  "tg:rbc_news:159745",
-  "35902661d9beeaa4",
-  "ce1d20da551396e5",
-  "88302c90c0330bf0",
-  "855cf67250e64acd",
   "2e438f45f0e28a59",
   "1210137046e5ac8d",
   "tg:interfaxonline:80968",
@@ -1641,45 +1632,15 @@
   "b43949ff33186c4a",
   "f040280879f01336",
   "22ef5a6325fb2275",
-  "594ff5cd0b13d9a8"
+  "594ff5cd0b13d9a8",
+  "9e07b45b29d408f7",
+  "b91e59deb590d50f",
+  "1de13ed2ae570485",
+  "tg:markettwits:392099",
+  "tg:markettwits:392098"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-05",
-   "headline": "Лондон продолжает терять статус финансового центра.…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793828350.032442
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "Цены на нефть упали почти на 10% за день. Лидер демократов…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793828352.0008435
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "Выборы в США: демократы взяли Конгресс. Что будет с…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793828353.988186
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "Выборы в США: рынок вырос, но не весь. Что будет с…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793828356.0457575
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "Разница между самой высокой и низкой пенсией составила 23…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793831225.8189561
-  },
   {
    "date": "2026-11-05",
    "headline": "Макрообзор № 44 (2026)",
@@ -1854,6 +1815,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793859975.1586432
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Центробанк с расчетами 3 ноября купил юаней на 12,2 млрд…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793864763.4489527
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Акции нефтяных компаний снизились вслед за ценами на нефть",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793864765.3752148
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "\"Хромой\" Донни",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793864767.2743397
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "⚠️🇦🇺#дкп #австралия #спикеры Глава ЦБ Австралии: инфляция…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793864769.2138224
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "💥✴️🇺🇸#крипто #выборы #сша Том Ли: в крипте ралли т.к.…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793864771.1638224
   }
  ],
  "recent_news": [
