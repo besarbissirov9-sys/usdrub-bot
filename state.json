@@ -2,8 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-04",
  "posted": [
-  "f648f19ab461ebfd",
-  "67b52bd408c42584",
   "tg:banksta:104493",
   "tg:markettwits:391338",
   "39b49397c9918fc8",
@@ -501,12 +499,13 @@
   "015a9f30fdde76da",
   "c4dfc1361a6ada2d",
   "5270099562a217a7",
-  "26ee8e0c3f4a5c88"
+  "26ee8e0c3f4a5c88",
+  "66754ed29c501ac3",
+  "9bd5a4a895ce0661"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391947",
    "tg:markettwits:391948",
    "tg:markettwits:391949",
    "tg:markettwits:391950",
@@ -605,7 +604,8 @@
    "tg:markettwits:392044",
    "tg:markettwits:392045",
    "tg:markettwits:392046",
-   "tg:markettwits:392047"
+   "tg:markettwits:392047",
+   "tg:markettwits:392048"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -1001,8 +1001,6 @@
    "tg:rbc_news:160058"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81064",
-   "tg:interfaxonline:81067",
    "tg:interfaxonline:81066",
    "tg:interfaxonline:81065",
    "tg:interfaxonline:81071",
@@ -1100,15 +1098,12 @@
    "tg:interfaxonline:81165",
    "tg:interfaxonline:81166",
    "tg:interfaxonline:81167",
-   "tg:interfaxonline:81168"
+   "tg:interfaxonline:81168",
+   "tg:interfaxonline:81169",
+   "tg:interfaxonline:81170"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793825742.6142514,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793828327.410827,
    "usd": 82.0725,
@@ -1143,11 +1138,14 @@
    "ts": 1793846287.6864142,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793849252.4794164,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "tg:banksta:104489",
-  "8c58e258f3d24db6",
   "e0ae55e5b6668166",
   "f648f19ab461ebfd",
   "67b52bd408c42584",
@@ -1645,7 +1643,9 @@
   "015a9f30fdde76da",
   "c4dfc1361a6ada2d",
   "5270099562a217a7",
-  "26ee8e0c3f4a5c88"
+  "26ee8e0c3f4a5c88",
+  "66754ed29c501ac3",
+  "9bd5a4a895ce0661"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1746,6 +1746,20 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793846304.9216542
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Украина потеряла в сентябре 220 миллионов долларов из-за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793849271.1468136
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Азия. Четверг.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793849273.15465
   }
  ],
  "recent_news": [
