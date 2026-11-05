@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-05",
  "posted": [
-  "ffd5c4539d92b59f",
-  "e191b0f560154d69",
-  "f844255fb497f010",
-  "fa4f2b9b9688f8f2",
-  "tg:banksta:104578",
   "fb09ecb39e3dbbd8",
   "6f0ed8a68778324a",
   "dffd3d5fa4004779",
@@ -501,7 +496,12 @@
   "d46d72f4e67228f4",
   "89c4d5801efb1b9b",
   "7defc64631b02e9c",
-  "0fdcd4b8a37e16e1"
+  "0fdcd4b8a37e16e1",
+  "8b4df829d47033c4",
+  "76b8e93b127c0244",
+  "6f15a4c06c986313",
+  "76bb247fecb6cda1",
+  "99d70a261b9ce168"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -697,7 +697,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104770",
    "tg:banksta:104766",
    "tg:banksta:104771",
    "tg:banksta:104772",
@@ -796,7 +795,8 @@
    "tg:banksta:104921",
    "tg:banksta:104922",
    "tg:banksta:104923",
-   "tg:banksta:104924"
+   "tg:banksta:104924",
+   "tg:banksta:104925"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83844",
@@ -1003,8 +1003,6 @@
    "tg:rbc_news:160134"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81102",
-   "tg:interfaxonline:81103",
    "tg:interfaxonline:81104",
    "tg:interfaxonline:81105",
    "tg:interfaxonline:81106",
@@ -1102,15 +1100,12 @@
    "tg:interfaxonline:81206",
    "tg:interfaxonline:81207",
    "tg:interfaxonline:81208",
-   "tg:interfaxonline:81209"
+   "tg:interfaxonline:81209",
+   "tg:interfaxonline:81210",
+   "tg:interfaxonline:81211"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793900475.051107,
-   "usd": 82.3,
-   "cny": 12.22
-  },
   {
    "ts": 1793903297.507286,
    "usd": 82.3,
@@ -1145,14 +1140,14 @@
    "ts": 1793920511.3841608,
    "usd": 82.3,
    "cny": 12.22
+  },
+  {
+   "ts": 1793922849.9587867,
+   "usd": 82.3,
+   "cny": 12.22
   }
  ],
  "ai_seen": [
-  "2085a3f02d13c7eb",
-  "tg:banksta:104562",
-  "353d44a8461bcb58",
-  "ffd5c4539d92b59f",
-  "e191b0f560154d69",
   "f844255fb497f010",
   "fa4f2b9b9688f8f2",
   "tg:banksta:104578",
@@ -1647,7 +1642,12 @@
   "d46d72f4e67228f4",
   "89c4d5801efb1b9b",
   "7defc64631b02e9c",
-  "0fdcd4b8a37e16e1"
+  "0fdcd4b8a37e16e1",
+  "8b4df829d47033c4",
+  "76b8e93b127c0244",
+  "6f15a4c06c986313",
+  "76bb247fecb6cda1",
+  "99d70a261b9ce168"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1790,6 +1790,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793920540.1568294
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Мировой суд Москвы взыскал с Say Agency более 80 тыс. рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793922880.0724714
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "О вреде начитанности, образованной жабе и прочих неудобных…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793922882.0018904
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Российская экономика вновь оказалась в состоянии…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793922883.927982
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Парламент Греции одобрил налог на прирост капитала от…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793922885.8734493
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Вот почему нужно копить капитал и увеличивать пассивный…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793922887.7951882
   }
  ],
  "recent_news": [
