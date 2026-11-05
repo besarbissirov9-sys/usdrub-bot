@@ -2,7 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-04",
  "posted": [
-  "8c58e258f3d24db6",
   "e0ae55e5b6668166",
   "f648f19ab461ebfd",
   "67b52bd408c42584",
@@ -501,7 +500,8 @@
   "799d30fc1ce8d2eb",
   "tg:banksta:104813",
   "015a9f30fdde76da",
-  "c4dfc1361a6ada2d"
+  "c4dfc1361a6ada2d",
+  "5270099562a217a7"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -695,9 +695,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104688",
-   "tg:banksta:104689",
-   "tg:banksta:104690",
    "tg:banksta:104691",
    "tg:banksta:104692",
    "tg:banksta:104693",
@@ -794,7 +791,10 @@
    "tg:banksta:104810",
    "tg:banksta:104812",
    "tg:banksta:104813",
-   "tg:banksta:104814"
+   "tg:banksta:104814",
+   "tg:banksta:104816",
+   "tg:banksta:104818",
+   "tg:banksta:104819"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83812",
@@ -1001,7 +1001,6 @@
    "tg:rbc_news:160058"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81063",
    "tg:interfaxonline:81064",
    "tg:interfaxonline:81067",
    "tg:interfaxonline:81066",
@@ -1100,15 +1099,11 @@
    "tg:interfaxonline:81164",
    "tg:interfaxonline:81165",
    "tg:interfaxonline:81166",
-   "tg:interfaxonline:81167"
+   "tg:interfaxonline:81167",
+   "tg:interfaxonline:81168"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793819578.964337,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793822912.8324544,
    "usd": 82.0725,
@@ -1143,10 +1138,14 @@
    "ts": 1793838455.1367023,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793842861.067101,
+   "usd": 82.0725,
+   "cny": 12.189
   }
  ],
  "ai_seen": [
-  "tg:interfaxonline:80939",
   "tg:banksta:104491",
   "tg:banksta:104489",
   "8c58e258f3d24db6",
@@ -1645,7 +1644,8 @@
   "799d30fc1ce8d2eb",
   "tg:banksta:104813",
   "015a9f30fdde76da",
-  "c4dfc1361a6ada2d"
+  "c4dfc1361a6ada2d",
+  "5270099562a217a7"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1732,6 +1732,13 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793833835.9776614
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Цена на золото поднялась выше 4100 долларов за унцию…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793842875.7039154
   }
  ],
  "recent_news": [
