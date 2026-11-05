@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-04",
  "posted": [
-  "tg:banksta:104493",
-  "tg:markettwits:391338",
-  "39b49397c9918fc8",
-  "tg:cbrstocks:83805",
-  "tg:banksta:104498",
   "c4595c0c88fa3534",
   "d4a983d60ddbf916",
   "2a267b192702d266",
@@ -501,20 +496,16 @@
   "5270099562a217a7",
   "26ee8e0c3f4a5c88",
   "66754ed29c501ac3",
-  "9bd5a4a895ce0661"
+  "9bd5a4a895ce0661",
+  "tg:markettwits:392055",
+  "b6a85548d9d2dbeb",
+  "tg:markettwits:392054",
+  "tg:markettwits:392049",
+  "6569230bd684c0ee"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:391948",
-   "tg:markettwits:391949",
-   "tg:markettwits:391950",
-   "tg:markettwits:391951",
-   "tg:markettwits:391952",
-   "tg:markettwits:391953",
-   "tg:markettwits:391954",
-   "tg:markettwits:391955",
-   "tg:markettwits:391956",
    "tg:markettwits:391957",
    "tg:markettwits:391958",
    "tg:markettwits:391960",
@@ -605,7 +596,16 @@
    "tg:markettwits:392045",
    "tg:markettwits:392046",
    "tg:markettwits:392047",
-   "tg:markettwits:392048"
+   "tg:markettwits:392048",
+   "tg:markettwits:392051",
+   "tg:markettwits:392052",
+   "tg:markettwits:392053",
+   "tg:markettwits:392056",
+   "tg:markettwits:392057",
+   "tg:markettwits:392058",
+   "tg:markettwits:392055",
+   "tg:markettwits:392054",
+   "tg:markettwits:392049"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -695,7 +695,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104692",
    "tg:banksta:104693",
    "tg:banksta:104694",
    "tg:banksta:104696",
@@ -794,7 +793,8 @@
    "tg:banksta:104816",
    "tg:banksta:104818",
    "tg:banksta:104819",
-   "tg:banksta:104820"
+   "tg:banksta:104820",
+   "tg:banksta:104821"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83812",
@@ -899,8 +899,6 @@
    "tg:cbrstocks:83916"
   ],
   "rbc_news": [
-   "tg:rbc_news:159939",
-   "tg:rbc_news:159940",
    "tg:rbc_news:159941",
    "tg:rbc_news:159942",
    "tg:rbc_news:159943",
@@ -998,10 +996,11 @@
    "tg:rbc_news:160055",
    "tg:rbc_news:160056",
    "tg:rbc_news:160057",
-   "tg:rbc_news:160058"
+   "tg:rbc_news:160058",
+   "tg:rbc_news:160059",
+   "tg:rbc_news:160060"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81066",
    "tg:interfaxonline:81065",
    "tg:interfaxonline:81071",
    "tg:interfaxonline:81072",
@@ -1100,15 +1099,11 @@
    "tg:interfaxonline:81167",
    "tg:interfaxonline:81168",
    "tg:interfaxonline:81169",
-   "tg:interfaxonline:81170"
+   "tg:interfaxonline:81170",
+   "tg:interfaxonline:81171"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793828327.410827,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793831199.7817454,
    "usd": 82.0725,
@@ -1143,14 +1138,14 @@
    "ts": 1793849252.4794164,
    "usd": 82.0725,
    "cny": 12.189
+  },
+  {
+   "ts": 1793852651.085831,
+   "usd": null,
+   "cny": null
   }
  ],
  "ai_seen": [
-  "e0ae55e5b6668166",
-  "f648f19ab461ebfd",
-  "67b52bd408c42584",
-  "tg:banksta:104493",
-  "tg:markettwits:391338",
   "39b49397c9918fc8",
   "tg:cbrstocks:83805",
   "tg:banksta:104498",
@@ -1645,7 +1640,12 @@
   "5270099562a217a7",
   "26ee8e0c3f4a5c88",
   "66754ed29c501ac3",
-  "9bd5a4a895ce0661"
+  "9bd5a4a895ce0661",
+  "tg:markettwits:392055",
+  "b6a85548d9d2dbeb",
+  "tg:markettwits:392054",
+  "tg:markettwits:392049",
+  "6569230bd684c0ee"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1760,6 +1760,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793849273.15465
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "❗️🇯🇵#дкп #япония #минутки Минутки с прошлого заседания ЦБ…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793852670.5212185
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Демократы могут заблокировать снятие санкций с России и…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793852672.4202483
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "⚠️🇨🇭#инфляция #швейцария Глава ЦБ Швейцарии: инфляция в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793852674.3274329
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "📬 mt в max 🗓КАЛЕНДАРЬ НА СЕГОДНЯ — 2026.11.05 🇯🇵минутки с…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793852676.2170553
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Индекс МБ сегодня",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793852678.117847
   }
  ],
  "recent_news": [
