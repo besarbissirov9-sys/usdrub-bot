@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-05",
  "posted": [
-  "073f9d3fe515ba1f",
-  "7420e1f32632b27e",
-  "7d544dd359990229",
-  "tg:markettwits:391428",
-  "tg:banksta:104549",
   "f680ad8f0d43e07e",
   "1e0f4e8950bdb308",
   "2085a3f02d13c7eb",
@@ -501,14 +496,16 @@
   "11ce53f483f358b3",
   "ff7bc94af42714b2",
   "tg:banksta:104918",
-  "f128a612bb60d7af"
+  "f128a612bb60d7af",
+  "f8c2aabfb580304e",
+  "f64da0b4c4dc921a",
+  "tg:markettwits:392237",
+  "1fbe4248b41fafb0",
+  "c979f325fca23036"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:392132",
-   "tg:markettwits:392133",
-   "tg:markettwits:392134",
    "tg:markettwits:392135",
    "tg:markettwits:392136",
    "tg:markettwits:392137",
@@ -605,7 +602,10 @@
    "tg:markettwits:392233",
    "tg:markettwits:392234",
    "tg:markettwits:392235",
-   "tg:markettwits:392236"
+   "tg:markettwits:392236",
+   "tg:markettwits:392238",
+   "tg:markettwits:392239",
+   "tg:markettwits:392237"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -697,9 +697,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104761",
-   "tg:banksta:104762",
-   "tg:banksta:104763",
    "tg:banksta:104764",
    "tg:banksta:104765",
    "tg:banksta:104770",
@@ -796,11 +793,12 @@
    "tg:banksta:104917",
    "tg:banksta:104912",
    "tg:banksta:104919",
-   "tg:banksta:104918"
+   "tg:banksta:104918",
+   "tg:banksta:104920",
+   "tg:banksta:104921",
+   "tg:banksta:104922"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83842",
-   "tg:cbrstocks:83843",
    "tg:cbrstocks:83844",
    "tg:cbrstocks:83845",
    "tg:cbrstocks:83848",
@@ -898,10 +896,11 @@
    "tg:cbrstocks:83949",
    "tg:cbrstocks:83950",
    "tg:cbrstocks:83951",
-   "tg:cbrstocks:83952"
+   "tg:cbrstocks:83952",
+   "tg:cbrstocks:83953",
+   "tg:cbrstocks:83954"
   ],
   "rbc_news": [
-   "tg:rbc_news:160009",
    "tg:rbc_news:160010",
    "tg:rbc_news:160012",
    "tg:rbc_news:160013",
@@ -1000,10 +999,10 @@
    "tg:rbc_news:160126",
    "tg:rbc_news:160131",
    "tg:rbc_news:160132",
-   "tg:rbc_news:160133"
+   "tg:rbc_news:160133",
+   "tg:rbc_news:160134"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81099",
    "tg:interfaxonline:81100",
    "tg:interfaxonline:81101",
    "tg:interfaxonline:81102",
@@ -1102,7 +1101,8 @@
    "tg:interfaxonline:81204",
    "tg:interfaxonline:81202",
    "tg:interfaxonline:81205",
-   "tg:interfaxonline:81206"
+   "tg:interfaxonline:81206",
+   "tg:interfaxonline:81207"
   ]
  },
  "rate_samples": [
@@ -1140,14 +1140,14 @@
    "ts": 1793915305.607918,
    "usd": 82.3,
    "cny": 12.22
+  },
+  {
+   "ts": 1793917802.3163018,
+   "usd": 82.3,
+   "cny": 12.22
   }
  ],
  "ai_seen": [
-  "b3314cfd9ddeddb4",
-  "48801c86cb4094c1",
-  "146db867d46c0032",
-  "073f9d3fe515ba1f",
-  "7420e1f32632b27e",
   "7d544dd359990229",
   "tg:markettwits:391428",
   "tg:banksta:104549",
@@ -1642,7 +1642,12 @@
   "11ce53f483f358b3",
   "ff7bc94af42714b2",
   "tg:banksta:104918",
-  "f128a612bb60d7af"
+  "f128a612bb60d7af",
+  "f8c2aabfb580304e",
+  "f64da0b4c4dc921a",
+  "tg:markettwits:392237",
+  "1fbe4248b41fafb0",
+  "c979f325fca23036"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1715,6 +1720,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793915333.2185056
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Росфинмониторинг выявил коррупционные активы на сумму…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793917826.677634
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Чиханчин рассказал о последствиях односторонних санкций",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793917828.71788
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "💥✴️🇺🇸#крипто #регулирование #сша Демократы в Палате…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793917830.7523253
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Доля экспортной выручки в нацвалютах, возвращаемой в РФ,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793917832.746764
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Пенсии не будет? Посчитали, сколько вы получите в 2045…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793917834.7707202
   }
  ],
  "recent_news": [
