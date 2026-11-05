@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-05",
  "posted": [
-  "a051683fec9a0473",
-  "6c5afdc56d51d34c",
-  "tg:interfaxonline:80958",
-  "614753f5891ea2e1",
-  "tg:cbrstocks:83813",
   "0c251714151b1192",
   "4f814ed523ecfe3e",
   "5bb36cd9e0c3c0dd",
@@ -501,22 +496,16 @@
   "b91e59deb590d50f",
   "1de13ed2ae570485",
   "tg:markettwits:392099",
-  "tg:markettwits:392098"
+  "tg:markettwits:392098",
+  "879af520dcddb0bf",
+  "1f4e2ecd3531fbd2",
+  "tg:markettwits:392113",
+  "492e5ec6962959c2",
+  "5a0bee401ba84e2e"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:392001",
-   "tg:markettwits:392002",
-   "tg:markettwits:392003",
-   "tg:markettwits:392004",
-   "tg:markettwits:392005",
-   "tg:markettwits:392006",
-   "tg:markettwits:392007",
-   "tg:markettwits:392008",
-   "tg:markettwits:392009",
-   "tg:markettwits:392010",
-   "tg:markettwits:392011",
    "tg:markettwits:392013",
    "tg:markettwits:392012",
    "tg:markettwits:392014",
@@ -605,7 +594,18 @@
    "tg:markettwits:392101",
    "tg:markettwits:392102",
    "tg:markettwits:392099",
-   "tg:markettwits:392098"
+   "tg:markettwits:392098",
+   "tg:markettwits:392103",
+   "tg:markettwits:392104",
+   "tg:markettwits:392105",
+   "tg:markettwits:392106",
+   "tg:markettwits:392108",
+   "tg:markettwits:392109",
+   "tg:markettwits:392110",
+   "tg:markettwits:392111",
+   "tg:markettwits:392112",
+   "tg:markettwits:392114",
+   "tg:markettwits:392113"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -697,10 +697,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104702",
-   "tg:banksta:104703",
-   "tg:banksta:104705",
-   "tg:banksta:104706",
    "tg:banksta:104708",
    "tg:banksta:104709",
    "tg:banksta:104710",
@@ -796,7 +792,11 @@
    "tg:banksta:104826",
    "tg:banksta:104827",
    "tg:banksta:104828",
-   "tg:banksta:104829"
+   "tg:banksta:104829",
+   "tg:banksta:104830",
+   "tg:banksta:104831",
+   "tg:banksta:104832",
+   "tg:banksta:104833"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83819",
@@ -901,10 +901,6 @@
    "tg:cbrstocks:83923"
   ],
   "rbc_news": [
-   "tg:rbc_news:159956",
-   "tg:rbc_news:159957",
-   "tg:rbc_news:159968",
-   "tg:rbc_news:159969",
    "tg:rbc_news:159970",
    "tg:rbc_news:159971",
    "tg:rbc_news:159972",
@@ -1000,10 +996,13 @@
    "tg:rbc_news:160071",
    "tg:rbc_news:160072",
    "tg:rbc_news:160073",
-   "tg:rbc_news:160074"
+   "tg:rbc_news:160074",
+   "tg:rbc_news:160075",
+   "tg:rbc_news:160076",
+   "tg:rbc_news:160077",
+   "tg:rbc_news:160078"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81061",
    "tg:interfaxonline:81074",
    "tg:interfaxonline:81075",
    "tg:interfaxonline:81076",
@@ -1102,15 +1101,11 @@
    "tg:interfaxonline:81173",
    "tg:interfaxonline:81172",
    "tg:interfaxonline:81175",
-   "tg:interfaxonline:81176"
+   "tg:interfaxonline:81176",
+   "tg:interfaxonline:81177"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793846287.6864142,
-   "usd": 82.0725,
-   "cny": 12.189
-  },
   {
    "ts": 1793849252.4794164,
    "usd": 82.0725,
@@ -1135,14 +1130,14 @@
    "ts": 1793864743.0465338,
    "usd": 82.57,
    "cny": 12.2865
+  },
+  {
+   "ts": 1793868082.8125124,
+   "usd": 82.61,
+   "cny": 12.2785
   }
  ],
  "ai_seen": [
-  "2e438f45f0e28a59",
-  "1210137046e5ac8d",
-  "tg:interfaxonline:80968",
-  "a051683fec9a0473",
-  "6c5afdc56d51d34c",
   "tg:interfaxonline:80958",
   "614753f5891ea2e1",
   "tg:cbrstocks:83813",
@@ -1637,45 +1632,15 @@
   "b91e59deb590d50f",
   "1de13ed2ae570485",
   "tg:markettwits:392099",
-  "tg:markettwits:392098"
+  "tg:markettwits:392098",
+  "879af520dcddb0bf",
+  "1f4e2ecd3531fbd2",
+  "tg:markettwits:392113",
+  "492e5ec6962959c2",
+  "5a0bee401ba84e2e"
  ],
  "layout_i": 0,
  "day_news": [
-  {
-   "date": "2026-11-05",
-   "headline": "Макрообзор № 44 (2026)",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793831227.6840084
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "Почему в России все так дорого? От цены бутылки чая до…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793831229.5485952
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "Газпром - новая идея 💼",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793831231.446402
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "В Германии очень высокие зарплаты. Но есть нюанс только…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793833832.1736329
-  },
-  {
-   "date": "2026-11-05",
-   "headline": "ЦБ Бразилии сохранил ставку на уровне 13,75% после…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1793833834.0274663
-  },
   {
    "date": "2026-11-05",
    "headline": "📰Долговые проблемы развитых стран и экономика России-2027.…",
@@ -1850,6 +1815,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793864771.1638224
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Таможенники пресекли контрабанду наркотиков на 17 млн рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793868109.1920607
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Правительство разрешило Минфину занять в 2026 году на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793868111.272341
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "🇷🇺#офз #россия Правительство разрешило Минфину занять в…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793868113.2895634
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Рубль слабеет к юаню в первые часы торгов",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793868115.3161774
+  },
+  {
+   "date": "2026-11-05",
+   "headline": "Молдавия введет санкции против лидера Приднестровья после…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793868117.3080506
   }
  ],
  "recent_news": [
