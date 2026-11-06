@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-05",
  "posted": [
-  "fb09ecb39e3dbbd8",
-  "6f0ed8a68778324a",
-  "dffd3d5fa4004779",
-  "tg:banksta:104592",
-  "305491938ddc0f24",
   "726b367a8251608d",
   "a58281eb21f9fe55",
   "2ff4f5b946e81d48",
@@ -501,7 +496,12 @@
   "76b8e93b127c0244",
   "6f15a4c06c986313",
   "76bb247fecb6cda1",
-  "99d70a261b9ce168"
+  "99d70a261b9ce168",
+  "tg:banksta:104926",
+  "tg:interfaxonline:81198",
+  "tg:interfaxonline:81197",
+  "99f5dc2e8cd5fb40",
+  "383d90063d215c55"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -697,8 +697,6 @@
    "tg:xtxixty:7013"
   ],
   "banksta": [
-   "tg:banksta:104766",
-   "tg:banksta:104771",
    "tg:banksta:104772",
    "tg:banksta:104778",
    "tg:banksta:104781",
@@ -796,7 +794,9 @@
    "tg:banksta:104922",
    "tg:banksta:104923",
    "tg:banksta:104924",
-   "tg:banksta:104925"
+   "tg:banksta:104925",
+   "tg:banksta:104927",
+   "tg:banksta:104926"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83844",
@@ -1003,9 +1003,6 @@
    "tg:rbc_news:160134"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81104",
-   "tg:interfaxonline:81105",
-   "tg:interfaxonline:81106",
    "tg:interfaxonline:81107",
    "tg:interfaxonline:81108",
    "tg:interfaxonline:81109",
@@ -1102,15 +1099,13 @@
    "tg:interfaxonline:81208",
    "tg:interfaxonline:81209",
    "tg:interfaxonline:81210",
-   "tg:interfaxonline:81211"
+   "tg:interfaxonline:81211",
+   "tg:interfaxonline:81214",
+   "tg:interfaxonline:81198",
+   "tg:interfaxonline:81197"
   ]
  },
  "rate_samples": [
-  {
-   "ts": 1793903297.507286,
-   "usd": 82.3,
-   "cny": 12.22
-  },
   {
    "ts": 1793906692.5259268,
    "usd": 82.3,
@@ -1145,14 +1140,14 @@
    "ts": 1793922849.9587867,
    "usd": 82.3,
    "cny": 12.22
+  },
+  {
+   "ts": 1793925324.905629,
+   "usd": 82.3,
+   "cny": 12.22
   }
  ],
  "ai_seen": [
-  "f844255fb497f010",
-  "fa4f2b9b9688f8f2",
-  "tg:banksta:104578",
-  "fb09ecb39e3dbbd8",
-  "6f0ed8a68778324a",
   "dffd3d5fa4004779",
   "tg:banksta:104592",
   "305491938ddc0f24",
@@ -1647,7 +1642,12 @@
   "76b8e93b127c0244",
   "6f15a4c06c986313",
   "76bb247fecb6cda1",
-  "99d70a261b9ce168"
+  "99d70a261b9ce168",
+  "tg:banksta:104926",
+  "tg:interfaxonline:81198",
+  "tg:interfaxonline:81197",
+  "99f5dc2e8cd5fb40",
+  "383d90063d215c55"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1825,6 +1825,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1793922887.7951882
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Оборонный подрядчик Lockheed Martin согласился выплатить…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793925342.8524344
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "🇷🇺🔼Рынок акций РФ в четверг превысил 2455п по индексу…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793925344.7744966
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "🛢Brent подорожала до $97,12 за баррель Подъем цен на нефть…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793925346.6982617
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Какие российские компании выкупают свои акции?",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793925348.6064327
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "L'Echo: ЦБ подал иск в Брюсселе об изъятии документов у…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1793925350.5209355
   }
  ],
  "recent_news": [
