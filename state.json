@@ -1,12 +1,7 @@
 {
  "last_rate": 80.81,
- "summary_date": "2026-11-06",
+ "summary_date": "2026-11-07",
  "posted": [
-  "tg:markettwits:391476",
-  "tg:banksta:104612",
-  "133a7262e3f9ee64",
-  "tg:markettwits:391479",
-  "c0bade151323235e",
   "5279f86d507eb87b",
   "tg:rbc_news:159841",
   "90ddb59e831668e7",
@@ -501,18 +496,16 @@
   "tg:interfaxonline:81253",
   "ea86d6d2d6b215c1",
   "aedaa6ce40ee9200",
-  "16618de06a2ad569"
+  "16618de06a2ad569",
+  "tg:banksta:105002",
+  "818c09104849fa79",
+  "b629b471899267d4",
+  "8f0110cae66baae8",
+  "0d002290ddf98f4b"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:392195",
-   "tg:markettwits:392196",
-   "tg:markettwits:392197",
-   "tg:markettwits:392198",
-   "tg:markettwits:392199",
-   "tg:markettwits:392200",
-   "tg:markettwits:392201",
    "tg:markettwits:392202",
    "tg:markettwits:392203",
    "tg:markettwits:392204",
@@ -605,7 +598,14 @@
    "tg:markettwits:392391",
    "tg:markettwits:392392",
    "tg:markettwits:392393",
-   "tg:markettwits:392394"
+   "tg:markettwits:392394",
+   "tg:markettwits:392395",
+   "tg:markettwits:392396",
+   "tg:markettwits:392397",
+   "tg:markettwits:392398",
+   "tg:markettwits:392399",
+   "tg:markettwits:392400",
+   "tg:markettwits:392401"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -672,7 +672,8 @@
    "tg:russianmacro:23698",
    "tg:russianmacro:23699",
    "tg:russianmacro:23700",
-   "tg:russianmacro:23703"
+   "tg:russianmacro:23703",
+   "tg:russianmacro:23704"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -699,12 +700,11 @@
    "tg:xtxixty:7005",
    "tg:xtxixty:7011",
    "tg:xtxixty:7013",
-   "tg:xtxixty:7015"
+   "tg:xtxixty:7015",
+   "tg:xtxixty:7017",
+   "tg:xtxixty:7018"
   ],
   "banksta": [
-   "tg:banksta:104825",
-   "tg:banksta:104826",
-   "tg:banksta:104827",
    "tg:banksta:104828",
    "tg:banksta:104829",
    "tg:banksta:104830",
@@ -801,7 +801,10 @@
    "tg:banksta:104996",
    "tg:banksta:104997",
    "tg:banksta:104998",
-   "tg:banksta:104999"
+   "tg:banksta:104999",
+   "tg:banksta:105000",
+   "tg:banksta:105001",
+   "tg:banksta:105002"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83867",
@@ -906,11 +909,6 @@
    "tg:cbrstocks:83978"
   ],
   "rbc_news": [
-   "tg:rbc_news:160065",
-   "tg:rbc_news:160066",
-   "tg:rbc_news:160067",
-   "tg:rbc_news:160068",
-   "tg:rbc_news:160069",
    "tg:rbc_news:160071",
    "tg:rbc_news:160072",
    "tg:rbc_news:160073",
@@ -1005,13 +1003,14 @@
    "tg:rbc_news:160196",
    "tg:rbc_news:160197",
    "tg:rbc_news:160198",
-   "tg:rbc_news:160199"
+   "tg:rbc_news:160199",
+   "tg:rbc_news:160200",
+   "tg:rbc_news:160201",
+   "tg:rbc_news:160202",
+   "tg:rbc_news:160203",
+   "tg:rbc_news:160204"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81146",
-   "tg:interfaxonline:81147",
-   "tg:interfaxonline:81148",
-   "tg:interfaxonline:81149",
    "tg:interfaxonline:81150",
    "tg:interfaxonline:81151",
    "tg:interfaxonline:81152",
@@ -1107,27 +1106,26 @@
    "tg:interfaxonline:81258",
    "tg:interfaxonline:81259",
    "tg:interfaxonline:81263",
-   "tg:interfaxonline:81253"
+   "tg:interfaxonline:81253",
+   "tg:interfaxonline:81264",
+   "tg:interfaxonline:81265",
+   "tg:interfaxonline:81266",
+   "tg:interfaxonline:81267"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1794000671.9489598,
+   "ts": 1794013750.171942,
    "usd": 82.1775,
    "cny": 12.2825
   },
   {
-   "ts": 1794013750.171942,
+   "ts": 1794035056.1466436,
    "usd": 82.1775,
    "cny": 12.2825
   }
  ],
  "ai_seen": [
-  "53e5e073835f334f",
-  "28014a10d56a810e",
-  "05b4ee0d82f4a91e",
-  "tg:markettwits:391476",
-  "tg:banksta:104612",
   "133a7262e3f9ee64",
   "tg:markettwits:391479",
   "c0bade151323235e",
@@ -1622,7 +1620,12 @@
   "tg:interfaxonline:81253",
   "ea86d6d2d6b215c1",
   "aedaa6ce40ee9200",
-  "16618de06a2ad569"
+  "16618de06a2ad569",
+  "tg:banksta:105002",
+  "818c09104849fa79",
+  "b629b471899267d4",
+  "8f0110cae66baae8",
+  "0d002290ddf98f4b"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1695,6 +1698,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1794013784.380688
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "Мошенники украли у москвички рекордные 450 млн рублей,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794035073.98264
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "В каком банке в России цифровых рублей больше всего.…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794035075.9214387
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "«Бомба замедленного действия» на 7 триллионов рублей на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794035077.739483
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "Беглов предложил дополнительно направить 10 миллиардов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794035079.5798297
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "Курс юаня на Мосбирже в пятницу умеренно повышается к рублю",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794035081.416766
   }
  ],
  "recent_news": [
