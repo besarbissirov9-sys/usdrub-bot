@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-06",
  "posted": [
-  "tg:banksta:104607",
-  "ba6f35476e58fe69",
-  "53e5e073835f334f",
-  "28014a10d56a810e",
-  "05b4ee0d82f4a91e",
   "tg:markettwits:391476",
   "tg:banksta:104612",
   "133a7262e3f9ee64",
@@ -501,14 +496,16 @@
   "b775580d7ab19d9f",
   "6ada3616b1f0e61b",
   "c2176c51d33b31d0",
-  "c0e919f495f7f41b"
+  "c0e919f495f7f41b",
+  "6c023a89b64529fd",
+  "tg:interfaxonline:81253",
+  "ea86d6d2d6b215c1",
+  "aedaa6ce40ee9200",
+  "16618de06a2ad569"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:392192",
-   "tg:markettwits:392193",
-   "tg:markettwits:392194",
    "tg:markettwits:392195",
    "tg:markettwits:392196",
    "tg:markettwits:392197",
@@ -605,7 +602,10 @@
    "tg:markettwits:392387",
    "tg:markettwits:392389",
    "tg:markettwits:392390",
-   "tg:markettwits:392391"
+   "tg:markettwits:392391",
+   "tg:markettwits:392392",
+   "tg:markettwits:392393",
+   "tg:markettwits:392394"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -702,10 +702,6 @@
    "tg:xtxixty:7015"
   ],
   "banksta": [
-   "tg:banksta:104821",
-   "tg:banksta:104822",
-   "tg:banksta:104823",
-   "tg:banksta:104824",
    "tg:banksta:104825",
    "tg:banksta:104826",
    "tg:banksta:104827",
@@ -801,7 +797,11 @@
    "tg:banksta:104986",
    "tg:banksta:104987",
    "tg:banksta:104988",
-   "tg:banksta:104990"
+   "tg:banksta:104990",
+   "tg:banksta:104996",
+   "tg:banksta:104997",
+   "tg:banksta:104998",
+   "tg:banksta:104999"
   ],
   "cbrstocks": [
    "tg:cbrstocks:83867",
@@ -906,7 +906,6 @@
    "tg:cbrstocks:83978"
   ],
   "rbc_news": [
-   "tg:rbc_news:160064",
    "tg:rbc_news:160065",
    "tg:rbc_news:160066",
    "tg:rbc_news:160067",
@@ -1005,10 +1004,10 @@
    "tg:rbc_news:160195",
    "tg:rbc_news:160196",
    "tg:rbc_news:160197",
-   "tg:rbc_news:160198"
+   "tg:rbc_news:160198",
+   "tg:rbc_news:160199"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81145",
    "tg:interfaxonline:81146",
    "tg:interfaxonline:81147",
    "tg:interfaxonline:81148",
@@ -1107,27 +1106,23 @@
    "tg:interfaxonline:81257",
    "tg:interfaxonline:81258",
    "tg:interfaxonline:81259",
-   "tg:interfaxonline:81263"
+   "tg:interfaxonline:81263",
+   "tg:interfaxonline:81253"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1793981619.4321973,
+   "ts": 1794000671.9489598,
    "usd": 82.1775,
-   "cny": 12.279
+   "cny": 12.2825
   },
   {
-   "ts": 1794000671.9489598,
+   "ts": 1794013750.171942,
    "usd": 82.1775,
    "cny": 12.2825
   }
  ],
  "ai_seen": [
-  "f33d0a3a3361b538",
-  "c38e2d86fef70f47",
-  "tg:banksta:104604",
-  "tg:banksta:104607",
-  "ba6f35476e58fe69",
   "53e5e073835f334f",
   "28014a10d56a810e",
   "05b4ee0d82f4a91e",
@@ -1622,7 +1617,12 @@
   "b775580d7ab19d9f",
   "6ada3616b1f0e61b",
   "c2176c51d33b31d0",
-  "c0e919f495f7f41b"
+  "c0e919f495f7f41b",
+  "6c023a89b64529fd",
+  "tg:interfaxonline:81253",
+  "ea86d6d2d6b215c1",
+  "aedaa6ce40ee9200",
+  "16618de06a2ad569"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1660,6 +1660,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1794000701.8435903
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "Америка ни при чем. Вот что определит судьбу рубля до…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794013776.3746107
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "🏙Льготную жилищную ипотеку вводят в Крыму и Севастополе,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794013778.378576
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "Курс юаня на Мосбирже вырос до 12,28 рубля",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794013780.3750136
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "Внебиржевой курс доллара поднялся выше 82 рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794013782.3888376
+  },
+  {
+   "date": "2026-11-07",
+   "headline": "Стоимость биткоина упала ниже 75 тысяч долларов впервые с…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794013784.380688
   }
  ],
  "recent_news": [
