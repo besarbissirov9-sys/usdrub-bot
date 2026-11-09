@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-08",
  "posted": [
-  "403bf79057924a4d",
-  "2e28d892586d7d62",
-  "tg:russianmacro:23682",
-  "c25cc72f39b130ad",
-  "tg:interfaxonline:81045",
   "1492026c0b9b7847",
   "c7534e442e071878",
   "2d0581d7aa32436b",
@@ -501,7 +496,12 @@
   "tg:markettwits:392470",
   "154a8dc3b42a4c0e",
   "tg:banksta:105068",
-  "tg:rbc_news:160266"
+  "tg:rbc_news:160266",
+  "2525965da57f0536",
+  "dbb69e85dc2caf90",
+  "275365a108f7015a",
+  "f5cacf02fba8914e",
+  "60bdfdccdc95e5fd"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -1016,15 +1016,6 @@
    "tg:rbc_news:160266"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81207",
-   "tg:interfaxonline:81208",
-   "tg:interfaxonline:81209",
-   "tg:interfaxonline:81210",
-   "tg:interfaxonline:81211",
-   "tg:interfaxonline:81214",
-   "tg:interfaxonline:81198",
-   "tg:interfaxonline:81197",
-   "tg:interfaxonline:81215",
    "tg:interfaxonline:81216",
    "tg:interfaxonline:81217",
    "tg:interfaxonline:81218",
@@ -1115,27 +1106,31 @@
    "tg:interfaxonline:81320",
    "tg:interfaxonline:81321",
    "tg:interfaxonline:81322",
-   "tg:interfaxonline:81323"
+   "tg:interfaxonline:81323",
+   "tg:interfaxonline:81324",
+   "tg:interfaxonline:81325",
+   "tg:interfaxonline:81326",
+   "tg:interfaxonline:81327",
+   "tg:interfaxonline:81328",
+   "tg:interfaxonline:81329",
+   "tg:interfaxonline:81330",
+   "tg:interfaxonline:81331",
+   "tg:interfaxonline:81332"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1794164634.6437066,
+   "ts": 1794178134.7953932,
    "usd": 82.1775,
    "cny": 12.2825
   },
   {
-   "ts": 1794178134.7953932,
+   "ts": 1794189843.319231,
    "usd": 82.1775,
    "cny": 12.2825
   }
  ],
  "ai_seen": [
-  "3a7caba9b0b9080c",
-  "74566478eed0861f",
-  "21e81385ea0dc1bd",
-  "403bf79057924a4d",
-  "2e28d892586d7d62",
   "tg:russianmacro:23682",
   "c25cc72f39b130ad",
   "tg:interfaxonline:81045",
@@ -1630,7 +1625,12 @@
   "tg:markettwits:392470",
   "154a8dc3b42a4c0e",
   "tg:banksta:105068",
-  "tg:rbc_news:160266"
+  "tg:rbc_news:160266",
+  "2525965da57f0536",
+  "dbb69e85dc2caf90",
+  "275365a108f7015a",
+  "f5cacf02fba8914e",
+  "60bdfdccdc95e5fd"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1668,6 +1668,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1794178161.4864366
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Украина потеряла в сентябре 212 миллионов долларов из-за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794189864.1848958
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Аукционы русского искусства на Западе затруднены из-за…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794189866.104994
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Нефть дешевеет на словах Трампа о маловероятности ударов…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794189868.017573
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Экономический дайджест 08.11.2026",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794189869.927905
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Венгрия раскрыла, откуда планирует получать газ",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794189871.930791
   }
  ],
  "recent_news": [
