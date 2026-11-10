@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-09",
  "posted": [
-  "b28f91f9253a10dc",
-  "ca332f6ad7c48983",
-  "5883f4399dcf32a7",
-  "a7fc4cd59f3846bc",
-  "507696983116cf7b",
   "tg:rbc_news:159888",
   "1d1f426482fd7743",
   "3103351fc6769171",
@@ -501,21 +496,16 @@
   "6230a858c67ce271",
   "tg:cbrstocks:84018",
   "cab482c69afca920",
-  "21aac2cbb7dde7b0"
+  "21aac2cbb7dde7b0",
+  "b26d1f22b0699738",
+  "4652882babeb28b3",
+  "7be10aa5fe182dda",
+  "c374c1a7bb0a8745",
+  "c180375c39fa02f3"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:392402",
-   "tg:markettwits:392403",
-   "tg:markettwits:392404",
-   "tg:markettwits:392405",
-   "tg:markettwits:392406",
-   "tg:markettwits:392408",
-   "tg:markettwits:392409",
-   "tg:markettwits:392410",
-   "tg:markettwits:392411",
-   "tg:markettwits:392412",
    "tg:markettwits:392414",
    "tg:markettwits:392415",
    "tg:markettwits:392416",
@@ -605,7 +595,17 @@
    "tg:markettwits:392607",
    "tg:markettwits:392608",
    "tg:markettwits:392609",
-   "tg:markettwits:392611"
+   "tg:markettwits:392611",
+   "tg:markettwits:392612",
+   "tg:markettwits:392613",
+   "tg:markettwits:392614",
+   "tg:markettwits:392615",
+   "tg:markettwits:392616",
+   "tg:markettwits:392617",
+   "tg:markettwits:392618",
+   "tg:markettwits:392619",
+   "tg:markettwits:392620",
+   "tg:markettwits:392621"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -714,11 +714,6 @@
    "tg:xtxixty:7014"
   ],
   "banksta": [
-   "tg:banksta:104980",
-   "tg:banksta:104981",
-   "tg:banksta:104982",
-   "tg:banksta:104983",
-   "tg:banksta:104984",
    "tg:banksta:104985",
    "tg:banksta:104986",
    "tg:banksta:104987",
@@ -813,11 +808,14 @@
    "tg:banksta:105118",
    "tg:banksta:105121",
    "tg:banksta:105122",
-   "tg:banksta:105123"
+   "tg:banksta:105123",
+   "tg:banksta:105126",
+   "tg:banksta:105127",
+   "tg:banksta:105128",
+   "tg:banksta:105129",
+   "tg:banksta:105130"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:83905",
-   "tg:cbrstocks:83906",
    "tg:cbrstocks:83907",
    "tg:cbrstocks:83908",
    "tg:cbrstocks:83909",
@@ -915,15 +913,11 @@
    "tg:cbrstocks:84023",
    "tg:cbrstocks:84024",
    "tg:cbrstocks:84025",
-   "tg:cbrstocks:84018"
+   "tg:cbrstocks:84018",
+   "tg:cbrstocks:84026",
+   "tg:cbrstocks:84027"
   ],
   "rbc_news": [
-   "tg:rbc_news:160203",
-   "tg:rbc_news:160204",
-   "tg:rbc_news:160205",
-   "tg:rbc_news:160206",
-   "tg:rbc_news:160207",
-   "tg:rbc_news:160208",
    "tg:rbc_news:160209",
    "tg:rbc_news:160210",
    "tg:rbc_news:160211",
@@ -1017,15 +1011,15 @@
    "tg:rbc_news:160334",
    "tg:rbc_news:160335",
    "tg:rbc_news:160336",
-   "tg:rbc_news:160337"
+   "tg:rbc_news:160337",
+   "tg:rbc_news:160338",
+   "tg:rbc_news:160339",
+   "tg:rbc_news:160340",
+   "tg:rbc_news:160341",
+   "tg:rbc_news:160342",
+   "tg:rbc_news:160343"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81251",
-   "tg:interfaxonline:81252",
-   "tg:interfaxonline:81255",
-   "tg:interfaxonline:81257",
-   "tg:interfaxonline:81258",
-   "tg:interfaxonline:81259",
    "tg:interfaxonline:81263",
    "tg:interfaxonline:81253",
    "tg:interfaxonline:81264",
@@ -1119,22 +1113,23 @@
    "tg:interfaxonline:81365",
    "tg:interfaxonline:81368",
    "tg:interfaxonline:81369",
-   "tg:interfaxonline:81370"
+   "tg:interfaxonline:81370",
+   "tg:interfaxonline:81371",
+   "tg:interfaxonline:81372",
+   "tg:interfaxonline:81373",
+   "tg:interfaxonline:81374",
+   "tg:interfaxonline:81375",
+   "tg:interfaxonline:81376"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1794254641.0932217,
+   "ts": 1794278446.5466766,
    "usd": 83.0525,
    "cny": 12.369
   }
  ],
  "ai_seen": [
-  "6e39276207595e50",
-  "0ae4024080f4487e",
-  "e108a7717397c4d5",
-  "b28f91f9253a10dc",
-  "ca332f6ad7c48983",
   "5883f4399dcf32a7",
   "a7fc4cd59f3846bc",
   "507696983116cf7b",
@@ -1629,149 +1624,49 @@
   "6230a858c67ce271",
   "tg:cbrstocks:84018",
   "cab482c69afca920",
-  "21aac2cbb7dde7b0"
+  "21aac2cbb7dde7b0",
+  "b26d1f22b0699738",
+  "4652882babeb28b3",
+  "7be10aa5fe182dda",
+  "c374c1a7bb0a8745",
+  "c180375c39fa02f3"
  ],
  "layout_i": 0,
  "day_news": [
   {
-   "date": "2026-11-09",
-   "headline": "Криптовалюта EOS просела на 12% в медвежьей торговле с…",
+   "date": "2026-11-10",
+   "headline": "Почему растёт курс новозеландского доллара к доллару США",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794178153.5933197
+   "ts": 1794278462.9746275
   },
   {
-   "date": "2026-11-09",
-   "headline": "🇷🇺#CNRU #T Т-технологии готовы приобрести Циан. Но для…",
+   "date": "2026-11-10",
+   "headline": "Средний размер социальной пенсии в октябре составил 16,5…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794178155.6173596
+   "ts": 1794278464.7942376
   },
   {
-   "date": "2026-11-09",
-   "headline": "Мой любимый блоггер на тему инвестиций....",
+   "date": "2026-11-10",
+   "headline": "Россиян предупредили о росте платежа по автокредиту на 80…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794178157.585344
+   "ts": 1794278466.6176069
   },
   {
-   "date": "2026-11-09",
-   "headline": "Российские часовщики вышли на мировой уровень. Часовщик…",
+   "date": "2026-11-10",
+   "headline": "Летчики-испытатели в России получают более 176 тысяч…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794178159.5301387
+   "ts": 1794278468.4351718
   },
   {
-   "date": "2026-11-09",
-   "headline": "Главные новости к вечеру 8 ноября. Кратко: ▪ Кремль…",
+   "date": "2026-11-10",
+   "headline": "В России открыли более 300 тысяч кошельков с цифровыми…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794178161.4864366
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "Украина потеряла в сентябре 212 миллионов долларов из-за…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794189864.1848958
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "Аукционы русского искусства на Западе затруднены из-за…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794189866.104994
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "Нефть дешевеет на словах Трампа о маловероятности ударов…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794189868.017573
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "Экономический дайджест 08.11.2026",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794189869.927905
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "Венгрия раскрыла, откуда планирует получать газ",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794189871.930791
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "Российские банки столкнулись с резким ростом числа штрафов…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794217198.0436313
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "\"Газпром\" планирует собрать заявки на облигации от 20…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794217200.026475
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "СМИ: Украина потеряет 5,2 миллиарда долларов из-за блокады…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794217201.9759927
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "Когда покупать / продавать баксы (динамика курса доллара…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794217203.9412746
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "В Ульяновске мошенники выманили у пенсионера почти 4,5…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794217205.9120798
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "Как ФИНАМ потрошит пассивные рублевые счета долгосрочных…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794254666.103537
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "\"Курс найдет новый уровень равновесия\": рубль снизился к…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794254668.0665808
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "#Макро ФНБ в октябре вырос на 70,7 млрд руб., ликвидная…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794254670.0268192
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "Курс рубля снизился к юаню на 9 копеек",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794254672.038461
-  },
-  {
-   "date": "2026-11-09",
-   "headline": "ФНБ России вырос на 70,7 млрд рублей в октябре",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794254674.0032907
+   "ts": 1794278470.2778406
   }
  ],
  "recent_news": [
