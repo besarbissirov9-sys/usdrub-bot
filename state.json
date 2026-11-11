@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-10",
  "posted": [
-  "3b3ed13f04129c32",
-  "tg:banksta:104662",
-  "c7122f155197159c",
-  "c6b0081391b01a7b",
-  "22845f5bcc0ee8fe",
   "bb4edf58f8d77f3b",
   "1d54631337777ded",
   "4f48610f25481740",
@@ -501,12 +496,16 @@
   "0d137db2f692f895",
   "tg:banksta:105198",
   "tg:banksta:105195",
-  "tg:markettwits:392788"
+  "tg:markettwits:392788",
+  "1266b092e239d4f7",
+  "tg:markettwits:392783",
+  "b9ff6a1c7f0106f4",
+  "6a2ed7a92984ca52",
+  "63b49a2d8e2e994d"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:392459",
    "tg:markettwits:392460",
    "tg:markettwits:392461",
    "tg:markettwits:392462",
@@ -605,7 +604,8 @@
    "tg:markettwits:392791",
    "tg:markettwits:392792",
    "tg:markettwits:392793",
-   "tg:markettwits:392788"
+   "tg:markettwits:392788",
+   "tg:markettwits:392783"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -1028,14 +1028,6 @@
    "tg:rbc_news:160428"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81307",
-   "tg:interfaxonline:81308",
-   "tg:interfaxonline:81309",
-   "tg:interfaxonline:81310",
-   "tg:interfaxonline:81311",
-   "tg:interfaxonline:81312",
-   "tg:interfaxonline:81313",
-   "tg:interfaxonline:81314",
    "tg:interfaxonline:81315",
    "tg:interfaxonline:81316",
    "tg:interfaxonline:81317",
@@ -1127,27 +1119,30 @@
    "tg:interfaxonline:81427",
    "tg:interfaxonline:81428",
    "tg:interfaxonline:81429",
-   "tg:interfaxonline:81430"
+   "tg:interfaxonline:81430",
+   "tg:interfaxonline:81431",
+   "tg:interfaxonline:81432",
+   "tg:interfaxonline:81433",
+   "tg:interfaxonline:81434",
+   "tg:interfaxonline:81435",
+   "tg:interfaxonline:81436",
+   "tg:interfaxonline:81437",
+   "tg:interfaxonline:81438"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1794333881.0860403,
+   "ts": 1794352320.0715575,
    "usd": 83.65,
    "cny": 12.422
   },
   {
-   "ts": 1794352320.0715575,
+   "ts": 1794365374.44606,
    "usd": 83.65,
    "cny": 12.422
   }
  ],
  "ai_seen": [
-  "36d0a7721c5db067",
-  "7c1f9a1d7902a391",
-  "tg:banksta:104663",
-  "3b3ed13f04129c32",
-  "tg:banksta:104662",
   "c7122f155197159c",
   "c6b0081391b01a7b",
   "22845f5bcc0ee8fe",
@@ -1642,7 +1637,12 @@
   "0d137db2f692f895",
   "tg:banksta:105198",
   "tg:banksta:105195",
-  "tg:markettwits:392788"
+  "tg:markettwits:392788",
+  "1266b092e239d4f7",
+  "tg:markettwits:392783",
+  "b9ff6a1c7f0106f4",
+  "6a2ed7a92984ca52",
+  "63b49a2d8e2e994d"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1680,6 +1680,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1794352350.0346239
+  },
+  {
+   "date": "2026-11-11",
+   "headline": "Реклама и PR принесли России 1,25 триллиона рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794365390.3137183
+  },
+  {
+   "date": "2026-11-11",
+   "headline": "✴️🇺🇸#банки #крипто #сша #стейблкоины Goldman, Citi,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794365392.136923
+  },
+  {
+   "date": "2026-11-11",
+   "headline": "Минфин Нижегородской области разместит облигации на 20…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794365393.951545
+  },
+  {
+   "date": "2026-11-11",
+   "headline": "«ЭЛ5-Энерго» получила 126 млн рублей чистого убытка по…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794365395.765971
+  },
+  {
+   "date": "2026-11-11",
+   "headline": "Британия направит 120 миллионов долларов на защиту…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794365397.5905452
   }
  ],
  "recent_news": [
