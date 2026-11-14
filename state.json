@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-14",
  "posted": [
-  "50cbee643f36f9da",
-  "8215c94b38285689",
-  "7624fe249dff9f99",
-  "00026ca7b6ad5814",
-  "fd68a8e9890dff13",
   "947a633b01233112",
   "tg:banksta:104698",
   "ec95062955ff6322",
@@ -501,17 +496,16 @@
   "200d3da3a76cdb8c",
   "d5422c1ebc4c95da",
   "b4d4bf6596fe71e3",
-  "eb414cfb2a825b43"
+  "eb414cfb2a825b43",
+  "82d8c8173ca77217",
+  "1293367555aaeff3",
+  "078d21abd5caa04d",
+  "tg:rbc_news:160696",
+  "a6903a02ce56bf11"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:393203",
-   "tg:markettwits:393207",
-   "tg:markettwits:393208",
-   "tg:markettwits:393209",
-   "tg:markettwits:393210",
-   "tg:markettwits:393211",
    "tg:markettwits:393212",
    "tg:markettwits:393213",
    "tg:markettwits:393214",
@@ -605,7 +599,13 @@
    "tg:markettwits:393416",
    "tg:markettwits:393417",
    "tg:markettwits:393419",
-   "tg:markettwits:393420"
+   "tg:markettwits:393420",
+   "tg:markettwits:393421",
+   "tg:markettwits:393422",
+   "tg:markettwits:393423",
+   "tg:markettwits:393424",
+   "tg:markettwits:393425",
+   "tg:markettwits:393426"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -744,10 +744,6 @@
    "tg:xtxixty:7026"
   ],
   "banksta": [
-   "tg:banksta:105287",
-   "tg:banksta:105288",
-   "tg:banksta:105293",
-   "tg:banksta:105294",
    "tg:banksta:105295",
    "tg:banksta:105300",
    "tg:banksta:105302",
@@ -843,7 +839,11 @@
    "tg:banksta:105464",
    "tg:banksta:105465",
    "tg:banksta:105471",
-   "tg:banksta:105472"
+   "tg:banksta:105472",
+   "tg:banksta:105473",
+   "tg:banksta:105474",
+   "tg:banksta:105475",
+   "tg:banksta:105476"
   ],
   "cbrstocks": [
    "tg:cbrstocks:84073",
@@ -948,7 +948,6 @@
    "tg:cbrstocks:84229"
   ],
   "rbc_news": [
-   "tg:rbc_news:160549",
    "tg:rbc_news:160550",
    "tg:rbc_news:160567",
    "tg:rbc_news:160568",
@@ -1047,14 +1046,10 @@
    "tg:rbc_news:160691",
    "tg:rbc_news:160693",
    "tg:rbc_news:160694",
-   "tg:rbc_news:160695"
+   "tg:rbc_news:160695",
+   "tg:rbc_news:160696"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81502",
-   "tg:interfaxonline:81514",
-   "tg:interfaxonline:81515",
-   "tg:interfaxonline:81517",
-   "tg:interfaxonline:81518",
    "tg:interfaxonline:81519",
    "tg:interfaxonline:81522",
    "tg:interfaxonline:81523",
@@ -1149,27 +1144,27 @@
    "tg:interfaxonline:81619",
    "tg:interfaxonline:81620",
    "tg:interfaxonline:81621",
-   "tg:interfaxonline:81622"
+   "tg:interfaxonline:81622",
+   "tg:interfaxonline:81623",
+   "tg:interfaxonline:81624",
+   "tg:interfaxonline:81625",
+   "tg:interfaxonline:81626",
+   "tg:interfaxonline:81627"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1794671467.436386,
+   "ts": 1794687318.5419044,
    "usd": 82.405,
    "cny": 12.3005
   },
   {
-   "ts": 1794687318.5419044,
+   "ts": 1794700597.6701617,
    "usd": 82.405,
    "cny": 12.3005
   }
  ],
  "ai_seen": [
-  "b94270dc9d2c92ee",
-  "21e49f07524a86d1",
-  "tg:markettwits:391717",
-  "50cbee643f36f9da",
-  "8215c94b38285689",
   "7624fe249dff9f99",
   "00026ca7b6ad5814",
   "fd68a8e9890dff13",
@@ -1664,184 +1659,49 @@
   "200d3da3a76cdb8c",
   "d5422c1ebc4c95da",
   "b4d4bf6596fe71e3",
-  "eb414cfb2a825b43"
+  "eb414cfb2a825b43",
+  "82d8c8173ca77217",
+  "1293367555aaeff3",
+  "078d21abd5caa04d",
+  "tg:rbc_news:160696",
+  "a6903a02ce56bf11"
  ],
  "layout_i": 0,
  "day_news": [
   {
-   "date": "2026-11-14",
-   "headline": "Индекс доллара готовится завершить неделю ростом",
+   "date": "2026-11-15",
+   "headline": "Доллар США: лучший недельный рост с сентября на ожиданиях…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794608013.7301967
+   "ts": 1794700616.0923078
   },
   {
-   "date": "2026-11-14",
-   "headline": "\"Продолжит колебания в диапазоне 12–12,5 рубля\": юань…",
+   "date": "2026-11-15",
+   "headline": "Иена вновь приближается к 160 за доллар, Токио грозит…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794608015.5763447
+   "ts": 1794700618.0415857
   },
   {
-   "date": "2026-11-14",
-   "headline": "Зварич: не исключено снижение юаня к нижней границе…",
+   "date": "2026-11-15",
+   "headline": "Криптовалюта XRP просела на 10% в медвежьей торговле с…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794608017.4280376
+   "ts": 1794700619.9951506
   },
   {
-   "date": "2026-11-14",
-   "headline": "Портфель лучших акций под пассивный доход на 13 ноября.…",
+   "date": "2026-11-15",
+   "headline": "Главные новости к этому часу. Кратко: ▪ Путин помиловал…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794608019.2843258
+   "ts": 1794700621.9337533
   },
   {
-   "date": "2026-11-14",
-   "headline": "\"Рубль частично отыгрался\": юань снизился до 12,3 рубля",
+   "date": "2026-11-15",
+   "headline": "Уход Дженсена Хуанга из Nvidia",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794608021.154279
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Реставрация здания панорамы в Севастополе обойдется почти…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794623291.3498743
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "«Газпром» собрал заявки на выпуск облигаций на 50 млрд…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794623293.1641848
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Минтруд предложил повысить страховые выплаты самозанятым…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794623295.0663397
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Dangote планирует увеличить инвестиции в Африку до 70…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794623296.8767567
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Цена нефти Brent превысила 97 долларов за баррель",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794623298.7001152
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Владимир Путин помиловал больную раком блогера Лерчек и…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794647745.2566452
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "ЦБ снизил курс доллара до 82,15 рубля",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794647747.2172368
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Курс юаня к рублю на Мосбирже ощутимо снижается",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794647749.3557627
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Центробанк опубликовал официальный курс валют с субботы",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794647751.3732936
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Канадский доллар держится у месячного минимума на инфляции…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794647753.321048
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "В лесах Венгрии раскопали миллионы долларов и евро…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794671490.7453346
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Налоговая начала использовать ИИ для проверок и едва не…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794671492.7614167
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "ЦБ снизил официальный курс доллара на 14 ноября до 82,1516…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794671494.773358
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Официальные курсы валют на 14 ноября: ¥ — ₽12,3149, $ —…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794671496.7338064
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Патрушев: льготная аренда леса освободит 20 миллиардов…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794671498.6937823
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Проректора «Синергии» Ерофеева задержали по делу о хищении…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794687351.816357
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "«Урожай» допустил техдефолт по облигациям на 22,4 млн рублей",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794687353.6137576
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Совкомбанк удвоил чистую прибыль за девять месяцев до 71,9…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794687355.421444
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Акции «Сбера» превысили 300 рублей и обновили максимум за…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794687357.2146842
-  },
-  {
-   "date": "2026-11-14",
-   "headline": "Акции «Совкомбанка» растут на 2% после отчета, рубль…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794687359.0286236
+   "ts": 1794700623.883511
   }
  ],
  "recent_news": [
