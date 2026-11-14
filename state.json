@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-13",
  "posted": [
-  "6e1bb9aedf86d8c7",
-  "tg:cbrstocks:83846",
-  "1b650c7b9f41228f",
-  "d797898b55df23b6",
-  "dd113f9adfaffd88",
   "3159fed3795e97d7",
   "tg:interfaxonline:81081",
   "729df75a675b2853",
@@ -501,7 +496,12 @@
   "6bb53165969a58c2",
   "d3dc22b1366e8169",
   "74f9047ca51f1041",
-  "d91946be84ea77d9"
+  "d91946be84ea77d9",
+  "7eaf9055af42e4dd",
+  "9a1d30da578dae92",
+  "2fe2eb886e77c6dd",
+  "587e5798e8a67638",
+  "c0b90a1f7598e486"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -744,14 +744,6 @@
    "tg:xtxixty:7026"
   ],
   "banksta": [
-   "tg:banksta:105220",
-   "tg:banksta:105221",
-   "tg:banksta:105222",
-   "tg:banksta:105223",
-   "tg:banksta:105225",
-   "tg:banksta:105226",
-   "tg:banksta:105227",
-   "tg:banksta:105228",
    "tg:banksta:105229",
    "tg:banksta:105230",
    "tg:banksta:105232",
@@ -843,7 +835,15 @@
    "tg:banksta:105414",
    "tg:banksta:105416",
    "tg:banksta:105418",
-   "tg:banksta:105419"
+   "tg:banksta:105419",
+   "tg:banksta:105421",
+   "tg:banksta:105422",
+   "tg:banksta:105424",
+   "tg:banksta:105426",
+   "tg:banksta:105427",
+   "tg:banksta:105428",
+   "tg:banksta:105429",
+   "tg:banksta:105430"
   ],
   "cbrstocks": [
    "tg:cbrstocks:84073",
@@ -1050,13 +1050,6 @@
    "tg:rbc_news:160657"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81475",
-   "tg:interfaxonline:81476",
-   "tg:interfaxonline:81477",
-   "tg:interfaxonline:81478",
-   "tg:interfaxonline:81479",
-   "tg:interfaxonline:81480",
-   "tg:interfaxonline:81481",
    "tg:interfaxonline:81482",
    "tg:interfaxonline:81484",
    "tg:interfaxonline:81485",
@@ -1149,27 +1142,29 @@
    "tg:interfaxonline:81596",
    "tg:interfaxonline:81597",
    "tg:interfaxonline:81598",
-   "tg:interfaxonline:81599"
+   "tg:interfaxonline:81599",
+   "tg:interfaxonline:81600",
+   "tg:interfaxonline:81601",
+   "tg:interfaxonline:81602",
+   "tg:interfaxonline:81603",
+   "tg:interfaxonline:81604",
+   "tg:interfaxonline:81605",
+   "tg:interfaxonline:81606"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1794588153.599141,
+   "ts": 1794607996.3314922,
    "usd": 82.405,
    "cny": 12.3005
   },
   {
-   "ts": 1794607996.3314922,
+   "ts": 1794623273.4491131,
    "usd": 82.405,
    "cny": 12.3005
   }
  ],
  "ai_seen": [
-  "tg:cbrstocks:83847",
-  "3ffa3aa1e872ebc4",
-  "7d58558e71327df0",
-  "6e1bb9aedf86d8c7",
-  "tg:cbrstocks:83846",
   "1b650c7b9f41228f",
   "d797898b55df23b6",
   "dd113f9adfaffd88",
@@ -1664,7 +1659,12 @@
   "6bb53165969a58c2",
   "d3dc22b1366e8169",
   "74f9047ca51f1041",
-  "d91946be84ea77d9"
+  "d91946be84ea77d9",
+  "7eaf9055af42e4dd",
+  "9a1d30da578dae92",
+  "2fe2eb886e77c6dd",
+  "587e5798e8a67638",
+  "c0b90a1f7598e486"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1702,6 +1702,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1794608021.154279
+  },
+  {
+   "date": "2026-11-14",
+   "headline": "Реставрация здания панорамы в Севастополе обойдется почти…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794623291.3498743
+  },
+  {
+   "date": "2026-11-14",
+   "headline": "«Газпром» собрал заявки на выпуск облигаций на 50 млрд…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794623293.1641848
+  },
+  {
+   "date": "2026-11-14",
+   "headline": "Минтруд предложил повысить страховые выплаты самозанятым…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794623295.0663397
+  },
+  {
+   "date": "2026-11-14",
+   "headline": "Dangote планирует увеличить инвестиции в Африку до 70…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794623296.8767567
+  },
+  {
+   "date": "2026-11-14",
+   "headline": "Цена нефти Brent превысила 97 долларов за баррель",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794623298.7001152
   }
  ],
  "recent_news": [
