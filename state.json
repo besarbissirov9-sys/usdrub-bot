@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-14",
  "posted": [
-  "947a633b01233112",
-  "tg:banksta:104698",
-  "ec95062955ff6322",
-  "7d8fab6022f3f5cc",
-  "67763ca71db45d4e",
   "f3a801d8d1ab3044",
   "015b3c104687d008",
   "3d9665f085297485",
@@ -501,12 +496,16 @@
   "1293367555aaeff3",
   "078d21abd5caa04d",
   "tg:rbc_news:160696",
-  "a6903a02ce56bf11"
+  "a6903a02ce56bf11",
+  "3c2393862989ae56",
+  "e09f4736fb2b0ca5",
+  "88b8e55eca85ab3c",
+  "tg:rbc_news:160692",
+  "tg:markettwits:393418"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:393212",
    "tg:markettwits:393213",
    "tg:markettwits:393214",
    "tg:markettwits:393215",
@@ -605,7 +604,8 @@
    "tg:markettwits:393423",
    "tg:markettwits:393424",
    "tg:markettwits:393425",
-   "tg:markettwits:393426"
+   "tg:markettwits:393426",
+   "tg:markettwits:393418"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -948,7 +948,6 @@
    "tg:cbrstocks:84229"
   ],
   "rbc_news": [
-   "tg:rbc_news:160550",
    "tg:rbc_news:160567",
    "tg:rbc_news:160568",
    "tg:rbc_news:160569",
@@ -1047,12 +1046,10 @@
    "tg:rbc_news:160693",
    "tg:rbc_news:160694",
    "tg:rbc_news:160695",
-   "tg:rbc_news:160696"
+   "tg:rbc_news:160696",
+   "tg:rbc_news:160692"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81519",
-   "tg:interfaxonline:81522",
-   "tg:interfaxonline:81523",
    "tg:interfaxonline:81524",
    "tg:interfaxonline:81525",
    "tg:interfaxonline:81526",
@@ -1149,27 +1146,25 @@
    "tg:interfaxonline:81624",
    "tg:interfaxonline:81625",
    "tg:interfaxonline:81626",
-   "tg:interfaxonline:81627"
+   "tg:interfaxonline:81627",
+   "tg:interfaxonline:81628",
+   "tg:interfaxonline:81629",
+   "tg:interfaxonline:81630"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1794687318.5419044,
+   "ts": 1794700597.6701617,
    "usd": 82.405,
    "cny": 12.3005
   },
   {
-   "ts": 1794700597.6701617,
+   "ts": 1794716940.824716,
    "usd": 82.405,
    "cny": 12.3005
   }
  ],
  "ai_seen": [
-  "7624fe249dff9f99",
-  "00026ca7b6ad5814",
-  "fd68a8e9890dff13",
-  "947a633b01233112",
-  "tg:banksta:104698",
   "ec95062955ff6322",
   "7d8fab6022f3f5cc",
   "67763ca71db45d4e",
@@ -1664,7 +1659,12 @@
   "1293367555aaeff3",
   "078d21abd5caa04d",
   "tg:rbc_news:160696",
-  "a6903a02ce56bf11"
+  "a6903a02ce56bf11",
+  "3c2393862989ae56",
+  "e09f4736fb2b0ca5",
+  "88b8e55eca85ab3c",
+  "tg:rbc_news:160692",
+  "tg:markettwits:393418"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1702,6 +1702,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1794700623.883511
+  },
+  {
+   "date": "2026-11-15",
+   "headline": "Обзор рынка по волнам Эллиотта. Биткоин, рубль, нефть,…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794716960.1008117
+  },
+  {
+   "date": "2026-11-15",
+   "headline": "Криптовалюта Эфириум просела на 10% в медвежьей торговле с…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794716962.0810714
+  },
+  {
+   "date": "2026-11-15",
+   "headline": "Как формируется настоящее мастерство",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794716964.0683331
+  },
+  {
+   "date": "2026-11-15",
+   "headline": "О чем пишет иностранная пресса. Обзор РБК: ▪️Госсекретарь…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794716966.0811143
+  },
+  {
+   "date": "2026-11-15",
+   "headline": "Альфа-Банк создал ЦФА НОВОГО ФОРМАТА с процентом от…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794716968.0937278
   }
  ],
  "recent_news": [
