@@ -1,12 +1,7 @@
 {
  "last_rate": 80.81,
- "summary_date": "2026-11-14",
+ "summary_date": "2026-11-15",
  "posted": [
-  "f3a801d8d1ab3044",
-  "015b3c104687d008",
-  "3d9665f085297485",
-  "ed89650fb3db68d6",
-  "tg:markettwits:391757",
   "25d44f33dfd8f37c",
   "e3a6efcd0d1513b0",
   "9d88ba7649a08019",
@@ -501,25 +496,16 @@
   "e09f4736fb2b0ca5",
   "88b8e55eca85ab3c",
   "tg:rbc_news:160692",
-  "tg:markettwits:393418"
+  "tg:markettwits:393418",
+  "tg:banksta:105478",
+  "abaa5343ad951d4d",
+  "tg:markettwits:393441",
+  "8b62210a6363c4ba",
+  "tg:banksta:105482"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:393213",
-   "tg:markettwits:393214",
-   "tg:markettwits:393215",
-   "tg:markettwits:393216",
-   "tg:markettwits:393204",
-   "tg:markettwits:393217",
-   "tg:markettwits:393218",
-   "tg:markettwits:393219",
-   "tg:markettwits:393220",
-   "tg:markettwits:393221",
-   "tg:markettwits:393222",
-   "tg:markettwits:393223",
-   "tg:markettwits:393224",
-   "tg:markettwits:393225",
    "tg:markettwits:393226",
    "tg:markettwits:393227",
    "tg:markettwits:393228",
@@ -605,7 +591,21 @@
    "tg:markettwits:393424",
    "tg:markettwits:393425",
    "tg:markettwits:393426",
-   "tg:markettwits:393418"
+   "tg:markettwits:393418",
+   "tg:markettwits:393427",
+   "tg:markettwits:393428",
+   "tg:markettwits:393429",
+   "tg:markettwits:393430",
+   "tg:markettwits:393431",
+   "tg:markettwits:393432",
+   "tg:markettwits:393433",
+   "tg:markettwits:393434",
+   "tg:markettwits:393437",
+   "tg:markettwits:393438",
+   "tg:markettwits:393439",
+   "tg:markettwits:393440",
+   "tg:markettwits:393442",
+   "tg:markettwits:393441"
   ],
   "russianmacro": [
    "tg:russianmacro:23620",
@@ -744,14 +744,6 @@
    "tg:xtxixty:7026"
   ],
   "banksta": [
-   "tg:banksta:105295",
-   "tg:banksta:105300",
-   "tg:banksta:105302",
-   "tg:banksta:105326",
-   "tg:banksta:105327",
-   "tg:banksta:105328",
-   "tg:banksta:105331",
-   "tg:banksta:105334",
    "tg:banksta:105336",
    "tg:banksta:105337",
    "tg:banksta:105338",
@@ -843,11 +835,17 @@
    "tg:banksta:105473",
    "tg:banksta:105474",
    "tg:banksta:105475",
-   "tg:banksta:105476"
+   "tg:banksta:105476",
+   "tg:banksta:105477",
+   "tg:banksta:105479",
+   "tg:banksta:105480",
+   "tg:banksta:105481",
+   "tg:banksta:105483",
+   "tg:banksta:105484",
+   "tg:banksta:105478",
+   "tg:banksta:105482"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:84073",
-   "tg:cbrstocks:84074",
    "tg:cbrstocks:84075",
    "tg:cbrstocks:84076",
    "tg:cbrstocks:84078",
@@ -945,26 +943,11 @@
    "tg:cbrstocks:84226",
    "tg:cbrstocks:84227",
    "tg:cbrstocks:84228",
-   "tg:cbrstocks:84229"
+   "tg:cbrstocks:84229",
+   "tg:cbrstocks:84219",
+   "tg:cbrstocks:84220"
   ],
   "rbc_news": [
-   "tg:rbc_news:160567",
-   "tg:rbc_news:160568",
-   "tg:rbc_news:160569",
-   "tg:rbc_news:160570",
-   "tg:rbc_news:160571",
-   "tg:rbc_news:160572",
-   "tg:rbc_news:160573",
-   "tg:rbc_news:160574",
-   "tg:rbc_news:160575",
-   "tg:rbc_news:160576",
-   "tg:rbc_news:160577",
-   "tg:rbc_news:160578",
-   "tg:rbc_news:160579",
-   "tg:rbc_news:160581",
-   "tg:rbc_news:160582",
-   "tg:rbc_news:160583",
-   "tg:rbc_news:160584",
    "tg:rbc_news:160585",
    "tg:rbc_news:160580",
    "tg:rbc_news:160587",
@@ -1047,18 +1030,26 @@
    "tg:rbc_news:160694",
    "tg:rbc_news:160695",
    "tg:rbc_news:160696",
-   "tg:rbc_news:160692"
+   "tg:rbc_news:160692",
+   "tg:rbc_news:160697",
+   "tg:rbc_news:160698",
+   "tg:rbc_news:160699",
+   "tg:rbc_news:160700",
+   "tg:rbc_news:160702",
+   "tg:rbc_news:160703",
+   "tg:rbc_news:160704",
+   "tg:rbc_news:160705",
+   "tg:rbc_news:160706",
+   "tg:rbc_news:160707",
+   "tg:rbc_news:160708",
+   "tg:rbc_news:160709",
+   "tg:rbc_news:160710",
+   "tg:rbc_news:160711",
+   "tg:rbc_news:160714",
+   "tg:rbc_news:160715",
+   "tg:rbc_news:160716"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81524",
-   "tg:interfaxonline:81525",
-   "tg:interfaxonline:81526",
-   "tg:interfaxonline:81527",
-   "tg:interfaxonline:81529",
-   "tg:interfaxonline:81530",
-   "tg:interfaxonline:81531",
-   "tg:interfaxonline:81532",
-   "tg:interfaxonline:81533",
    "tg:interfaxonline:81534",
    "tg:interfaxonline:81535",
    "tg:interfaxonline:81536",
@@ -1149,27 +1140,26 @@
    "tg:interfaxonline:81627",
    "tg:interfaxonline:81628",
    "tg:interfaxonline:81629",
-   "tg:interfaxonline:81630"
+   "tg:interfaxonline:81630",
+   "tg:interfaxonline:81631",
+   "tg:interfaxonline:81632",
+   "tg:interfaxonline:81633",
+   "tg:interfaxonline:81634",
+   "tg:interfaxonline:81635",
+   "tg:interfaxonline:81636",
+   "tg:interfaxonline:81637",
+   "tg:interfaxonline:81638",
+   "tg:interfaxonline:81639"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1794700597.6701617,
-   "usd": 82.405,
-   "cny": 12.3005
-  },
-  {
-   "ts": 1794716940.824716,
+   "ts": 1794744608.2877054,
    "usd": 82.405,
    "cny": 12.3005
   }
  ],
  "ai_seen": [
-  "ec95062955ff6322",
-  "7d8fab6022f3f5cc",
-  "67763ca71db45d4e",
-  "f3a801d8d1ab3044",
-  "015b3c104687d008",
   "3d9665f085297485",
   "ed89650fb3db68d6",
   "tg:markettwits:391757",
@@ -1664,7 +1654,12 @@
   "e09f4736fb2b0ca5",
   "88b8e55eca85ab3c",
   "tg:rbc_news:160692",
-  "tg:markettwits:393418"
+  "tg:markettwits:393418",
+  "tg:banksta:105478",
+  "abaa5343ad951d4d",
+  "tg:markettwits:393441",
+  "8b62210a6363c4ba",
+  "tg:banksta:105482"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1737,14 +1732,44 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1794716968.0937278
+  },
+  {
+   "date": "2026-11-15",
+   "headline": "Маткапитал на второго ребёнка в России превысит 1 млн…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794744629.4454594
+  },
+  {
+   "date": "2026-11-15",
+   "headline": "В России маткапитал с февраля 2027 года составит более 1…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794744631.3431334
+  },
+  {
+   "date": "2026-11-15",
+   "headline": "🗓#календарь КЛЮЧЕВЫЕ СОБЫТИЯ ЭТОЙ НЕДЕЛИ: 🌎саммит АТЭС…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794744633.391692
+  },
+  {
+   "date": "2026-11-15",
+   "headline": "🛢 Российская нефть больше никому не нужна? Рекордные…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794744635.3023994
+  },
+  {
+   "date": "2026-11-15",
+   "headline": "Российский банкстер Дмитрий Аграмаков оказался одним из…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794744637.216204
   }
  ],
  "recent_news": [
-  {
-   "title": "Курс доллара выше 100 рублей в 2027 году возможен, но продолжительное нахождение выше этой отметки относится к неблагоприятному сценарию — экономист Байгузина",
-   "text": "Курс доллара выше 100 рублей в 2027 году возможен, но продолжительное нахождение выше этой отметки относится к неблагоприятному сценарию — экономист Байгузина Курс доллара выше 100 рублей в 2027 году возможен, но продолжительное нахождение выше этой отметки относится к неблагоприятному сценарию — экономист Байгузина Базовый прогноз Люзы Байгузиной, кандидата экономических наук и доцента Института международных экономических связей, — 90–98 рублей за доллар. Отметка 100 рублей в 2027 году допустима, но продолжительное нахождение выше неё относится к неблагоприятному сценарию. Краткий выход за…",
-   "ts": 1794390878.5458887
-  },
   {
    "title": "Егор Сусин прогнозирует смещение баланса курса рубля к 85 за доллар к концу года",
    "text": "Егор Сусин прогнозирует смещение баланса курса рубля к 85 за доллар к концу года Егор Сусин прогнозирует смещение баланса курса рубля к 85 за доллар к концу года Егор Сусин прогнозирует смещение баланса курса рубля к 85 за доллар к концу года",
@@ -1939,6 +1964,11 @@
    "title": "Как формируется настоящее мастерство",
    "text": "Как формируется настоящее мастерство Магнус Карлсен — пятикратный чемпион мира по шахматам. Как то ему показали расстановку фигур на доске и попросили назвать партию, из которой её взяли. Он ответил, что это очень похоже на партию Таля и Ботвинника. Ему показали начало другой партии. Он ответил:… Магнус Карлсен — пятикратный чемпион мира по шахматам. Как то ему показали расстановку фигур на доске и попросили назвать партию, из которой её взяли. Он ответил, что это очень похоже на партию Таля и Ботвинника. Ему показали начало другой партии. Он ответил: «Это Ананд. Соперник — Сапата.» Магнус…",
    "ts": 1794687359.0290966
+  },
+  {
+   "title": "Позитив вырос на 68% за квартал. Что получат акционеры - интервью с менеджментом Positive Technologies",
+   "text": "Позитив вырос на 68% за квартал. Что получат акционеры - интервью с менеджментом Positive Technologies Видео: YouTube | VK Видео Конспект с графиками: Telegraph Positive Technologies 13 ноября дала нам интервью. Пришли двое: Юрий Мариничев, директор по связям с инвесторами, и Анастасия Догадкина, она отвечает в компании за бюджетирование и финансы. Вёл Кирилл… Видео: YouTube | VK Видео Конспект с графиками: Telegraph Positive Technologies 13 ноября дала нам интервью. Пришли двое: Юрий Мариничев, директор по связям с инвесторами, и Анастасия Догадкина, она отвечает в компании за…",
+   "ts": 1794744637.2167904
   }
  ],
  "cbr_next": "2026-11-14",
