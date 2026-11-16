@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-15",
  "posted": [
-  "5cc9c3975fa59f13",
-  "42161cace7544f84",
-  "tg:banksta:104715",
-  "b25b777175989140",
-  "c27dc83af1766cd4",
   "45cdb2a4d7a909ed",
   "1b13332169efd2e5",
   "1a139336bc4856d3",
@@ -501,7 +496,12 @@
   "24f693253e31d767",
   "tg:banksta:105501",
   "26c485c1ef0d3087",
-  "tg:interfaxonline:81650"
+  "tg:interfaxonline:81650",
+  "b27a63ace16fb358",
+  "tg:banksta:105510",
+  "tg:russianmacro:23739",
+  "tg:interfaxonline:81647",
+  "bcb2c372461b8fae"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -706,7 +706,8 @@
    "tg:russianmacro:23737",
    "tg:russianmacro:23728",
    "tg:russianmacro:23732",
-   "tg:russianmacro:23738"
+   "tg:russianmacro:23738",
+   "tg:russianmacro:23739"
   ],
   "xtxixty": [
    "tg:xtxixty:6953",
@@ -745,7 +746,6 @@
    "tg:xtxixty:7027"
   ],
   "banksta": [
-   "tg:banksta:105358",
    "tg:banksta:105360",
    "tg:banksta:105361",
    "tg:banksta:105362",
@@ -844,7 +844,8 @@
    "tg:banksta:105507",
    "tg:banksta:105508",
    "tg:banksta:105509",
-   "tg:banksta:105501"
+   "tg:banksta:105501",
+   "tg:banksta:105510"
   ],
   "cbrstocks": [
    "tg:cbrstocks:84075",
@@ -1051,16 +1052,6 @@
    "tg:rbc_news:160736"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81550",
-   "tg:interfaxonline:81551",
-   "tg:interfaxonline:81552",
-   "tg:interfaxonline:81553",
-   "tg:interfaxonline:81554",
-   "tg:interfaxonline:81555",
-   "tg:interfaxonline:81556",
-   "tg:interfaxonline:81557",
-   "tg:interfaxonline:81558",
-   "tg:interfaxonline:81559",
    "tg:interfaxonline:81560",
    "tg:interfaxonline:81561",
    "tg:interfaxonline:81562",
@@ -1150,27 +1141,32 @@
    "tg:interfaxonline:81652",
    "tg:interfaxonline:81653",
    "tg:interfaxonline:81654",
-   "tg:interfaxonline:81650"
+   "tg:interfaxonline:81650",
+   "tg:interfaxonline:81655",
+   "tg:interfaxonline:81656",
+   "tg:interfaxonline:81657",
+   "tg:interfaxonline:81658",
+   "tg:interfaxonline:81659",
+   "tg:interfaxonline:81660",
+   "tg:interfaxonline:81661",
+   "tg:interfaxonline:81662",
+   "tg:interfaxonline:81663",
+   "tg:interfaxonline:81647"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1794768420.4618618,
+   "ts": 1794784316.9367077,
    "usd": 82.405,
    "cny": 12.3005
   },
   {
-   "ts": 1794784316.9367077,
+   "ts": 1794797160.4272954,
    "usd": 82.405,
    "cny": 12.3005
   }
  ],
  "ai_seen": [
-  "fc0838a8f8a88286",
-  "c7345cc038f3ac4f",
-  "75315d4319c35b39",
-  "5cc9c3975fa59f13",
-  "42161cace7544f84",
   "tg:banksta:104715",
   "b25b777175989140",
   "c27dc83af1766cd4",
@@ -1665,7 +1661,12 @@
   "24f693253e31d767",
   "tg:banksta:105501",
   "26c485c1ef0d3087",
-  "tg:interfaxonline:81650"
+  "tg:interfaxonline:81650",
+  "b27a63ace16fb358",
+  "tg:banksta:105510",
+  "tg:russianmacro:23739",
+  "tg:interfaxonline:81647",
+  "bcb2c372461b8fae"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1703,6 +1704,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1794784337.1573184
+  },
+  {
+   "date": "2026-11-16",
+   "headline": "Названы регионы, где средний размер пенсии превысил 30…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794797182.4874687
+  },
+  {
+   "date": "2026-11-16",
+   "headline": "Банк России будет передавать в налоговую данные о…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794797184.5763578
+  },
+  {
+   "date": "2026-11-16",
+   "headline": "‼️🔥 ДАЖЕ ПОСЛЕ 2 ЛЕТ УМЕРЕННОГО РОСТА ЭКОНОМИКА МОЖЕТ…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794797186.6151822
+  },
+  {
+   "date": "2026-11-16",
+   "headline": "Минфин РФ готов распространить норму о передаче ЦБ в ФНС…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794797188.587127
+  },
+  {
+   "date": "2026-11-16",
+   "headline": "Новые облигации Атомэнергопром 1Р20 на размещении",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1794797190.5776973
   }
  ],
  "recent_news": [
