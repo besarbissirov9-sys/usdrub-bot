@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-16",
  "posted": [
-  "5beacfe5eb4451a8",
-  "93610a6fb6d83333",
-  "7da939d548ea658f",
-  "ce54f766d2cd5b55",
-  "b663a3d3561c8d3d",
   "tg:banksta:104727",
   "tg:markettwits:391827",
   "87c78de371b2d0ba",
@@ -501,12 +496,16 @@
   "tg:markettwits:393609",
   "864b23f700102443",
   "f1b49e8cc440f810",
-  "c9cc5cef1d2d80a4"
+  "c9cc5cef1d2d80a4",
+  "22fd6a9a388d1b40",
+  "c4c1b97bbc2b15b9",
+  "tg:banksta:105570",
+  "tg:banksta:105568",
+  "ab3d16b272b10998"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:393384",
    "tg:markettwits:393386",
    "tg:markettwits:393387",
    "tg:markettwits:393388",
@@ -605,7 +604,8 @@
    "tg:markettwits:393612",
    "tg:markettwits:393613",
    "tg:markettwits:393614",
-   "tg:markettwits:393609"
+   "tg:markettwits:393609",
+   "tg:markettwits:393615"
   ],
   "russianmacro": [
    "tg:russianmacro:23627",
@@ -746,20 +746,6 @@
    "tg:xtxixty:7027"
   ],
   "banksta": [
-   "tg:banksta:105422",
-   "tg:banksta:105424",
-   "tg:banksta:105426",
-   "tg:banksta:105427",
-   "tg:banksta:105428",
-   "tg:banksta:105429",
-   "tg:banksta:105430",
-   "tg:banksta:105431",
-   "tg:banksta:105432",
-   "tg:banksta:105433",
-   "tg:banksta:105436",
-   "tg:banksta:105438",
-   "tg:banksta:105439",
-   "tg:banksta:105440",
    "tg:banksta:105437",
    "tg:banksta:105442",
    "tg:banksta:105444",
@@ -845,7 +831,21 @@
    "tg:banksta:105564",
    "tg:banksta:105565",
    "tg:banksta:105567",
-   "tg:banksta:105562"
+   "tg:banksta:105562",
+   "tg:banksta:105569",
+   "tg:banksta:105571",
+   "tg:banksta:105572",
+   "tg:banksta:105573",
+   "tg:banksta:105574",
+   "tg:banksta:105576",
+   "tg:banksta:105577",
+   "tg:banksta:105578",
+   "tg:banksta:105579",
+   "tg:banksta:105581",
+   "tg:banksta:105582",
+   "tg:banksta:105583",
+   "tg:banksta:105570",
+   "tg:banksta:105568"
   ],
   "cbrstocks": [
    "tg:cbrstocks:84117",
@@ -950,8 +950,6 @@
    "tg:cbrstocks:84267"
   ],
   "rbc_news": [
-   "tg:rbc_news:160665",
-   "tg:rbc_news:160666",
    "tg:rbc_news:160667",
    "tg:rbc_news:160668",
    "tg:rbc_news:160669",
@@ -1049,21 +1047,11 @@
    "tg:rbc_news:160805",
    "tg:rbc_news:160806",
    "tg:rbc_news:160807",
-   "tg:rbc_news:160808"
+   "tg:rbc_news:160808",
+   "tg:rbc_news:160809",
+   "tg:rbc_news:160810"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81593",
-   "tg:interfaxonline:81594",
-   "tg:interfaxonline:81595",
-   "tg:interfaxonline:81596",
-   "tg:interfaxonline:81597",
-   "tg:interfaxonline:81598",
-   "tg:interfaxonline:81599",
-   "tg:interfaxonline:81600",
-   "tg:interfaxonline:81601",
-   "tg:interfaxonline:81602",
-   "tg:interfaxonline:81603",
-   "tg:interfaxonline:81604",
    "tg:interfaxonline:81605",
    "tg:interfaxonline:81606",
    "tg:interfaxonline:81607",
@@ -1151,22 +1139,29 @@
    "tg:interfaxonline:81714",
    "tg:interfaxonline:81715",
    "tg:interfaxonline:81716",
-   "tg:interfaxonline:81717"
+   "tg:interfaxonline:81717",
+   "tg:interfaxonline:81719",
+   "tg:interfaxonline:81720",
+   "tg:interfaxonline:81721",
+   "tg:interfaxonline:81722",
+   "tg:interfaxonline:81723",
+   "tg:interfaxonline:81724",
+   "tg:interfaxonline:81725",
+   "tg:interfaxonline:81726",
+   "tg:interfaxonline:81727",
+   "tg:interfaxonline:81728",
+   "tg:interfaxonline:81729",
+   "tg:interfaxonline:81730"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1794861081.4234495,
+   "ts": 1794884823.6909404,
    "usd": 83.245,
    "cny": 12.402
   }
  ],
  "ai_seen": [
-  "0e0b39d0baf3a9ae",
-  "cf029b43eba75d90",
-  "4dbddaa711795a42",
-  "5beacfe5eb4451a8",
-  "93610a6fb6d83333",
   "7da939d548ea658f",
   "ce54f766d2cd5b55",
   "b663a3d3561c8d3d",
@@ -1661,149 +1656,49 @@
   "tg:markettwits:393609",
   "864b23f700102443",
   "f1b49e8cc440f810",
-  "c9cc5cef1d2d80a4"
+  "c9cc5cef1d2d80a4",
+  "22fd6a9a388d1b40",
+  "c4c1b97bbc2b15b9",
+  "tg:banksta:105570",
+  "tg:banksta:105568",
+  "ab3d16b272b10998"
  ],
  "layout_i": 0,
  "day_news": [
   {
-   "date": "2026-11-16",
-   "headline": "✴️#крипто #обзор Рынок криптовалют пережил одну из…",
+   "date": "2026-11-17",
+   "headline": "США с 2019 года выделили 47,94 миллиарда долларов на…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794784329.9004688
+   "ts": 1794884839.878026
   },
   {
-   "date": "2026-11-16",
-   "headline": "Посмотрел я это ваше интервью...",
+   "date": "2026-11-17",
+   "headline": "Дефицит финансирования на Украине составит 32–34 миллиарда…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794784331.7019377
+   "ts": 1794884841.6836824
   },
   {
-   "date": "2026-11-16",
-   "headline": "Парламент Германии официально принял законопроект,…",
+   "date": "2026-11-17",
+   "headline": "Производство чипов для спутников Starlink компании SpaceX…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794784333.5262487
+   "ts": 1794884843.496713
   },
   {
-   "date": "2026-11-16",
-   "headline": "ЫНВЕСТОР В ВДО",
+   "date": "2026-11-17",
+   "headline": "94-летняя московская пенсионерка отдала 30 тысяч рублей…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794784335.3357546
+   "ts": 1794884845.305141
   },
   {
-   "date": "2026-11-16",
-   "headline": "Что произошло за день: воскресенье, 15 ноября 📌 Шесть…",
+   "date": "2026-11-17",
+   "headline": "Эксперт оценил риски снижения цен на золото до 3500…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794784337.1573184
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "Названы регионы, где средний размер пенсии превысил 30…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794797182.4874687
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "Банк России будет передавать в налоговую данные о…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794797184.5763578
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "‼️🔥 ДАЖЕ ПОСЛЕ 2 ЛЕТ УМЕРЕННОГО РОСТА ЭКОНОМИКА МОЖЕТ…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794797186.6151822
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "Минфин РФ готов распространить норму о передаче ЦБ в ФНС…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794797188.587127
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "Новые облигации Атомэнергопром 1Р20 на размещении",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794797190.5776973
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "Мосбиржа закрывает торги Евротранса. А как же 350 рублей?",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794823929.6752377
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "Совет директоров ММЦБ рекомендовал дивиденды в размере…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794823931.6633325
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "СМИ: Россия и Китай готовят альтернативу доллару",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794823933.6120076
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "На оборудование 5G Advanced и 6G будет направлено 249,4…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794823935.542864
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "На ремонт отделений \"Почты России\" выделят еще 5 млрд рублей",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794823937.4711094
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "Туриста задержали в турецком аэропорту и завели на него…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794861105.9040847
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "⬆️🇺🇸#USD #акции #крипто индекс доллара (DXY) продолжает…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794861107.878978
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "Автомобили из ЕС на 197,9 тысячи долларов ввезли на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794861109.8436742
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "Доля расчетов за российский экспорт в рублях по итогам 3…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794861111.7900853
-  },
-  {
-   "date": "2026-11-16",
-   "headline": "Российский экспорт через Wildberries в 2026 году превысил…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794861113.7311983
+   "ts": 1794884847.1104884
   }
  ],
  "recent_news": [
