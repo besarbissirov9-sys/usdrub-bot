@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-18",
  "posted": [
-  "3db59633bb090f28",
-  "560fce16efb19398",
-  "35f0d27c1120ac52",
-  "d41ee1e4a188ae30",
-  "tg:banksta:104742",
   "tg:rbc_news:159994",
   "a643bb2c52b2cc5b",
   "d63a6dc8d59ef07b",
@@ -501,21 +496,16 @@
   "tg:rbc_news:160954",
   "21ccb205e51497c4",
   "tg:rbc_news:160953",
-  "c15a4b865e2d37c0"
+  "c15a4b865e2d37c0",
+  "868f0dc5add2309e",
+  "ed367030f1afd971",
+  "f3a55140fd2c1425",
+  "9099f072557f5553",
+  "d4cf476f805cd5f9"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:393517",
-   "tg:markettwits:393520",
-   "tg:markettwits:393595",
-   "tg:markettwits:393597",
-   "tg:markettwits:393598",
-   "tg:markettwits:393599",
-   "tg:markettwits:393600",
-   "tg:markettwits:393601",
-   "tg:markettwits:393602",
-   "tg:markettwits:393603",
    "tg:markettwits:393604",
    "tg:markettwits:393605",
    "tg:markettwits:393606",
@@ -605,7 +595,17 @@
    "tg:markettwits:393933",
    "tg:markettwits:393934",
    "tg:markettwits:393935",
-   "tg:markettwits:393936"
+   "tg:markettwits:393936",
+   "tg:markettwits:393937",
+   "tg:markettwits:393938",
+   "tg:markettwits:393939",
+   "tg:markettwits:393940",
+   "tg:markettwits:393941",
+   "tg:markettwits:393942",
+   "tg:markettwits:393943",
+   "tg:markettwits:393944",
+   "tg:markettwits:393945",
+   "tg:markettwits:393946"
   ],
   "russianmacro": [
    "tg:russianmacro:23639",
@@ -749,17 +749,6 @@
    "tg:xtxixty:7033"
   ],
   "banksta": [
-   "tg:banksta:105524",
-   "tg:banksta:105525",
-   "tg:banksta:105526",
-   "tg:banksta:105548",
-   "tg:banksta:105549",
-   "tg:banksta:105550",
-   "tg:banksta:105551",
-   "tg:banksta:105552",
-   "tg:banksta:105554",
-   "tg:banksta:105555",
-   "tg:banksta:105556",
    "tg:banksta:105557",
    "tg:banksta:105558",
    "tg:banksta:105559",
@@ -848,7 +837,18 @@
    "tg:banksta:105694",
    "tg:banksta:105695",
    "tg:banksta:105696",
-   "tg:banksta:105697"
+   "tg:banksta:105697",
+   "tg:banksta:105701",
+   "tg:banksta:105702",
+   "tg:banksta:105703",
+   "tg:banksta:105704",
+   "tg:banksta:105706",
+   "tg:banksta:105708",
+   "tg:banksta:105709",
+   "tg:banksta:105711",
+   "tg:banksta:105712",
+   "tg:banksta:105713",
+   "tg:banksta:105714"
   ],
   "cbrstocks": [
    "tg:cbrstocks:84203",
@@ -953,11 +953,6 @@
    "tg:cbrstocks:84337"
   ],
   "rbc_news": [
-   "tg:rbc_news:160750",
-   "tg:rbc_news:160751",
-   "tg:rbc_news:160752",
-   "tg:rbc_news:160753",
-   "tg:rbc_news:160754",
    "tg:rbc_news:160756",
    "tg:rbc_news:160757",
    "tg:rbc_news:160782",
@@ -1052,13 +1047,14 @@
    "tg:rbc_news:160957",
    "tg:rbc_news:160958",
    "tg:rbc_news:160954",
-   "tg:rbc_news:160953"
+   "tg:rbc_news:160953",
+   "tg:rbc_news:160959",
+   "tg:rbc_news:160960",
+   "tg:rbc_news:160961",
+   "tg:rbc_news:160962",
+   "tg:rbc_news:160963"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81680",
-   "tg:interfaxonline:81698",
-   "tg:interfaxonline:81699",
-   "tg:interfaxonline:81700",
    "tg:interfaxonline:81701",
    "tg:interfaxonline:81702",
    "tg:interfaxonline:81703",
@@ -1154,7 +1150,11 @@
    "tg:interfaxonline:81828",
    "tg:interfaxonline:81829",
    "tg:interfaxonline:81831",
-   "tg:interfaxonline:81832"
+   "tg:interfaxonline:81832",
+   "tg:interfaxonline:81833",
+   "tg:interfaxonline:81834",
+   "tg:interfaxonline:81835",
+   "tg:interfaxonline:81836"
   ]
  },
  "rate_samples": [
@@ -1162,14 +1162,14 @@
    "ts": 1795028225.5812223,
    "usd": 82.7275,
    "cny": 12.3125
+  },
+  {
+   "ts": 1795049811.4312453,
+   "usd": 82.7275,
+   "cny": 12.3125
   }
  ],
  "ai_seen": [
-  "4ff04569e7cbb2a9",
-  "2c65c8df872080fa",
-  "tg:banksta:104738",
-  "3db59633bb090f28",
-  "560fce16efb19398",
   "35f0d27c1120ac52",
   "d41ee1e4a188ae30",
   "tg:banksta:104742",
@@ -1664,114 +1664,49 @@
   "tg:rbc_news:160954",
   "21ccb205e51497c4",
   "tg:rbc_news:160953",
-  "c15a4b865e2d37c0"
+  "c15a4b865e2d37c0",
+  "868f0dc5add2309e",
+  "ed367030f1afd971",
+  "f3a55140fd2c1425",
+  "9099f072557f5553",
+  "d4cf476f805cd5f9"
  ],
  "layout_i": 0,
  "day_news": [
   {
-   "date": "2026-11-18",
-   "headline": "💲Правительство Канады сообщило о выделении дополнительных…",
+   "date": "2026-11-19",
+   "headline": "Украина должна выплатить МВФ 19,7 миллиарда долларов",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794968452.163063
+   "ts": 1795049851.95468
   },
   {
-   "date": "2026-11-18",
-   "headline": "В 13 регионах России средний размер пенсии превысил 30…",
+   "date": "2026-11-19",
+   "headline": "Юань на Мосбирже по итогам торгов вырос до 12,31 рубля",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794968454.0319648
+   "ts": 1795049853.97403
   },
   {
-   "date": "2026-11-18",
-   "headline": "Индекс доллара к остальным валютам на максимуме из-за…",
+   "date": "2026-11-19",
+   "headline": "Суд взыскал с \"Тукан Гала Продакшн\" 412 миллионов рублей в…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794968455.903408
+   "ts": 1795049855.9997277
   },
   {
-   "date": "2026-11-18",
-   "headline": "Цены на газ в Европе перешли к росту до 976 долларов за…",
+   "date": "2026-11-19",
+   "headline": "ЦБ: нерезиденты смогут открывать счета цифрового рубля с…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794968457.7949119
+   "ts": 1795049858.27376
   },
   {
-   "date": "2026-11-18",
-   "headline": "Юань на Мосбирже завершил торги снижением до 12,26 рубля",
+   "date": "2026-11-19",
+   "headline": "Банк России установил курс доллара на уровне 82,23 рубля",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1794968459.6893594
-  },
-  {
-   "date": "2026-11-18",
-   "headline": "Госдума приняла закон о страховании долгосрочных вкладов…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794997616.9727924
-  },
-  {
-   "date": "2026-11-18",
-   "headline": "Закрепление курса: юань усилил рост к рублю",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794997618.9534106
-  },
-  {
-   "date": "2026-11-18",
-   "headline": "Экс-главу \"Росжилкомплекса\" будут судить за хищение 345…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794997620.8077104
-  },
-  {
-   "date": "2026-11-18",
-   "headline": "Банк \"Юнистрим\" не ожидает влияния санкций ЕС на фоне…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794997622.6703458
-  },
-  {
-   "date": "2026-11-18",
-   "headline": "❗️🇷🇺#депозиты #недвижимость #россия ЦБ РФ: Увеличиваются…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1794997624.538539
-  },
-  {
-   "date": "2026-11-18",
-   "headline": "Для решения проблем энергосистемы Сибири потребуется 100…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1795028248.974817
-  },
-  {
-   "date": "2026-11-18",
-   "headline": "💲ЦБ оставил официальный курс доллара выше ₽82 Официальный…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1795028251.0406106
-  },
-  {
-   "date": "2026-11-18",
-   "headline": "Спрос на IPO Anthropic достиг 500 миллиардов долларов,…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1795028253.1373725
-  },
-  {
-   "date": "2026-11-18",
-   "headline": "Центробанк запланировал тестирование офлайн-платежей…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1795028255.134242
-  },
-  {
-   "date": "2026-11-18",
-   "headline": "Рубль по итогам среды незначительно снизился к юаню",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1795028257.1889136
+   "ts": 1795049860.303133
   }
  ],
  "recent_news": [
