@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-21",
  "posted": [
-  "tg:markettwits:391904",
-  "tg:rbc_news:160005",
-  "e712a584e7521735",
-  "013dbf6a581d1ad7",
-  "tg:banksta:104756",
   "tg:markettwits:391918",
   "7cf411217fd8ea8b",
   "tg:rbc_news:160011",
@@ -501,14 +496,16 @@
   "05f640ecf0d26009",
   "b493e9a4f17061ae",
   "f30a1e9ba8c9aeb9",
-  "ab2137eb14b3df3c"
+  "ab2137eb14b3df3c",
+  "tg:banksta:105907",
+  "tg:rbc_news:161157",
+  "tg:banksta:105902",
+  "badbcf08bf9bf6c3",
+  "tg:banksta:105900"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:393940",
-   "tg:markettwits:393941",
-   "tg:markettwits:393942",
    "tg:markettwits:393943",
    "tg:markettwits:393944",
    "tg:markettwits:393945",
@@ -605,7 +602,10 @@
    "tg:markettwits:394323",
    "tg:markettwits:394324",
    "tg:markettwits:394325",
-   "tg:markettwits:394326"
+   "tg:markettwits:394326",
+   "tg:markettwits:394327",
+   "tg:markettwits:394328",
+   "tg:markettwits:394329"
   ],
   "russianmacro": [
    "tg:russianmacro:23647",
@@ -751,20 +751,6 @@
    "tg:xtxixty:7044"
   ],
   "banksta": [
-   "tg:banksta:105693",
-   "tg:banksta:105694",
-   "tg:banksta:105695",
-   "tg:banksta:105696",
-   "tg:banksta:105697",
-   "tg:banksta:105701",
-   "tg:banksta:105702",
-   "tg:banksta:105703",
-   "tg:banksta:105704",
-   "tg:banksta:105706",
-   "tg:banksta:105708",
-   "tg:banksta:105709",
-   "tg:banksta:105711",
-   "tg:banksta:105712",
    "tg:banksta:105713",
    "tg:banksta:105714",
    "tg:banksta:105715",
@@ -850,7 +836,21 @@
    "tg:banksta:105892",
    "tg:banksta:105894",
    "tg:banksta:105895",
-   "tg:banksta:105893"
+   "tg:banksta:105893",
+   "tg:banksta:105896",
+   "tg:banksta:105898",
+   "tg:banksta:105899",
+   "tg:banksta:105903",
+   "tg:banksta:105904",
+   "tg:banksta:105905",
+   "tg:banksta:105906",
+   "tg:banksta:105908",
+   "tg:banksta:105909",
+   "tg:banksta:105910",
+   "tg:banksta:105911",
+   "tg:banksta:105907",
+   "tg:banksta:105902",
+   "tg:banksta:105900"
   ],
   "cbrstocks": [
    "tg:cbrstocks:84267",
@@ -955,23 +955,6 @@
    "tg:cbrstocks:84430"
   ],
   "rbc_news": [
-   "tg:rbc_news:160953",
-   "tg:rbc_news:160959",
-   "tg:rbc_news:160960",
-   "tg:rbc_news:160961",
-   "tg:rbc_news:160962",
-   "tg:rbc_news:160963",
-   "tg:rbc_news:160970",
-   "tg:rbc_news:160971",
-   "tg:rbc_news:160972",
-   "tg:rbc_news:160973",
-   "tg:rbc_news:160974",
-   "tg:rbc_news:160975",
-   "tg:rbc_news:160976",
-   "tg:rbc_news:160977",
-   "tg:rbc_news:160978",
-   "tg:rbc_news:160979",
-   "tg:rbc_news:160980",
    "tg:rbc_news:160981",
    "tg:rbc_news:160982",
    "tg:rbc_news:160983",
@@ -1054,20 +1037,26 @@
    "tg:rbc_news:161143",
    "tg:rbc_news:161144",
    "tg:rbc_news:161145",
-   "tg:rbc_news:161146"
+   "tg:rbc_news:161146",
+   "tg:rbc_news:161147",
+   "tg:rbc_news:161148",
+   "tg:rbc_news:161149",
+   "tg:rbc_news:161150",
+   "tg:rbc_news:161151",
+   "tg:rbc_news:161152",
+   "tg:rbc_news:161153",
+   "tg:rbc_news:161154",
+   "tg:rbc_news:161155",
+   "tg:rbc_news:161156",
+   "tg:rbc_news:161158",
+   "tg:rbc_news:161159",
+   "tg:rbc_news:161160",
+   "tg:rbc_news:161161",
+   "tg:rbc_news:161162",
+   "tg:rbc_news:161163",
+   "tg:rbc_news:161157"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81824",
-   "tg:interfaxonline:81826",
-   "tg:interfaxonline:81827",
-   "tg:interfaxonline:81828",
-   "tg:interfaxonline:81829",
-   "tg:interfaxonline:81831",
-   "tg:interfaxonline:81832",
-   "tg:interfaxonline:81833",
-   "tg:interfaxonline:81834",
-   "tg:interfaxonline:81835",
-   "tg:interfaxonline:81836",
    "tg:interfaxonline:81837",
    "tg:interfaxonline:81838",
    "tg:interfaxonline:81839",
@@ -1156,22 +1145,28 @@
    "tg:interfaxonline:81967",
    "tg:interfaxonline:81968",
    "tg:interfaxonline:81969",
-   "tg:interfaxonline:81970"
+   "tg:interfaxonline:81970",
+   "tg:interfaxonline:81971",
+   "tg:interfaxonline:81972",
+   "tg:interfaxonline:81973",
+   "tg:interfaxonline:81975",
+   "tg:interfaxonline:81976",
+   "tg:interfaxonline:81977",
+   "tg:interfaxonline:81978",
+   "tg:interfaxonline:81979",
+   "tg:interfaxonline:81980",
+   "tg:interfaxonline:81981",
+   "tg:interfaxonline:81982"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1795255956.9328752,
-   "usd": null,
-   "cny": null
+   "ts": 1795282544.8884058,
+   "usd": 81.69,
+   "cny": 12.147
   }
  ],
  "ai_seen": [
-  "9123134eaf40fd05",
-  "tg:markettwits:391893",
-  "dba6ee054e1a9ae5",
-  "tg:markettwits:391904",
-  "tg:rbc_news:160005",
   "e712a584e7521735",
   "013dbf6a581d1ad7",
   "tg:banksta:104756",
@@ -1666,7 +1661,12 @@
   "05f640ecf0d26009",
   "b493e9a4f17061ae",
   "f30a1e9ba8c9aeb9",
-  "ab2137eb14b3df3c"
+  "ab2137eb14b3df3c",
+  "tg:banksta:105907",
+  "tg:rbc_news:161157",
+  "tg:banksta:105902",
+  "badbcf08bf9bf6c3",
+  "tg:banksta:105900"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1774,6 +1774,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1795256037.5392978
+  },
+  {
+   "date": "2026-11-21",
+   "headline": "Курс биткойна в паре с канадским долларом на бирже Kraken…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795282581.4385579
+  },
+  {
+   "date": "2026-11-21",
+   "headline": "Фонд «Жизнь как чудо» ускорил обследование печени у детей…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795282583.4707963
+  },
+  {
+   "date": "2026-11-21",
+   "headline": "Больше 37 млн рублей из-за \"замены домофона\" отдал…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795282585.511922
+  },
+  {
+   "date": "2026-11-21",
+   "headline": "Мошенники похитили у московского пенсионера 38 млн рублей",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795282587.5768907
+  },
+  {
+   "date": "2026-11-21",
+   "headline": "Россиян задержали в Таиланде за мошенничество на 150 млн…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795282589.6450071
   }
  ],
  "recent_news": [
@@ -1982,6 +2017,6 @@
  "week_cal": "2026-11-16",
  "week_poll": "2026-11-16",
  "week_chart": "2026-11-15",
- "digest_date": "2026-11-19",
+ "digest_date": "2026-11-21",
  "week_fc": "2026-11-20"
 }
