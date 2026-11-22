@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-21",
  "posted": [
-  "e60fb04786d6d4e4",
-  "tg:markettwits:391917",
-  "c7c9192ff2386e38",
-  "b10276c473c77be6",
-  "fc32cb18f020e368",
   "2543f6e28902504a",
   "e1e5837cce6a90c4",
   "fed2120bd437a1ca",
@@ -501,7 +496,12 @@
   "584ab4ef8b841737",
   "613f49bc858a8814",
   "121595ef03b7ac3b",
-  "573ea33b1b6ce88d"
+  "573ea33b1b6ce88d",
+  "80774148aa384d16",
+  "ba78ca5e733f1fa6",
+  "tg:xtxixty:7040",
+  "e0f2635df1f29af4",
+  "6bc9cc389bbe1d06"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -748,13 +748,10 @@
    "tg:xtxixty:7028",
    "tg:xtxixty:7033",
    "tg:xtxixty:7034",
-   "tg:xtxixty:7044"
+   "tg:xtxixty:7044",
+   "tg:xtxixty:7040"
   ],
   "banksta": [
-   "tg:banksta:105728",
-   "tg:banksta:105730",
-   "tg:banksta:105751",
-   "tg:banksta:105754",
    "tg:banksta:105755",
    "tg:banksta:105756",
    "tg:banksta:105757",
@@ -850,7 +847,11 @@
    "tg:banksta:105919",
    "tg:banksta:105920",
    "tg:banksta:105921",
-   "tg:banksta:105914"
+   "tg:banksta:105914",
+   "tg:banksta:105925",
+   "tg:banksta:105926",
+   "tg:banksta:105927",
+   "tg:banksta:105928"
   ],
   "cbrstocks": [
    "tg:cbrstocks:84267",
@@ -1161,22 +1162,17 @@
  },
  "rate_samples": [
   {
-   "ts": 1795282544.8884058,
+   "ts": 1795299605.2813869,
    "usd": 81.69,
    "cny": 12.147
   },
   {
-   "ts": 1795299605.2813869,
+   "ts": 1795314048.772162,
    "usd": 81.69,
    "cny": 12.147
   }
  ],
  "ai_seen": [
-  "tg:rbc_news:160011",
-  "tg:markettwits:391923",
-  "tg:russianmacro:23692",
-  "e60fb04786d6d4e4",
-  "tg:markettwits:391917",
   "c7c9192ff2386e38",
   "b10276c473c77be6",
   "fc32cb18f020e368",
@@ -1671,7 +1667,12 @@
   "584ab4ef8b841737",
   "613f49bc858a8814",
   "121595ef03b7ac3b",
-  "573ea33b1b6ce88d"
+  "573ea33b1b6ce88d",
+  "80774148aa384d16",
+  "ba78ca5e733f1fa6",
+  "tg:xtxixty:7040",
+  "e0f2635df1f29af4",
+  "6bc9cc389bbe1d06"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1709,6 +1710,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1795299635.736532
+  },
+  {
+   "date": "2026-11-22",
+   "headline": "Финансист рассказала, что будет с рублем до конца года",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795314079.481666
+  },
+  {
+   "date": "2026-11-22",
+   "headline": "Минфин направил 3,3 млрд рублей на выплату купонного…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795314081.2746627
+  },
+  {
+   "date": "2026-11-22",
+   "headline": "❔Что стоит за активным ростом российской внешней торговли…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795314083.0673516
+  },
+  {
+   "date": "2026-11-22",
+   "headline": "UBS понизил прогноз EUR/USD из-за силы доллара",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795314084.8622134
+  },
+  {
+   "date": "2026-11-22",
+   "headline": "Фунт дорожает на данных по рознице Британии, доллар у…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795314086.6561055
   }
  ],
  "recent_news": [
