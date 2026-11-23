@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-22",
  "posted": [
-  "ef808e453e4b8c86",
-  "1bdba9e43cf311dc",
-  "e79b28555aa27876",
-  "tg:banksta:104781",
-  "tg:banksta:104782",
   "584a982d9891f5f3",
   "tg:markettwits:391988",
   "e93a34fb99382571",
@@ -501,7 +496,12 @@
   "f7215adca4dae965",
   "tg:markettwits:394365",
   "tg:banksta:105959",
-  "tg:markettwits:394359"
+  "tg:markettwits:394359",
+  "a006cf7b43b24fac",
+  "1faa81bb9f8f4864",
+  "3c1e79a3928682a4",
+  "6adb22f793f9ee35",
+  "tg:rbc_news:161195"
  ],
  "key_rate": 14.0,
  "tg_seen": {
@@ -753,7 +753,6 @@
    "tg:xtxixty:7037"
   ],
   "banksta": [
-   "tg:banksta:105779",
    "tg:banksta:105796",
    "tg:banksta:105798",
    "tg:banksta:105820",
@@ -852,10 +851,10 @@
    "tg:banksta:105960",
    "tg:banksta:105961",
    "tg:banksta:105962",
-   "tg:banksta:105959"
+   "tg:banksta:105959",
+   "tg:banksta:105963"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:84277",
    "tg:cbrstocks:84278",
    "tg:cbrstocks:84279",
    "tg:cbrstocks:84280",
@@ -954,10 +953,10 @@
    "tg:cbrstocks:84427",
    "tg:cbrstocks:84429",
    "tg:cbrstocks:84430",
-   "tg:cbrstocks:84426"
+   "tg:cbrstocks:84426",
+   "tg:cbrstocks:84431"
   ],
   "rbc_news": [
-   "tg:rbc_news:161096",
    "tg:rbc_news:161097",
    "tg:rbc_news:161099",
    "tg:rbc_news:161100",
@@ -1056,15 +1055,10 @@
    "tg:rbc_news:161204",
    "tg:rbc_news:161205",
    "tg:rbc_news:161206",
-   "tg:rbc_news:161207"
+   "tg:rbc_news:161207",
+   "tg:rbc_news:161195"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81883",
-   "tg:interfaxonline:81884",
-   "tg:interfaxonline:81885",
-   "tg:interfaxonline:81886",
-   "tg:interfaxonline:81887",
-   "tg:interfaxonline:81888",
    "tg:interfaxonline:81890",
    "tg:interfaxonline:81891",
    "tg:interfaxonline:81892",
@@ -1158,27 +1152,28 @@
    "tg:interfaxonline:82002",
    "tg:interfaxonline:82003",
    "tg:interfaxonline:82004",
-   "tg:interfaxonline:82005"
+   "tg:interfaxonline:82005",
+   "tg:interfaxonline:82006",
+   "tg:interfaxonline:82007",
+   "tg:interfaxonline:82008",
+   "tg:interfaxonline:82009",
+   "tg:interfaxonline:82010",
+   "tg:interfaxonline:82011"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1795369269.928658,
+   "ts": 1795387772.9307408,
    "usd": 81.69,
    "cny": 12.147
   },
   {
-   "ts": 1795387772.9307408,
+   "ts": 1795403661.5121999,
    "usd": 81.69,
    "cny": 12.147
   }
  ],
  "ai_seen": [
-  "tg:markettwits:391959",
-  "tg:markettwits:391973",
-  "tg:markettwits:391971",
-  "ef808e453e4b8c86",
-  "1bdba9e43cf311dc",
   "e79b28555aa27876",
   "tg:banksta:104781",
   "tg:banksta:104782",
@@ -1673,7 +1668,12 @@
   "f7215adca4dae965",
   "tg:markettwits:394365",
   "tg:banksta:105959",
-  "tg:markettwits:394359"
+  "tg:markettwits:394359",
+  "a006cf7b43b24fac",
+  "1faa81bb9f8f4864",
+  "3c1e79a3928682a4",
+  "6adb22f793f9ee35",
+  "tg:rbc_news:161195"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1711,6 +1711,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1795387794.9022942
+  },
+  {
+   "date": "2026-11-23",
+   "headline": "Азия. Понедельник.",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795403678.1216066
+  },
+  {
+   "date": "2026-11-23",
+   "headline": "Нефть дешевеет на фоне роста экспорта и эскалации с Ираном",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795403680.0072145
+  },
+  {
+   "date": "2026-11-23",
+   "headline": "Мировые цены на нефть марки Brent снижаются более чем на 3%",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795403681.8635545
+  },
+  {
+   "date": "2026-11-23",
+   "headline": "Открытие Азии 23 ноября: что говорят график KOSPI и…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795403683.7436273
+  },
+  {
+   "date": "2026-11-23",
+   "headline": "◻️◻️◻️ Роберта Паттинсона в начале уходящей недели…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795403685.6319544
   }
  ],
  "recent_news": [
