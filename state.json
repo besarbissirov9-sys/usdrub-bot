@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-24",
  "posted": [
-  "tg:markettwits:392016",
-  "tg:rbc_news:160051",
-  "7216f9c80fe8a196",
-  "tg:markettwits:392026",
-  "tg:markettwits:392025",
   "tg:cbrstocks:83913",
   "tg:banksta:104798",
   "43b9b215be31e1de",
@@ -501,15 +496,16 @@
   "9915af65361ba26b",
   "7aac7acb42d1178e",
   "3d132657ef634f4b",
-  "tg:interfaxonline:82089"
+  "tg:interfaxonline:82089",
+  "eebc77a760fbf06e",
+  "tg:banksta:106095",
+  "92b114f26083b67a",
+  "c6a15dc1b4ffafdd",
+  "b2513aaf32f4c9c0"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:394312",
-   "tg:markettwits:394313",
-   "tg:markettwits:394314",
-   "tg:markettwits:394315",
    "tg:markettwits:394316",
    "tg:markettwits:394317",
    "tg:markettwits:394318",
@@ -605,7 +601,11 @@
    "tg:markettwits:394709",
    "tg:markettwits:394710",
    "tg:markettwits:394711",
-   "tg:markettwits:394712"
+   "tg:markettwits:394712",
+   "tg:markettwits:394713",
+   "tg:markettwits:394714",
+   "tg:markettwits:394715",
+   "tg:markettwits:394716"
   ],
   "russianmacro": [
    "tg:russianmacro:23655",
@@ -753,16 +753,6 @@
    "tg:xtxixty:7037"
   ],
   "banksta": [
-   "tg:banksta:105910",
-   "tg:banksta:105911",
-   "tg:banksta:105907",
-   "tg:banksta:105902",
-   "tg:banksta:105900",
-   "tg:banksta:105912",
-   "tg:banksta:105913",
-   "tg:banksta:105915",
-   "tg:banksta:105916",
-   "tg:banksta:105917",
    "tg:banksta:105918",
    "tg:banksta:105919",
    "tg:banksta:105920",
@@ -852,10 +842,19 @@
    "tg:banksta:106088",
    "tg:banksta:106089",
    "tg:banksta:106090",
-   "tg:banksta:106091"
+   "tg:banksta:106091",
+   "tg:banksta:106092",
+   "tg:banksta:106093",
+   "tg:banksta:106096",
+   "tg:banksta:106097",
+   "tg:banksta:106100",
+   "tg:banksta:106101",
+   "tg:banksta:106103",
+   "tg:banksta:106104",
+   "tg:banksta:106106",
+   "tg:banksta:106095"
   ],
   "cbrstocks": [
-   "tg:cbrstocks:84338",
    "tg:cbrstocks:84339",
    "tg:cbrstocks:84340",
    "tg:cbrstocks:84341",
@@ -954,12 +953,10 @@
    "tg:cbrstocks:84503",
    "tg:cbrstocks:84504",
    "tg:cbrstocks:84506",
-   "tg:cbrstocks:84507"
+   "tg:cbrstocks:84507",
+   "tg:cbrstocks:84508"
   ],
   "rbc_news": [
-   "tg:rbc_news:161159",
-   "tg:rbc_news:161160",
-   "tg:rbc_news:161161",
    "tg:rbc_news:161162",
    "tg:rbc_news:161163",
    "tg:rbc_news:161157",
@@ -1056,17 +1053,12 @@
    "tg:rbc_news:161358",
    "tg:rbc_news:161359",
    "tg:rbc_news:161360",
-   "tg:rbc_news:161361"
+   "tg:rbc_news:161361",
+   "tg:rbc_news:161366",
+   "tg:rbc_news:161367",
+   "tg:rbc_news:161368"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:81948",
-   "tg:interfaxonline:81949",
-   "tg:interfaxonline:81950",
-   "tg:interfaxonline:81954",
-   "tg:interfaxonline:81955",
-   "tg:interfaxonline:81956",
-   "tg:interfaxonline:81957",
-   "tg:interfaxonline:81958",
    "tg:interfaxonline:81959",
    "tg:interfaxonline:81960",
    "tg:interfaxonline:81961",
@@ -1158,22 +1150,25 @@
    "tg:interfaxonline:82081",
    "tg:interfaxonline:82086",
    "tg:interfaxonline:82088",
-   "tg:interfaxonline:82089"
+   "tg:interfaxonline:82089",
+   "tg:interfaxonline:82091",
+   "tg:interfaxonline:82093",
+   "tg:interfaxonline:82094",
+   "tg:interfaxonline:82095",
+   "tg:interfaxonline:82096",
+   "tg:interfaxonline:82098",
+   "tg:interfaxonline:82099",
+   "tg:interfaxonline:82100"
   ]
  },
  "rate_samples": [
   {
-   "ts": 1795552914.087328,
+   "ts": 1795578386.446752,
    "usd": null,
    "cny": null
   }
  ],
  "ai_seen": [
-  "tg:banksta:104789",
-  "658c224df13e4b24",
-  "tg:markettwits:392017",
-  "tg:markettwits:392016",
-  "tg:rbc_news:160051",
   "7216f9c80fe8a196",
   "tg:markettwits:392026",
   "tg:markettwits:392025",
@@ -1668,79 +1663,49 @@
   "9915af65361ba26b",
   "7aac7acb42d1178e",
   "3d132657ef634f4b",
-  "tg:interfaxonline:82089"
+  "tg:interfaxonline:82089",
+  "eebc77a760fbf06e",
+  "tg:banksta:106095",
+  "92b114f26083b67a",
+  "c6a15dc1b4ffafdd",
+  "b2513aaf32f4c9c0"
  ],
  "layout_i": 0,
  "day_news": [
   {
-   "date": "2026-11-24",
-   "headline": "Состояние главы Nvidia Дженсена Хуанга достигло более 143…",
+   "date": "2026-11-25",
+   "headline": "Starbucks может продать бизнес в Японии за миллиарды…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1795480226.5337706
+   "ts": 1795578401.3972418
   },
   {
-   "date": "2026-11-24",
-   "headline": "🇺🇸#SPCX #ии SpaceX ежемесячно зарабатывает миллиарды…",
+   "date": "2026-11-25",
+   "headline": "В Москве на Арбате загорелся элитный комплекс с квартирами…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1795480228.4769855
+   "ts": 1795578403.2150786
   },
   {
-   "date": "2026-11-24",
-   "headline": "МИД направит 113 миллионов рублей в Международную…",
+   "date": "2026-11-25",
+   "headline": "Госдолг Венесуэлы на конец 2025 года составил 237,5…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1795480230.4400654
+   "ts": 1795578405.0326438
   },
   {
-   "date": "2026-11-24",
-   "headline": "ФНС собрала с россиян рекордные 54,6 трлн рублей налогов…",
+   "date": "2026-11-25",
+   "headline": "Объем наличных в обращении в России к концу года достигнет…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1795480232.4241586
+   "ts": 1795578406.845078
   },
   {
-   "date": "2026-11-24",
-   "headline": "Нефть и рубль сдерживают устойчивость ралли на рынке",
+   "date": "2026-11-25",
+   "headline": "\"Факторы уравновешивают друг друга\": рубль завершил торги…",
    "impact": "neutral",
    "urgent": false,
-   "ts": 1795480234.3767955
-  },
-  {
-   "date": "2026-11-24",
-   "headline": "Денежная масса за 10 лет выросла в 3,8 раза, а цены на…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1795552932.9337742
-  },
-  {
-   "date": "2026-11-24",
-   "headline": "Путин поручил продлить до 2030 года выплату 1 млн рублей…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1795552934.8629944
-  },
-  {
-   "date": "2026-11-24",
-   "headline": "Канадский доллар укрепился на фоне падения доллара США",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1795552936.7521546
-  },
-  {
-   "date": "2026-11-24",
-   "headline": "“Т-Технологии” предложили 993,05 рубля за акцию “Циана”",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1795552938.7211573
-  },
-  {
-   "date": "2026-11-24",
-   "headline": "💰Житель Петербурга выиграл дело о признании права…",
-   "impact": "neutral",
-   "urgent": false,
-   "ts": 1795552940.6019568
+   "ts": 1795578408.6612196
   }
  ],
  "recent_news": [
