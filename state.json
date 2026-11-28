@@ -2,11 +2,6 @@
  "last_rate": 80.81,
  "summary_date": "2026-11-27",
  "posted": [
-  "a79a09b6b64761fe",
-  "71cdf3328e5e5c25",
-  "415c339661f7701e",
-  "tg:interfaxonline:81175",
-  "b43949ff33186c4a",
   "f040280879f01336",
   "22ef5a6325fb2275",
   "594ff5cd0b13d9a8",
@@ -501,12 +496,16 @@
   "c4b38add0d0f31cd",
   "tg:rbc_news:161613",
   "5e500cdafb18fc5f",
-  "00edc587bd1b1d69"
+  "00edc587bd1b1d69",
+  "tg:interfaxonline:82241",
+  "e82b15313bcd00ed",
+  "bbed5c1ee05f3c28",
+  "9cc2980a87eedfdf",
+  "tg:markettwits:395155"
  ],
  "key_rate": 14.0,
  "tg_seen": {
   "markettwits": [
-   "tg:markettwits:394867",
    "tg:markettwits:394869",
    "tg:markettwits:394870",
    "tg:markettwits:394871",
@@ -605,7 +604,8 @@
    "tg:markettwits:395163",
    "tg:markettwits:395164",
    "tg:markettwits:395166",
-   "tg:markettwits:395167"
+   "tg:markettwits:395167",
+   "tg:markettwits:395155"
   ],
   "russianmacro": [
    "tg:russianmacro:23668",
@@ -759,8 +759,6 @@
    "tg:xtxixty:7060"
   ],
   "banksta": [
-   "tg:banksta:106091",
-   "tg:banksta:106092",
    "tg:banksta:106093",
    "tg:banksta:106096",
    "tg:banksta:106097",
@@ -858,7 +856,9 @@
    "tg:banksta:106384",
    "tg:banksta:106385",
    "tg:banksta:106386",
-   "tg:banksta:106387"
+   "tg:banksta:106387",
+   "tg:banksta:106388",
+   "tg:banksta:106389"
   ],
   "cbrstocks": [
    "tg:cbrstocks:84434",
@@ -1065,9 +1065,6 @@
    "tg:rbc_news:161613"
   ],
   "interfaxonline": [
-   "tg:interfaxonline:82116",
-   "tg:interfaxonline:82118",
-   "tg:interfaxonline:82119",
    "tg:interfaxonline:82120",
    "tg:interfaxonline:82121",
    "tg:interfaxonline:82122",
@@ -1164,7 +1161,10 @@
    "tg:interfaxonline:82240",
    "tg:interfaxonline:82242",
    "tg:interfaxonline:82246",
-   "tg:interfaxonline:82247"
+   "tg:interfaxonline:82247",
+   "tg:interfaxonline:82249",
+   "tg:interfaxonline:82250",
+   "tg:interfaxonline:82241"
   ]
  },
  "rate_samples": [
@@ -1172,14 +1172,14 @@
    "ts": 1795819811.4579256,
    "usd": null,
    "cny": null
+  },
+  {
+   "ts": 1795839572.4688385,
+   "usd": null,
+   "cny": null
   }
  ],
  "ai_seen": [
-  "tg:banksta:104823",
-  "tg:interfaxonline:81172",
-  "a79a09b6b64761fe",
-  "71cdf3328e5e5c25",
-  "415c339661f7701e",
   "tg:interfaxonline:81175",
   "b43949ff33186c4a",
   "f040280879f01336",
@@ -1674,7 +1674,12 @@
   "c4b38add0d0f31cd",
   "tg:rbc_news:161613",
   "5e500cdafb18fc5f",
-  "00edc587bd1b1d69"
+  "00edc587bd1b1d69",
+  "tg:interfaxonline:82241",
+  "e82b15313bcd00ed",
+  "bbed5c1ee05f3c28",
+  "9cc2980a87eedfdf",
+  "tg:markettwits:395155"
  ],
  "layout_i": 0,
  "day_news": [
@@ -1712,6 +1717,41 @@
    "impact": "neutral",
    "urgent": false,
    "ts": 1795819832.9001477
+  },
+  {
+   "date": "2026-11-28",
+   "headline": "Рубль в пятницу умеренно подешевел в паре с юанем перед…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795839587.3574824
+  },
+  {
+   "date": "2026-11-28",
+   "headline": "\"СПБ биржа\" с 1 декабря начинает торги за рубли тремя…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795839589.2042878
+  },
+  {
+   "date": "2026-11-28",
+   "headline": "Потери Ирака от вывоза нефти из Курдистана превысили 100…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795839591.0247898
+  },
+  {
+   "date": "2026-11-28",
+   "headline": "Россельхозбанк подал иск к Euroclear Bank на 954 миллиона…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795839592.843016
+  },
+  {
+   "date": "2026-11-28",
+   "headline": "🇷🇺#fx #россия ЦБ установил официальные курсы валют на…",
+   "impact": "neutral",
+   "urgent": false,
+   "ts": 1795839594.6597414
   }
  ],
  "recent_news": [
